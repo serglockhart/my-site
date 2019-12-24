@@ -62,25 +62,41 @@ const IndexPage = () => (
       </Link> */}
           </div>
           <div className="social">
-            <a href="https://twitter.com/lockjio" target="_BLANK">
+            <a
+              href="https://twitter.com/lockjio"
+              rel="noopener noreferrer"
+              target="_BLANK"
+            >
               <img
                 src={require("../images/logos/twitter.svg")}
                 alt="Jio Buenviaje on Twitter"
               />
             </a>
-            <a href="https://instagram.com/lockjio" target="_BLANK">
+            <a
+              href="https://instagram.com/lockjio"
+              rel="noopener noreferrer"
+              target="_BLANK"
+            >
               <img
                 src={require("../images/logos/instagram.svg")}
                 alt="Jio Buenviaje on Instagram"
               />
             </a>
-            <a href="https://github.com/lockjio" target="_BLANK">
+            <a
+              href="https://github.com/lockjio"
+              rel="noopener noreferrer"
+              target="_BLANK"
+            >
               <img
                 src={require("../images/logos/github.svg")}
                 alt="Jio Buenviaje on GitHub"
               />
             </a>
-            <a href="https://linkedin.com/in/lockjio" target="_BLANK">
+            <a
+              href="https://linkedin.com/in/lockjio"
+              rel="noopener noreferrer"
+              target="_BLANK"
+            >
               <img
                 src={require("../images/logos/linkedin.svg")}
                 alt="Jio Buenviaje on LinkedIn"
@@ -122,19 +138,32 @@ const IndexPage = () => (
                   problems of niche groups. I study computer science at{" "}
                   <a
                     href="https://cse.nd.edu/undergraduates/computer-science"
+                    rel="noopener noreferrer"
                     target="_BLANK"
                   >
                     University of Notre Dame,
                   </a>{" "}
                   and spend my free time{" "}
-                  <a href="https://linkedin.com/in/lockjio/" target="_BLANK">
+                  <a
+                    href="https://linkedin.com/in/lockjio/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
                     working at startups,
                   </a>{" "}
-                  <a href="https://github.com/lockjio" target="_BLANK">
+                  <a
+                    href="https://github.com/lockjio"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
                     learning new things,
                   </a>{" "}
                   and{" "}
-                  <a href="https://instagram.com/lockjio/" target="_BLANK">
+                  <a
+                    href="https://instagram.com/lockjio/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
                     simply enjoying life.
                   </a>
                 </p>
@@ -144,6 +173,7 @@ const IndexPage = () => (
           <div className="buttons marg-bot-05">
             <a
               href="../files/resumeBuenviaje.pdf"
+              rel="noopener noreferrer"
               target="_BLANK"
               className="btn btn-info marg-bot-05"
             >
@@ -171,6 +201,7 @@ const IndexPage = () => (
               </div>
               <a
                 href="https://cse.nd.edu/undergraduates/computer-science"
+                rel="noopener noreferrer"
                 target="_BLANK"
               >
                 <img
@@ -184,6 +215,7 @@ const IndexPage = () => (
               Pursuing a BS in Computer Science (
               <a
                 href="https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
+                rel="noopener noreferrer"
                 target="_BLANK"
               >
                 Concentration in Mobile Computing
@@ -191,6 +223,7 @@ const IndexPage = () => (
               ) from the College of Engineering with a Minor in{" "}
               <a
                 href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
+                rel="noopener noreferrer"
                 target="_BLANK"
               >
                 Innovation &amp; Entrepreneurship
@@ -209,7 +242,11 @@ const IndexPage = () => (
                 <h5>Philippine Science High School - Main Campus</h5>
                 <p className="gray-text subtitle">2012 - 2018 | 3.84 GPA</p>
               </div>
-              <a href="http://www.pshs.edu.ph/curriculum/" target="_BLANK">
+              <a
+                href="http://www.pshs.edu.ph/curriculum/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/education/pshs.png")}
                   className="background-image"
@@ -222,6 +259,7 @@ const IndexPage = () => (
               28/221 and{" "}
               <a
                 href="http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
+                rel="noopener noreferrer"
                 target="_BLANK"
               >
                 2018 Philippine Government DOST-SEI Merit Scholarship
@@ -247,7 +285,11 @@ const IndexPage = () => (
                   June - August 2019 • New York, NY
                 </p>
               </div>
-              <a href="https://www.cbs.com/" target="_BLANK">
+              <a
+                href="https://www.cbs.com/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/experience/cbs.png")}
                   className="background-image"
@@ -282,7 +324,11 @@ const IndexPage = () => (
                   October 2019 - Present • South Bend, IN
                 </p>
               </div>
-              <a href="https://www.deliveaerial.com/" target="_BLANK">
+              <a
+                href="https://www.deliveaerial.com/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/experience/delive.png")}
                   className="background-image"
@@ -295,6 +341,7 @@ const IndexPage = () => (
                 Secured $10k funding,{" "}
                 <a
                   href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups/"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   Race to Revenue
@@ -309,7 +356,11 @@ const IndexPage = () => (
               <li>
                 Will assist in further developing drone system for FAA approval
                 and exhibit in{" "}
-                <a href="https://www.ces.tech/" target="_BLANK">
+                <a
+                  href="https://www.ces.tech/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
                   Consumer Electronics Show (CES) 2020
                 </a>
               </li>
@@ -327,7 +378,11 @@ const IndexPage = () => (
                   January 2019 - January 2020 • South Bend, IN
                 </p>
               </div>
-              <a href="https://www.tembo.tech/" target="_BLANK">
+              <a
+                href="https://www.tembo.tech/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/experience/tembo.png")}
                   className="background-image"
@@ -345,6 +400,7 @@ const IndexPage = () => (
                 resulting in{" "}
                 <a
                   href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award/"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   $11.5k funding
@@ -364,7 +420,11 @@ const IndexPage = () => (
                   January 2019 - January 2020 • South Bend, IN
                 </p>
               </div>
-              <a href="https://xn--gshawk-bua.com/" target="_BLANK">
+              <a
+                href="https://xn--gshawk-bua.com/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/experience/gashawk.png")}
                   className="background-image"
@@ -376,14 +436,22 @@ const IndexPage = () => (
               <li>
                 Solely developed and demoed MVP (Touchscreen GUI + LiDAR
                 Overhead Collision Detection) resulting in{" "}
-                <a href="https://startupsouthbendelkhart.com/" target="_BLANK">
+                <a
+                  href="https://startupsouthbendelkhart.com/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
                   Start-Up South Bend Elkhart (SUSBE)
                 </a>{" "}
                 accelerator invitation
               </li>
               <li>
                 Assisted in{" "}
-                <a href="https://seedfund.nsf.gov/about/" target="_BLANK">
+                <a
+                  href="https://seedfund.nsf.gov/about/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
                   National Seed Fund (NSF) Small Business Innovation Research
                   (SBIR)
                 </a>{" "}
@@ -402,7 +470,11 @@ const IndexPage = () => (
                   January 2019 - August 2019 • South Bend, IN
                 </p>
               </div>
-              <a href="https://foreager.com/" target="_BLANK">
+              <a
+                href="https://foreager.com/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/experience/foreager.png")}
                   className="background-image"
@@ -415,7 +487,11 @@ const IndexPage = () => (
                 Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
                 Rental iOS/Android Apps) resulting in Semifinals finish (top
                 30/175 teams) in{" "}
-                <a href="https://mccloskey.ideacenter.nd.edu/" target="_BLANK">
+                <a
+                  href="https://mccloskey.ideacenter.nd.edu/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
                   McCloskey New Venture Competition 2019
                 </a>
               </li>
@@ -433,7 +509,11 @@ const IndexPage = () => (
                   March 2017 - July 2018 • Quezon City, Philippines
                 </p>
               </div>
-              <a href="https://youthhack.net/" target="_BLANK">
+              <a
+                href="https://youthhack.net/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/experience/yh.svg")}
                   className="background-image"
@@ -453,11 +533,19 @@ const IndexPage = () => (
               </li>
               <li>
                 Partnered with{" "}
-                <a href="https://www.inquirer.net/" target="_BLANK">
+                <a
+                  href="https://www.inquirer.net/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
                   Philippine Daily Inquirer
                 </a>{" "}
                 and{" "}
-                <a href="https://www.rappler.com/" target="_BLANK">
+                <a
+                  href="https://www.rappler.com/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
                   Rappler
                 </a>{" "}
                 for media coverage and exposure
@@ -470,6 +558,7 @@ const IndexPage = () => (
           <a
             href="../files/resumeBuenviaje.pdf"
             className="btn btn-info"
+            rel="noopener noreferrer"
             target="_BLANK"
           >
             View my resume →
@@ -519,7 +608,11 @@ const IndexPage = () => (
                 <h5>Student Ambassador | IDEA Center</h5>
                 <p className="gray-text subtitle">August 2019 - Present</p>
               </div>
-              <a href="https://ideacenter.nd.edu/" target="_BLANK">
+              <a
+                href="https://ideacenter.nd.edu/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/extracurriculars/ideacenter.png")}
                   className="background-image"
@@ -530,7 +623,11 @@ const IndexPage = () => (
             <p>
               Standing for Innovation, De-Risking and Enterprise Acceleration,
               the{" "}
-              <a href="https://ideacenter.nd.edu/" target="_BLANK">
+              <a
+                href="https://ideacenter.nd.edu/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 IDEA Center
               </a>{" "}
               is the fundamental resource for all commercialization and
@@ -555,7 +652,11 @@ const IndexPage = () => (
                 </h5>
                 <p className="gray-text subtitle">August 2019 - Present</p>
               </div>
-              <a href="https://godandgoodlife.nd.edu/" target="_BLANK">
+              <a
+                href="https://godandgoodlife.nd.edu/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={require("../images/education/nd.png")}
                   className="background-image"
@@ -565,7 +666,11 @@ const IndexPage = () => (
             </div>
             <p>
               The{" "}
-              <a href="https://godandgoodlife.nd.edu/" target="_BLANK">
+              <a
+                href="https://godandgoodlife.nd.edu/"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 God and the Good Life (GGL)
               </a>{" "}
               course tackles such issues as what justifies one's beliefs,
@@ -681,6 +786,7 @@ const IndexPage = () => (
               <div className="buttons">
                 <a
                   href="https://github.com/gashawk/overwatch"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
@@ -715,6 +821,7 @@ const IndexPage = () => (
               <div className="buttons">
                 <a
                   href="../files/researchLogger.pdf"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
@@ -748,6 +855,7 @@ const IndexPage = () => (
               <div className="buttons">
                 <a
                   href="../files/researchCharger.pdf"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
@@ -781,6 +889,7 @@ const IndexPage = () => (
               <div className="buttons">
                 <a
                   href="../files/researchNeutron.pdf"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
@@ -823,6 +932,7 @@ const IndexPage = () => (
               <a
                 href="mailto:jbuenvia@nd.edu"
                 className="btn btn-info"
+                rel="noopener noreferrer"
                 target="_BLANK"
               >
                 Contact me
