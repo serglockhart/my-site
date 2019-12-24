@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 //import my custom styles
 import "./index.css"
@@ -11,7 +12,7 @@ const IndexPage = () => (
     <div className="nav-wrapper">
       <div className="nav">
         <div id="overview">
-          <a href="/" className="logo-wrapper">
+          <Link to="/" className="logo-wrapper">
             <img
               src={require("../images/logo-02.svg")}
               className={"img-fluid logo alt hidden-on-desktop"}
@@ -22,7 +23,7 @@ const IndexPage = () => (
               className={"img-fluid logo"}
               alt={"logo"}
             />
-          </a>
+          </Link>
           <div id="toggle">
             <span className="bar" id="first" />
             <span className="bar" id="second" />
@@ -32,33 +33,33 @@ const IndexPage = () => (
         <div id="menu">
           <div className="space-3 hidden-on-desktop" />
           <div className="links">
-            <a href="#home" className="active">
+            <Link to="#home" className="active">
               Home
-            </a>
-            <a href="#education" className>
+            </Link>
+            <Link to="#education" className>
               Education
-            </a>
-            <a href="#experience" className>
+            </Link>
+            <Link to="#experience" className>
               Experience
-            </a>
-            <a href="#technologies" className>
+            </Link>
+            <Link to="#technologies" className>
               Technologies
-            </a>
-            <a href="#extracurriculars" className>
+            </Link>
+            <Link to="#extracurriculars" className>
               Extracurriculars
-            </a>
-            <a href="#projects" className>
+            </Link>
+            <Link to="#projects" className>
               Projects
-            </a>
+            </Link>
             <a href="mailto:jbuenvia@nd.edu" className>
               Contact
             </a>
             {/* <a data-toggle="modal" data-target="#contactModal" id="contact-btn">
         Contact
       </a>
-      <a href="/contact" id="contact-link">
+      <Link to="/contact" id="contact-link">
         Contact
-      </a> */}
+      </Link> */}
           </div>
           <div className="social">
             <a href="https://twitter.com/lockjio" target="_BLANK">
@@ -148,9 +149,9 @@ const IndexPage = () => (
             >
               View my resume
             </a>
-            <a href="#projects" className="btn btn-info marg-bot-05">
+            <Link to="#projects" className="btn btn-info marg-bot-05">
               View my projects
-            </a>
+            </Link>
             <a
               href="mailto:jbuenvia@nd.edu"
               className="btn btn-info marg-bot-05"
@@ -401,11 +402,10 @@ const IndexPage = () => (
                   January 2019 - August 2019 • South Bend, IN
                 </p>
               </div>
-              <div
+              <img
+                src={require("../images/experience/sharecaddie.png")}
                 className="background-image"
-                style={{
-                  backgroundImage: "href(img/experience/sharecaddie.png)",
-                }}
+                alt="Sharecaddie logo"
               />
             </div>
             <ul className="tech">
@@ -504,9 +504,9 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-          <a href="#projects" className="btn btn-info">
+          <Link to="#projects" className="btn btn-info">
             View my projects →
-          </a>
+          </Link>
         </div>
         {/* Extracurriculars */}
         <div id="extracurriculars">
@@ -589,7 +589,7 @@ const IndexPage = () => (
           <p>-</p>
           <p><strong>Technologies:</strong> -</p>
           <div class="buttons">
-              <a class="btn btn-sm" href="#">
+              <a href="#" class="btn btn-sm" >
                 View here
               </a>
           </div>
@@ -678,9 +678,9 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  className="btn btn-sm"
                   href="https://github.com/gashawk/overwatch"
                   target="_BLANK"
+                  className="btn btn-sm"
                 >
                   View repository
                 </a>
@@ -712,9 +712,9 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  className="btn btn-sm"
                   href="/files/researchLogger.pdf"
                   target="_BLANK"
+                  className="btn btn-sm"
                 >
                   View research
                 </a>
@@ -745,9 +745,9 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  className="btn btn-sm"
                   href="/files/researchCharger.pdf"
                   target="_BLANK"
+                  className="btn btn-sm"
                 >
                   View research
                 </a>
@@ -778,9 +778,9 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  className="btn btn-sm"
                   href="/files/researchNeutron.pdf"
                   target="_BLANK"
+                  className="btn btn-sm"
                 >
                   View research
                 </a>
@@ -815,9 +815,9 @@ const IndexPage = () => (
               I'll respond as quickly as I can.
             </p>
             <div className="buttons">
-              <a href="#projects" className="btn btn-info">
+              <Link to="#projects" className="btn btn-info">
                 View my projects
-              </a>
+              </Link>
               <a
                 href="mailto:jbuenvia@nd.edu"
                 className="btn btn-info"
