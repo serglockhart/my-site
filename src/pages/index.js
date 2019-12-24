@@ -17,11 +17,13 @@ const IndexPage = () => (
               src={require("../images/logo-02.svg")}
               className={"img-fluid logo alt hidden-on-desktop"}
               alt={"logo"}
+              aria-hidden="true"
             />
             <img
               src={require("../images/logo-01.svg")}
               className={"img-fluid logo"}
               alt={"logo"}
+              aria-hidden="true"
             />
           </Link>
           <div id="toggle">
@@ -69,7 +71,8 @@ const IndexPage = () => (
             >
               <img
                 src={require("../images/logos/twitter.svg")}
-                alt="Jio Buenviaje on Twitter"
+                alt={"Jio Buenviaje on Twitter"}
+                aria-hidden="true"
               />
             </a>
             <a
@@ -79,7 +82,8 @@ const IndexPage = () => (
             >
               <img
                 src={require("../images/logos/instagram.svg")}
-                alt="Jio Buenviaje on Instagram"
+                alt={"Jio Buenviaje on Instagram"}
+                aria-hidden="true"
               />
             </a>
             <a
@@ -89,7 +93,8 @@ const IndexPage = () => (
             >
               <img
                 src={require("../images/logos/github.svg")}
-                alt="Jio Buenviaje on GitHub"
+                alt={"Jio Buenviaje on GitHub"}
+                aria-hidden="true"
               />
             </a>
             <a
@@ -99,13 +104,15 @@ const IndexPage = () => (
             >
               <img
                 src={require("../images/logos/linkedin.svg")}
-                alt="Jio Buenviaje on LinkedIn"
+                alt={"Jio Buenviaje on LinkedIn"}
+                aria-hidden="true"
               />
             </a>
             <a href="mailto:jbuenvia@nd.edu">
               <img
                 src={require("../images/logos/email.svg")}
-                alt="Jio Buenviaje on Email"
+                alt={"Jio Buenviaje on Email"}
+                aria-hidden="true"
               />
             </a>
           </div>
@@ -129,6 +136,7 @@ const IndexPage = () => (
                   src={require("../images/me.png")}
                   className={"profile-picture"}
                   alt={"Jio Buenviaje image"}
+                  aria-hidden="true"
                 />
               </div>
               <div className="flex top">
@@ -207,7 +215,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/education/nd.png")}
                   className="background-image"
-                  alt="ND logo"
+                  alt={"ND logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -250,7 +259,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/education/pshs.png")}
                   className="background-image"
-                  alt="PSHS logo"
+                  alt={"PSHS logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -293,7 +303,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/experience/cbs.png")}
                   className="background-image"
-                  alt="CBS logo"
+                  alt={"CBS logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -332,7 +343,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/experience/delive.png")}
                   className="background-image"
-                  alt="DeLive logo"
+                  alt={"DeLive logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -386,7 +398,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/experience/tembo.png")}
                   className="background-image"
-                  alt="Tembo logo"
+                  alt={"Tembo logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -428,7 +441,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/experience/gashawk.png")}
                   className="background-image"
-                  alt="Gäshawk logo"
+                  alt={"Gäshawk logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -478,7 +492,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/experience/foreager.png")}
                   className="background-image"
-                  alt="Foreager logo"
+                  alt={"Foreager logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -517,7 +532,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/experience/yh.svg")}
                   className="background-image"
-                  alt="YH logo"
+                  alt={"YH logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -616,7 +632,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/extracurriculars/ideacenter.png")}
                   className="background-image"
-                  alt="IDEA Center logo"
+                  alt={"IDEA Center logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -660,7 +677,8 @@ const IndexPage = () => (
                 <img
                   src={require("../images/education/nd.png")}
                   className="background-image"
-                  alt="ND logo"
+                  alt={"ND logo"}
+                  aria-hidden="true"
                 />
               </a>
             </div>
@@ -708,7 +726,7 @@ const IndexPage = () => (
               <span class="circle"></span>
               <span class="circle"></span>
             </div>
-            <img src={require("../images/projects/jio.png")} alt="-" class="img-fluid" />
+            <img src={require("../images/projects/jio.png")} alt={"-"} aria-hidden="true" class="img-fluid" />
           </div>
         </div>
       </div> */}
@@ -731,7 +749,8 @@ const IndexPage = () => (
                   <div className="screen">
                     <img
                       src={require("../images/projects/tembo.gif")}
-                      alt="Tembo app"
+                      alt={"Tembo app"}
+                      aria-hidden="true"
                     />
                   </div>
                 </div>
@@ -760,7 +779,8 @@ const IndexPage = () => (
                   <div className="screen">
                     <img
                       src={require("../images/projects/foreager.gif")}
-                      alt="Foreager app"
+                      alt={"Foreager app"}
+                      aria-hidden="true"
                     />
                   </div>
                 </div>
@@ -799,7 +819,8 @@ const IndexPage = () => (
                 <div className="top" />
                 <img
                   src={require("../images/projects/gashawk.png")}
-                  alt="Gäshawk embedded"
+                  alt={"Gäshawk embedded"}
+                  aria-hidden="true"
                   className="img-fluid"
                 />
               </div>
@@ -834,7 +855,8 @@ const IndexPage = () => (
                 <div className="top" />
                 <img
                   src={require("../images/projects/logger.png")}
-                  alt="Logger research"
+                  alt={"Logger research"}
+                  aria-hidden="true"
                   className="img-fluid"
                 />
               </div>
@@ -868,7 +890,8 @@ const IndexPage = () => (
                 <div className="top" />
                 <img
                   src={require("../images/projects/charger.png")}
-                  alt="Charger research"
+                  alt={"Charger research"}
+                  aria-hidden="true"
                   className="img-fluid"
                 />
               </div>
@@ -902,7 +925,8 @@ const IndexPage = () => (
                 <div className="top" />
                 <img
                   src={require("../images/projects/cosmo.png")}
-                  alt="Cosmo research"
+                  alt={"Cosmo research"}
+                  aria-hidden="true"
                   className="img-fluid"
                 />
               </div>
