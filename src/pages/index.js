@@ -6,7 +6,7 @@ import "./index.css"
 import Background from "../images/home-backing.svg"
 
 const IndexPage = () => (
-  <div className="App">
+  <div className="app">
     {/* Navigation */}
     <div className="nav-wrapper">
       <div className="nav">
