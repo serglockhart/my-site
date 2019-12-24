@@ -2,8 +2,41 @@ import React from "react"
 
 //import my custom styles
 import "./index.css"
+import $ from "jquery"
 
 import Background from "../images/home-backing.svg"
+
+$("#scroll-to-top").click(function() {
+  $("body, html").animate(
+    {
+      scrollTop: 0,
+    },
+    400
+  )
+})
+
+$("#contactModal").on("shown.bs.modal", function() {
+  $("#firstName").trigger("focus")
+})
+
+$("#contact-btn").click(function() {
+  $("#overview").removeClass("active")
+  $("#menu").removeClass("active")
+  $("#toggle").removeClass("active")
+})
+
+function updateClasses() {
+  $("#toggle").toggleClass("active")
+  $("#menu").toggleClass("active")
+  $("#overview").toggleClass("active")
+}
+
+function handleToggle() {
+  $("#toggle").click(updateClasses)
+  $("#menu a").click(updateClasses)
+}
+
+$(document).ready(handleToggle)
 
 const IndexPage = () => (
   <div className="app">
