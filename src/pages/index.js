@@ -143,7 +143,7 @@ const IndexPage = () => (
           </div>
           <div className="buttons marg-bot-05">
             <a
-              href="/files/resumeBuenviaje.pdf"
+              href="../files/resumeBuenviaje.pdf"
               target="_BLANK"
               className="btn btn-info marg-bot-05"
             >
@@ -397,16 +397,18 @@ const IndexPage = () => (
           <div className="card">
             <div className="flex-container">
               <div className="flex">
-                <h5>Software Engineer Technical Lead | ShareCaddie</h5>
+                <h5>Software Engineer Technical Lead | Foreager</h5>
                 <p className="gray-text subtitle">
                   January 2019 - August 2019 • South Bend, IN
                 </p>
               </div>
-              <img
-                src={require("../images/experience/sharecaddie.png")}
-                className="background-image"
-                alt="Sharecaddie logo"
-              />
+              <a href="https://foreager.com/" target="_BLANK">
+                <img
+                  src={require("../images/experience/foreager.png")}
+                  className="background-image"
+                  alt="Foreager logo"
+                />
+              </a>
             </div>
             <ul className="tech">
               <li>
@@ -466,7 +468,7 @@ const IndexPage = () => (
             </p>
           </div>
           <a
-            href="/files/resumeBuenviaje.pdf"
+            href="../files/resumeBuenviaje.pdf"
             className="btn btn-info"
             target="_BLANK"
           >
@@ -637,10 +639,10 @@ const IndexPage = () => (
           </div>
           <div className="project" style={{ background: "#98D0CB" }}>
             <div className="text">
-              <h2>ShareCaddie App</h2>
+              <h2>Foreager App</h2>
               <p>
                 Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed
-                for ShareCaddie. Demo resulted in Semifinals finish (top 30/175
+                for Foreager. Demo resulted in Semifinals finish (top 30/175
                 teams) in McCloskey New Venture Competition 2019.
               </p>
               <p>
@@ -652,8 +654,8 @@ const IndexPage = () => (
                 <div className="side">
                   <div className="screen">
                     <img
-                      src={require("../images/projects/sharecaddie.gif")}
-                      alt="ShareCaddie app"
+                      src={require("../images/projects/foreager.gif")}
+                      alt="Foreager app"
                     />
                   </div>
                 </div>
@@ -712,7 +714,7 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  href="/files/researchLogger.pdf"
+                  href="../files/researchLogger.pdf"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
@@ -745,7 +747,7 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  href="/files/researchCharger.pdf"
+                  href="../files/researchCharger.pdf"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
@@ -778,7 +780,7 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  href="/files/researchNeutron.pdf"
+                  href="../files/researchNeutron.pdf"
                   target="_BLANK"
                   className="btn btn-sm"
                 >
