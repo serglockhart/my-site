@@ -100,6 +100,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - [ ] Continue separating components
 - [ ] Separate CSS per component
+- [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add 404 error page
 - [ ] Fix hamburger for mobile screen
 - [ ] Add websites to Projects section
