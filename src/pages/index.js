@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import "./index.css"
 
 import Background from "../images/home-backing.svg"
+import Resume from "../files/resumeBuenviaje.pdf"
 
 const IndexPage = () => (
   <div className="app">
@@ -180,7 +181,7 @@ const IndexPage = () => (
           </div>
           <div className="buttons marg-bot-05">
             <a
-              href="../files/resumeBuenviaje.pdf"
+              href={`../../files/resumeBuenviaje.pdf`}
               rel="noopener noreferrer"
               target="_BLANK"
               className="btn btn-info marg-bot-05"
