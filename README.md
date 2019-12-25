@@ -108,4 +108,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Fix Contact modal
 - [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
+- [ ] Add auto page generation (use gatsby-plugin-page-creator)
 - [ ] Optimize to be PWA
