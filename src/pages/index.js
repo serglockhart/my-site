@@ -5,6 +5,8 @@ import { Link } from "gatsby"
 import "./index.css"
 
 import Background from "../images/home-backing.svg"
+import foreagerGif from "../images/foreager.gif"
+import temboGif from "../images/tembo.gif"
 
 const IndexPage = () => (
   <div className="app">
@@ -747,11 +749,7 @@ const IndexPage = () => (
               <div className="mobile mobile-screenshot">
                 <div className="side">
                   <div className="screen">
-                    <img
-                      src={`../../images/projects/tembo.gif`}
-                      alt={"Tembo app"}
-                      aria-hidden="true"
-                    />
+                    <img src={temboGif} alt={"Tembo app"} aria-hidden="true" />
                   </div>
                 </div>
                 <div className="line" />
@@ -778,7 +776,7 @@ const IndexPage = () => (
                 <div className="side">
                   <div className="screen">
                     <img
-                      src={`../../images/projects/foreager.gif`}
+                      src={foreagerGif}
                       alt={"Foreager app"}
                       aria-hidden="true"
                     />
