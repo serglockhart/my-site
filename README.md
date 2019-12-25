@@ -102,6 +102,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add 404 error page
+- [ ] Add attribution to 404 error image
 - [ ] Fix hamburger for mobile screen
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal
