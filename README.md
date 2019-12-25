@@ -96,4 +96,12 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-##
+## Planned Features
+
+- [ ] Continue separating components
+- [ ] Separate CSS per component
+- [ ] Add 404 error page
+- [ ] Fix hamburger for mobile screen
+- [ ] Add websites to Projects section
+- [ ] Fix Contact modal
+- [ ] Optimize to be PWA
