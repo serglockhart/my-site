@@ -107,4 +107,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal
 - [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
+- [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [ ] Optimize to be PWA
