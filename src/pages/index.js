@@ -1,12 +1,13 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import Hero from "../components/hero"
+import Action from "../components/action"
 import { Link } from "gatsby"
 
 //import my custom styles
 import "./index.css"
 
-import Background from "../images/home-backing.svg"
 import foreagerGif from "../images/foreager.gif"
 import temboGif from "../images/tembo.gif"
 
@@ -18,80 +19,7 @@ const IndexPage = () => (
     <div className="content">
       <div className="container-fluid">
         {/* Overview */}
-        <div className="marg-bot-1" id="home">
-          <div
-            className="card has-bg"
-            style={{ backgroundImage: `url(${Background})` }}
-            id="hero"
-          >
-            <div className="flex-container no-flex-mobile">
-              <div className="profile-picture-wrapper">
-                <img
-                  src={`../../images/me.png`}
-                  className={"profile-picture"}
-                  alt={"Jio Buenviaje image"}
-                  aria-hidden="true"
-                />
-              </div>
-              <div className="flex top">
-                <h1 className="name">Hey! I'm Jio Buenviaje</h1>
-                <p>
-                  I aim to leverage tech to better understand and solve pressing
-                  problems of niche groups. I study computer science at{" "}
-                  <a
-                    href="https://cse.nd.edu/undergraduates/computer-science"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    University of Notre Dame,
-                  </a>{" "}
-                  and spend my free time{" "}
-                  <a
-                    href="https://linkedin.com/in/lockjio/"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    working at startups,
-                  </a>{" "}
-                  <a
-                    href="https://github.com/lockjio"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    learning new things,
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    href="https://instagram.com/lockjio/"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    simply enjoying life.
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="buttons marg-bot-05">
-            <a
-              href={`../../files/resumeBuenviaje.pdf`}
-              rel="noopener noreferrer"
-              target="_BLANK"
-              className="btn btn-info marg-bot-05"
-            >
-              View my resume
-            </a>
-            <Link to="#projects" className="btn btn-info marg-bot-05">
-              View my projects
-            </Link>
-            <a
-              href="mailto:jbuenvia@nd.edu"
-              className="btn btn-info marg-bot-05"
-            >
-              Contact me
-            </a>
-          </div>
-        </div>
+        <Hero></Hero>
         {/* Education */}
         <div className="marg-bot-2" id="education">
           <h4 className="title">Education</h4>
@@ -824,36 +752,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="space-mobile" />
-        <div className="browser marg-bot-1">
-          <div className="top">
-            <span className="circle" />
-            <span className="circle" />
-            <span className="circle" />
-          </div>
-          <div className="body">
-            <h2>Let's make something!</h2>
-            <p>
-              I'm a developer enthusiastic about well-designed products that at
-              their core, aim to assist people, regardless of market size.
-              Whatever you are imagining, building, or growing, I'd love to hear
-              about it. Scroll through my work and take the time to reach out.
-              I'll respond as quickly as I can.
-            </p>
-            <div className="buttons">
-              <Link to="#projects" className="btn btn-info">
-                View my projects
-              </Link>
-              <a
-                href="mailto:jbuenvia@nd.edu"
-                className="btn btn-info"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                Contact me
-              </a>
-            </div>
-          </div>
-        </div>
+        <Action></Action>
       </div>
     </div>
     {/* Footer */}
