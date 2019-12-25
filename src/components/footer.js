@@ -1,6 +1,6 @@
 import React from "react"
 
-export default ({ children }) => (
+const Footer = () => (
   <footer>
     <div className="container-fluid">
       <p className="right">
@@ -10,3 +10,5 @@ export default ({ children }) => (
     </div>
   </footer>
 )
+
+export default Footer

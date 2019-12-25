@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default ({ children }) => (
+const Header = () => (
   <div className="app">
     <div className="nav-wrapper">
       <div className="nav">
@@ -116,3 +116,5 @@ export default ({ children }) => (
     <div className="nav-space hidden-on-desktop" />
   </div>
 )
+
+export default Header
