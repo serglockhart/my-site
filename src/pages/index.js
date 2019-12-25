@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import "./index.css"
 
 import Background from "../images/home-backing.svg"
-import Resume from "../files/resumeBuenviaje.pdf"
 
 const IndexPage = () => (
   <div className="app">
@@ -573,7 +572,7 @@ const IndexPage = () => (
             </p>
           </div>
           <a
-            href="../files/resumeBuenviaje.pdf"
+            href={`../../files/resumeBuenviaje.pdf`}
             className="btn btn-info"
             rel="noopener noreferrer"
             target="_BLANK"
@@ -842,7 +841,7 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  href="../files/researchLogger.pdf"
+                  href={`../../files/researchLogger.pdf`}
                   rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
@@ -877,7 +876,7 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  href="../files/researchCharger.pdf"
+                  href={`../../files/researchCharger.pdf`}
                   rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
@@ -912,7 +911,7 @@ const IndexPage = () => (
               </p>
               <div className="buttons">
                 <a
-                  href="../files/researchNeutron.pdf"
+                  href={`../../files/researchNeutron.pdf`}
                   rel="noopener noreferrer"
                   target="_BLANK"
                   className="btn btn-sm"
