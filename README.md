@@ -106,4 +106,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Fix hamburger for mobile screen
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal
+- [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [ ] Optimize to be PWA
