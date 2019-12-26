@@ -111,3 +111,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Add auto page generation (use gatsby-plugin-page-creator)
 - [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, )
 - [ ] Optimize to be PWA
+- [ ] Add Dark Mode feature
