@@ -119,48 +119,13 @@ const IndexPage = () => (
                 fund
               </li>
             }
-            secondItem="Completed 27 purchase requests from international TV stations amounting to $132,930 in profit"
-            thirdItem="Assisted with basic maintenance of cloud-based content storage and manipulation"
-            tech="SQL (SQL Server), XML, C++, AWS (S3, Lambda, CloudWatch), AutoCAD"
-          />
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Interim CTO | DeLive Aerial Systems</h5>
-                <p className="gray-text subtitle">
-                  October 2019 - Present • South Bend, IN
-                </p>
-              </div>
-              <a
-                href="https://www.deliveaerial.com/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/experience/delive.png`}
-                  className="background-image"
-                  alt={"DeLive logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <ul className="tech">
-              <li>
-                Secured $10k funding,{" "}
-                <a
-                  href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Race to Revenue
-                </a>{" "}
-                incubator invitation, and pitch to Indianapolis-based $100M VC
-                fund
-              </li>
+            secondItem={
               <li>
                 Will develop full stack web app and structure database
                 architecture in agile environment
               </li>
+            }
+            thirdItem={
               <li>
                 Will assist in further developing drone system for FAA approval
                 and exhibit in{" "}
@@ -172,12 +137,9 @@ const IndexPage = () => (
                   Consumer Electronics Show (CES) 2020
                 </a>
               </li>
-            </ul>
-            <p>
-              <strong>Technologies</strong>: React, Redux, Node, Express,
-              Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git
-            </p>
-          </div>
+            }
+            tech="React, Redux, Node, Express, Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git"
+          />
           <div className="card">
             <div className="flex-container">
               <div className="flex">
