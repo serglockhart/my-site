@@ -239,37 +239,26 @@ const IndexPage = () => (
             }
             tech="DART, Flutter (Provider), Firebase, HTML, CSS, JavaScript (jQuery)"
           />
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Technology Track Head | YouthHack</h5>
-                <p className="gray-text subtitle">
-                  March 2017 - July 2018 • Quezon City, Philippines
-                </p>
-              </div>
-              <a
-                href="https://youthhack.net/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/experience/yh.svg`}
-                  className="background-image"
-                  alt={"YH logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <ul className="tech">
+          <Expe
+            title="Technology Track Head | YouthHack"
+            subtitle="March 2017 - July 2018 • Quezon City, Philippines"
+            companyLink="https://youthhack.net/"
+            logo={`../../images/experience/yh.svg`}
+            logoAlt={"YH logo"}
+            firstItem={
               <li>
                 Organized national hackathon, international summit attended by 5
                 countries and 10-week startup incubator program for 9 collegiate
                 student-run startups
               </li>
+            }
+            secondItem={
               <li>
                 Created and taught 4-hr workshops for web dev for collegiate
                 students and professionals
               </li>
+            }
+            thirdItem={
               <li>
                 Partnered with{" "}
                 <a
@@ -289,11 +278,9 @@ const IndexPage = () => (
                 </a>{" "}
                 for media coverage and exposure
               </li>
-            </ul>
-            <p>
-              <strong>Technologies</strong>: HTML, CSS, JavaScript (jQuery)
-            </p>
-          </div>
+            }
+            tech="HTML, CSS, JavaScript (jQuery)"
+          />
           <a
             href={`../../files/resumeBuenviaje.pdf`}
             className="btn btn-info"
