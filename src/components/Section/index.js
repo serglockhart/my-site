@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 
 const Section = props => (
   <div className="marg-bot-2" id={props.id}>
