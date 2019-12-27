@@ -111,6 +111,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [ ] Add auto page generation (use gatsby-plugin-page-creator)
-- [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, )
+- [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, SEO component)
 - [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, gatsby-plugin-google-tagmanager)
 - [ ] Add Dark Mode feature
