@@ -114,7 +114,7 @@ const IndexPage = () => (
             subtitle="October 2019 - Present • South Bend, IN"
             companyLink="https://www.deliveaerial.com/"
             logo={`../../images/experience/delive.png`}
-            logoAlt={"CBS logo"}
+            logoAlt={"DeLive logo"}
             firstItem={
               <li>
                 Secured $10k funding,{" "}
@@ -150,32 +150,19 @@ const IndexPage = () => (
             }
             tech="React, Redux, Node, Express, Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git"
           />
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Software Engineer | Tembo AI</h5>
-                <p className="gray-text subtitle">
-                  January 2019 - January 2020 • South Bend, IN
-                </p>
-              </div>
-              <a
-                href="https://www.tembo.tech/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/experience/tembo.png`}
-                  className="background-image"
-                  alt={"Tembo logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <ul className="tech">
+          <Expe
+            title="Software Engineer | Tembo AI"
+            subtitle="January 2019 - January 2020 • South Bend, IN"
+            companyLink="https://www.tembo.tech/"
+            logo={`../../images/experience/tembo.png`}
+            logoAlt={"Tembo logo"}
+            firstItem={
               <li>
                 Solely developed iOS/Android apps for emergency messaging to be
                 used in alpha testing
               </li>
+            }
+            secondItem={
               <li>
                 Solely developed and demoed MVP (Indoor Mobile Location Tracker)
                 resulting in{" "}
@@ -187,12 +174,9 @@ const IndexPage = () => (
                   $11.5k funding
                 </a>
               </li>
-            </ul>
-            <p>
-              <strong>Technologies</strong>: DART, Flutter (Provider), Firebase,
-              Raspberry Pi, Kali Linux, Git
-            </p>
-          </div>
+            }
+            tech="DART, Flutter (Provider), Firebase, Raspberry Pi, Kali Linux, Git"
+          />
           <div className="card">
             <div className="flex-container">
               <div className="flex">
