@@ -104,7 +104,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)
 - [ ] Add 404 error page
-- [ ] Fix favicon path
+- [ ] Fix favicon path (use gatsby-plugin-favicon)
 - [ ] Fix hamburger for mobile screen
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal (use Netlify formatting)
@@ -112,5 +112,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [ ] Add auto page generation (use gatsby-plugin-page-creator)
 - [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, )
-- [ ] Optimize to be PWA
+- [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, gatsby-plugin-google-tagmanager)
 - [ ] Add Dark Mode feature
