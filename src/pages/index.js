@@ -181,28 +181,13 @@ const IndexPage = () => (
             }
             tech="DART, Flutter (Provider), Firebase, Raspberry Pi, Kali Linux, Git"
           />
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Software Engineer Technical Lead | Gäshawk Incorporated</h5>
-                <p className="gray-text subtitle">
-                  January 2019 - January 2020 • South Bend, IN
-                </p>
-              </div>
-              <a
-                href="https://xn--gshawk-bua.com/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/experience/gashawk.png`}
-                  className="background-image"
-                  alt={"Gäshawk logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <ul className="tech">
+          <Expe
+            title="Software Engineer Technical Lead | Gäshawk Incorporated"
+            subtitle="January 2019 - January 2020 • South Bend, IN"
+            companyLink="https://xn--gshawk-bua.com/"
+            logo={`../../images/experience/gashawk.png`}
+            logoAlt={"Gäshawk logo"}
+            firstItem={
               <li>
                 Solely developed and demoed MVP (Touchscreen GUI + LiDAR
                 Overhead Collision Detection) resulting in{" "}
@@ -215,6 +200,8 @@ const IndexPage = () => (
                 </a>{" "}
                 accelerator invitation
               </li>
+            }
+            secondItem={
               <li>
                 Assisted in{" "}
                 <a
@@ -227,11 +214,9 @@ const IndexPage = () => (
                 </a>{" "}
                 program entry
               </li>
-            </ul>
-            <p>
-              <strong>Technologies</strong>: C++, Arduino, Git
-            </p>
-          </div>
+            }
+            tech="C++, Arduino, Git"
+          />
           <div className="card">
             <div className="flex-container">
               <div className="flex">
