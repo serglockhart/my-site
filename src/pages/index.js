@@ -530,7 +530,7 @@ const IndexPage = () => (
         {/* Projects */}
         <div id="projects">
           <h4 className="title projects">Projects</h4>
-          {/* <div class="project" style="background: #00aacf">
+          {/* <div class="project" style={"background: #00aacf"}>
         <div class="text">
           <h2>-</h2>
           <p>-</p>
