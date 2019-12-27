@@ -9,30 +9,20 @@ const Expe = props => (
       </div>
       <a href={props.companyLink} rel="noopener noreferrer" target="_BLANK">
         <img
-          src={`../../images/experience/cbs.png`}
+          src={props.logo}
           className="background-image"
-          alt={"CBS logo"}
+          alt={props.logoAlt}
           aria-hidden="true"
         />
       </a>
     </div>
     <ul className="tech">
-      <li>
-        Standardized end-to-end broadcast distribution configurations for entire
-        East Coast feed
-      </li>
-      <li>
-        Completed 27 purchase requests from international TV stations amounting
-        to $132,930 in profit
-      </li>
-      <li>
-        Assisted with basic maintenance of cloud-based content storage and
-        manipulation
-      </li>
+      <li>{props.firstItem}</li>
+      <li>{props.secondItem}</li>
+      <li>{props.thirdItem}</li>
     </ul>
     <p>
-      <strong>Technologies</strong>: SQL (SQL Server), XML, C++, AWS (S3,
-      Lambda, CloudWatch), AutoCAD
+      <strong>Technologies</strong>: {props.tech}
     </p>
   </div>
 )

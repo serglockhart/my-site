@@ -77,6 +77,12 @@ const IndexPage = () => (
             title="Software Engineering Intern | CBS"
             subtitle="June - August 2019 • New York, NY"
             companyLink="https://www.cbs.com/"
+            logo={`../../images/experience/cbs.png`}
+            logoAlt={"CBS logo"}
+            firstItem="Standardized end-to-end broadcast distribution configurations for entire East Coast feed"
+            secondItem="Completed 27 purchase requests from international TV stations amounting to $132,930 in profit"
+            thirdItem="Assisted with basic maintenance of cloud-based content storage and manipulation"
+            tech="SQL (SQL Server), XML, C++, AWS (S3, Lambda, CloudWatch), AutoCAD"
           />
           <div className="card">
             <div className="flex-container">
