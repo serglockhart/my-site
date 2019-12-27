@@ -4,6 +4,7 @@ import Section from "../components/section"
 import Footer from "../components/footer"
 import Hero from "../components/hero"
 import Educ from "../components/educ"
+import Expe from "../components/expe"
 import Action from "../components/action"
 import { Link } from "gatsby"
 
@@ -16,12 +17,12 @@ import temboGif from "../images/tembo.gif"
 const IndexPage = () => (
   <div className="app">
     {/* Navigation */}
-    <Header></Header>
+    <Header />
     {/* App content */}
     <div className="content">
       <div className="container-fluid">
         {/* Overview */}
-        <Hero></Hero>
+        <Hero />
         {/* Education */}
         <div className="marg-bot-2" id="education">
           <h4 className="title">Education</h4>
@@ -45,7 +46,7 @@ const IndexPage = () => (
             coursework={
               "Data Structures, Logic Design, Systems Programming, Fundamentals of Computing, Discrete Mathematics"
             }
-          ></Educ>
+          />
           <Educ
             title="Philippine Science High School - Main Campus"
             subtitle="2012 - 2018 | 3.84 GPA"
@@ -67,51 +68,12 @@ const IndexPage = () => (
             coursework={
               "Data Structures & Algorithms, Object-Oriented Programming, Client-Side Web Development, Embedded Systems & Program Design, STEM Research"
             }
-          ></Educ>
+          />
         </div>
         {/* Experience */}
         <div className="marg-bot-2" id="experience">
           <h4 className="title">Experience</h4>
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Software Engineering Intern | CBS</h5>
-                <p className="gray-text subtitle">
-                  June - August 2019 • New York, NY
-                </p>
-              </div>
-              <a
-                href="https://www.cbs.com/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/experience/cbs.png`}
-                  className="background-image"
-                  alt={"CBS logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <ul className="tech">
-              <li>
-                Standardized end-to-end broadcast distribution configurations
-                for entire East Coast feed
-              </li>
-              <li>
-                Completed 27 purchase requests from international TV stations
-                amounting to $132,930 in profit
-              </li>
-              <li>
-                Assisted with basic maintenance of cloud-based content storage
-                and manipulation
-              </li>
-            </ul>
-            <p>
-              <strong>Technologies</strong>: SQL (SQL Server), XML, C++, AWS
-              (S3, Lambda, CloudWatch), AutoCAD
-            </p>
-          </div>
+          <Expe />
           <div className="card">
             <div className="flex-container">
               <div className="flex">
@@ -719,7 +681,7 @@ const IndexPage = () => (
       </div>
     </div>
     {/* Footer */}
-    <Footer></Footer>
+    <Footer />
     {/* Contact form */}
     {/* <div class="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
     aria-hidden="true">
