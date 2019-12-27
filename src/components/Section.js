@@ -1,5 +1,5 @@
 import React from "react"
-import Educ from "./Educ"
+import Educ from "./Educ/index.js"
 
 const Section = props => (
   <div className="marg-bot-2" id={props.id}>

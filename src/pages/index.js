@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Header from "../components/Header"
-import Section from "../components/Section"
-import Footer from "../components/Footer"
-import Hero from "../components/Hero"
-import Educ from "../components/Educ"
-import Expe from "../components/Expe"
-import Action from "../components/Action"
+import Header from "../components/Header/index.js"
+import Section from "../components/Section/index.js"
+import Footer from "../components/Footer/index.js"
+import Hero from "../components/Hero/index.js"
+import Educ from "../components/Educ/index.js"
+import Expe from "../components/Expe/index.js"
+import Action from "../components/Action/index.js"
 
 //import my custom styles
 import "./index.css"
