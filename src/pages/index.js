@@ -7,6 +7,7 @@ import Hero from "../components/Hero/index.js"
 import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
+import Browser from "../components/Browser/index.js"
 import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
@@ -114,7 +115,7 @@ const IndexPage = () => (
           logo={`../../images/experience/cbs.png`}
           logoAlt={"CBS logo"}
           body={
-            <ul class="tech">
+            <ul className="tech">
               <li>
                 Standardized end-to-end broadcast distribution configurations
                 for entire East Coast feed
@@ -143,7 +144,7 @@ const IndexPage = () => (
           logo={`../../images/experience/delive.png`}
           logoAlt={"DeLive logo"}
           body={
-            <ul class="tech">
+            <ul className="tech">
               <li>
                 Secured $10k funding,{" "}
                 <a
@@ -187,7 +188,7 @@ const IndexPage = () => (
           logo={`../../images/experience/tembo.png`}
           logoAlt={"Tembo logo"}
           body={
-            <ul class="tech">
+            <ul className="tech">
               <li>
                 Solely developed iOS/Android apps for emergency messaging to be
                 used in alpha testing
@@ -219,7 +220,7 @@ const IndexPage = () => (
           logo={`../../images/experience/gashawk.png`}
           logoAlt={"Gäshawk logo"}
           body={
-            <ul class="tech">
+            <ul className="tech">
               <li>
                 Solely developed and demoed MVP (Touchscreen GUI + LiDAR
                 Overhead Collision Detection) resulting in{" "}
@@ -259,7 +260,7 @@ const IndexPage = () => (
           logo={`../../images/experience/foreager.png`}
           logoAlt={"Foreager logo"}
           body={
-            <ul class="tech">
+            <ul className="tech">
               <li>
                 Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
                 Rental iOS/Android Apps) resulting in Semifinals finish (top
@@ -288,7 +289,7 @@ const IndexPage = () => (
           logo={`../../images/experience/yh.svg`}
           logoAlt={"YH logo"}
           body={
-            <ul class="tech">
+            <ul className="tech">
               <li>
                 Organized national hackathon, international summit attended by 5
                 countries and 10-week startup incubator program for 9 collegiate
@@ -408,28 +409,26 @@ const IndexPage = () => (
       </Section>
       {/* Projects */}
       <Section id="projects" title="Projects">
-        {/* <div class="project" style={"background: #00aacf"}>
-        <div class="text">
-          <h2>-</h2>
-          <p>-</p>
-          <p><strong>Technologies:</strong> -</p>
-          <div class="buttons">
-              <a href="#" class="btn btn-sm" >
+        {/* <div className="project" style={{ background: "#00aacf" }}>
+          <div className="text">
+            <h2>-</h2>
+            <p>-</p>
+            <p>
+              <strong>Technologies:</strong> -
+            </p>
+            <div className="buttons">
+              <a href="#" className="btn btn-sm">
                 View here
               </a>
-          </div>
-        </div>
-        <div class="screenshot-wrapper">
-          <div class="browser-screenshot">
-            <div class="top">
-              <span class="circle"></span>
-              <span class="circle"></span>
-              <span class="circle"></span>
             </div>
-            <img src={`../../images/projects/jio.png`} alt={"-"} aria-hidden="true" class="img-fluid" />
           </div>
-        </div>
-      </div> */}
+          <div className="screenshot-wrapper">
+            <Browser
+              image={`../../images/projects/jio.png`}
+              imageAlt={"My site"}
+            />
+          </div>
+        </div> */}
         <div className="project" style={{ background: "#e18e7f" }}>
           <div className="text">
             <h2>Tembo App</h2>
@@ -589,38 +588,38 @@ const IndexPage = () => (
     {/* Footer */}
     <Footer />
     {/* Contact form */}
-    {/* <div class="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
+    {/* <div className="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-<div class="modal-content">
-  <div class="modal-header">
-    <h5 class="modal-title">Contact me</h5>
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div className="modal-dialog modal-dialog-centered" role="document">
+<div className="modal-content">
+  <div className="modal-header">
+    <h5 className="modal-title">Contact me</h5>
+    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
   <form id="contactForm">
-    <div class="modal-body">
+    <div className="modal-body">
       Render a div for error and success messages */}
     {/* <div id="message"></div> */}
     {/* Render the form fields */}
-    {/* <div class="row">
-        <div class="col-12 col-md-6">
-          <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First"
+    {/* <div className="row">
+        <div className="col-12 col-md-6">
+          <input type="text" name="firstName" id="firstName" className="form-control" placeholder="First"
             required="true"></input>
         </div>
-        <div class="col-12 col-md-6">
-          <input type="text" name="lastName" class="form-control" placeholder="Last" required="true"></input>
+        <div className="col-12 col-md-6">
+          <input type="text" name="lastName" className="form-control" placeholder="Last" required="true"></input>
         </div>
       </div>
-      <input type="email" name="email" class="form-control" placeholder="example@gmail.com"
+      <input type="email" name="email" className="form-control" placeholder="example@gmail.com"
         required="true"></input>
-      <input type="text" name="subject" class="form-control" placeholder="Subject..." required="true"></input>
-      <textarea type="text" name="body" class="form-control" placeholder="Message..." required="true"></textarea>
+      <input type="text" name="subject" className="form-control" placeholder="Subject..." required="true"></input>
+      <textarea type="text" name="body" className="form-control" placeholder="Message..." required="true"></textarea>
     </div>
-    <div class="modal-footer">
-      <input type="submit" class="btn btn-info" value="Send" id="contactFormButton"></input>
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+    <div className="modal-footer">
+      <input type="submit" className="btn btn-info" value="Send" id="contactFormButton"></input>
+      <button type="button" className="btn btn-secondary" data-dismiss="modal">
         Cancel
       </button>
     </div>
