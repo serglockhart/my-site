@@ -24,8 +24,7 @@ const IndexPage = () => (
         {/* Overview */}
         <Hero />
         {/* Education */}
-        <div className="marg-bot-2" id="education">
-          <h4 className="title">Education</h4>
+        <Section id="education" title="Education">
           <Card
             title="University of Notre Dame"
             subtitle="2018 - 2022 | 3.51 GPA"
@@ -90,10 +89,22 @@ const IndexPage = () => (
               </p>
             }
           />
-        </div>
+        </Section>
         {/* Experience */}
-        <div className="marg-bot-2" id="experience">
-          <h4 className="title">Experience</h4>
+        <Section
+          id="experience"
+          title="Experience"
+          button={
+            <a
+              href={`../../files/resumeBuenviaje.pdf`}
+              className="btn btn-info"
+              rel="noopener noreferrer"
+              target="_BLANK"
+            >
+              View my resume →
+            </a>
+          }
+        >
           <Card
             title="Software Engineering Intern | CBS"
             subtitle="June - August 2019 • New York, NY"
@@ -312,26 +323,21 @@ const IndexPage = () => (
               </p>
             }
           />
-          <a
-            href={`../../files/resumeBuenviaje.pdf`}
-            className="btn btn-info"
-            rel="noopener noreferrer"
-            target="_BLANK"
-          >
-            View my resume →
-          </a>
-        </div>
+        </Section>
         {/* Technologies */}
-        <div className="marg-bot-2" id="technologies">
-          <h4 className="title">Technologies</h4>
+        <Section
+          id="technologies"
+          title="Technologies"
+          button={
+            <Link to="#projects" className="btn btn-info">
+              View my projects →
+            </Link>
+          }
+        >
           <Tech />
-          <Link to="#projects" className="btn btn-info">
-            View my projects →
-          </Link>
-        </div>
+        </Section>
         {/* Extracurriculars */}
-        <div id="extracurriculars">
-          <h4 className="title">Extracurriculars</h4>
+        <Section id="extracurriculars" title="Extracurriculars">
           <Card
             title="Student Ambassador | IDEA Center"
             subtitle="August 2019 - Present"
@@ -397,10 +403,9 @@ const IndexPage = () => (
               </ul>
             }
           />
-        </div>
+        </Section>
         {/* Projects */}
-        <div id="projects">
-          <h4 className="title projects">Projects</h4>
+        <Section id="projects" title="Projects">
           {/* <div class="project" style={"background: #00aacf"}>
         <div class="text">
           <h2>-</h2>
@@ -621,7 +626,7 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-        </div>
+        </Section>
         <div className="space-mobile" />
         <Action></Action>
       </div>
