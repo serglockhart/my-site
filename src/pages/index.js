@@ -73,7 +73,7 @@ const IndexPage = () => (
         {/* Experience */}
         <div className="marg-bot-2" id="experience">
           <h4 className="title">Experience</h4>
-          <Expe />
+          <Expe title="Software Engineering Intern | CBS" subtitle="June - August 2019 • New York, NY" companyLink="https://www.cbs.com/"/>
           <div className="card">
             <div className="flex-container">
               <div className="flex">

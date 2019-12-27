@@ -4,10 +4,10 @@ const Expe = props => (
   <div className="card">
     <div className="flex-container">
       <div className="flex">
-        <h5>Software Engineering Intern | CBS</h5>
-        <p className="gray-text subtitle">June - August 2019 • New York, NY</p>
+        <h5>{props.title}</h5>
+        <p className="gray-text subtitle">{props.subtitle}</p>
       </div>
-      <a href="https://www.cbs.com/" rel="noopener noreferrer" target="_BLANK">
+      <a href={props.companyLink} rel="noopener noreferrer" target="_BLANK">
         <img
           src={`../../images/experience/cbs.png`}
           className="background-image"
