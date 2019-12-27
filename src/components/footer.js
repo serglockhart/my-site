@@ -1,4 +1,5 @@
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Footer = () => (
   <footer>
@@ -6,7 +7,9 @@ const Footer = () => (
       <p className="right">
         Juan Sergio Buenviaje © 2019. All rights reserved.
       </p>
-      <p id="scroll-to-top">Scroll to top ↑</p>
+      <p id="scroll-to-top" onClick={() => scrollTo("#top")}>
+        Scroll to top ↑
+      </p>
     </div>
   </footer>
 )

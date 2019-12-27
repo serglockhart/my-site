@@ -15,7 +15,7 @@ import foreagerGif from "../images/foreager.gif"
 import temboGif from "../images/tembo.gif"
 
 const IndexPage = () => (
-  <div className="app">
+  <div className="app" id="top">
     {/* Navigation */}
     <Header />
     {/* App content */}
