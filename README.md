@@ -98,14 +98,16 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## Planned Features
 
+- [x] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
 - [ ] Continue separating components
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)
 - [ ] Add 404 error page
+- [ ] Fix favicon path
 - [ ] Fix hamburger for mobile screen
 - [ ] Add websites to Projects section
-- [ ] Fix Contact modal
+- [ ] Fix Contact modal (use Netlify formatting)
 - [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [ ] Add auto page generation (use gatsby-plugin-page-creator)
