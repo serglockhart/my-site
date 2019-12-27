@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Content from "../components/Content/index.js"
 import Header from "../components/Header/index.js"
+import Content from "../components/Content/index.js"
+import Hero from "../components/Hero/index.js"
 import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
-import Footer from "../components/Footer/index.js"
-import Hero from "../components/Hero/index.js"
 import Action from "../components/Action/index.js"
+import Footer from "../components/Footer/index.js"
 
 import "./index.css"
 
