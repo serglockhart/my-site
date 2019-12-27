@@ -583,7 +583,7 @@ footer p.right {
 }
 
 footer #scroll-to-top {
-  cursor: hand;
+  cursor: pointer;
 }
 
 footer #scroll-to-top:hover {
