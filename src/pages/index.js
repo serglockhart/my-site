@@ -7,14 +7,15 @@ import Hero from "../components/Hero/index.js"
 import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
+import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
 import Footer from "../components/Footer/index.js"
 
 import "./index.css"
 
-import foreagerGif from "../images/foreager.gif"
 import temboGif from "../images/tembo.gif"
+import foreagerGif from "../images/foreager.gif"
 
 const IndexPage = () => (
   <div className="app" id="top">
@@ -442,17 +443,7 @@ const IndexPage = () => (
             </p>
           </div>
           <div className="screenshot-wrapper">
-            <div className="mobile mobile-screenshot">
-              <div className="side">
-                <div className="screen">
-                  <img src={temboGif} alt={"Tembo app"} aria-hidden="true" />
-                </div>
-              </div>
-              <div className="line" />
-              <div className="header" />
-              <div className="volume-button" />
-              <div className="power-button" />
-            </div>
+            <Mobile image={temboGif} imageAlt={"Tembo app"}></Mobile>
           </div>
         </div>
         <div className="project" style={{ background: "#98D0CB" }}>
@@ -468,21 +459,7 @@ const IndexPage = () => (
             </p>
           </div>
           <div className="screenshot-wrapper">
-            <div className="mobile mobile-screenshot">
-              <div className="side">
-                <div className="screen">
-                  <img
-                    src={foreagerGif}
-                    alt={"Foreager app"}
-                    aria-hidden="true"
-                  />
-                </div>
-              </div>
-              <div className="line" />
-              <div className="header" />
-              <div className="volume-button" />
-              <div className="power-button" />
-            </div>
+            <Mobile image={foreagerGif} imageAlt={"Foreager app"}></Mobile>
           </div>
         </div>
         <div className="project" style={{ background: "#f8a978" }}>
