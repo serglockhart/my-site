@@ -217,28 +217,13 @@ const IndexPage = () => (
             }
             tech="C++, Arduino, Git"
           />
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Software Engineer Technical Lead | Foreager</h5>
-                <p className="gray-text subtitle">
-                  January 2019 - August 2019 • South Bend, IN
-                </p>
-              </div>
-              <a
-                href="https://foreager.com/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/experience/foreager.png`}
-                  className="background-image"
-                  alt={"Foreager logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <ul className="tech">
+          <Expe
+            title="Software Engineer Technical Lead | Foreager"
+            subtitle="January 2019 - August 2019 • South Bend, IN"
+            companyLink="https://foreager.com/"
+            logo={`../../images/experience/foreager.png`}
+            logoAlt={"Foreager logo"}
+            firstItem={
               <li>
                 Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
                 Rental iOS/Android Apps) resulting in Semifinals finish (top
@@ -251,12 +236,9 @@ const IndexPage = () => (
                   McCloskey New Venture Competition 2019
                 </a>
               </li>
-            </ul>
-            <p>
-              <strong>Technologies</strong>: DART, Flutter (Provider), Firebase,
-              HTML, CSS, JavaScript (jQuery)
-            </p>
-          </div>
+            }
+            tech="DART, Flutter (Provider), Firebase, HTML, CSS, JavaScript (jQuery)"
+          />
           <div className="card">
             <div className="flex-container">
               <div className="flex">
