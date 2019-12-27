@@ -359,92 +359,71 @@ const IndexPage = () => (
         {/* Extracurriculars */}
         <div id="extracurriculars">
           <h4 className="title">Extracurriculars</h4>
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Student Ambassador | IDEA Center</h5>
-                <p className="gray-text subtitle">August 2019 - Present</p>
-              </div>
-              <a
-                href="https://ideacenter.nd.edu/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/extracurriculars/ideacenter.png`}
-                  className="background-image"
-                  alt={"IDEA Center logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <p>
-              Standing for Innovation, De-Risking and Enterprise Acceleration,
-              the{" "}
-              <a
-                href="https://ideacenter.nd.edu/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                IDEA Center
-              </a>{" "}
-              is the fundamental resource for all commercialization and
-              entrepreneurial activities at the University of Notre Dame.
-            </p>
-            <ul>
-              <li>
-                Will aid in recruiting students for summer internships,
-                McCloskey New Venture Competition, and academic programs,
-                connect College of Engineering students to affiliated local
-                startups and research on marketing and recruiting strategies for
-                College of Engineering students
-              </li>
-            </ul>
-          </div>
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>
-                  Teaching Assistant, PHIL 10111 Intro to Philosophy |
-                  University of Notre Dame
-                </h5>
-                <p className="gray-text subtitle">August 2019 - Present</p>
-              </div>
-              <a
-                href="https://godandgoodlife.nd.edu/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/education/nd.png`}
-                  className="background-image"
-                  alt={"ND logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <p>
-              The{" "}
-              <a
-                href="https://godandgoodlife.nd.edu/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                God and the Good Life (GGL)
-              </a>{" "}
-              course tackles such issues as what justifies one's beliefs,
-              whether one should practice a religion, and what sacrifices one
-              should make for others.
-            </p>
-            <ul>
-              <li>
-                Will personally oversee 21 students through graded group
-                discussions and major requirements of 3-credit course (20-page
-                essay and university-wide campaign publication) and aid in
-                grading assignments, lesson planning, and hosting office hours
-              </li>
-            </ul>
-          </div>
+          <Card
+            title="Student Ambassador | IDEA Center"
+            subtitle="August 2019 - Present"
+            logoLink="https://ideacenter.nd.edu/"
+            logo={`../../images/extracurriculars/ideacenter.png`}
+            logoAlt={"IDEA Center logo"}
+            body={
+              <p>
+                Standing for Innovation, De-Risking and Enterprise Acceleration,
+                the{" "}
+                <a
+                  href="https://ideacenter.nd.edu/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  IDEA Center
+                </a>{" "}
+                is the fundamental resource for all commercialization and
+                entrepreneurial activities at the University of Notre Dame.
+              </p>
+            }
+            end={
+              <ul>
+                <li>
+                  Will aid in recruiting students for summer internships,
+                  McCloskey New Venture Competition, and academic programs,
+                  connect College of Engineering students to affiliated local
+                  startups and research on marketing and recruiting strategies
+                  for College of Engineering students
+                </li>
+              </ul>
+            }
+          />
+          <Card
+            title="Teaching Assistant, PHIL 10111 Intro to Philosophy | University of Notre Dame"
+            subtitle="August 2019 - Present"
+            logoLink="https://godandgoodlife.nd.edu/"
+            logo={`../../images/education/nd.png`}
+            logoAlt={"ND logo"}
+            body={
+              <p>
+                The{" "}
+                <a
+                  href="https://godandgoodlife.nd.edu/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  God and the Good Life (GGL)
+                </a>{" "}
+                course tackles such issues as what justifies one's beliefs,
+                whether one should practice a religion, and what sacrifices one
+                should make for others.
+              </p>
+            }
+            end={
+              <ul>
+                <li>
+                  Will personally oversee 21 students through graded group
+                  discussions and major requirements of 3-credit course (20-page
+                  essay and university-wide campaign publication) and aid in
+                  grading assignments, lesson planning, and hosting office hours
+                </li>
+              </ul>
+            }
+          />
         </div>
         {/* Projects */}
         <div id="projects">
