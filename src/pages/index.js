@@ -43,14 +43,14 @@ const IndexPage = () => (
                 >
                   Concentration in Mobile Computing
                 </a>
-                ) from the College of Engineering with a Minor in
+                ) from the College of Engineering with a Minor in{" "}
                 <a
                   href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   Innovation & Entrepreneurship
-                </a>
+                </a>{" "}
                 from the Mendoza College of Business.
               </p>
             }
@@ -67,14 +67,14 @@ const IndexPage = () => (
             body={
               <p>
                 Graduated Magna Cum Laude (High Honors), with a class rank of
-                28/221 and
+                28/221 and{" "}
                 <a
                   href="http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   2018 Philippine Government DOST-SEI Merit Scholarship
-                </a>
+                </a>{" "}
                 awardee. Varsity Debate Team Captain, Philippine National
                 Fencing Team Member, and Outreach Committee Founder.
               </p>
