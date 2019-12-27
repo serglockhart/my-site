@@ -37,6 +37,7 @@ const IndexPage = () => (
                 Pursuing a BS in Computer Science (
                 <a
                   href="https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   Concentration in Mobile Computing
@@ -44,6 +45,7 @@ const IndexPage = () => (
                 ) from the College of Engineering with a Minor in
                 <a
                   href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   Innovation & Entrepreneurship
@@ -67,6 +69,7 @@ const IndexPage = () => (
                 28/221 and
                 <a
                   href="http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
+                  rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   2018 Philippine Government DOST-SEI Merit Scholarship
