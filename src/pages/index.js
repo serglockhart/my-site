@@ -7,6 +7,7 @@ import Hero from "../components/Hero/index.js"
 import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
+import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
 import Footer from "../components/Footer/index.js"
 
@@ -508,15 +509,10 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="screenshot-wrapper">
-            <div className="system-screenshot">
-              <div className="top" />
-              <img
-                src={`../../images/projects/gashawk.png`}
-                alt={"Gäshawk embedded"}
-                aria-hidden="true"
-                className="img-fluid"
-              />
-            </div>
+            <System
+              image={`../../images/projects/gashawk.png`}
+              imageAlt={"Gäshawk embedded"}
+            />
           </div>
         </div>
         <div className="project" style={{ background: "#e18e7f" }}>
@@ -543,15 +539,10 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="screenshot-wrapper">
-            <div className="system-screenshot">
-              <div className="top" />
-              <img
-                src={`../../images/projects/logger.png`}
-                alt={"Logger research"}
-                aria-hidden="true"
-                className="img-fluid"
-              />
-            </div>
+            <System
+              image={`../../images/projects/logger.png`}
+              imageAlt={"Logger research"}
+            />
           </div>
         </div>
         <div className="project" style={{ background: "#98D0CB" }}>
@@ -578,15 +569,10 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="screenshot-wrapper">
-            <div className="system-screenshot">
-              <div className="top" />
-              <img
-                src={`../../images/projects/charger.png`}
-                alt={"Charger research"}
-                aria-hidden="true"
-                className="img-fluid"
-              />
-            </div>
+            <System
+              image={`../../images/projects/charger.png`}
+              imageAlt={"Charger research"}
+            />
           </div>
         </div>
         <div className="project" style={{ background: "#f8a978" }}>
@@ -613,15 +599,10 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="screenshot-wrapper">
-            <div className="system-screenshot">
-              <div className="top" />
-              <img
-                src={`../../images/projects/cosmo.png`}
-                alt={"Cosmo research"}
-                aria-hidden="true"
-                className="img-fluid"
-              />
-            </div>
+            <System
+              image={`../../images/projects/cosmo.png`}
+              imageAlt={"Cosmo research"}
+            />
           </div>
         </div>
       </Section>
