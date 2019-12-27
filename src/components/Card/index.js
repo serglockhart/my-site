@@ -1,13 +1,13 @@
 import React from "react"
 
-const Educ = props => (
+const Card = props => (
   <div className="card">
     <div className="flex-container">
       <div className="flex">
         <h5>{props.title}</h5>
         <p className="gray-text subtitle">{props.subtitle}</p>
       </div>
-      <a href={props.schoolLink} rel="noopener noreferrer" target="_BLANK">
+      <a href={props.logoLink} rel="noopener noreferrer" target="_BLANK">
         <img
           src={props.logo}
           className="background-image"
@@ -17,10 +17,8 @@ const Educ = props => (
       </a>
     </div>
     {props.body}
-    <p>
-      <strong>Relevant Coursework</strong>: {props.coursework}
-    </p>
+    {props.end}
   </div>
 )
 
-export default Educ
+export default Card

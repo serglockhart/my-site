@@ -3,10 +3,9 @@ import { Link } from "gatsby"
 
 import Header from "../components/Header/index.js"
 import Section from "../components/Section/index.js"
+import Card from "../components/Card/index.js"
 import Footer from "../components/Footer/index.js"
 import Hero from "../components/Hero/index.js"
-import Educ from "../components/Educ/index.js"
-import Expe from "../components/Expe/index.js"
 import Action from "../components/Action/index.js"
 
 //import my custom styles
@@ -27,10 +26,10 @@ const IndexPage = () => (
         {/* Education */}
         <div className="marg-bot-2" id="education">
           <h4 className="title">Education</h4>
-          <Educ
+          <Card
             title="University of Notre Dame"
             subtitle="2018 - 2022 | 3.51 GPA"
-            schoolLink="https://cse.nd.edu/undergraduates/computer-science"
+            logoLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.png`}
             logoAlt={"ND logo"}
             body={
@@ -54,14 +53,18 @@ const IndexPage = () => (
                 from the Mendoza College of Business.
               </p>
             }
-            coursework={
-              "Data Structures, Logic Design, Systems Programming, Fundamentals of Computing, Discrete Mathematics"
+            end={
+              <p>
+                <strong>Relevant Coursework</strong>: Data Structures, Logic
+                Design, Systems Programming, Fundamentals of Computing, Discrete
+                Mathematics
+              </p>
             }
           />
-          <Educ
+          <Card
             title="Philippine Science High School - Main Campus"
             subtitle="2012 - 2018 | 3.84 GPA"
-            schoolLink="http://www.pshs.edu.ph/curriculum/"
+            logoLink="http://www.pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
             body={
@@ -79,207 +82,235 @@ const IndexPage = () => (
                 Fencing Team Member, and Outreach Committee Founder.
               </p>
             }
-            coursework={
-              "Data Structures & Algorithms, Object-Oriented Programming, Client-Side Web Development, Embedded Systems & Program Design, STEM Research"
+            end={
+              <p>
+                <strong>Relevant Coursework</strong>: Data Structures &
+                Algorithms, Object-Oriented Programming, Client-Side Web
+                Development, Embedded Systems & Program Design, STEM Research
+              </p>
             }
           />
         </div>
         {/* Experience */}
         <div className="marg-bot-2" id="experience">
           <h4 className="title">Experience</h4>
-          <Expe
+          <Card
             title="Software Engineering Intern | CBS"
             subtitle="June - August 2019 • New York, NY"
-            companyLink="https://www.cbs.com/"
+            logoLink="https://www.cbs.com/"
             logo={`../../images/experience/cbs.png`}
             logoAlt={"CBS logo"}
-            firstItem={
-              <li>
-                Standardized end-to-end broadcast distribution configurations
-                for entire East Coast feed
-              </li>
+            body={
+              <ul class="tech">
+                <li>
+                  Standardized end-to-end broadcast distribution configurations
+                  for entire East Coast feed
+                </li>
+                <li>
+                  Completed 27 purchase requests from international TV stations
+                  amounting to $132,930 in profit
+                </li>
+                <li>
+                  Assisted with basic maintenance of cloud-based content storage
+                  and manipulation
+                </li>
+              </ul>
             }
-            secondItem={
-              <li>
-                Completed 27 purchase requests from international TV stations
-                amounting to $132,930 in profit
-              </li>
+            end={
+              <p>
+                <strong>Technologies</strong>: SQL (SQL Server), XML, C++, AWS
+                (S3, Lambda, CloudWatch), AutoCAD
+              </p>
             }
-            thirdItem={
-              <li>
-                Assisted with basic maintenance of cloud-based content storage
-                and manipulation
-              </li>
-            }
-            tech="SQL (SQL Server), XML, C++, AWS (S3, Lambda, CloudWatch), AutoCAD"
           />
-          <Expe
+          <Card
             title="Interim CTO | DeLive Aerial Systems"
             subtitle="October 2019 - Present • South Bend, IN"
-            companyLink="https://www.deliveaerial.com/"
+            logoLink="https://www.deliveaerial.com/"
             logo={`../../images/experience/delive.png`}
             logoAlt={"DeLive logo"}
-            firstItem={
-              <li>
-                Secured $10k funding,{" "}
-                <a
-                  href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Race to Revenue
-                </a>{" "}
-                incubator invitation, and pitch to Indianapolis-based $100M VC
-                fund
-              </li>
+            body={
+              <ul class="tech">
+                <li>
+                  Secured $10k funding,{" "}
+                  <a
+                    href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Race to Revenue
+                  </a>{" "}
+                  incubator invitation, and pitch to Indianapolis-based $100M VC
+                  fund
+                </li>
+                <li>
+                  Will develop full stack web app and structure database
+                  architecture in agile environment
+                </li>
+                <li>
+                  Will assist in further developing drone system for FAA
+                  approval and exhibit in{" "}
+                  <a
+                    href="https://www.ces.tech/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Consumer Electronics Show (CES) 2020
+                  </a>
+                </li>
+              </ul>
             }
-            secondItem={
-              <li>
-                Will develop full stack web app and structure database
-                architecture in agile environment
-              </li>
+            end={
+              <p>
+                <strong>Technologies</strong>: React, Redux, Node, Express,
+                Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git
+              </p>
             }
-            thirdItem={
-              <li>
-                Will assist in further developing drone system for FAA approval
-                and exhibit in{" "}
-                <a
-                  href="https://www.ces.tech/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Consumer Electronics Show (CES) 2020
-                </a>
-              </li>
-            }
-            tech="React, Redux, Node, Express, Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git"
           />
-          <Expe
+          <Card
             title="Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            companyLink="https://www.tembo.tech/"
+            logoLink="https://www.tembo.tech/"
             logo={`../../images/experience/tembo.png`}
             logoAlt={"Tembo logo"}
-            firstItem={
-              <li>
-                Solely developed iOS/Android apps for emergency messaging to be
-                used in alpha testing
-              </li>
+            body={
+              <ul class="tech">
+                <li>
+                  Solely developed iOS/Android apps for emergency messaging to
+                  be used in alpha testing
+                </li>
+                <li>
+                  Solely developed and demoed MVP (Indoor Mobile Location
+                  Tracker) resulting in{" "}
+                  <a
+                    href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    $11.5k funding
+                  </a>
+                </li>
+              </ul>
             }
-            secondItem={
-              <li>
-                Solely developed and demoed MVP (Indoor Mobile Location Tracker)
-                resulting in{" "}
-                <a
-                  href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  $11.5k funding
-                </a>
-              </li>
+            end={
+              <p>
+                <strong>Technologies</strong>: DART, Flutter (Provider),
+                Firebase, Raspberry Pi, Kali Linux, Git
+              </p>
             }
-            tech="DART, Flutter (Provider), Firebase, Raspberry Pi, Kali Linux, Git"
           />
-          <Expe
+          <Card
             title="Software Engineer Technical Lead | Gäshawk Incorporated"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            companyLink="https://xn--gshawk-bua.com/"
+            logoLink="https://xn--gshawk-bua.com/"
             logo={`../../images/experience/gashawk.png`}
             logoAlt={"Gäshawk logo"}
-            firstItem={
-              <li>
-                Solely developed and demoed MVP (Touchscreen GUI + LiDAR
-                Overhead Collision Detection) resulting in{" "}
-                <a
-                  href="https://startupsouthbendelkhart.com/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Start-Up South Bend Elkhart (SUSBE)
-                </a>{" "}
-                accelerator invitation
-              </li>
+            body={
+              <ul class="tech">
+                <li>
+                  Solely developed and demoed MVP (Touchscreen GUI + LiDAR
+                  Overhead Collision Detection) resulting in{" "}
+                  <a
+                    href="https://startupsouthbendelkhart.com/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Start-Up South Bend Elkhart (SUSBE)
+                  </a>{" "}
+                  accelerator invitation
+                </li>
+                <li>
+                  Assisted in{" "}
+                  <a
+                    href="https://seedfund.nsf.gov/about/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    National Seed Fund (NSF) Small Business Innovation Research
+                    (SBIR)
+                  </a>{" "}
+                  program entry
+                </li>
+              </ul>
             }
-            secondItem={
-              <li>
-                Assisted in{" "}
-                <a
-                  href="https://seedfund.nsf.gov/about/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  National Seed Fund (NSF) Small Business Innovation Research
-                  (SBIR)
-                </a>{" "}
-                program entry
-              </li>
+            end={
+              <p>
+                <strong>Technologies</strong>: C++, Arduino, Git
+              </p>
             }
-            tech="C++, Arduino, Git"
           />
-          <Expe
+          <Card
             title="Software Engineer Technical Lead | Foreager"
             subtitle="January 2019 - August 2019 • South Bend, IN"
-            companyLink="https://foreager.com/"
+            logoLink="https://foreager.com/"
             logo={`../../images/experience/foreager.png`}
             logoAlt={"Foreager logo"}
-            firstItem={
-              <li>
-                Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
-                Rental iOS/Android Apps) resulting in Semifinals finish (top
-                30/175 teams) in{" "}
-                <a
-                  href="https://mccloskey.ideacenter.nd.edu/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  McCloskey New Venture Competition 2019
-                </a>
-              </li>
+            body={
+              <ul class="tech">
+                <li>
+                  Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
+                  Rental iOS/Android Apps) resulting in Semifinals finish (top
+                  30/175 teams) in{" "}
+                  <a
+                    href="https://mccloskey.ideacenter.nd.edu/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    McCloskey New Venture Competition 2019
+                  </a>
+                </li>
+              </ul>
             }
-            tech="DART, Flutter (Provider), Firebase, HTML, CSS, JavaScript (jQuery)"
+            end={
+              <p>
+                <strong>Technologies</strong>: DART, Flutter (Provider),
+                Firebase, HTML, CSS, JavaScript (jQuery)
+              </p>
+            }
           />
-          <Expe
+          <Card
             title="Technology Track Head | YouthHack"
             subtitle="March 2017 - July 2018 • Quezon City, Philippines"
-            companyLink="https://youthhack.net/"
+            logoLink="https://youthhack.net/"
             logo={`../../images/experience/yh.svg`}
             logoAlt={"YH logo"}
-            firstItem={
-              <li>
-                Organized national hackathon, international summit attended by 5
-                countries and 10-week startup incubator program for 9 collegiate
-                student-run startups
-              </li>
+            body={
+              <ul class="tech">
+                <li>
+                  Organized national hackathon, international summit attended by
+                  5 countries and 10-week startup incubator program for 9
+                  collegiate student-run startups
+                </li>
+                <li>
+                  Created and taught 4-hr workshops for web dev for collegiate
+                  students and professionals
+                </li>
+                <li>
+                  Partnered with{" "}
+                  <a
+                    href="https://www.inquirer.net/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Philippine Daily Inquirer
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    href="https://www.rappler.com/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Rappler
+                  </a>{" "}
+                  for media coverage and exposure
+                </li>
+              </ul>
             }
-            secondItem={
-              <li>
-                Created and taught 4-hr workshops for web dev for collegiate
-                students and professionals
-              </li>
+            end={
+              <p>
+                <strong>Technologies</strong>: HTML, CSS, JavaScript (jQuery)
+              </p>
             }
-            thirdItem={
-              <li>
-                Partnered with{" "}
-                <a
-                  href="https://www.inquirer.net/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Philippine Daily Inquirer
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://www.rappler.com/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Rappler
-                </a>{" "}
-                for media coverage and exposure
-              </li>
-            }
-            tech="HTML, CSS, JavaScript (jQuery)"
           />
           <a
             href={`../../files/resumeBuenviaje.pdf`}
