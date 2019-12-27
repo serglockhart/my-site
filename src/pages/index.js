@@ -79,7 +79,46 @@ const IndexPage = () => (
             companyLink="https://www.cbs.com/"
             logo={`../../images/experience/cbs.png`}
             logoAlt={"CBS logo"}
-            firstItem="Standardized end-to-end broadcast distribution configurations for entire East Coast feed"
+            firstItem={
+              <li>
+                Standardized end-to-end broadcast distribution configurations
+                for entire East Coast feed
+              </li>
+            }
+            secondItem={
+              <li>
+                Completed 27 purchase requests from international TV stations
+                amounting to $132,930 in profit
+              </li>
+            }
+            thirdItem={
+              <li>
+                Assisted with basic maintenance of cloud-based content storage
+                and manipulation
+              </li>
+            }
+            tech="SQL (SQL Server), XML, C++, AWS (S3, Lambda, CloudWatch), AutoCAD"
+          />
+          <Expe
+            title="Interim CTO | DeLive Aerial Systems"
+            subtitle="October 2019 - Present • South Bend, IN"
+            companyLink="https://www.deliveaerial.com/"
+            logo={`../../images/experience/delive.png`}
+            logoAlt={"CBS logo"}
+            firstItem={
+              <li>
+                Secured $10k funding,{" "}
+                <a
+                  href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  Race to Revenue
+                </a>{" "}
+                incubator invitation, and pitch to Indianapolis-based $100M VC
+                fund
+              </li>
+            }
             secondItem="Completed 27 purchase requests from international TV stations amounting to $132,930 in profit"
             thirdItem="Assisted with basic maintenance of cloud-based content storage and manipulation"
             tech="SQL (SQL Server), XML, C++, AWS (S3, Lambda, CloudWatch), AutoCAD"

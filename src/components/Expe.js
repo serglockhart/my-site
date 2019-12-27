@@ -17,9 +17,9 @@ const Expe = props => (
       </a>
     </div>
     <ul className="tech">
-      <li>{props.firstItem}</li>
-      <li>{props.secondItem}</li>
-      <li>{props.thirdItem}</li>
+      {props.firstItem}
+      {props.secondItem}
+      {props.thirdItem}
     </ul>
     <p>
       <strong>Technologies</strong>: {props.tech}
