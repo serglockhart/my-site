@@ -9,7 +9,6 @@ import Footer from "../components/Footer/index.js"
 import Hero from "../components/Hero/index.js"
 import Action from "../components/Action/index.js"
 
-//import my custom styles
 import "./index.css"
 
 import foreagerGif from "../images/foreager.gif"
