@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+
 import Header from "../components/header"
 import Section from "../components/section"
 import Footer from "../components/footer"
@@ -6,7 +8,6 @@ import Hero from "../components/hero"
 import Educ from "../components/educ"
 import Expe from "../components/expe"
 import Action from "../components/action"
-import { Link } from "gatsby"
 
 //import my custom styles
 import "./index.css"
