@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Hero from "../components/hero"
+import Educ from "../components/educ"
 import Action from "../components/action"
 import { Link } from "gatsby"
 
@@ -23,88 +24,49 @@ const IndexPage = () => (
         {/* Education */}
         <div className="marg-bot-2" id="education">
           <h4 className="title">Education</h4>
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>University of Notre Dame</h5>
-                <p className="gray-text subtitle">2018 - 2022 | 3.51 GPA</p>
-              </div>
-              <a
-                href="https://cse.nd.edu/undergraduates/computer-science"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/education/nd.png`}
-                  className="background-image"
-                  alt={"ND logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <p>
-              Pursuing a BS in Computer Science (
-              <a
-                href="https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                Concentration in Mobile Computing
-              </a>
-              ) from the College of Engineering with a Minor in{" "}
-              <a
-                href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                Innovation &amp; Entrepreneurship
-              </a>{" "}
-              from the Mendoza College of Business.
-            </p>
-            <p>
-              <strong>Relevant Coursework</strong>: Data Structures, Logic
-              Design, Systems Programming, Fundamentals of Computing, Discrete
-              Mathematics
-            </p>
-          </div>
-          <div className="card">
-            <div className="flex-container">
-              <div className="flex">
-                <h5>Philippine Science High School - Main Campus</h5>
-                <p className="gray-text subtitle">2012 - 2018 | 3.84 GPA</p>
-              </div>
-              <a
-                href="http://www.pshs.edu.ph/curriculum/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                <img
-                  src={`../../images/education/pshs.png`}
-                  className="background-image"
-                  alt={"PSHS logo"}
-                  aria-hidden="true"
-                />
-              </a>
-            </div>
-            <p>
-              Graduated Magna Cum Laude (High Honors), with a class rank of
-              28/221 and{" "}
-              <a
-                href="http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                2018 Philippine Government DOST-SEI Merit Scholarship
-              </a>{" "}
-              awardee. Varsity Debate Team Captain, Philippine National Fencing
-              Team Member, and Outreach Committee Founder.
-            </p>
-            <p>
-              <strong>Relevant Coursework</strong>: Data Structures &amp;
-              Algorithms, Object-Oriented Programming, Client-Side Web
-              Development, Embedded Systems &amp; Program Design, STEM Research
-            </p>
-          </div>
+          <Educ
+            title="University of Notre Dame"
+            subtitle="2018 - 2022 | 3.51 GPA"
+            link="https://cse.nd.edu/undergraduates/computer-science"
+            logo={`../../images/education/nd.png`}
+            logoAlt={"ND logo"}
+            firstSection={"Pursuing a BS in Computer Science"}
+            firstLink={
+              "https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
+            }
+            firstLinked={"Concentration in Mobile Computing"}
+            secondSection={"from the College of Engineering with a Minor in "}
+            secondLink={
+              "https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
+            }
+            secondLinked={"Innovation & Entrepreneurship"}
+            thirdSection={" from the Mendoza College of Business."}
+            coursework={
+              "Data Structures, Logic Design, Systems Programming, Fundamentals of Computing, Discrete Mathematics"
+            }
+          ></Educ>
+          <Educ
+            title="Philippine Science High School - Main Campus"
+            subtitle="2012 - 2018 | 3.84 GPA"
+            link="http://www.pshs.edu.ph/curriculum/"
+            logo={`../../images/education/pshs.png`}
+            logoAlt={"PSHS logo"}
+            firstSection={
+              "Graduated Magna Cum Laude (High Honors), with a class rank of 28/221 and "
+            }
+            firstLink={
+              "http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
+            }
+            firstLinked={
+              "2018 Philippine Government DOST-SEI Merit Scholarship"
+            }
+            secondSection={
+              " awardee. Varsity Debate Team Captain, Philippine National Fencing Team Member, and Outreach Committee Founder."
+            }
+            coursework={
+              "Data Structures & Algorithms, Object-Oriented Programming, Client-Side Web Development, Embedded Systems & Program Design, STEM Research"
+            }
+          ></Educ>
         </div>
         {/* Experience */}
         <div className="marg-bot-2" id="experience">

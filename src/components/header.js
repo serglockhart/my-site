@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Header = () => (
-  <div className="app">
+  <>
     <div className="nav-wrapper">
       <div className="nav">
         <div id="overview">
@@ -114,7 +114,7 @@ const Header = () => (
       </div>
     </div>
     <div className="nav-space hidden-on-desktop" />
-  </div>
+  </>
 )
 
 export default Header
