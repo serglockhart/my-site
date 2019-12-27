@@ -32,17 +32,25 @@ const IndexPage = () => (
             schoolLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.png`}
             logoAlt={"ND logo"}
-            firstSection={"Pursuing a BS in Computer Science"}
-            firstLink={
-              "https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
+            body={
+              <p>
+                Pursuing a BS in Computer Science (
+                <a
+                  href="https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
+                  target="_BLANK"
+                >
+                  Concentration in Mobile Computing
+                </a>
+                ) from the College of Engineering with a Minor in
+                <a
+                  href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
+                  target="_BLANK"
+                >
+                  Innovation & Entrepreneurship
+                </a>
+                from the Mendoza College of Business.
+              </p>
             }
-            firstLinked={"Concentration in Mobile Computing"}
-            secondSection={"from the College of Engineering with a Minor in "}
-            secondLink={
-              "https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
-            }
-            secondLinked={"Innovation & Entrepreneurship"}
-            thirdSection={" from the Mendoza College of Business."}
             coursework={
               "Data Structures, Logic Design, Systems Programming, Fundamentals of Computing, Discrete Mathematics"
             }
@@ -53,17 +61,19 @@ const IndexPage = () => (
             schoolLink="http://www.pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
-            firstSection={
-              "Graduated Magna Cum Laude (High Honors), with a class rank of 28/221 and "
-            }
-            firstLink={
-              "http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
-            }
-            firstLinked={
-              "2018 Philippine Government DOST-SEI Merit Scholarship"
-            }
-            secondSection={
-              " awardee. Varsity Debate Team Captain, Philippine National Fencing Team Member, and Outreach Committee Founder."
+            body={
+              <p>
+                Graduated Magna Cum Laude (High Honors), with a class rank of
+                28/221 and
+                <a
+                  href="http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
+                  target="_BLANK"
+                >
+                  2018 Philippine Government DOST-SEI Merit Scholarship
+                </a>
+                awardee. Varsity Debate Team Captain, Philippine National
+                Fencing Team Member, and Outreach Committee Founder.
+              </p>
             }
             coursework={
               "Data Structures & Algorithms, Object-Oriented Programming, Client-Side Web Development, Embedded Systems & Program Design, STEM Research"

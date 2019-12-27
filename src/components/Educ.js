@@ -16,17 +16,7 @@ const Educ = props => (
         />
       </a>
     </div>
-    <p>
-      {props.firstSection} (
-      <a href={props.firstLink} rel="noopener noreferrer" target="_BLANK">
-        {props.firstLinked}
-      </a>
-      ) {props.secondSection}
-      <a href={props.secondLink} rel="noopener noreferrer" target="_BLANK">
-        {props.secondLinked}
-      </a>
-      {props.thirdSection}
-    </p>
+    {props.body}
     <p>
       <strong>Relevant Coursework</strong>: {props.coursework}
     </p>
