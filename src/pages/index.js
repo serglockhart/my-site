@@ -29,7 +29,7 @@ const IndexPage = () => (
           <Educ
             title="University of Notre Dame"
             subtitle="2018 - 2022 | 3.51 GPA"
-            link="https://cse.nd.edu/undergraduates/computer-science"
+            schoolLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.png`}
             logoAlt={"ND logo"}
             firstSection={"Pursuing a BS in Computer Science"}
@@ -50,7 +50,7 @@ const IndexPage = () => (
           <Educ
             title="Philippine Science High School - Main Campus"
             subtitle="2012 - 2018 | 3.84 GPA"
-            link="http://www.pshs.edu.ph/curriculum/"
+            schoolLink="http://www.pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
             firstSection={
@@ -73,7 +73,11 @@ const IndexPage = () => (
         {/* Experience */}
         <div className="marg-bot-2" id="experience">
           <h4 className="title">Experience</h4>
-          <Expe title="Software Engineering Intern | CBS" subtitle="June - August 2019 • New York, NY" companyLink="https://www.cbs.com/"/>
+          <Expe
+            title="Software Engineering Intern | CBS"
+            subtitle="June - August 2019 • New York, NY"
+            companyLink="https://www.cbs.com/"
+          />
           <div className="card">
             <div className="flex-container">
               <div className="flex">

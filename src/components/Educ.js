@@ -7,7 +7,7 @@ const Educ = props => (
         <h5>{props.title}</h5>
         <p className="gray-text subtitle">{props.subtitle}</p>
       </div>
-      <a href={props.link} rel="noopener noreferrer" target="_BLANK">
+      <a href={props.schoolLink} rel="noopener noreferrer" target="_BLANK">
         <img
           src={props.logo}
           className="background-image"
