@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Background from "../images/home-backing.svg"
+import Background from "../../images/home-backing.svg"
 
 const Hero = () => (
   <div className="marg-bot-1" id="home">
