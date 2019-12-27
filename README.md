@@ -99,12 +99,12 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## Planned Features
 
 - [x] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
+- [x] Fix favicon path (use gatsby-plugin-favicon)
 - [ ] Continue separating components
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)
 - [ ] Add 404 error page
-- [ ] Fix favicon path (use gatsby-plugin-favicon)
 - [ ] Fix hamburger for mobile screen
 - [ ] Add websites to Projects section
 - [ ] Fix Contact modal (use Netlify formatting)
