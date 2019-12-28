@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
-import { Modal, ModalHeader } from "reactstrap"
 
 import Header from "../components/Header/index.js"
 import Content from "../components/Content/index.js"
@@ -22,12 +21,6 @@ import temboGif from "../images/tembo.gif"
 import foreagerGif from "../images/foreager.gif"
 
 const IndexPage = props => {
-  const { className } = props
-
-  const [modal, setModal] = useState(false)
-
-  const toggle = () => setModal(!modal)
-
   return (
     <div className="app" id="top">
       {/* Navigation */}
@@ -553,9 +546,6 @@ const IndexPage = props => {
             />
           </Project>
         </Section>
-        <Link onClick={toggle} className="btn btn-info">
-          Contact me
-        </Link>
         <div className="space-mobile" />
         <Action />
       </Content>
