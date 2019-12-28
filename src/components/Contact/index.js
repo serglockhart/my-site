@@ -19,37 +19,26 @@ const Contact = props => {
           <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
           <form
             id="contactForm"
+            action="https://formspree.io/xyykdora"
             method="POST"
-            netlify
-            data-netlify="true"
-            netlify-honeypot="bot-field"
           >
             <div class="modal-body">
               <div id="message"></div>
               <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12">
                   <input
                     type="text"
-                    name="firstName"
-                    id="firstName"
+                    name="name"
+                    id="name"
                     class="form-control"
-                    placeholder="First"
-                    required="true"
-                  />
-                </div>
-                <div class="col-12 col-md-6">
-                  <input
-                    type="text"
-                    name="lastName"
-                    class="form-control"
-                    placeholder="Last"
+                    placeholder="Name"
                     required="true"
                   />
                 </div>
               </div>
               <input
                 type="email"
-                name="email"
+                name="_replyto"
                 class="form-control"
                 placeholder="example@gmail.com"
                 required="true"
