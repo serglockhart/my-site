@@ -11,8 +11,8 @@ const Tech = props => {
           <p>JavaScript (ES6), C++, Python, Java, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React, Redux, Node, Express, jQuery, XML, HTML, CSS (SCSS/Sass,
-            Bootstrap)
+            React (Hooks), Redux, Node, Express, Gatsby, Next, jQuery, XML,
+            HTML, CSS (SCSS/Sass, Bootstrap/Reactstrap, Tailwind)
           </p>
           <h5>Mobile</h5>
           <p>DART, Flutter (Provider)</p>
@@ -22,13 +22,16 @@ const Tech = props => {
         <div className="col-12 col-md-6 col-1-format">
           <h5>Databases &amp; Deployment</h5>
           <p>
-            SQL (Postgres, SQL Server), AWS (S3, DynamoDB, Lambda, IoT,
-            CloudWatch), Firebase, Heroku
+            GraphQL, SQL (Postgres, SQL Server), AWS (S3, DynamoDB, Lambda, API
+            Gateway, Cognito, IoT, CloudWatch), Firebase, Heroku, Netlify,
+            Contentful
           </p>
           <h5>Other</h5>
           <p>MATLAB, Git, Linux, Kali Linux, Agile (SCRUM)</p>
           <h5>Design</h5>
-          <p>AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle, Spark</p>
+          <p>
+            Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle, Spark
+          </p>
         </div>
       </div>
     </div>
