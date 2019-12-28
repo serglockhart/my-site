@@ -63,13 +63,17 @@ export default props => {
               <Link to="#technologies">Technologies</Link>
               <Link to="#extracurriculars">Extracurriculars</Link>
               <Link to="#projects">Projects</Link>
-              <a href="mailto:jbuenvia@nd.edu">Contact</a>
-              {/* <a data-toggle="modal" data-target="#contactModal" id="contact-btn">
-        Contact
-      </a>
-      <Link to="/contact" id="contact-link">
-        Contact
-      </Link> */}
+              {/* <a href="mailto:jbuenvia@nd.edu">Contact</a> */}
+              <a
+                data-toggle="modal"
+                data-target="#contactModal"
+                id="contact-btn"
+              >
+                Contact
+              </a>
+              <Link to="/contact" id="contact-link">
+                Contact
+              </Link>
             </div>
             <div className="social">
               <a

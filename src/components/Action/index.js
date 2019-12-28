@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Contact from "../Contact/index.js"
 
 const Action = () => (
   <div className="browser marg-bot-1">
@@ -21,14 +22,18 @@ const Action = () => (
         <Link to="#projects" className="btn btn-info">
           View my projects
         </Link>
-        <a
-          href="mailto:jbuenvia@nd.edu"
-          className="btn btn-info"
-          rel="noopener noreferrer"
-          target="_BLANK"
-        >
-          Contact me
-        </a>
+        <Contact
+          button={
+            <a
+              href="mailto:jbuenvia@nd.edu"
+              className="btn btn-info"
+              rel="noopener noreferrer"
+              target="_BLANK"
+            >
+              Contact me
+            </a>
+          }
+        />
       </div>
     </div>
   </div>

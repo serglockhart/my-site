@@ -13,6 +13,7 @@ import Browser from "../components/Browser/index.js"
 import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
+import Contact from "../components/Contact/index.js"
 import Footer from "../components/Footer/index.js"
 
 import "./index.css"
@@ -544,50 +545,99 @@ const IndexPage = () => (
         </Project>
       </Section>
       <div className="space-mobile" />
-      <Action></Action>
+      <Action />
     </Content>
     {/* Footer */}
     <Footer />
     {/* Contact form */}
-    {/* <div className="modal fade" tabindex="-1" role="contact" id="contactModal" aria-labelledby="contactModal"
-    aria-hidden="true">
-    <div className="modal-dialog modal-dialog-centered" role="document">
-<div className="modal-content">
-  <div className="modal-header">
-    <h5 className="modal-title">Contact me</h5>
-    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <form id="contactForm">
-    <div className="modal-body">
-      Render a div for error and success messages */}
-    {/* <div id="message"></div> */}
-    {/* Render the form fields */}
-    {/* <div className="row">
-        <div className="col-12 col-md-6">
-          <input type="text" name="firstName" id="firstName" className="form-control" placeholder="First"
-            required="true"></input>
-        </div>
-        <div className="col-12 col-md-6">
-          <input type="text" name="lastName" className="form-control" placeholder="Last" required="true"></input>
+    <div
+      className="modal fade"
+      tabindex="-1"
+      role="contact"
+      id="contactModal"
+      aria-labelledby="contactModal"
+      aria-hidden="true"
+    >
+      <div className="modal-dialog modal-dialog-centered" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <h5 className="modal-title">Contact me</h5>
+            <button
+              type="button"
+              className="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form id="contactForm">
+            <div className="modal-body">
+              {/* Render a div for error and success messages */}
+              <div id="message"></div>
+              {/* Render the form fields */}
+              <div className="row">
+                <div className="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    className="form-control"
+                    placeholder="First"
+                    required="true"
+                  ></input>
+                </div>
+                <div className="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="lastName"
+                    className="form-control"
+                    placeholder="Last"
+                    required="true"
+                  ></input>
+                </div>
+              </div>
+              <input
+                type="email"
+                name="email"
+                className="form-control"
+                placeholder="example@gmail.com"
+                required="true"
+              ></input>
+              <input
+                type="text"
+                name="subject"
+                className="form-control"
+                placeholder="Subject..."
+                required="true"
+              ></input>
+              <textarea
+                type="text"
+                name="body"
+                className="form-control"
+                placeholder="Message..."
+                required="true"
+              ></textarea>
+            </div>
+            <div className="modal-footer">
+              <input
+                type="submit"
+                className="btn btn-info"
+                value="Send"
+                id="contactFormButton"
+              ></input>
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Cancel
+              </button>
+            </div>
+          </form>
         </div>
       </div>
-      <input type="email" name="email" className="form-control" placeholder="example@gmail.com"
-        required="true"></input>
-      <input type="text" name="subject" className="form-control" placeholder="Subject..." required="true"></input>
-      <textarea type="text" name="body" className="form-control" placeholder="Message..." required="true"></textarea>
     </div>
-    <div className="modal-footer">
-      <input type="submit" className="btn btn-info" value="Send" id="contactFormButton"></input>
-      <button type="button" className="btn btn-secondary" data-dismiss="modal">
-        Cancel
-      </button>
-    </div>
-  </form>
-</div>
-    </div>
-  </div> */}
   </div>
 )
 
