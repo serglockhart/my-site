@@ -40,6 +40,5 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-offline`,
-    `gatsby-plugin-js-fallback`,
   ],
 }
