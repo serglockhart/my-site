@@ -4,9 +4,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
 const Contact = props => {
   const { linkTitle, linkClasses, className } = props
-
   const [modal, setModal] = useState(false)
-
   const toggle = () => setModal(!modal)
 
   return (
