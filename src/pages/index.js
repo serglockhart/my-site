@@ -406,11 +406,16 @@ const IndexPage = props => {
             end={
               <ul>
                 <li>
-                  Will aid in recruiting students for summer internships,
-                  McCloskey New Venture Competition, and academic programs,
-                  connect College of Engineering students to affiliated local
-                  startups and research on marketing and recruiting strategies
-                  for College of Engineering students
+                  Aided in recruiting students for summer internships, McCloskey
+                  New Venture Competition, and academic programs
+                </li>
+                <li>
+                  Connected College of Engineering students to affiliated local
+                  startups and business plan teams
+                </li>
+                <li>
+                  Researched on marketing and recruitment strategies for College
+                  of Engineering students
                 </li>
               </ul>
             }
@@ -439,10 +444,13 @@ const IndexPage = props => {
             end={
               <ul>
                 <li>
-                  Will personally oversee 21 students through graded group
-                  discussions and major requirements of 3-credit course (20-page
-                  essay and university-wide campaign publication) and aid in
-                  grading assignments, lesson planning, and hosting office hours
+                  Oversaw 21 students through graded group discussions and major
+                  requirements of 3-credit course (20-page essay and
+                  university-wide campaign publication)
+                </li>
+                <li>
+                  Aided in course restructuring, lesson planning, grading
+                  assignments, and hosting office hours
                 </li>
               </ul>
             }
