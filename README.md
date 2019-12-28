@@ -108,10 +108,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [x] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [x] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [x] Add auto page generation (use gatsby-plugin-page-creator)
+- [x] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, not using gatsby-plugin-nprogress)
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)
-- [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, SEO component)
-- [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, gatsby-plugin-google-tagmanager)
+- [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, gatsby-plugin-google-tagmanager, SEO component)
 - [ ] Add websites to Projects section
 - [ ] Add Dark Mode feature
