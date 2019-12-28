@@ -7,6 +7,7 @@ import Hero from "../components/Hero/index.js"
 import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
+import Project from "../components/Project/index.js"
 import Browser from "../components/Browser/index.js"
 import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
@@ -429,22 +430,17 @@ const IndexPage = () => (
             />
           </div>
         </div> */}
-        <div className="project" style={{ background: "#e18e7f" }}>
-          <div className="text">
-            <h2>Tembo App</h2>
-            <p>
-              Emergency Messaging iOS/Android Apps with Authentication developed
-              for Tembo AI. Will be integrated with user tracking feature and
-              used for alpha testing in local high school.
-            </p>
+        <Project
+          title="Tembo App"
+          body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
+          end={
             <p>
               <strong>Technologies:</strong> DART, Flutter (Provider), Firebase
             </p>
-          </div>
-          <div className="screenshot-wrapper">
-            <Mobile image={temboGif} imageAlt={"Tembo app"}></Mobile>
-          </div>
-        </div>
+          }
+        >
+          <Mobile image={temboGif} imageAlt={"Tembo app"}></Mobile>
+        </Project>
         <div className="project" style={{ background: "#98D0CB" }}>
           <div className="text">
             <h2>Foreager App</h2>
