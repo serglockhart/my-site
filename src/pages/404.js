@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Content from "../components/Content/index.js"
 import Header from "../components/Header/index.js"
@@ -9,6 +10,17 @@ import "./index.css"
 const ErrorPage = props => {
   return (
     <div className="app" id="top">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="author" content="Jio Buenviaje" />
+        <title>Jio Buenviaje</title>
+        <link rel="canonical" href="https://jbuenviaje.com/" />
+      </Helmet>
       <Header />
       <Content>
         <div>

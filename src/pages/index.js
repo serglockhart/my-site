@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
 import Header from "../components/Header/index.js"
@@ -23,6 +24,17 @@ import foreagerGif from "../images/foreager.gif"
 const IndexPage = props => {
   return (
     <div className="app" id="top">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="author" content="Jio Buenviaje" />
+        <title>Jio Buenviaje</title>
+        <link rel="canonical" href="https://jbuenviaje.com/" />
+      </Helmet>
       {/* Navigation */}
       <Header />
       {/* App content */}
