@@ -25,13 +25,22 @@ const Contact = props => {
             <div class="modal-body">
               <div id="message"></div>
               <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-md-6">
                   <input
                     type="text"
-                    name="name"
-                    id="name"
+                    name="firstName"
+                    id="firstName"
                     class="form-control"
-                    placeholder="Name"
+                    placeholder="First"
+                    required="true"
+                  />
+                </div>
+                <div class="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="lastName"
+                    class="form-control"
+                    placeholder="Last"
                     required="true"
                   />
                 </div>
