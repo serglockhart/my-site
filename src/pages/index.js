@@ -441,34 +441,29 @@ const IndexPage = () => (
         >
           <Mobile image={temboGif} imageAlt={"Tembo app"}></Mobile>
         </Project>
-        <div className="project" style={{ background: "#98D0CB" }}>
-          <div className="text">
-            <h2>Foreager App</h2>
-            <p>
-              Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for
-              Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in
-              McCloskey New Venture Competition 2019.
-            </p>
+        <Project
+          bgColor="#98D0CB"
+          title="Foreager App"
+          body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
+          end={
             <p>
               <strong>Technologies:</strong> DART, Flutter, Firebase
             </p>
-          </div>
-          <div className="screenshot-wrapper">
-            <Mobile image={foreagerGif} imageAlt={"Foreager app"}></Mobile>
-          </div>
-        </div>
-        <div className="project" style={{ background: "#f8a978" }}>
-          <div className="text">
-            <h2>Gäshawk Overwatch</h2>
-            <p>
-              Touchscreen GUI + LiDAR Overhead Collision Detection system
-              developed for Gäshawk Inc. Demo resulted in Start-Up South Bend
-              Elkhart (SUSBE) accelerator program invitation.
-            </p>
+          }
+        >
+          <Mobile image={foreagerGif} imageAlt={"Foreager app"}></Mobile>
+        </Project>
+        <Project
+          bgColor="#f8a978"
+          title="Gäshawk Overwatch"
+          body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
+          end={
             <p>
               <strong>Technologies:</strong> C++, Arduino, Fritzing,
               Touchscreen, LiDAR, GUI
             </p>
+          }
+          buttons={
             <div className="buttons">
               <a
                 href="https://github.com/gashawk/overwatch"
@@ -479,26 +474,23 @@ const IndexPage = () => (
                 View repository
               </a>
             </div>
-          </div>
-          <div className="screenshot-wrapper">
-            <System
-              image={`../../images/projects/gashawk.png`}
-              imageAlt={"Gäshawk embedded"}
-            />
-          </div>
-        </div>
-        <div className="project" style={{ background: "#e18e7f" }}>
-          <div className="text">
-            <h2>Automated School Logger</h2>
-            <p>
-              RFID attendance and location logger with online school database
-              for Research 2 &amp; 3. Garnered 3rd Grand Award in 2017 Youth
-              Math Science and Technology (YMSAT) Week.
-            </p>
+          }
+        >
+          <System
+            image={`../../images/projects/gashawk.png`}
+            imageAlt={"Gäshawk embedded"}
+          />
+        </Project>
+        <Project
+          title="Automated School Logger"
+          body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
+          end={
             <p>
               <strong>Technologies:</strong> Research, C++, Arduino, PHP, MySQL,
               CodeIgniter, Fritzing, RFID Scanner, Touchscreen, WiFi. GUI
             </p>
+          }
+          buttons={
             <div className="buttons">
               <a
                 href={`../../files/researchLogger.pdf`}
@@ -509,26 +501,24 @@ const IndexPage = () => (
                 View research
               </a>
             </div>
-          </div>
-          <div className="screenshot-wrapper">
-            <System
-              image={`../../images/projects/logger.png`}
-              imageAlt={"Logger research"}
-            />
-          </div>
-        </div>
-        <div className="project" style={{ background: "#98D0CB" }}>
-          <div className="text">
-            <h2>Sustainable Energy Charger</h2>
-            <p>
-              Mobile phone solar panel and hand-crank charger for Research 1.
-              Garnered 4th Grand Award in Engineering in 2017 Taiwan
-              International Science Fair (TISF).
-            </p>
+          }
+        >
+          <System
+            image={`../../images/projects/logger.png`}
+            imageAlt={"Logger research"}
+          />
+        </Project>
+        <Project
+          bgColor="#98D0CB"
+          title="Sustainable Energy Charger"
+          body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
+          end={
             <p>
               <strong>Technologies:</strong> Research, AutoCAD, Eagle,
               Switch-Mode Converter, Mobile Charging, Solar Panel, Hand-Crank
             </p>
+          }
+          buttons={
             <div className="buttons">
               <a
                 href={`../../files/researchCharger.pdf`}
@@ -539,26 +529,24 @@ const IndexPage = () => (
                 View research
               </a>
             </div>
-          </div>
-          <div className="screenshot-wrapper">
-            <System
-              image={`../../images/projects/charger.png`}
-              imageAlt={"Charger research"}
-            />
-          </div>
-        </div>
-        <div className="project" style={{ background: "#f8a978" }}>
-          <div className="text">
-            <h2>Cosmological Constant</h2>
-            <p>
-              Research done for Theoretical Physics department of University of
-              the Philippines in summer 2017 internship. Garnered Honorable
-              Mention Award.
-            </p>
+          }
+        >
+          <System
+            image={`../../images/projects/charger.png`}
+            imageAlt={"Charger research"}
+          />
+        </Project>
+        <Project
+          bgColor="#f8a978"
+          title="Cosmological Constant"
+          body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
+          end={
             <p>
               <strong>Technologies:</strong> Research, MS Excel, Cosmological
               Constant, Neutron Stars
             </p>
+          }
+          buttons={
             <div className="buttons">
               <a
                 href={`../../files/researchNeutron.pdf`}
@@ -569,14 +557,13 @@ const IndexPage = () => (
                 View research
               </a>
             </div>
-          </div>
-          <div className="screenshot-wrapper">
-            <System
-              image={`../../images/projects/cosmo.png`}
-              imageAlt={"Cosmo research"}
-            />
-          </div>
-        </div>
+          }
+        >
+          <System
+            image={`../../images/projects/cosmo.png`}
+            imageAlt={"Cosmo research"}
+          />
+        </Project>
       </Section>
       <div className="space-mobile" />
       <Action></Action>

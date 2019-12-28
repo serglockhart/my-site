@@ -9,6 +9,7 @@ export default props => {
         <h2>{props.title}</h2>
         <p>{props.body}</p>
         {props.end}
+        {props.buttons}
       </div>
       <div className="screenshot-wrapper">{props.children}</div>
     </div>
