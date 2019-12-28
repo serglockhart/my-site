@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Header from "../components/Header/index.js"
 import Content from "../components/Content/index.js"
 import Hero from "../components/Hero/index.js"
+import Button from "../components/Button/index.js"
 import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
@@ -464,16 +465,10 @@ const IndexPage = () => (
             </p>
           }
           buttons={
-            <div className="buttons">
-              <a
-                href="https://github.com/gashawk/overwatch"
-                rel="noopener noreferrer"
-                target="_BLANK"
-                className="btn btn-sm"
-              >
-                View repository
-              </a>
-            </div>
+            <Button
+              link="https://github.com/gashawk/overwatch"
+              title="View repository"
+            />
           }
         >
           <System
@@ -491,16 +486,10 @@ const IndexPage = () => (
             </p>
           }
           buttons={
-            <div className="buttons">
-              <a
-                href={`../../files/researchLogger.pdf`}
-                rel="noopener noreferrer"
-                target="_BLANK"
-                className="btn btn-sm"
-              >
-                View research
-              </a>
-            </div>
+            <Button
+              link={`../../files/researchLogger.pdf`}
+              title="View research"
+            />
           }
         >
           <System
@@ -519,16 +508,10 @@ const IndexPage = () => (
             </p>
           }
           buttons={
-            <div className="buttons">
-              <a
-                href={`../../files/researchCharger.pdf`}
-                rel="noopener noreferrer"
-                target="_BLANK"
-                className="btn btn-sm"
-              >
-                View research
-              </a>
-            </div>
+            <Button
+              link={`../../files/researchCharger.pdf`}
+              title="View research"
+            />
           }
         >
           <System
@@ -547,16 +530,10 @@ const IndexPage = () => (
             </p>
           }
           buttons={
-            <div className="buttons">
-              <a
-                href={`../../files/researchNeutron.pdf`}
-                rel="noopener noreferrer"
-                target="_BLANK"
-                className="btn btn-sm"
-              >
-                View research
-              </a>
-            </div>
+            <Button
+              link={`../../files/researchNeutron.pdf`}
+              title="View research"
+            />
           }
         >
           <System
