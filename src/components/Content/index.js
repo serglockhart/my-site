@@ -2,10 +2,12 @@ import React from "react"
 
 import "./index.css"
 
-const Content = props => (
-  <div className="content">
-    <div className="container-fluid">{props.children}</div>
-  </div>
-)
+const Content = props => {
+  return (
+    <div className="content">
+      <div className="container-fluid">{props.children}</div>
+    </div>
+  )
+}
 
 export default Content

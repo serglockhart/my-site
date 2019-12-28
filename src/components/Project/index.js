@@ -2,7 +2,7 @@ import React from "react"
 
 import "./index.css"
 
-export default props => {
+const Project = props => {
   const bgColor = props.bgColor || "#e18e7f"
 
   return (
@@ -17,3 +17,5 @@ export default props => {
     </div>
   )
 }
+
+export default Project

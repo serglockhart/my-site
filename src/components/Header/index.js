@@ -5,7 +5,7 @@ import Contact from "../Contact/index.js"
 
 import "./index.css"
 
-export default props => {
+const Header = props => {
   const [isToggled, setToggled] = useState(false)
 
   const toggleTrueFalse = () => setToggled(!isToggled)
@@ -118,3 +118,5 @@ export default props => {
     </>
   )
 }
+
+export default Header
