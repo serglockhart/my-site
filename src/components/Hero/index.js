@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Contact from "../Contact/index.js"
+
 import Background from "../../images/home-backing.svg"
 
 const Hero = () => (
@@ -70,9 +72,7 @@ const Hero = () => (
       <Link to="#projects" className="btn btn-info marg-bot-05">
         View my projects
       </Link>
-      <a href="mailto:jbuenvia@nd.edu" className="btn btn-info marg-bot-05">
-        Contact me
-      </a>
+      <Contact linkClasses="btn btn-info marg-bot-05" linkTitle="Contact me" />
     </div>
   </div>
 )

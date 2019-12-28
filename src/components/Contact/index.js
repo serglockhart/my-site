@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { Modal, ModalHeader } from "reactstrap"
 
 const Contact = props => {
-  const { className } = props
+  const { linkTitle, linkClasses, className } = props
 
   const [modal, setModal] = useState(false)
 
@@ -11,8 +11,9 @@ const Contact = props => {
 
   return (
     <>
-      <Link onClick={toggle} className="btn btn-info">
-        Contact me
+      <Link onClick={toggle} className={linkClasses}>
+        {linkTitle}
+        {props.children}
       </Link>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <div className="modal-content">

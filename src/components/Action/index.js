@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import Contact from "../Contact/index.js"
 
 const Action = () => (
@@ -22,7 +23,7 @@ const Action = () => (
         <Link to="#projects" className="btn btn-info">
           View my projects
         </Link>
-        <Contact />
+        <Contact linkClasses="btn btn-info" linkTitle="Contact me" />
       </div>
     </div>
   </div>

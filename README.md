@@ -104,7 +104,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [x] Separate 404 page into component
 - [x] Separate html page into js components
 - [x] Fix hamburger for mobile screen
-- [ ] Fix Contact modal (use Netlify formatting)
+- [x] Fix Contact modal (use Formspree formatting)
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)

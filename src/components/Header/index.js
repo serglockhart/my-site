@@ -1,16 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-// function updateClasses() {
-//   $("#toggle").toggleClass("active")
-//   $("#menu").toggleClass("active")
-//   $("#overview").toggleClass("active")
-// }
-
-// function handleToggle() {
-//   $("#toggle").click(updateClasses)
-//   $("#menu a").click(updateClasses)
-// }
+import Contact from "../Contact/index.js"
 
 export default props => {
   const [isToggled, setToggled] = useState(false)
@@ -63,17 +54,7 @@ export default props => {
               <Link to="#technologies">Technologies</Link>
               <Link to="#extracurriculars">Extracurriculars</Link>
               <Link to="#projects">Projects</Link>
-              {/* <a href="mailto:jbuenvia@nd.edu">Contact</a> */}
-              <a
-                data-toggle="modal"
-                data-target="#contactModal"
-                id="contact-btn"
-              >
-                Contact
-              </a>
-              <Link to="/contact" id="contact-link">
-                Contact
-              </Link>
+              <Contact linkTitle="Contact" />
             </div>
             <div className="social">
               <a
@@ -120,13 +101,13 @@ export default props => {
                   aria-hidden="true"
                 />
               </a>
-              <a href="mailto:jbuenvia@nd.edu">
+              <Contact>
                 <img
                   src={`../../images/logos/email.svg`}
                   alt={"Jio Buenviaje on Email"}
                   aria-hidden="true"
                 />
-              </a>
+              </Contact>
             </div>
           </div>
         </div>
