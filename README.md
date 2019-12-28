@@ -107,10 +107,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [x] Fix Contact modal (use Formspree)
 - [x] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [x] Add auto sitemap generation (use gatsby-plugin-sitemap)
+- [x] Add auto page generation (use gatsby-plugin-page-creator)
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)
-- [ ] Add auto page generation (use gatsby-plugin-page-creator)
 - [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, SEO component)
 - [ ] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, gatsby-plugin-google-tagmanager)
 - [ ] Add websites to Projects section
