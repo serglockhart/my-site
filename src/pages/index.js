@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
-import { Modal, ModalHeader } from "reactstrap"
 
 import Header from "../components/Header/index.js"
 import Content from "../components/Content/index.js"
@@ -22,12 +21,6 @@ import temboGif from "../images/tembo.gif"
 import foreagerGif from "../images/foreager.gif"
 
 const IndexPage = props => {
-  const { className } = props
-
-  const [modal, setModal] = useState(false)
-
-  const toggle = () => setModal(!modal)
-
   return (
     <div className="app" id="top">
       {/* Navigation */}
@@ -555,82 +548,6 @@ const IndexPage = props => {
         </Section>
         <div className="space-mobile" />
         <Action />
-        <Link onClick={toggle} className="btn btn-info">
-          Contact me
-        </Link>
-        <Modal isOpen={modal} toggle={toggle} className={className}>
-          <div className="modal-content">
-            <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
-            <form
-              id="contactForm"
-              method="POST"
-              netlify
-              data-netlify="true"
-              netlify-honeypot="bot-field"
-            >
-              <div class="modal-body">
-                <div id="message"></div>
-                <div class="row">
-                  <div class="col-12 col-md-6">
-                    <input
-                      type="text"
-                      name="firstName"
-                      id="firstName"
-                      class="form-control"
-                      placeholder="First"
-                      required="true"
-                    />
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <input
-                      type="text"
-                      name="lastName"
-                      class="form-control"
-                      placeholder="Last"
-                      required="true"
-                    />
-                  </div>
-                </div>
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  placeholder="example@gmail.com"
-                  required="true"
-                />
-                <input
-                  type="text"
-                  name="subject"
-                  class="form-control"
-                  placeholder="Subject..."
-                  required="true"
-                />
-                <textarea
-                  type="text"
-                  name="body"
-                  class="form-control"
-                  placeholder="Message..."
-                  required="true"
-                ></textarea>
-              </div>
-              <div class="modal-footer">
-                <input
-                  type="submit"
-                  class="btn btn-info"
-                  value="Send"
-                  id="contactFormButton"
-                />
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Cancel
-                </button>
-              </div>
-            </form>
-          </div>
-        </Modal>
       </Content>
       {/* Footer */}
       <Footer />
