@@ -38,7 +38,7 @@ const Hero = props => {
               </a>{" "}
               and spend my free time{" "}
               <a
-                href="https://linkedin.com/in/lockjio/"
+                href="https://linkedin.com/in/lockjio"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
@@ -53,7 +53,7 @@ const Hero = props => {
               </a>{" "}
               and{" "}
               <a
-                href="https://instagram.com/lockjio/"
+                href="https://instagram.com/lockjio"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
