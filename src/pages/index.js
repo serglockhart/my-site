@@ -553,6 +553,9 @@ const IndexPage = props => {
             />
           </Project>
         </Section>
+        <Link onClick={toggle} className="btn btn-info">
+          Contact me
+        </Link>
         <div className="space-mobile" />
         <Action />
       </Content>
