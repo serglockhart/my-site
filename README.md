@@ -11,7 +11,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
 - [x] Fix favicon path (use gatsby-plugin-favicon)
 - [x] Add 404 error page
-- [x] Separate 404 page into component
+- [x] Separate 404 page into components
 - [x] Separate html page into js components
 - [x] Fix hamburger for mobile screen
 - [x] Fix Contact modal (use Formspree)
