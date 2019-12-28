@@ -19,25 +19,27 @@ const Contact = props => {
         <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
         <form action="https://formspree.io/xyykdora" method="POST">
           <ModalBody>
-            <div className="row">
-              <div className="col-12 col-md-6">
-                <input
-                  type="text"
-                  name="firstName"
-                  id="firstName"
-                  className="form-control"
-                  placeholder="First"
-                  required="true"
-                />
-              </div>
-              <div className="col-12 col-md-6">
-                <input
-                  type="text"
-                  name="lastName"
-                  className="form-control"
-                  placeholder="Last"
-                  required="true"
-                />
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    className="form-control"
+                    placeholder="First"
+                    required="true"
+                  />
+                </div>
+                <div className="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="lastName"
+                    className="form-control"
+                    placeholder="Last"
+                    required="true"
+                  />
+                </div>
               </div>
             </div>
             <input

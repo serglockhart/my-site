@@ -16,8 +16,9 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript>
-          This website requires JavaScript. To contact us, please send us an
-          email at: <a href="mailto:email@example.com">email@example.com</a>
+          This website requires JavaScript. If you need to contact me, please
+          send me an email at:{" "}
+          <a href="mailto:jio.buenviaje@gmail.com">jio.buenviaje@gmail.com</a>
         </noscript>
         <div
           key={`body`}
