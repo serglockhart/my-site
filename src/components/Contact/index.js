@@ -17,7 +17,7 @@ const Contact = props => {
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <div className="modal-content">
           <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
-          <form name="contact" method="post" netlify>
+          <form id="contactForm" method="POST" data-netlify="true">
             <div className="modal-body">
               {/* Render a div for error and success messages */}
               <div id="message"></div>
@@ -66,10 +66,17 @@ const Contact = props => {
               ></textarea>
             </div>
             <div className="modal-footer">
-              <button type="submit" className="btn btn-info">
-                Send
-              </button>
-              <button type="button" className="btn btn-secondary">
+              <input
+                type="submit"
+                class="btn btn-info"
+                value="Send"
+                id="contactFormButton"
+              />
+              <button
+                type="button"
+                onClick={toggle}
+                className="btn btn-secondary"
+              >
                 Cancel
               </button>
             </div>
