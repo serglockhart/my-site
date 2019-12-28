@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./index.css"
+
 const System = props => (
   <div className="mobile mobile-screenshot">
     <div className="side">

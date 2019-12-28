@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./index.css"
+
 export default props => {
   const bgColor = props.bgColor || "#e18e7f"
 

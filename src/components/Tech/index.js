@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./index.css"
+
 const Tech = () => (
   <div className="card">
     <div className="row">

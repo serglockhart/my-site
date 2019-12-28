@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import Contact from "../Contact/index.js"
 
+import "./index.css"
+
 import Background from "../../images/home-backing.svg"
 
 const Hero = () => (

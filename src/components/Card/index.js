@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./index.css"
+
 const Card = props => (
   <div className="card">
     <div className="flex-container">

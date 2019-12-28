@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import Contact from "../Contact/index.js"
 
+import "./index.css"
+
 const Action = () => (
   <div className="browser marg-bot-1">
     <div className="top">

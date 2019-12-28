@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./index.css"
+
 const Browser = props => (
   <div class="browser-screenshot">
     <div class="top">

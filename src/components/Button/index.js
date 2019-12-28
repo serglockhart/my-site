@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./index.css"
+
 const Button = props => (
   <div className="buttons">
     <a

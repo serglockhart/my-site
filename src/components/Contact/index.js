@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
+import "./index.css"
+
 const Contact = props => {
   const { linkTitle, linkClasses, className } = props
   const [modal, setModal] = useState(false)
