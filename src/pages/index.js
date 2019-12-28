@@ -411,26 +411,27 @@ const IndexPage = () => (
       </Section>
       {/* Projects */}
       <Section id="projects" title="Projects">
-        {/* <div className="project" style={{ background: "#00aacf" }}>
-          <div className="text">
-            <h2>-</h2>
-            <p>-</p>
+        {/* <Project
+          bgColor="#00aacf"
+          title="My Site"
+          body="Personal website."
+          end={
             <p>
-              <strong>Technologies:</strong> -
+              <strong>Technologies:</strong> React, Gatsby, Netlify, Git
             </p>
-            <div className="buttons">
-              <a href="#" className="btn btn-sm">
-                View here
-              </a>
-            </div>
-          </div>
-          <div className="screenshot-wrapper">
-            <Browser
-              image={`../../images/projects/jio.png`}
-              imageAlt={"My site"}
+          }
+          buttons={
+            <Button
+              link="https://github.com/lockjio/my-gatsby-website"
+              title="View repository"
             />
-          </div>
-        </div> */}
+          }
+        >
+          <Browser
+            image={`../../images/projects/jio.png`}
+            imageAlt={"My site"}
+          />
+        </Project> */}
         <Project
           title="Tembo App"
           body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
