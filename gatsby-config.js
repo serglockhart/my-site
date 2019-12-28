@@ -3,6 +3,7 @@ module.exports = {
     title: `Jio Buenviaje`,
     description: `Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.`,
     author: `@lockjio`,
+    siteUrl: `https://jbuenviaje.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,6 +37,7 @@ module.exports = {
         trackingId: "UA-150731209-1",
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
