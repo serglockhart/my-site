@@ -22,18 +22,7 @@ const Action = () => (
         <Link to="#projects" className="btn btn-info">
           View my projects
         </Link>
-        <Contact
-          button={
-            <a
-              href="mailto:jbuenvia@nd.edu"
-              className="btn btn-info"
-              rel="noopener noreferrer"
-              target="_BLANK"
-            >
-              Contact me
-            </a>
-          }
-        />
+        <Contact />
       </div>
     </div>
   </div>

@@ -17,7 +17,13 @@ const Contact = props => {
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <div className="modal-content">
           <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
-          <form id="contactForm" method="POST" data-netlify="true">
+          <form
+            id="contactForm"
+            method="POST"
+            netlify
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
             <div class="modal-body">
               <div id="message"></div>
               <div class="row">
