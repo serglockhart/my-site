@@ -57,27 +57,13 @@ export default props => {
           >
             <div className="space-3 hidden-on-desktop" />
             <div className="links">
-              <Link to="#home" className="active">
-                Home
-              </Link>
-              <Link to="#education" className>
-                Education
-              </Link>
-              <Link to="#experience" className>
-                Experience
-              </Link>
-              <Link to="#technologies" className>
-                Technologies
-              </Link>
-              <Link to="#extracurriculars" className>
-                Extracurriculars
-              </Link>
-              <Link to="#projects" className>
-                Projects
-              </Link>
-              <a href="mailto:jbuenvia@nd.edu" className>
-                Contact
-              </a>
+              <Link to="#home">Home</Link>
+              <Link to="#education">Education</Link>
+              <Link to="#experience">Experience</Link>
+              <Link to="#technologies">Technologies</Link>
+              <Link to="#extracurriculars">Extracurriculars</Link>
+              <Link to="#projects">Projects</Link>
+              <a href="mailto:jbuenvia@nd.edu">Contact</a>
               {/* <a data-toggle="modal" data-target="#contactModal" id="contact-btn">
         Contact
       </a>
