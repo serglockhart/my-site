@@ -49,7 +49,7 @@ const IndexPage = props => {
                 </a>
                 ) from the College of Engineering with a Minor in{" "}
                 <a
-                  href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor/"
+                  href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
@@ -69,7 +69,7 @@ const IndexPage = props => {
           <Card
             title="Philippine Science High School - Main Campus"
             subtitle="2012 - 2018 | 3.84 GPA"
-            logoLink="http://www.pshs.edu.ph/curriculum/"
+            logoLink="http://www.pshs.edu.ph/curriculum"
             logo={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
             body={
@@ -114,7 +114,7 @@ const IndexPage = props => {
           <Card
             title="Software Engineering Intern | CBS"
             subtitle="June - August 2019 • New York, NY"
-            logoLink="https://www.cbs.com/"
+            logoLink="https://www.cbs.com"
             logo={`../../images/experience/cbs.png`}
             logoAlt={"CBS logo"}
             body={
@@ -143,7 +143,7 @@ const IndexPage = props => {
           <Card
             title="Interim CTO | DeLive Aerial Systems"
             subtitle="October 2019 - Present • South Bend, IN"
-            logoLink="https://www.deliveaerial.com/"
+            logoLink="https://www.deliveaerial.com"
             logo={`../../images/experience/delive.png`}
             logoAlt={"DeLive logo"}
             body={
@@ -151,7 +151,7 @@ const IndexPage = props => {
                 <li>
                   Secured $10k funding,{" "}
                   <a
-                    href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups/"
+                    href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -168,7 +168,7 @@ const IndexPage = props => {
                   Will assist in further developing drone system for FAA
                   approval and exhibit in{" "}
                   <a
-                    href="https://www.ces.tech/"
+                    href="https://www.ces.tech"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -187,7 +187,7 @@ const IndexPage = props => {
           <Card
             title="Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            logoLink="https://www.tembo.tech/"
+            logoLink="https://www.tembo.tech"
             logo={`../../images/experience/tembo.png`}
             logoAlt={"Tembo logo"}
             body={
@@ -200,7 +200,7 @@ const IndexPage = props => {
                   Solely developed and demoed MVP (Indoor Mobile Location
                   Tracker) resulting in{" "}
                   <a
-                    href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award/"
+                    href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -219,7 +219,7 @@ const IndexPage = props => {
           <Card
             title="Software Engineer Technical Lead | Gäshawk Incorporated"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            logoLink="https://xn--gshawk-bua.com/"
+            logoLink="https://xn--gshawk-bua.com"
             logo={`../../images/experience/gashawk.png`}
             logoAlt={"Gäshawk logo"}
             body={
@@ -228,7 +228,7 @@ const IndexPage = props => {
                   Solely developed and demoed MVP (Touchscreen GUI + LiDAR
                   Overhead Collision Detection) resulting in{" "}
                   <a
-                    href="https://startupsouthbendelkhart.com/"
+                    href="https://startupsouthbendelkhart.com"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -239,7 +239,7 @@ const IndexPage = props => {
                 <li>
                   Assisted in{" "}
                   <a
-                    href="https://seedfund.nsf.gov/about/"
+                    href="https://seedfund.nsf.gov/about"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -259,7 +259,7 @@ const IndexPage = props => {
           <Card
             title="Software Engineer Technical Lead | Foreager"
             subtitle="January 2019 - August 2019 • South Bend, IN"
-            logoLink="https://foreager.com/"
+            logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.png`}
             logoAlt={"Foreager logo"}
             body={
@@ -269,7 +269,7 @@ const IndexPage = props => {
                   Rental iOS/Android Apps) resulting in Semifinals finish (top
                   30/175 teams) in{" "}
                   <a
-                    href="https://mccloskey.ideacenter.nd.edu/"
+                    href="https://mccloskey.ideacenter.nd.edu"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -288,7 +288,7 @@ const IndexPage = props => {
           <Card
             title="Technology Track Head | YouthHack"
             subtitle="March 2017 - July 2018 • Quezon City, Philippines"
-            logoLink="https://youthhack.net/"
+            logoLink="https://youthhack.net"
             logo={`../../images/experience/yh.svg`}
             logoAlt={"YH logo"}
             body={
@@ -305,7 +305,7 @@ const IndexPage = props => {
                 <li>
                   Partnered with{" "}
                   <a
-                    href="https://www.inquirer.net/"
+                    href="https://www.inquirer.net"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -313,7 +313,7 @@ const IndexPage = props => {
                   </a>{" "}
                   and{" "}
                   <a
-                    href="https://www.rappler.com/"
+                    href="https://www.rappler.com"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -347,7 +347,7 @@ const IndexPage = props => {
           <Card
             title="Student Ambassador | IDEA Center"
             subtitle="August 2019 - Present"
-            logoLink="https://ideacenter.nd.edu/"
+            logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.png`}
             logoAlt={"IDEA Center logo"}
             body={
@@ -355,7 +355,7 @@ const IndexPage = props => {
                 Standing for Innovation, De-Risking and Enterprise Acceleration,
                 the{" "}
                 <a
-                  href="https://ideacenter.nd.edu/"
+                  href="https://ideacenter.nd.edu"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
@@ -380,14 +380,14 @@ const IndexPage = props => {
           <Card
             title="Teaching Assistant, PHIL 10111 Intro to Philosophy | University of Notre Dame"
             subtitle="August 2019 - Present"
-            logoLink="https://godandgoodlife.nd.edu/"
+            logoLink="https://godandgoodlife.nd.edu"
             logo={`../../images/education/nd.png`}
             logoAlt={"ND logo"}
             body={
               <p>
                 The{" "}
                 <a
-                  href="https://godandgoodlife.nd.edu/"
+                  href="https://godandgoodlife.nd.edu"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
