@@ -18,9 +18,10 @@ const Contact = props => {
         <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
         <ModalBody>
           <form
-            form
+            name="contact"
             method="post"
             netlify-honeypot="bot-field"
+            netlify
             data-netlify="true"
           >
             <input type="hidden" name="bot-field" />
