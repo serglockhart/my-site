@@ -102,7 +102,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [x] Fix favicon path (use gatsby-plugin-favicon)
 - [x] Add 404 error page
 - [x] Separate 404 page into component
-- [ ] Separate html page into js components
+- [x] Separate html page into js components
 - [ ] Fix hamburger for mobile screen
 - [ ] Fix Contact modal (use Netlify formatting)
 - [ ] Separate CSS per component
