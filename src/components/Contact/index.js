@@ -71,10 +71,13 @@ const Contact = props => {
                 required="true"
               ></textarea>
             </div>
+            <Button className="btn-info" type="submit" onClick={toggle}>
+              Send
+            </Button>{" "}
           </form>
         </ModalBody>
         <ModalFooter>
-          <Button className="btn-info" onClick={toggle}>
+          <Button className="btn-info" type="submit" onClick={toggle}>
             Send
           </Button>{" "}
           <Button className="btn-secondary" onClick={toggle}>
