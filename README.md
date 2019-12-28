@@ -112,8 +112,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [x] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, <noscript>)
 - [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [ ] Separate CSS per component
-- [ ] Optimize images (use gatsby-image and gatsby-background-image)
-- [ ] Add lazy loading content (at least images)
+- [ ] Optimize and lazy load images (use gatsby-image and gatsby-background-image)
 - [ ] Further improve sit using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
 - [ ] Add websites to Projects section
 - [ ] Add Dark Mode feature
