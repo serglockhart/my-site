@@ -3,7 +3,6 @@ import React from "react"
 import Content from "../components/Content/index.js"
 import Header from "../components/Header/index.js"
 import Footer from "../components/Footer/index.js"
-import Contact from "../components/Contact/index.js"
 
 import "./index.css"
 
@@ -24,7 +23,7 @@ const ErrorPage = () => (
           <h4>Oops! The page you were looking for does not exist.</h4>
           <p>
             Please check the URL and refresh the page. If you think this is a
-            mistake, please <Contact linkTitle="contact me" />.
+            mistake, please contact me.
           </p>
         </div>
 
