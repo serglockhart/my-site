@@ -439,7 +439,7 @@ const IndexPage = () => (
             </p>
           }
         >
-          <Mobile image={temboGif} imageAlt={"Tembo app"}></Mobile>
+          <Mobile image={temboGif} imageAlt={"Tembo app"} />
         </Project>
         <Project
           bgColor="#98D0CB"
@@ -451,7 +451,7 @@ const IndexPage = () => (
             </p>
           }
         >
-          <Mobile image={foreagerGif} imageAlt={"Foreager app"}></Mobile>
+          <Mobile image={foreagerGif} imageAlt={"Foreager app"} />
         </Project>
         <Project
           bgColor="#f8a978"
