@@ -105,10 +105,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - [x] Separate html page into js components
 - [x] Fix hamburger for mobile screen
 - [x] Fix Contact modal (use Formspree)
+- [x] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [ ] Separate CSS per component
 - [ ] Optimize images (use gatsby-image and gatsby-background-image)
 - [ ] Add lazy loading content (at least images)
-- [ ] Add Google Analytics (use gatsby-plugin-google-analytics)
 - [ ] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [ ] Add auto page generation (use gatsby-plugin-page-creator)
 - [ ] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, gatsby-plugin-nprogress, SEO component)
