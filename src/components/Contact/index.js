@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
+import { Modal, ModalHeader } from "reactstrap"
 
 const Contact = props => {
   const { className } = props
