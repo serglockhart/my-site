@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `my-site`,
+        short_name: `mine`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `src/favicon.png`, // This path is relative to the root of the site.
       },
@@ -40,5 +40,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-js-fallback`,
   ],
 }
