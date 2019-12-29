@@ -1,8 +1,7 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
-import Header from "../components/Header/index.js"
+import Layout from "../components/Layout/index.js"
 import Content from "../components/Content/index.js"
 import Hero from "../components/Hero/index.js"
 import Button from "../components/Button/index.js"
@@ -10,11 +9,9 @@ import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
 import Project from "../components/Project/index.js"
-import Browser from "../components/Browser/index.js"
 import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
-import Footer from "../components/Footer/index.js"
 
 import "./index.css"
 
@@ -23,46 +20,7 @@ import foreagerGif from "../images/foreager.gif"
 
 const IndexPage = props => {
   return (
-    <div className="app" id="top">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta name="author" content="Jio Buenviaje" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Jio Buenviaje" />
-        <meta property="og:url" content="jbuenviaje.com" />
-        <meta property="twitter:url" content="jbuenviaje.com" />
-        <meta name="theme-color" content="#ffffff" />
-        <title>Jio Buenviaje</title>
-        <meta property="og:title" content="Jio Buenviaje" />
-        <meta property="twitter:title" content="Jio Buenviaje" />
-        <meta
-          name="description"
-          content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino."
-        />
-        <meta
-          property="og:description"
-          content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino."
-        />
-        <meta
-          property="twitter:description"
-          content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino."
-        />
-        <meta
-          name="keywords"
-          content="juan,sergio,jio,juansergio,juansergiobuenviaje,jiobuenviaje,notredame,nd,freelance,web,webdev,mobile,iosdevelopment,ios,android,androiddevelopment,website,cs,filipino,southbend,indiana,university,philippines,philippine,student,react,javascript,node,developer,dev,flutter,dart,embedded,arduino,contact,new,york,city,NY,youthhack,cbs"
-        />
-        <meta property="og:image" content="../../images/bg.png" />
-        <meta property="twitter:image" content="../../images/bg.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://jbuenviaje.com/" />
-      </Helmet>
-      {/* Navigation */}
-      <Header />
+    <Layout>
       {/* App content */}
       <Content>
         {/* Overview */}
@@ -596,8 +554,7 @@ const IndexPage = props => {
         <Action />
       </Content>
       {/* Footer */}
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
