@@ -15,7 +15,7 @@ const Card = props => {
             src={props.logo}
             className="background-image"
             alt={props.logoAlt}
-            aria-hidden="true"
+            aria-label={props.logoAlt}
           />
         </a>
       </div>

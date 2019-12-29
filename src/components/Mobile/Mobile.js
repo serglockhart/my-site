@@ -7,7 +7,11 @@ const Mobile = props => {
     <div className="mobile mobile-screenshot">
       <div className="side">
         <div className="screen">
-          <img src={props.image} alt={props.imageAlt} aria-hidden="true" />
+          <img
+            src={props.image}
+            alt={props.imageAlt}
+            aria-label={props.imageAlt}
+          />
         </div>
       </div>
       <div className="line" />

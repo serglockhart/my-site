@@ -13,7 +13,7 @@ const Browser = props => {
       <img
         src={props.image}
         alt={props.imageAlt}
-        aria-hidden="true"
+        aria-label={props.imageAlt}
         class="img-fluid"
       />
     </div>

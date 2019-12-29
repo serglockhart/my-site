@@ -24,13 +24,13 @@ const Header = props => {
                 src={`../../images/logo-02.svg`}
                 className={"img-fluid logo alt hidden-on-desktop"}
                 alt={"logo"}
-                aria-hidden="true"
+                aria-label="JB White"
               />
               <img
                 src={`../../images/logo-01.svg`}
                 className={"img-fluid logo"}
                 alt={"logo"}
-                aria-hidden="true"
+                aria-label="JB Black"
               />
             </Link>
             <div
@@ -67,7 +67,7 @@ const Header = props => {
                 <img
                   src={`../../images/logos/twitter.svg`}
                   alt={"Jio Buenviaje on Twitter"}
-                  aria-hidden="true"
+                  aria-label="Twitter"
                 />
               </a>
               <a
@@ -78,7 +78,7 @@ const Header = props => {
                 <img
                   src={`../../images/logos/instagram.svg`}
                   alt={"Jio Buenviaje on Instagram"}
-                  aria-hidden="true"
+                  aria-label="Instagram"
                 />
               </a>
               <a
@@ -89,7 +89,7 @@ const Header = props => {
                 <img
                   src={`../../images/logos/github.svg`}
                   alt={"Jio Buenviaje on GitHub"}
-                  aria-hidden="true"
+                  aria-label="GitHub"
                 />
               </a>
               <a
@@ -100,14 +100,14 @@ const Header = props => {
                 <img
                   src={`../../images/logos/linkedin.svg`}
                   alt={"Jio Buenviaje on LinkedIn"}
-                  aria-hidden="true"
+                  aria-label="LinkedIn"
                 />
               </a>
               <Contact>
                 <img
                   src={`../../images/logos/email.svg`}
                   alt={"Jio Buenviaje on Email"}
-                  aria-hidden="true"
+                  aria-label="Gmail"
                 />
               </Contact>
             </div>

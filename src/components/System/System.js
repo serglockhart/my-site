@@ -9,7 +9,7 @@ const System = props => {
       <img
         src={props.image}
         alt={props.imageAlt}
-        aria-hidden="true"
+        aria-label={props.imageAlt}
         className="img-fluid"
       />
     </div>

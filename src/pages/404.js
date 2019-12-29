@@ -16,7 +16,7 @@ const ErrorPage = props => {
                 src="../../images/404.svg"
                 className="four-img"
                 alt="404 error"
-                aria-hidden="true"
+                aria-label="404 error"
               />
             </div>
             <h4>Oops! The page you were looking for does not exist.</h4>

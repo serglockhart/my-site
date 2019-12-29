@@ -20,8 +20,8 @@ const Hero = props => {
             <img
               src={`../../images/me.png`}
               className={"profile-picture"}
-              alt={"Jio Buenviaje image"}
-              aria-hidden="true"
+              alt={"Jio Buenviaje"}
+              aria-label="Headshot"
             />
           </div>
           <div className="flex top">
