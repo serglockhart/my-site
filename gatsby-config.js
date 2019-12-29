@@ -28,6 +28,12 @@ module.exports = {
         icon: `src/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-html-attributes",
+      options: {
+        lang: "en",
+      },
+    },
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-favicon`,
     {
