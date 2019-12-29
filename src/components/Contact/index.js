@@ -63,7 +63,7 @@ const Contact = props => {
             ></textarea>
           </ModalBody>
           <ModalFooter>
-            <input type="submit" className="btn btn-info" value="Send" />
+            <input type="submit" className="btn btn-info" value="Submit" />
             <Button type="button" color="secondary" onClick={toggle}>
               Cancel
             </Button>
