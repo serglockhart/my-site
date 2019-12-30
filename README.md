@@ -21,6 +21,9 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, NOT NEEDED - gatsby-plugin-nprogress)
 - [x] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, <noscript>)
 - [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
+- [x] Convert GIFs to WebM (PWA audit)
+- [x] Fix page-data.json log 404 error (use gatsby@page-data-404)
+- [ ] Convert images to WebP (PWA audit)
 - [ ] Separate main CSS file into individual component CSS
 - [ ] Optimize and lazy load images (use gatsby-image and gatsby-background-image)
 - [ ] Further improve site using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
