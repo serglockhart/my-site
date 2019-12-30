@@ -41,8 +41,8 @@ const Layout = props => {
           name="keywords"
           content="juan,sergio,jio,juansergio,juansergiobuenviaje,jiobuenviaje,notredame,nd,freelance,web,webdev,mobile,iosdevelopment,ios,android,androiddevelopment,website,cs,filipino,southbend,indiana,university,philippines,philippine,student,react,javascript,node,developer,dev,flutter,dart,embedded,arduino,contact,new,york,city,NY,youthhack,cbs"
         />
-        <meta property="og:image" content="../../images/bg.png" />
-        <meta property="twitter:image" content="../../images/bg.png" />
+        <meta property="og:image" content="../../images/bg.webp" />
+        <meta property="twitter:image" content="../../images/bg.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://jbuenviaje.com/" />
       </Helmet>

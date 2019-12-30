@@ -16,7 +16,7 @@ const Hero = props => {
         <div className="flex-container no-flex-mobile">
           <div className="profile-picture-wrapper">
             <img
-              src={`../../images/me.png`}
+              src={`../../images/me.webp`}
               className={"profile-picture"}
               alt={"Jio Buenviaje"}
               aria-label="Headshot"
