@@ -15,9 +15,6 @@ import Action from "../components/Action/index.js"
 
 import "./index.css"
 
-import temboGif from "../images/tembo.gif"
-import foreagerGif from "../images/foreager.gif"
-
 const IndexPage = props => {
   return (
     <Layout>
@@ -447,7 +444,7 @@ const IndexPage = props => {
               </p>
             }
           >
-            <Mobile image={temboGif} imageAlt={"Tembo app"} />
+            <Mobile vid={`../../videos/tembo.webm`} vidAlt={"Tembo app"} />
           </Project>
           <Project
             bgColor="#98D0CB"
@@ -459,7 +456,10 @@ const IndexPage = props => {
               </p>
             }
           >
-            <Mobile image={foreagerGif} imageAlt={"Foreager app"} />
+            <Mobile
+              vid={`../../videos/foreager.webm`}
+              vidAlt={"Foreager app"}
+            />
           </Project>
           <Project
             bgColor="#f8a978"
