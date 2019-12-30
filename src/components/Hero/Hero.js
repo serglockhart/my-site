@@ -5,14 +5,12 @@ import Contact from "../Contact/index.js"
 
 import "./Hero.css"
 
-import Background from "../../images/home-backing.svg"
-
 const Hero = props => {
   return (
     <div className="marg-bot-1" id="home">
       <div
         className="card has-bg"
-        style={{ backgroundImage: `url(${Background})` }}
+        style={{ backgroundImage: `url(${"../../images/home-backing.svg"})` }}
         id="hero"
       >
         <div className="flex-container no-flex-mobile">
