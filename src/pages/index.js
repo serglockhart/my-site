@@ -28,7 +28,7 @@ const IndexPage = props => {
             title="University of Notre Dame"
             subtitle="2018 - 2022 | 3.51 GPA"
             logoLink="https://cse.nd.edu/undergraduates/computer-science"
-            logo={`../../images/education/nd.png`}
+            logo={`../../images/education/nd.webp`}
             logoAlt={"ND logo"}
             body={
               <p>
@@ -63,7 +63,7 @@ const IndexPage = props => {
             title="Philippine Science High School - Main Campus"
             subtitle="2012 - 2018 | 3.84 GPA"
             logoLink="http://www.pshs.edu.ph/curriculum"
-            logo={`../../images/education/pshs.png`}
+            logo={`../../images/education/pshs.webp`}
             logoAlt={"PSHS logo"}
             body={
               <p>
@@ -108,7 +108,7 @@ const IndexPage = props => {
             title="Software Engineering Intern | CBS"
             subtitle="June - August 2019 • New York, NY"
             logoLink="https://www.cbs.com"
-            logo={`../../images/experience/cbs.png`}
+            logo={`../../images/experience/cbs.webp`}
             logoAlt={"CBS logo"}
             body={
               <ul className="tech">
@@ -137,7 +137,7 @@ const IndexPage = props => {
             title="Interim CTO | DeLive Aerial Systems"
             subtitle="October 2019 - Present • South Bend, IN"
             logoLink="https://www.deliveaerial.com"
-            logo={`../../images/experience/delive.png`}
+            logo={`../../images/experience/delive.webp`}
             logoAlt={"DeLive logo"}
             body={
               <ul className="tech">
@@ -181,7 +181,7 @@ const IndexPage = props => {
             title="Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://www.tembo.tech"
-            logo={`../../images/experience/tembo.png`}
+            logo={`../../images/experience/tembo.webp`}
             logoAlt={"Tembo logo"}
             body={
               <ul className="tech">
@@ -213,7 +213,7 @@ const IndexPage = props => {
             title="Software Engineer Technical Lead | Gäshawk Incorporated"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://xn--gshawk-bua.com"
-            logo={`../../images/experience/gashawk.png`}
+            logo={`../../images/experience/gashawk.webp`}
             logoAlt={"Gäshawk logo"}
             body={
               <ul className="tech">
@@ -253,7 +253,7 @@ const IndexPage = props => {
             title="Software Engineer Technical Lead | Foreager"
             subtitle="January 2019 - August 2019 • South Bend, IN"
             logoLink="https://foreager.com"
-            logo={`../../images/experience/foreager.png`}
+            logo={`../../images/experience/foreager.webp`}
             logoAlt={"Foreager logo"}
             body={
               <ul className="tech">
@@ -341,7 +341,7 @@ const IndexPage = props => {
             title="Student Ambassador | IDEA Center"
             subtitle="August 2019 - Present"
             logoLink="https://ideacenter.nd.edu"
-            logo={`../../images/extracurriculars/ideacenter.png`}
+            logo={`../../images/extracurriculars/ideacenter.webp`}
             logoAlt={"IDEA Center logo"}
             body={
               <p>
@@ -379,7 +379,7 @@ const IndexPage = props => {
             title="Teaching Assistant, PHIL 10111 Intro to Philosophy | University of Notre Dame"
             subtitle="August 2019 - Present"
             logoLink="https://godandgoodlife.nd.edu"
-            logo={`../../images/education/nd.png`}
+            logo={`../../images/education/nd.webp`}
             logoAlt={"ND logo"}
             body={
               <p>
@@ -430,7 +430,7 @@ const IndexPage = props => {
           }
         >
           <Browser
-            image={`../../images/projects/jio.png`}
+            image={`../../images/projects/jio.webp`}
             imageAlt={"My site"}
           />
         </Project> */}
@@ -479,7 +479,7 @@ const IndexPage = props => {
             }
           >
             <System
-              image={`../../images/projects/gashawk.png`}
+              image={`../../images/projects/overwatch.webp`}
               imageAlt={"Gäshawk embedded"}
             />
           </Project>
@@ -501,7 +501,7 @@ const IndexPage = props => {
             }
           >
             <System
-              image={`../../images/projects/logger.png`}
+              image={`../../images/projects/logger.webp`}
               imageAlt={"Logger research"}
             />
           </Project>
@@ -523,7 +523,7 @@ const IndexPage = props => {
             }
           >
             <System
-              image={`../../images/projects/charger.png`}
+              image={`../../images/projects/charger.webp`}
               imageAlt={"Charger research"}
             />
           </Project>
@@ -545,7 +545,7 @@ const IndexPage = props => {
             }
           >
             <System
-              image={`../../images/projects/cosmo.png`}
+              image={`../../images/projects/cosmo.webp`}
               imageAlt={"Cosmo research"}
             />
           </Project>
