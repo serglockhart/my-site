@@ -66,7 +66,7 @@ const Header = props => {
               >
                 <img
                   src={`../../images/logos/twitter.svg`}
-                  alt={"Jio Buenviaje on Twitter"}
+                  alt={"Jio on Twitter"}
                   aria-label="Twitter"
                 />
               </a>
@@ -77,7 +77,7 @@ const Header = props => {
               >
                 <img
                   src={`../../images/logos/instagram.svg`}
-                  alt={"Jio Buenviaje on Instagram"}
+                  alt={"Jio on Instagram"}
                   aria-label="Instagram"
                 />
               </a>
@@ -88,7 +88,7 @@ const Header = props => {
               >
                 <img
                   src={`../../images/logos/github.svg`}
-                  alt={"Jio Buenviaje on GitHub"}
+                  alt={"Jio on GitHub"}
                   aria-label="GitHub"
                 />
               </a>
@@ -99,15 +99,15 @@ const Header = props => {
               >
                 <img
                   src={`../../images/logos/linkedin.svg`}
-                  alt={"Jio Buenviaje on LinkedIn"}
+                  alt={"Jio on LinkedIn"}
                   aria-label="LinkedIn"
                 />
               </a>
               <Contact>
                 <img
                   src={`../../images/logos/email.svg`}
-                  alt={"Jio Buenviaje on Email"}
-                  aria-label="Gmail"
+                  alt={"Jio on Email"}
+                  aria-label="Email"
                 />
               </Contact>
             </div>
