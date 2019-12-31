@@ -27,6 +27,7 @@ const Contact = props => {
                   id="firstName"
                   className="form-control"
                   placeholder="First"
+                  minlength="2"
                   required="true"
                 />
               </div>
@@ -36,6 +37,7 @@ const Contact = props => {
                   name="lastName"
                   className="form-control"
                   placeholder="Last"
+                  minlength="2"
                   required="true"
                 />
               </div>
@@ -45,6 +47,7 @@ const Contact = props => {
               name="_replyto"
               className="form-control"
               placeholder="example@gmail.com"
+              minlength="2"
               required="true"
             />
             <input
@@ -52,6 +55,7 @@ const Contact = props => {
               name="subject"
               className="form-control"
               placeholder="Subject..."
+              minlength="2"
               required="true"
             />
             <textarea
@@ -59,6 +63,7 @@ const Contact = props => {
               name="body"
               className="form-control"
               placeholder="Message..."
+              minlength="2"
               required="true"
             ></textarea>
           </ModalBody>
