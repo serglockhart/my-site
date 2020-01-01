@@ -15,12 +15,15 @@ const Hero = props => {
       >
         <div className="flex-container no-flex-mobile">
           <div className="profile-picture-wrapper">
-            <img
-              src={`../../images/me.webp`}
-              className={"profile-picture"}
-              alt={"Jio Buenviaje"}
-              aria-label="Headshot"
-            />
+            <picture className="profile-picture">
+              <source srcset={`../../images/me.webp`} type="image/webp" />
+              <img
+                src={`../../images/me.png`}
+                alt={"Jio Buenviaje"}
+                aria-label="Headshot"
+                className="profile-picture"
+              />
+            </picture>
           </div>
           <div className="flex top">
             <h1 className="name">Hey! I'm Jio Buenviaje</h1>

@@ -10,11 +10,6 @@ const Mobile = props => {
           <video autoplay="true" loop="true" muted="true">
             <source src={props.vid} alt={props.vidAlt} type="video/webm" />
           </video>
-          {/*<img
-            src={props.image}
-            alt={props.imageAlt}
-            aria-label={props.imageAlt}
-          />*/}
         </div>
       </div>
       <div className="line" />
