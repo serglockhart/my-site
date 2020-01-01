@@ -453,7 +453,12 @@ const IndexPage = props => {
               </p>
             }
           >
-            <Mobile vid={`../../videos/tembo.webm`} vidAlt={"Tembo app"} />
+            <Mobile
+              vid={`../../videos/tembo.webm`}
+              vidAlt={"Tembo app webm"}
+              vidBackup={`../../videos/tembo.mp4`}
+              vidBackupAlt={"Tembo app mp4"}
+            />
           </Project>
           <Project
             bgColor="#98D0CB"
@@ -467,7 +472,9 @@ const IndexPage = props => {
           >
             <Mobile
               vid={`../../videos/foreager.webm`}
-              vidAlt={"Foreager app"}
+              vidAlt={"Foreager app webm"}
+              vidBackup={`../../videos/foreager.mp4`}
+              vidBackupAlt={"Foreager app mp4"}
             />
           </Project>
           <Project
