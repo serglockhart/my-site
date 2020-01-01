@@ -6,12 +6,15 @@ const System = props => {
   return (
     <div className="system-screenshot">
       <div className="top" />
-      <img
-        src={props.image}
-        alt={props.imageAlt}
-        aria-label={props.imageAlt}
-        className="img-fluid"
-      />
+      <picture className="img-fluid">
+        <source srcset={props.image} type="image/webp" />
+        <img
+          src={props.imageBackup}
+          alt={props.imageAlt}
+          aria-label={props.imageAlt}
+          className="img-fluid"
+        />
+      </picture>
     </div>
   )
 }

@@ -11,12 +11,15 @@ const Card = props => {
           <p className="gray-text subtitle">{props.subtitle}</p>
         </div>
         <a href={props.logoLink} rel="noopener noreferrer" target="_BLANK">
-          <img
-            src={props.logo}
-            className="background-image"
-            alt={props.logoAlt}
-            aria-label={props.logoAlt}
-          />
+          <picture className="background-image">
+            <source srcset={props.logo} type="image/webp" />
+            <img
+              src={props.logoBackup}
+              alt={props.logoAlt}
+              aria-label={props.logoAlt}
+              className="background-image"
+            />
+          </picture>
         </a>
       </div>
       {props.body}

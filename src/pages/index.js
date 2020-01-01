@@ -29,6 +29,7 @@ const IndexPage = props => {
             subtitle="2018 - 2022 | 3.51 GPA"
             logoLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.webp`}
+            logoBackup={`../../images/education/nd.png`}
             logoAlt={"ND logo"}
             body={
               <p>
@@ -64,6 +65,7 @@ const IndexPage = props => {
             subtitle="2012 - 2018 | 3.84 GPA"
             logoLink="http://www.pshs.edu.ph/curriculum"
             logo={`../../images/education/pshs.webp`}
+            logoBackup={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
             body={
               <p>
@@ -109,6 +111,7 @@ const IndexPage = props => {
             subtitle="June - August 2019 • New York, NY"
             logoLink="https://www.cbs.com"
             logo={`../../images/experience/cbs.webp`}
+            logoBackup={`../../images/experience/cbs.png`}
             logoAlt={"CBS logo"}
             body={
               <ul className="tech">
@@ -138,6 +141,7 @@ const IndexPage = props => {
             subtitle="October 2019 - Present • South Bend, IN"
             logoLink="https://www.deliveaerial.com"
             logo={`../../images/experience/delive.webp`}
+            logoBackup={`../../images/experience/delive.png`}
             logoAlt={"DeLive logo"}
             body={
               <ul className="tech">
@@ -182,6 +186,7 @@ const IndexPage = props => {
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://www.tembo.tech"
             logo={`../../images/experience/tembo.webp`}
+            logoBackup={`../../images/experience/tembo.png`}
             logoAlt={"Tembo logo"}
             body={
               <ul className="tech">
@@ -214,6 +219,7 @@ const IndexPage = props => {
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://xn--gshawk-bua.com"
             logo={`../../images/experience/gashawk.webp`}
+            logoBackup={`../../images/experience/gashawk.png`}
             logoAlt={"Gäshawk logo"}
             body={
               <ul className="tech">
@@ -254,6 +260,7 @@ const IndexPage = props => {
             subtitle="January 2019 - August 2019 • South Bend, IN"
             logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.webp`}
+            logoBackup={`../../images/experience/foreager.png`}
             logoAlt={"Foreager logo"}
             body={
               <ul className="tech">
@@ -282,7 +289,7 @@ const IndexPage = props => {
             title="Technology Track Head | YouthHack"
             subtitle="March 2017 - July 2018 • Quezon City, Philippines"
             logoLink="https://youthhack.net"
-            logo={`../../images/experience/yh.svg`}
+            logoBackup={`../../images/experience/yh.svg`}
             logoAlt={"YH logo"}
             body={
               <ul className="tech">
@@ -342,6 +349,7 @@ const IndexPage = props => {
             subtitle="August 2019 - Present"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
+            logoBackup={`../../images/extracurriculars/ideacenter.png`}
             logoAlt={"IDEA Center logo"}
             body={
               <p>
@@ -380,6 +388,7 @@ const IndexPage = props => {
             subtitle="August 2019 - Present"
             logoLink="https://godandgoodlife.nd.edu"
             logo={`../../images/education/nd.webp`}
+            logoBackup={`../../images/education/nd.png`}
             logoAlt={"ND logo"}
             body={
               <p>
@@ -480,6 +489,7 @@ const IndexPage = props => {
           >
             <System
               image={`../../images/projects/overwatch.webp`}
+              imageBackup={`../../images/projects/overwatch.png`}
               imageAlt={"Gäshawk embedded"}
             />
           </Project>
@@ -502,6 +512,7 @@ const IndexPage = props => {
           >
             <System
               image={`../../images/projects/logger.webp`}
+              imageBackup={`../../images/projects/logger.png`}
               imageAlt={"Logger research"}
             />
           </Project>
@@ -524,6 +535,7 @@ const IndexPage = props => {
           >
             <System
               image={`../../images/projects/charger.webp`}
+              imageBackup={`../../images/projects/charger.png`}
               imageAlt={"Charger research"}
             />
           </Project>
@@ -546,6 +558,7 @@ const IndexPage = props => {
           >
             <System
               image={`../../images/projects/cosmo.webp`}
+              imageBackup={`../../images/projects/cosmo.png`}
               imageAlt={"Cosmo research"}
             />
           </Project>
