@@ -1,6 +1,6 @@
 # My Website :philippines:
 
-Progressive Web Application (PWA) developed in React through Gatsby using Bootstrap (General Style), Reactstrap (Modal), Formspree (Contact Form), and Google Analytics (Analytics). The app is hosted on Netlify with domain from Namecheap.
+Progressive Web Application (PWA) developed in React through Gatsby using Bootstrap (General Style), Reactstrap (Modal), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
 
 ![web-screenshot](https://user-images.githubusercontent.com/50670255/71754774-b448f700-2e55-11ea-904b-47bef1999ae1.png)
 
