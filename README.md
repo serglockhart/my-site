@@ -6,7 +6,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 
 ---
 
-## Planned Features
+## Active TODOs
 
 - [x] Fix scroll-to-top functionality (use gatsby-plugin-smoothscroll)
 - [x] Fix favicon path (use gatsby-plugin-favicon)
