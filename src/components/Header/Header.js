@@ -60,14 +60,14 @@ const Header = props => {
             </div>
             <div className="social">
               <a
-                href="https://twitter.com/lockjio"
+                href={`../../files/resumeBuenviaje.pdf`}
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
                 <img
-                  src={`../../images/logos/twitter.svg`}
-                  alt={"Jio on Twitter"}
-                  aria-label="Twitter"
+                  src={`../../images/logos/resume.png`}
+                  alt={"Jio Resume"}
+                  aria-label="Resume"
                 />
               </a>
               <a
@@ -76,8 +76,8 @@ const Header = props => {
                 target="_BLANK"
               >
                 <img
-                  src={`../../images/logos/instagram.svg`}
-                  alt={"Jio on Instagram"}
+                  src={`../../images/logos/instagram.png`}
+                  alt={"Jio Instagram"}
                   aria-label="Instagram"
                 />
               </a>
@@ -87,8 +87,8 @@ const Header = props => {
                 target="_BLANK"
               >
                 <img
-                  src={`../../images/logos/github.svg`}
-                  alt={"Jio on GitHub"}
+                  src={`../../images/logos/github.png`}
+                  alt={"Jio GitHub"}
                   aria-label="GitHub"
                 />
               </a>
@@ -98,16 +98,16 @@ const Header = props => {
                 target="_BLANK"
               >
                 <img
-                  src={`../../images/logos/linkedin.svg`}
-                  alt={"Jio on LinkedIn"}
+                  src={`../../images/logos/linkedin.png`}
+                  alt={"Jio LinkedIn"}
                   aria-label="LinkedIn"
                 />
               </a>
               <Contact>
                 <img
-                  src={`../../images/logos/email.svg`}
-                  alt={"Jio on Email"}
-                  aria-label="Email"
+                  src={`../../images/logos/contact.png`}
+                  alt={"Jio Contact"}
+                  aria-label="Contact"
                 />
               </Contact>
             </div>
