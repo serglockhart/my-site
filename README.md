@@ -30,6 +30,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [ ] Optimize and lazy load images (use gatsby-image, gatsby-background-image)
 - [ ] Further improve site using PWA audit as guide (use gatsby-plugin-google-tagmanager, SEO component)
 - [ ] Add websites to Projects section
+- [ ] Change form to formik or react-hook-form
 - [ ] Add Dark Mode feature
 
 ---
