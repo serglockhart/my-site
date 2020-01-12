@@ -146,7 +146,7 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Secured $10k funding,{" "}
+                  Secured $15k funding,{" "}
                   <a
                     href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
                     rel="noopener noreferrer"
@@ -158,25 +158,26 @@ const IndexPage = props => {
                   fund
                 </li>
                 <li>
-                  Will develop full stack web app and structure database
-                  architecture in agile environment
-                </li>
-                <li>
-                  Will assist in further developing drone system for FAA
-                  approval and exhibit in{" "}
+                  Exhibited in{" "}
                   <a
                     href="https://www.ces.tech"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
                     Consumer Electronics Show (CES) 2020
-                  </a>
+                  </a>{" "}
+                  and will assist in further developing drone system for FAA
+                  approval
+                </li>
+                <li>
+                  Will develop full stack web app and structure database
+                  architecture in agile environment
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: React, Redux, Node, Express,
+                <strong>Technologies</strong>: React (Hooks), Node, Express,
                 Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git
               </p>
             }
