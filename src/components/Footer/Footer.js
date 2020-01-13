@@ -8,7 +8,7 @@ const Footer = props => {
     <footer>
       <div className="container-fluid">
         <p className="right">
-          Juan Sergio Buenviaje © 2019. All rights reserved.
+          Juan Sergio Buenviaje © 2020. All rights reserved.
         </p>
         <p id="scroll-to-top" onClick={() => scrollTo("#top")}>
           Scroll to top ↑
