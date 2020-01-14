@@ -154,8 +154,8 @@ const IndexPage = props => {
                   >
                     Race to Revenue
                   </a>{" "}
-                  incubator invitation, and pitch to Indianapolis-based $100M VC
-                  fund
+                  accelerator invitation, and pitch to Indianapolis-based $100M
+                  VC fund
                 </li>
                 <li>
                   Exhibited in{" "}
