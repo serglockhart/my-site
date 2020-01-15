@@ -1,2 +1,182 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.content .card {
+  background: #ffffff;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.content .card .timestamp {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.content .card .timestamp a {
+  font-size: 0.875rem;
+}
+
+.content .card p:last-child {
+  margin-bottom: 0;
+}
+
+.content .card .subtitle {
+  font-weight: normal;
+  margin-bottom: 0.75rem !important;
+}
+
+.content .card ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.content .card ul.tech {
+  padding-bottom: 0.75rem;
+}
+
+.content .card.card-post {
+  padding: 0;
+}
+
+.content .card.card-post .body {
+  padding: 1rem;
+}
+
+.content .card.card-post .timestamp {
+  margin-top: 0;
+}
+
+.content .card.has-bg {
+  border: 0 !important;
+}
+
+.content .card.has-img {
+  padding: 0;
+}
+
+.content .card.has-img .card-img {
+  border-radius: 0.2rem 0.2rem 0 0;
+  width: 100%;
+}
+
+.content .card.has-img .body {
+  padding: 1rem;
+}
+
+.content .card.has-img#hero .card-img {
+  background-position: top;
+  background-repeat: none;
+  background-size: cover;
+  display: block;
+  height: 10rem;
+  width: 100%;
+}
+
+.content a .card {
+  color: #000000;
+  text-decoration: none;
+}
+
+.content a .card:active {
+  color: #000000;
+}
+
+.content a .card:focus {
+  color: #000000;
+}
+
+.content a .card:hover {
+  color: #000000;
+}
+
+.content a .card:visited {
+  color: #000000;
+}
+
+.app .content {
+  min-height: calc(100vh - 3.25rem);
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 78rem) {
+  .content .card.card-post .body {
+    padding: 1.5rem calc(1rem + 5%);
+  }
+  .app .content {
+    margin-left: calc(12rem + 5vw);
+    margin-right: calc(12rem + 5vw);
+  }
+  .app .content .content-full-width {
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+}
+
+@media screen and (max-width: 53rem) {
+  .content .card .subtitle {
+    font-size: 0.875rem;
+  }
+  .content .card.card-post .timestamp {
+    font-size: 0.875rem;
+  }
+  .content .card.card-post .line {
+    margin: 0.75rem 0;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .content .card.card-post .body {
+    padding: 1.5rem calc(1rem + 2.5%);
+  }
+  .app .content {
+    margin-left: calc(12rem + 1.25vw);
+    margin-right: calc(1rem + 5vw);
+  }
+  .app .content .content-full-width {
+    margin-left: -1.25vw;
+    margin-right: -5vw;
+  }
+}
+
+@media screen and (max-width: 35.75rem) {
+  .app .content {
+    padding-top: 0;
+  }
+  .app .content .card {
+    border-radius: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .app .content .card .card-img {
+    border-radius: 0;
+  }
+}
+
+@media screen and (min-width: 53rem) {
+  .content > .container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .app .content {
+    margin-left: calc(12rem + 1.25%);
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 93.5rem) {
+  .app .content {
+    margin-left: calc(12rem + 15vw);
+    margin-right: calc(12rem + 15vw);
+  }
+  .app .content .content-full-width {
+    margin-left: -15vw;
+    margin-right: -15vw;
+  }
+}
