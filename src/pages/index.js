@@ -574,7 +574,6 @@ const IndexPage = props => {
         <div className="space-mobile" />
         <Action />
       </Content>
-      {/* Footer */}
     </Layout>
   )
 }
