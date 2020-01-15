@@ -19,7 +19,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Add auto sitemap generation (use gatsby-plugin-sitemap)
 - [x] Add auto page generation (NOT NEEDED - use gatsby-plugin-page-creator)
 - [x] Futher improve site through plugins (use gatsby-plugin-remove-trailing-slashes, NOT NEEDED - gatsby-plugin-nprogress)
-- [x] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, <noscript>)
+- [x] Optimize to be PWA (use gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [x] Add site metadata (use react-helmet, gatsby-plugin-react-helmet)
 - [x] Convert GIFs to WebM (PWA audit)
 - [x] Fix page-data.json log 404 error (use gatsby@page-data-404)
