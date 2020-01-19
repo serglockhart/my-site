@@ -24,7 +24,7 @@ const Tech = props => {
           <p>
             GraphQL, SQL (Postgres, SQL Server), AWS (S3, DynamoDB, Lambda, API
             Gateway, Cognito, IoT, CloudWatch), Firebase, Heroku, Netlify, ZEIT
-            Now, Contentful
+            now, Contentful
           </p>
           <h5>Other</h5>
           <p>MATLAB, Git, Linux, Kali Linux, Agile (SCRUM)</p>
