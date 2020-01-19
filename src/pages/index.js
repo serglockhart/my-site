@@ -170,7 +170,7 @@ const IndexPage = props => {
                   approval
                 </li>
                 <li>
-                  Will develop full stack web app and structure database
+                  Will develop full stack web app, API and structure database
                   architecture in agile environment
                 </li>
               </ul>
