@@ -11,7 +11,7 @@ const Tech = props => {
           <p>JavaScript (ES6), C++, Python, Java, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React (Hooks), Node, Express, Gatsby, Next, jQuery, XML, HTML, CSS
+            React (Hooks), Node (Express), Gatsby, Next, jQuery, XML, HTML, CSS
             (SCSS/Sass, Bootstrap/Reactstrap, Tailwind)
           </p>
           <h5>Mobile</h5>
@@ -23,8 +23,8 @@ const Tech = props => {
           <h5>Databases &amp; Deployment</h5>
           <p>
             GraphQL, SQL (Postgres, SQL Server), AWS (S3, DynamoDB, Lambda, API
-            Gateway, Cognito, IoT, CloudWatch), Firebase, Heroku, Netlify,
-            Contentful
+            Gateway, Cognito, IoT, CloudWatch), Firebase, Heroku, Netlify, ZEIT
+            Now, Contentful
           </p>
           <h5>Other</h5>
           <p>MATLAB, Git, Linux, Kali Linux, Agile (SCRUM)</p>
