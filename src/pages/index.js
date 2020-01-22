@@ -132,8 +132,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: SQL (SQL Server), XML, C++, AWS
-                (S3, Lambda, CloudWatch), AutoCAD
+                <strong>Technologies</strong>: SQL Server, XML, C++, AWS (S3,
+                Lambda, CloudWatch), AutoCAD
               </p>
             }
           />
@@ -178,8 +178,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: React (Hooks), Node (Express),
-                Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (SCRUM), Git
+                <strong>Technologies</strong>: React, Next, Node, Express,
+                Python, AWS (DynamoDB, IoT), Raspberry Pi, Git
               </p>
             }
           />
@@ -211,7 +211,7 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: DART, Flutter (Provider),
+                <strong>Technologies</strong>: React, Next, DART (Flutter),
                 Firebase, Raspberry Pi, Kali Linux, Git
               </p>
             }
@@ -282,8 +282,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: DART, Flutter (Provider),
-                Firebase, HTML, CSS, JavaScript (jQuery)
+                <strong>Technologies</strong>: DART (Flutter), Firebase, HTML,
+                CSS, JavaScript (jQuery)
               </p>
             }
           />
@@ -483,8 +483,7 @@ const IndexPage = props => {
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Technologies:</strong> DART, Flutter (Provider),
-                Firebase
+                <strong>Technologies:</strong> DART (Flutter), Firebase
               </p>
             }
           >
@@ -500,7 +499,7 @@ const IndexPage = props => {
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
-                <strong>Technologies:</strong> DART, Flutter, Firebase
+                <strong>Technologies:</strong> DART (Flutter), Firebase
               </p>
             }
           >
@@ -517,8 +516,7 @@ const IndexPage = props => {
             body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
             end={
               <p>
-                <strong>Technologies:</strong> C++, Arduino, Fritzing,
-                Touchscreen, LiDAR, GUI
+                <strong>Technologies:</strong> C++, Arduino, Git
               </p>
             }
             buttons={
@@ -540,9 +538,8 @@ const IndexPage = props => {
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
               <p>
-                <strong>Technologies:</strong> Research, C++, Arduino, PHP,
-                MySQL, CodeIgniter, Fritzing, RFID Scanner, Touchscreen, WiFi.
-                GUI
+                <strong>Technologies:</strong> C++, Arduino, PHP, MySQL,
+                CodeIgniter, Eagle, Fritzing
               </p>
             }
             buttons={
@@ -563,8 +560,8 @@ const IndexPage = props => {
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
               <p>
-                <strong>Technologies:</strong> Research, AutoCAD, Eagle,
-                Switch-Mode Converter, Mobile Charging, Solar Panel, Hand-Crank
+                <strong>Technologies:</strong> AutoCAD, Switch-Mode Converter,
+                Eagle, Fritzing
               </p>
             }
             buttons={
@@ -584,12 +581,6 @@ const IndexPage = props => {
             bgColor="#d4ba9f"
             title="Cosmological Constant"
             body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
-            end={
-              <p>
-                <strong>Technologies:</strong> Research, MS Excel, Cosmological
-                Constant, Neutron Stars
-              </p>
-            }
             buttons={
               <Button
                 link={`../../files/researchNeutron.pdf`}
