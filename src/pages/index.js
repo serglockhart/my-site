@@ -425,7 +425,11 @@ const IndexPage = props => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
-            title="./Recursion"
+            title={
+              <a href="https://jbuenviaje.com">
+                <h2>./Recursion</h2>
+              </a>
+            }
             body="Personal website displaying resume, projects and the like inspired by a stripped-down, software project-friendly LinkedIn profile."
             end={
               <p>
@@ -438,6 +442,34 @@ const IndexPage = props => {
                 link="https://github.com/lockjio/my-gatsby-website"
                 title="View repo"
               />
+            }
+          >
+            <Browser
+              image={`../../images/projects/jio.webp`}
+              imageAlt={"My site"}
+            />
+          </Project>
+          <Project
+            bgColor="#98D0CB"
+            title="My Site"
+            body="Personal website."
+            end={
+              <p>
+                <strong>Technologies:</strong> React, Gatsby, Tailwind, Netlify,
+                Formspree, Google Analytics
+              </p>
+            }
+            buttons={
+              <>
+                <Button
+                  link="https://github.com/lockjio/my-gatsby-website"
+                  title="View here"
+                />
+                <Button
+                  link="https://github.com/lockjio/my-gatsby-website"
+                  title="View repo"
+                />
+              </>
             }
           >
             <Browser
