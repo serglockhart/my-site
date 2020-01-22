@@ -3,7 +3,7 @@ import React from "react"
 import Content from "../components/Content/index.js"
 import Layout from "../components/Layout/index.js"
 
-import "./index.css"
+import "../styles/index.css"
 
 const ErrorPage = props => {
   return (
