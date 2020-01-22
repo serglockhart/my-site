@@ -433,8 +433,8 @@ const IndexPage = props => {
             body="Personal website displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, Reactstrap,
-                Netlify, Formspree, Google Analytics
+                <strong>Technologies:</strong> React, Gatsby, Bootstrap,
+                Reactstrap, Netlify, Formspree, Google Analytics
               </p>
             }
             buttons={
