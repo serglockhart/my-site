@@ -50,29 +50,29 @@ h6 {
 
 a {
   font-size: 0.875rem;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   text-decoration: underline;
   text-decoration: none;
 }
 
 a:active {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:visited {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
