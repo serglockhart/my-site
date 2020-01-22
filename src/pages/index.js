@@ -9,6 +9,7 @@ import Section from "../components/Section/index.js"
 import Card from "../components/Card/index.js"
 import Tech from "../components/Tech/index.js"
 import Project from "../components/Project/index.js"
+import Browser from "../components/Browser/index.js"
 import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
@@ -423,28 +424,29 @@ const IndexPage = props => {
         </Section>
         {/* Projects */}
         <Section id="projects" title="Projects">
-          {/* <Project
-          bgColor="#00aacf"
-          title="My Site"
-          body="Personal website."
-          end={
-            <p>
-              <strong>Technologies:</strong> React, Gatsby, Netlify, Git
-            </p>
-          }
-          buttons={
-            <Button
-              link="https://github.com/lockjio/my-gatsby-website"
-              title="View repository"
-            />
-          }
-        >
-          <Browser
-            image={`../../images/projects/jio.webp`}
-            imageAlt={"My site"}
-          />
-        </Project> */}
           <Project
+            title="./Recursion"
+            body="Personal website displaying resume, projects and the like inspired by a stripped-down, software project-friendly LinkedIn profile."
+            end={
+              <p>
+                <strong>Technologies:</strong> React, Gatsby, Reactstrap,
+                Netlify, Formspree, Google Analytics
+              </p>
+            }
+            buttons={
+              <Button
+                link="https://github.com/lockjio/my-gatsby-website"
+                title="View repo"
+              />
+            }
+          >
+            <Browser
+              image={`../../images/projects/jio.webp`}
+              imageAlt={"My site"}
+            />
+          </Project>
+          <Project
+            bgColor="#F8A978"
             title="Tembo App"
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -462,7 +464,6 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#98D0CB"
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -479,7 +480,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#f8a978"
+            bgColor="#98D0CB"
             title="Gäshawk Overwatch"
             body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
             end={
@@ -491,7 +492,7 @@ const IndexPage = props => {
             buttons={
               <Button
                 link="https://github.com/gashawk/overwatch"
-                title="View repository"
+                title="View repo"
               />
             }
           >
@@ -502,6 +503,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
+            bgColor="#F8A978"
             title="Automated School Logger"
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
@@ -525,7 +527,6 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#98D0CB"
             title="Sustainable Energy Charger"
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
@@ -548,7 +549,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#f8a978"
+            bgColor="#98D0CB"
             title="Cosmological Constant"
             body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
             end={
