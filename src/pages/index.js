@@ -451,7 +451,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#98D0CB"
+            bgColor="#d4ba9f"
             title="Kyra Site"
             body="Portfolio website of fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
@@ -478,7 +478,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#F8A978"
+            bgColor="#90b8c6"
             title="Tembo App"
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -512,7 +512,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#98D0CB"
+            bgColor="#d4ba9f"
             title="Gäshawk Overwatch"
             body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
             end={
@@ -535,7 +535,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#F8A978"
+            bgColor="#90b8c6"
             title="Automated School Logger"
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
@@ -581,7 +581,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#98D0CB"
+            bgColor="#d4ba9f"
             title="Cosmological Constant"
             body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
             end={
