@@ -10,12 +10,15 @@ const Browser = props => {
         <span class="circle"></span>
         <span class="circle"></span>
       </div>
-      <img
-        src={props.image}
-        alt={props.imageAlt}
-        aria-label={props.imageAlt}
-        class="img-fluid"
-      />
+      <picture className="img-fluid">
+        <source srcset={props.image} type="image/webp" />
+        <img
+          src={props.imageBackup}
+          alt={props.imageAlt}
+          aria-label={props.imageAlt}
+          className="img-fluid"
+        />
+      </picture>
     </div>
   )
 }

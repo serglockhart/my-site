@@ -430,7 +430,7 @@ const IndexPage = props => {
                 <h2>./Recursion</h2>
               </a>
             }
-            body="Personal website displaying resume, projects and the like inspired by a stripped-down, software project-friendly LinkedIn profile."
+            body="Personal website displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Reactstrap,
@@ -446,13 +446,14 @@ const IndexPage = props => {
           >
             <Browser
               image={`../../images/projects/jio.webp`}
+              imageBackup={`../../images/projects/jio.png`}
               imageAlt={"My site"}
             />
           </Project>
           <Project
             bgColor="#98D0CB"
-            title="My Site"
-            body="Personal website."
+            title="Kyra Site"
+            body="Portfolio website of fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Tailwind, Netlify,
@@ -460,21 +461,20 @@ const IndexPage = props => {
               </p>
             }
             buttons={
-              <>
+              <div className="buttons">
                 <Button
-                  link="https://github.com/lockjio/my-gatsby-website"
+                  link="https://kyrabuenviaje.com/"
                   title="View here"
+                  links="https://github.com/lockjio/kyra-site"
+                  titles="View repo"
                 />
-                <Button
-                  link="https://github.com/lockjio/my-gatsby-website"
-                  title="View repo"
-                />
-              </>
+              </div>
             }
           >
             <Browser
-              image={`../../images/projects/jio.webp`}
-              imageAlt={"My site"}
+              image={`../../images/projects/kyra.webp`}
+              imageBackup={`../../images/projects/kyra.png`}
+              imageAlt={"Kyra site"}
             />
           </Project>
           <Project
