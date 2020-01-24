@@ -278,6 +278,7 @@ const IndexPage = props => {
                     McCloskey New Venture Competition 2019
                   </a>
                 </li>
+                <li>Assisted in front-end development of e-commerce website</li>
               </ul>
             }
             end={
