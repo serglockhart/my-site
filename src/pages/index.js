@@ -179,7 +179,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: React, Next, Node, Express,
-                Python, AWS (DynamoDB, IoT), Raspberry Pi, Git
+                Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (Scrum), Git
               </p>
             }
           />

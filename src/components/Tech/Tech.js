@@ -11,11 +11,11 @@ const Tech = props => {
           <p>JavaScript ES6, C++, Python, Java, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React (Gatsby, Next), HTML, CSS (Sass, Bootstrap, Tailwind,
-            styled-components), XML, jQuery
+            React (Gatsby, Next, Material-UI), HTML, CSS (Sass, Bootstrap,
+            Tailwind, styled-components), jQuery
           </p>
           <h5>APIs</h5>
-          <p>Node, Express, Passport, GraphQL</p>
+          <p>Node, Express, GraphQL</p>
           <h5>Mobile</h5>
           <p>DART (Flutter)</p>
         </div>
@@ -23,9 +23,9 @@ const Tech = props => {
           <h5>Embedded Systems</h5>
           <p>Arduino, Raspberry Pi, Intel Galileo</p>
           <h5>Databases &amp; Deployment</h5>
-          <p>Postgres, SQL Server, AWS, Firebase, Heroku, Netlify, ZEIT now</p>
+          <p>Postgres, SQL Server, AWS, Firebase, Heroku, Netlify, ZEIT Now</p>
           <h5>Other</h5>
-          <p>MATLAB, Git, Linux, Kali Linux, Agile (SCRUM)</p>
+          <p>MATLAB, XML, Git, Unix, Kali Linux, Agile (Scrum)</p>
           <h5>Design</h5>
           <p>Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
         </div>
