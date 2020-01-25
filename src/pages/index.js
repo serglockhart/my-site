@@ -108,7 +108,7 @@ const IndexPage = props => {
           }
         >
           <Card
-            title="Software Engineering Intern | CBS"
+            title="Software Engineer Intern | CBS"
             subtitle="June - August 2019 • New York, NY"
             logoLink="https://www.cbs.com"
             logo={`../../images/experience/cbs.webp`}
@@ -138,7 +138,7 @@ const IndexPage = props => {
             }
           />
           <Card
-            title="Interim CTO | DeLive Aerial Systems"
+            title="Lead Software Engineer | DeLive Aerial Systems"
             subtitle="October 2019 - Present • South Bend, IN"
             logoLink="https://www.deliveaerial.com"
             logo={`../../images/experience/delive.webp`}
@@ -178,8 +178,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: React, Next, Node, Express,
-                Python, AWS (DynamoDB, IoT), Raspberry Pi, Agile (Scrum), Git
+                <strong>Technologies</strong>: JavaScript, React, Next, Python,
+                AWS (DynamoDB, IoT), Raspberry Pi, Git
               </p>
             }
           />
@@ -193,12 +193,12 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed iOS/Android apps for emergency messaging to
-                  be used in alpha testing
+                  Solely developed Emergency Messaging iOS/Android Mobile Apps
+                  to be used in alpha testing
                 </li>
                 <li>
-                  Solely developed and demoed MVP (Indoor Mobile Location
-                  Tracker) resulting in{" "}
+                  Solely developed Indoor Location Triangulation Mobile Tracker
+                  resulting in{" "}
                   <a
                     href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
                     rel="noopener noreferrer"
@@ -211,13 +211,13 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: React, Next, DART (Flutter),
-                Firebase, Raspberry Pi, Kali Linux, Git
+                <strong>Technologies</strong>: JavaScript, React, Next, DART
+                (Flutter), Firebase, Raspberry Pi, Kali Linux, Git
               </p>
             }
           />
           <Card
-            title="Software Engineer Technical Lead | Gäshawk Incorporated"
+            title="Lead Software Engineer | Gäshawk Incorporated"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://xn--gshawk-bua.com"
             logo={`../../images/experience/gashawk.webp`}
@@ -226,8 +226,8 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed and demoed MVP (Touchscreen GUI + LiDAR
-                  Overhead Collision Detection) resulting in{" "}
+                  Solely developed Touchscreen GUI + LiDAR Overhead Collision
+                  Detection resulting in{" "}
                   <a
                     href="https://startupsouthbendelkhart.com"
                     rel="noopener noreferrer"
@@ -258,7 +258,7 @@ const IndexPage = props => {
             }
           />
           <Card
-            title="Software Engineer Technical Lead | Foreager"
+            title="Lead Software Engineer | Foreager"
             subtitle="January 2019 - August 2019 • South Bend, IN"
             logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.webp`}
@@ -267,8 +267,8 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
-                  Rental iOS/Android Apps) resulting in Semifinals finish (top
+                  Solely developed Peer-to-Peer Golf Equipment Rental
+                  iOS/Android Mobile Apps resulting in Semifinals finish (top
                   30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
@@ -283,8 +283,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: DART (Flutter), Firebase, HTML,
-                CSS, JavaScript (jQuery)
+                <strong>Technologies</strong>: DART (Flutter), Firebase,
+                JavaScript, jQuery, HTML, CSS
               </p>
             }
           />
@@ -328,7 +328,7 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: HTML, CSS, JavaScript (jQuery)
+                <strong>Technologies</strong>: JavaScript, jQuery, HTML, CSS
               </p>
             }
           />
