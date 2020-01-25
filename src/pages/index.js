@@ -109,7 +109,7 @@ const IndexPage = props => {
         >
           <Card
             title="Software Engineer Intern | CBS"
-            subtitle="June - August 2019 • New York, NY"
+            subtitle="Summer 2019 • New York, NY"
             logoLink="https://www.cbs.com"
             logo={`../../images/experience/cbs.webp`}
             logoBackup={`../../images/experience/cbs.png`}
@@ -134,6 +134,50 @@ const IndexPage = props => {
               <p>
                 <strong>Technologies</strong>: SQL Server, XML, C++, AWS (S3,
                 Lambda, CloudWatch), AutoCAD
+              </p>
+            }
+          />
+          <Card
+            title="Software Engineer Intern | IDEA Center"
+            subtitle="Spring 2020 • South Bend, IN"
+            logoLink="https://ideacenter.nd.edu"
+            logo={`../../images/extracurriculars/ideacenter.webp`}
+            logoBackup={`../../images/extracurriculars/ideacenter.png`}
+            logoAlt={"IDEA Center logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will work with IDEA Center startups to develop full stack web
+                  apps and APIs in agile environment
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: JavaScript, React, Next, Node,
+                Express, Python, Git
+              </p>
+            }
+          />
+          <Card
+            title="Software Engineer | Social Torch"
+            subtitle="December 2019 - Present • Schenectady, NY"
+            logoLink="https://socialtorch.org/"
+            logo={`../../images/experience/socialtorch.webp`}
+            logoBackup={`../../images/experience/socialtorch.png`}
+            logoAlt={"Social Torch logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will develop full stack web app and assist in further
+                  developing iOS/Android mobile apps
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: JavaScript, React, Gatsby, Go,
+                DART (Flutter), AWS (API Gateway, DynamoDB), Git
               </p>
             }
           />
@@ -259,7 +303,7 @@ const IndexPage = props => {
           />
           <Card
             title="Lead Software Engineer | Foreager"
-            subtitle="January 2019 - August 2019 • South Bend, IN"
+            subtitle="January - August 2019 • South Bend, IN"
             logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.webp`}
             logoBackup={`../../images/experience/foreager.png`}
