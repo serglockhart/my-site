@@ -154,8 +154,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Node,
-                Express, Python, Git
+                <strong>Technologies</strong>: JavaScript, React, Next, Python,
+                AWS (Amplify, DynamoDB, IoT), Raspberry Pi, HTML/CSS, Git
               </p>
             }
           />
@@ -170,14 +170,14 @@ const IndexPage = props => {
               <ul className="tech">
                 <li>
                   Will develop full stack web app and assist in further
-                  developing iOS/Android mobile apps
+                  developing mobile apps
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Gatsby, Go,
-                DART (Flutter), AWS (API Gateway, DynamoDB), Git
+                Flutter, AWS (Amplify, DynamoDB, API Gateway), HTML/CSS, Git
               </p>
             }
           />
@@ -215,20 +215,20 @@ const IndexPage = props => {
                   approval
                 </li>
                 <li>
-                  Will develop full stack web app, API, and structure database
-                  architecture in agile environment
+                  Will develop full stack SSR web app, API, and structure
+                  database architecture in agile environment
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Python,
-                AWS (DynamoDB, IoT), Raspberry Pi, Git
+                AWS (Amplify, DynamoDB, IoT), Raspberry Pi, HTML/CSS, Git
               </p>
             }
           />
           <Card
-            title="Software Engineer | Tembo AI"
+            title="Lead Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://www.tembo.tech"
             logo={`../../images/experience/tembo.webp`}
@@ -237,11 +237,11 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed Emergency Messaging iOS/Android Mobile Apps
-                  to be used in alpha testing
+                  Solely developed full stack SSR web app and messaging mobile
+                  apps to be used in alpha testing
                 </li>
                 <li>
-                  Solely developed Indoor Location Triangulation Mobile Tracker
+                  Solely developed indoor location triangulation mobile tracker
                   resulting in{" "}
                   <a
                     href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
@@ -255,8 +255,9 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, DART
-                (Flutter), Firebase, Raspberry Pi, Kali Linux, Git
+                <strong>Technologies</strong>: JavaScript, React, Next, Node,
+                Express, Heroku, Sass/SCSS, Flutter, Firebase, Raspberry Pi,
+                Kali Linux, HTML/CSS, Git
               </p>
             }
           />
@@ -270,8 +271,8 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed Touchscreen GUI + LiDAR Overhead Collision
-                  Detection resulting in{" "}
+                  Solely developed touchscreen GUI + LiDAR collision detection
+                  resulting in{" "}
                   <a
                     href="https://startupsouthbendelkhart.com"
                     rel="noopener noreferrer"
@@ -297,13 +298,14 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, Arduino, Git
+                <strong>Technologies</strong>: Javascript, React, Gatsby,
+                Netlify, C++, Arduino, HTML/CSS, Git
               </p>
             }
           />
           <Card
             title="Lead Software Engineer | Foreager"
-            subtitle="January - August 2019 • South Bend, IN"
+            subtitle="January - August 2019 • Townsend, MA"
             logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.webp`}
             logoBackup={`../../images/experience/foreager.png`}
@@ -311,9 +313,8 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed Peer-to-Peer Golf Equipment Rental
-                  iOS/Android Mobile Apps resulting in Semifinals finish (top
-                  30/175 teams) in{" "}
+                  Solely developed peer-to-peer golf rental mobile apps
+                  resulting in semifinals finish (top 30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
                     rel="noopener noreferrer"
@@ -327,8 +328,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: DART (Flutter), Firebase,
-                JavaScript, jQuery, HTML, CSS
+                <strong>Technologies</strong>: JavaScript, jQuery, Flutter,
+                Firebase, HTML/CSS
               </p>
             }
           />
@@ -372,7 +373,7 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, HTML, CSS
+                <strong>Technologies</strong>: JavaScript, jQuery, HTML/CSS
               </p>
             }
           />
@@ -528,7 +529,8 @@ const IndexPage = props => {
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Technologies:</strong> DART (Flutter), Firebase
+                <strong>Technologies:</strong> DART (Flutter), Provider,
+                Firebase
               </p>
             }
           >
