@@ -472,7 +472,7 @@ const IndexPage = props => {
         <Section id="projects" title="Projects">
           <Project
             title={
-              <a href="https://jbuenviaje.com">
+              <a href="https://www.jbuenviaje.com">
                 <h2>./Recursion</h2>
               </a>
             }
@@ -509,7 +509,7 @@ const IndexPage = props => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://kyrabuenviaje.com/"
+                  link="https://www.kyrabuenviaje.com/"
                   title="View here"
                   links="https://github.com/lockjio/kyra-site"
                   titles="View repo"
