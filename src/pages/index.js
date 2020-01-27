@@ -525,6 +525,32 @@ const IndexPage = props => {
           </Project>
           <Project
             bgColor="#90b8c6"
+            title="Tembo Site"
+            body="Startup company landing page for Tembo AI, LLC setup for heavier SSR full stack web app workload."
+            end={
+              <p>
+                <strong>Technologies:</strong> React, Next, Node, Express, Sass,
+                Bootstrap, Heroku, Google Maps API, Mailchimp API
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button
+                  link="https://www.tembo.ai/"
+                  title="View here"
+                  links="https://github.com/tembo-ai/tembo-site"
+                  titles="View repo"
+                />
+              </div>
+            }
+          >
+            <Browser
+              image={`../../images/projects/tembo.webp`}
+              imageBackup={`../../images/projects/tembo.png`}
+              imageAlt={"Tembo site"}
+            />
+          </Project>
+          <Project
             title="Tembo App"
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -542,6 +568,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
+            bgColor="#d4ba9f"
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -558,7 +585,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#d4ba9f"
+            bgColor="#90b8c6"
             title="Gäshawk Overwatch"
             body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
             end={
@@ -580,7 +607,6 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#90b8c6"
             title="Automated School Logger"
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
@@ -603,6 +629,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
+            bgColor="#d4ba9f"
             title="Sustainable Energy Charger"
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
@@ -625,7 +652,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#d4ba9f"
+            bgColor="#90b8c6"
             title="Cosmological Constant"
             body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
             buttons={

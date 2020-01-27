@@ -11,7 +11,7 @@ const Tech = props => {
           <p>JavaScript ES6, C/C++, Python, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React (Gatsby, Next, Material-UI), HTML/CSS (Sass, Bootstrap,
+            React (Gatsby, Next, Material-UI), HTML/CSS (Sass/SCSS, Bootstrap,
             Tailwind, styled-components), jQuery
           </p>
           <h5>APIs</h5>
