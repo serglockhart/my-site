@@ -230,7 +230,7 @@ const IndexPage = props => {
           <Card
             title="Lead Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            logoLink="https://www.tembo.tech"
+            logoLink="https://www.tembo.ai"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={`../../images/experience/tembo.png`}
             logoAlt={"Tembo logo"}
