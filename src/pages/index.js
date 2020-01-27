@@ -256,7 +256,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Node,
-                Express, Heroku, Sass/SCSS, Flutter, Firebase, Raspberry Pi,
+                Express, ZEIT Now, Sass/SCSS, Flutter, Firebase, Raspberry Pi,
                 Kali Linux, HTML/CSS, Git
               </p>
             }
@@ -328,8 +328,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, Flutter,
-                Firebase, HTML/CSS
+                <strong>Technologies</strong>: JavaScript, jQuery, Heroku,
+                Flutter, Firebase, HTML/CSS
               </p>
             }
           />
@@ -530,7 +530,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Next, Node, Express, Sass,
-                Bootstrap, Heroku, Google Maps API, Mailchimp API
+                Bootstrap, Now, Google Maps API, Mailchimp API
               </p>
             }
             buttons={
