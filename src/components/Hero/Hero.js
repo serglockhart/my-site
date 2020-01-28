@@ -7,7 +7,7 @@ import "./Hero.css"
 
 const Hero = props => {
   return (
-    <div className="marg-bot-1" id="home">
+    <div className="marg-bot-1">
       <div
         className="card has-bg"
         style={{ backgroundImage: `url(${"../../images/home-backing.svg"})` }}
