@@ -15,7 +15,7 @@ const Tech = props => {
             Tailwind, styled-components), jQuery
           </p>
           <h5>APIs</h5>
-          <p>Node, Express, GraphQL, Google Maps, Mailchimp</p>
+          <p>Node, Express, Google Maps, Mailchimp, Formspree</p>
           <h5>Mobile</h5>
           <p>DART (Flutter)</p>
         </div>
@@ -23,7 +23,10 @@ const Tech = props => {
           <h5>Embedded Systems</h5>
           <p>Arduino, Raspberry Pi, Intel Galileo</p>
           <h5>Databases &amp; Deployment</h5>
-          <p>Postgres, SQL Server, AWS, Firebase, Heroku, Netlify, ZEIT Now</p>
+          <p>
+            Postgres, SQL Server, GraphQL, AWS, Firebase, Heroku, Netlify, ZEIT
+            Now
+          </p>
           <h5>Other</h5>
           <p>
             MATLAB, XML, Git, Unix, Kali Linux, Agile (Scrum), Google Analytics

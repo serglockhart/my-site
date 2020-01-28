@@ -530,7 +530,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Next, Node, Express, Sass,
-                Bootstrap, Now, Google Maps API, Mailchimp API
+                Bootstrap, Now, Google Maps, Mailchimp, Google Analytics
               </p>
             }
             buttons={
