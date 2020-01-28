@@ -15,7 +15,9 @@ const Tech = props => {
             Tailwind, styled-components), jQuery
           </p>
           <h5>APIs</h5>
-          <p>Node, Express, Google Maps, Mailchimp, Formspree</p>
+          <p>
+            Node, Express, Google Maps, Mailchimp, Formspree, Google Analytics
+          </p>
           <h5>Mobile</h5>
           <p>DART (Flutter)</p>
         </div>
@@ -28,9 +30,7 @@ const Tech = props => {
             Now
           </p>
           <h5>Other</h5>
-          <p>
-            MATLAB, XML, Git, Unix, Kali Linux, Agile (Scrum), Google Analytics
-          </p>
+          <p>MATLAB, XML, Git, Unix, Kali Linux, Agile (Scrum)</p>
           <h5>Design</h5>
           <p>Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
         </div>
