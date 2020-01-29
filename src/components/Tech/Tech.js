@@ -16,7 +16,8 @@ const Tech = props => {
           </p>
           <h5>APIs</h5>
           <p>
-            Node, Express, Google Maps, Mailchimp, Formspree, Google Analytics
+            Node, Express, Google Maps, Mapbox, Mailchimp, Formspree, Google
+            Analytics
           </p>
           <h5>Mobile</h5>
           <p>DART (Flutter)</p>
