@@ -471,29 +471,29 @@ const IndexPage = props => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
-            title={
-              <a href="https://www.jbuenviaje.com">
-                <h2>./Recursion</h2>
-              </a>
-            }
-            body="Personal website displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
+            title="Tembo Site"
+            body="Startup company landing page for Tembo AI, LLC setup for heavier SSR full stack web app workload."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, Bootstrap,
-                Reactstrap, Netlify, Formspree, Google Analytics
+                <strong>Technologies:</strong> React, Next, Node, Express, Sass,
+                Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics
               </p>
             }
             buttons={
-              <Button
-                link="https://github.com/lockjio/my-gatsby-website"
-                title="View repo"
-              />
+              <div className="buttons">
+                <Button
+                  link="https://www.tembo.ai/"
+                  title="View here"
+                  links="https://github.com/tembo-ai/tembo-site"
+                  titles="View repo"
+                />
+              </div>
             }
           >
             <Browser
-              image={`../../images/projects/jio.webp`}
-              imageBackup={`../../images/projects/jio.png`}
-              imageAlt={"My site"}
+              image={`../../images/projects/tembo.webp`}
+              imageBackup={`../../images/projects/tembo.png`}
+              imageAlt={"Tembo site"}
             />
           </Project>
           <Project
@@ -525,29 +525,29 @@ const IndexPage = props => {
           </Project>
           <Project
             bgColor="#90b8c6"
-            title="Tembo Site"
-            body="Startup company landing page for Tembo AI, LLC setup for heavier SSR full stack web app workload."
+            title={
+              <a href="https://www.jbuenviaje.com">
+                <h2>./Recursion</h2>
+              </a>
+            }
+            body="Personal website displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
-                <strong>Technologies:</strong> React, Next, Node, Express, Sass,
-                Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics
+                <strong>Technologies:</strong> React, Gatsby, Bootstrap,
+                Reactstrap, Netlify, Formspree, Google Analytics
               </p>
             }
             buttons={
-              <div className="buttons">
-                <Button
-                  link="https://www.tembo.ai/"
-                  title="View here"
-                  links="https://github.com/tembo-ai/tembo-site"
-                  titles="View repo"
-                />
-              </div>
+              <Button
+                link="https://github.com/lockjio/my-gatsby-website"
+                title="View repo"
+              />
             }
           >
             <Browser
-              image={`../../images/projects/tembo.webp`}
-              imageBackup={`../../images/projects/tembo.png`}
-              imageAlt={"Tembo site"}
+              image={`../../images/projects/jio.webp`}
+              imageBackup={`../../images/projects/jio.png`}
+              imageAlt={"My site"}
             />
           </Project>
           <Project
