@@ -154,8 +154,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Python,
-                AWS (Amplify, DynamoDB, IoT), Raspberry Pi, HTML/CSS, Git
+                <strong>Technologies</strong>: JavaScript, React, Next, Gatsby,
+                Node, Express, Python, HTML/CSS, Git
               </p>
             }
           />
@@ -222,8 +222,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Python,
-                AWS (Amplify, DynamoDB, IoT), Raspberry Pi, HTML/CSS, Git
+                <strong>Technologies</strong>: JavaScript, React, Python,
+                Django, AWS (Amplify, IoT, S3), Raspberry Pi, HTML/CSS, Git
               </p>
             }
           />
@@ -471,6 +471,34 @@ const IndexPage = props => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
+            bgColor={1}
+            title="DeLive Site"
+            body="Startup company landing page for DeLive Aerial System, LLC to be connected to Django backend for full stack."
+            end={
+              <p>
+                <strong>Technologies:</strong> React (CRA), Sass, Reactstrap,
+                Netlify, Google Maps, Mailchimp, SendGrid, Google Analytics
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button
+                  link="https://delivedrones.com/"
+                  title="View here"
+                  links="https://github.com/delive-as/delive-website"
+                  titles="View repo"
+                />
+              </div>
+            }
+          >
+            <Browser
+              image={`../../images/projects/delive.webp`}
+              imageBackup={`../../images/projects/delive.png`}
+              imageAlt={"DeLive site"}
+            />
+          </Project>
+          <Project
+            bgColor={2}
             title="Tembo Site"
             body="Startup company landing page for Tembo AI, LLC setup for heavier SSR full stack web app workload."
             end={
@@ -497,7 +525,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#d4ba9f"
+            bgColor={3}
             title="Kyra Site"
             body="Portfolio website of fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
@@ -524,7 +552,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#90b8c6"
+            bgColor={1}
             title={
               <a href="https://www.jbuenviaje.com">
                 <h2>./Recursion</h2>
@@ -551,6 +579,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
+            bgColor={2}
             title="Tembo App"
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -568,7 +597,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#d4ba9f"
+            bgColor={3}
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -585,7 +614,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#90b8c6"
+            bgColor={1}
             title="Gäshawk Overwatch"
             body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
             end={
@@ -607,6 +636,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
+            bgColor={2}
             title="Automated School Logger"
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
@@ -629,7 +659,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#d4ba9f"
+            bgColor={3}
             title="Sustainable Energy Charger"
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
@@ -652,7 +682,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor="#90b8c6"
+            bgColor={1}
             title="Cosmological Constant"
             body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
             buttons={
