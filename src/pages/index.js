@@ -567,7 +567,7 @@ const IndexPage = props => {
             }
             buttons={
               <Button
-                link="https://github.com/lockjio/my-gatsby-website"
+                link="https://github.com/lockjio/my-site"
                 title="View repo"
               />
             }
