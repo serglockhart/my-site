@@ -20,7 +20,7 @@ const Tech = props => {
             Analytics
           </p>
           <h5>Mobile</h5>
-          <p>DART (Flutter)</p>
+          <p>DART (Flutter), React Native</p>
         </div>
         <div className="col-12 col-md-6 col-1-format">
           <h5>Embedded Systems</h5>

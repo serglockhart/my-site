@@ -3,7 +3,14 @@ import React from "react"
 import "./Project.css"
 
 const Project = props => {
-  const bgColor = props.bgColor || "#e18e7f"
+  let bgColor
+  if (props.bgColor === 1) {
+    bgColor = "#e18e7f"
+  } else if (props.bgColor === 2) {
+    bgColor = "#d4ba9f"
+  } else {
+    bgColor = "#90b8c6"
+  }
 
   return (
     <div className="project" style={{ background: bgColor }}>
