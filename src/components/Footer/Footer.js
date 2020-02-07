@@ -8,7 +8,7 @@ const Footer = props => {
     <footer>
       <div className="container-fluid">
         <p className="right">
-          Juan Sergio Buenviaje © {new Date().getFullYear()}. All rights
+          Juan Sergio Buenviaje &copy; {new Date().getFullYear()}. All rights
           reserved.
         </p>
         <p id="scroll-to-top" onClick={() => scrollTo("#top")}>
