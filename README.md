@@ -14,7 +14,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Separate 404 page into components
 - [x] Separate html page into js components
 - [x] Fix hamburger for mobile screen
-- [x] Fix Contact modal (integrate Formspree API)
+- [x] Fix Contact modal (Formspree API)
 - [x] Add Google Analytics API (gatsby-plugin-google-analytics)
 - [x] Add auto sitemap generation (gatsby-plugin-sitemap)
 - [x] Futher improve site through plugins (gatsby-plugin-remove-trailing-slashes)
