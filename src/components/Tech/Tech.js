@@ -14,10 +14,10 @@ const Tech = props => {
             React (Gatsby, Next, Material-UI), HTML/CSS (Sass/SCSS, Bootstrap,
             Tailwind, styled-components), jQuery
           </p>
-          <h5>APIs</h5>
+          <h5>APIs & SDKs</h5>
           <p>
-            Node, Express, Google Maps, Mapbox, Mailchimp, Formspree, Google
-            Analytics
+            Node, Express, Google Maps, Mapbox, Mailchimp, Formspree, EmailJS,
+            Google Analytics
           </p>
           <h5>Mobile</h5>
           <p>DART (Flutter), React Native</p>
