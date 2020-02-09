@@ -147,6 +147,10 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
+                  Currently developing e-commerce web app with Shopify and
+                  Stripe APIs through pair programming
+                </li>
+                <li>
                   Will work with IDEA Center startups to develop full stack web
                   apps and APIs in agile environment
                 </li>
@@ -155,34 +159,12 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Gatsby,
-                Node, Express, Python, HTML/CSS, Git
+                Node, Express, Python, Sass/SCSS, HTML/CSS Git
               </p>
             }
           />
           <Card
-            title="Software Engineer | Social Torch"
-            subtitle="December 2019 - Present • Schenectady, NY"
-            logoLink="https://socialtorch.org/"
-            logo={`../../images/experience/socialtorch.webp`}
-            logoBackup={`../../images/experience/socialtorch.png`}
-            logoAlt={"Social Torch logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Will develop full stack web app and assist in further
-                  developing mobile apps
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: JavaScript, React, Gatsby, Go,
-                Flutter, AWS (Amplify, DynamoDB, API Gateway), HTML/CSS, Git
-              </p>
-            }
-          />
-          <Card
-            title="Lead Software Engineer | DeLive Aerial Systems"
+            title="Chief Technology Officer | DeLive Aerial Systems"
             subtitle="October 2019 - Present • South Bend, IN"
             logoLink="https://www.deliveaerial.com"
             logo={`../../images/experience/delive.webp`}
@@ -191,7 +173,15 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Secured $15k funding,{" "}
+                  Exhibited in{" "}
+                  <a
+                    href="https://www.ces.tech"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Consumer Electronics Show (CES) 2020
+                  </a>{" "}
+                  , and secured $15k funding,{" "}
                   <a
                     href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
                     rel="noopener noreferrer"
@@ -203,27 +193,20 @@ const IndexPage = props => {
                   VC fund
                 </li>
                 <li>
-                  Exhibited in{" "}
-                  <a
-                    href="https://www.ces.tech"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Consumer Electronics Show (CES) 2020
-                  </a>{" "}
-                  and will assist in further developing drone system for FAA
-                  approval
+                  Solely developed front-end of web app and will integrate with
+                  backend
                 </li>
                 <li>
-                  Will develop full stack SSR web app, API, and structure
-                  database architecture in agile environment
+                  Will develop and integrate REST API, drone GCS and database in
+                  Agile environment
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Python,
-                Django, AWS (Amplify, IoT, S3), Raspberry Pi, HTML/CSS, Git
+                <strong>Technologies</strong>: JavaScript, React, Python, AWS
+                (DynamoDB, IoT, Elastic Beanstalk), Sass/SCSS, HTML/CSS
+                Raspberry Pi, Git
               </p>
             }
           />
@@ -256,8 +239,8 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Node,
-                Express, ZEIT Now, Sass/SCSS, Flutter, Firebase, Raspberry Pi,
-                Kali Linux, HTML/CSS, Git
+                Express, ZEIT Now, Sass/SCSS, HTML/CSS Flutter, Firebase,
+                Raspberry Pi, Linux, Git
               </p>
             }
           />
@@ -270,6 +253,10 @@ const IndexPage = props => {
             logoAlt={"Gäshawk logo"}
             body={
               <ul className="tech">
+                <li>
+                  Currently developing static landing page leveraging modern
+                  technologies for startup
+                </li>
                 <li>
                   Solely developed touchscreen GUI + LiDAR collision detection
                   resulting in{" "}
@@ -299,7 +286,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: Javascript, React, Gatsby,
-                Netlify, C++, Arduino, HTML/CSS, Git
+                GraphQL, Netlify, styled-components, HTML/CSS, C++, Arduino, Git
               </p>
             }
           />
@@ -323,7 +310,10 @@ const IndexPage = props => {
                     McCloskey New Venture Competition 2019
                   </a>
                 </li>
-                <li>Assisted in front-end development of e-commerce website</li>
+                <li>
+                  Assisted in developing front-end of prototype e-commerce
+                  website
+                </li>
               </ul>
             }
             end={
@@ -477,7 +467,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React (CRA), Sass, Reactstrap,
-                Netlify, Google Maps, Mailchimp, SendGrid, Google Analytics
+                Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics
               </p>
             }
             buttons={

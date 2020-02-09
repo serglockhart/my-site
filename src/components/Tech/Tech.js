@@ -11,13 +11,13 @@ const Tech = props => {
           <p>JavaScript ES6, C/C++, Python, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React (Gatsby, Next, Material-UI), HTML/CSS (Sass/SCSS, Bootstrap,
-            Tailwind, styled-components), jQuery
+            React (Next, Gatsby, Material-UI), HTML/CSS (Sass/SCSS, Bootstrap,
+            Tailwind, styled-components), JSON, jQuery
           </p>
           <h5>APIs & SDKs</h5>
           <p>
-            Node, Express, Google Maps, Mapbox, Mailchimp, Formspree, EmailJS,
-            Google Analytics
+            Node, Express, Google Maps, Mapbox (OpenStreetMap), Mailchimp,
+            Shopify, Stripe, Formspree, EmailJS, Google Analytics
           </p>
           <h5>Mobile</h5>
           <p>DART (Flutter), React Native</p>
@@ -27,8 +27,8 @@ const Tech = props => {
           <p>Arduino, Raspberry Pi, Intel Galileo</p>
           <h5>Databases &amp; Deployment</h5>
           <p>
-            Postgres, SQL Server, GraphQL, AWS, Firebase, Heroku, Netlify, ZEIT
-            Now
+            PostgreSQL, SQL Server, AWS, Firebase, Heroku, Netlify, ZEIT Now,
+            GraphQL
           </p>
           <h5>Other</h5>
           <p>MATLAB, XML, Git, Unix, Kali Linux, Agile (Scrum)</p>
