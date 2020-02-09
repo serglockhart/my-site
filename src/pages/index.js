@@ -482,9 +482,10 @@ const IndexPage = props => {
             }
           >
             <Browser
-              image={`../../images/projects/delive.webp`}
-              imageBackup={`../../images/projects/delive.png`}
-              imageAlt={"DeLive site"}
+              image=""
+              vid={`../../videos/deliveSite.webm`}
+              vidBackup={`../../videos/deliveSite.mp4`}
+              vidAlt={"DeLive site"}
             />
           </Project>
           <Project
@@ -509,9 +510,10 @@ const IndexPage = props => {
             }
           >
             <Browser
-              image={`../../images/projects/tembo.webp`}
-              imageBackup={`../../images/projects/tembo.png`}
-              imageAlt={"Tembo site"}
+              image=""
+              vid={`../../videos/temboSite.webm`}
+              vidBackup={`../../videos/temboSite.mp4`}
+              vidAlt={"Tembo site"}
             />
           </Project>
           <Project
@@ -536,9 +538,10 @@ const IndexPage = props => {
             }
           >
             <Browser
-              image={`../../images/projects/kyra.webp`}
-              imageBackup={`../../images/projects/kyra.png`}
-              imageAlt={"Kyra site"}
+              image=""
+              vid={`../../videos/kyraSite.webm`}
+              vidBackup={`../../videos/kyraSite.mp4`}
+              vidAlt={"Kyra site"}
             />
           </Project>
           <Project
