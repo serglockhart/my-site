@@ -64,7 +64,7 @@ const IndexPage = props => {
           <Card
             title="Philippine Science High School - Main Campus"
             subtitle="2012 - 2018 | 3.84 GPA"
-            logoLink="http://www.pshs.edu.ph/curriculum"
+            logoLink="http://www.pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.webp`}
             logoBackup={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
@@ -110,7 +110,7 @@ const IndexPage = props => {
           <Card
             title="Software Engineer Intern | CBS"
             subtitle="Summer 2019 • New York, NY"
-            logoLink="https://www.cbs.com"
+            logoLink="https://cbs.com"
             logo={`../../images/experience/cbs.webp`}
             logoBackup={`../../images/experience/cbs.png`}
             logoAlt={"CBS logo"}
@@ -166,7 +166,7 @@ const IndexPage = props => {
           <Card
             title="Chief Technology Officer | DeLive Aerial Systems"
             subtitle="October 2019 - Present • South Bend, IN"
-            logoLink="https://www.deliveaerial.com"
+            logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
             logoBackup={`../../images/experience/delive.png`}
             logoAlt={"DeLive logo"}
@@ -213,7 +213,7 @@ const IndexPage = props => {
           <Card
             title="Lead Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            logoLink="https://www.tembo.ai"
+            logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={`../../images/experience/tembo.png`}
             logoAlt={"Tembo logo"}
