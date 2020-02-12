@@ -467,7 +467,7 @@ const IndexPage = props => {
             body="Startup company landing page for DeLive Aerial System, LLC to be connected to Django backend for full stack."
             end={
               <p>
-                <strong>Technologies:</strong> React (CRA), Sass, Bootstrap,
+                <strong>Technologies:</strong> React (CRA), SCSS, Bootstrap,
                 Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics
               </p>
             }
@@ -495,7 +495,7 @@ const IndexPage = props => {
             body="Startup company landing page for Tembo AI, LLC setup for heavier SSR full stack web app workload."
             end={
               <p>
-                <strong>Technologies:</strong> React, Next, Node, Express, Sass,
+                <strong>Technologies:</strong> React, Next, Node, Express, SCSS,
                 Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics
               </p>
             }
