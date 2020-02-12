@@ -11,8 +11,8 @@ const Tech = props => {
           <p>JavaScript ES6, C/C++, Python, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React (Next, Gatsby, Material-UI), HTML/CSS (Sass/SCSS, Bootstrap,
-            Tailwind, styled-components), JSON, jQuery
+            React (Next, Gatsby, Material-UI), HTML (DOM), CSS (Sass/SCSS,
+            Bootstrap, Tailwind, styled-components), jQuery, AJAX, JSON, XML
           </p>
           <h5>APIs & SDKs</h5>
           <p>
@@ -20,7 +20,7 @@ const Tech = props => {
             Shopify, Stripe, Formspree, EmailJS, Google Analytics
           </p>
           <h5>Mobile</h5>
-          <p>DART (Flutter), React Native</p>
+          <p>Flutter (DART), React Native</p>
         </div>
         <div className="col-12 col-md-6 col-1-format">
           <h5>Embedded Systems</h5>
@@ -31,7 +31,7 @@ const Tech = props => {
             GraphQL
           </p>
           <h5>Other</h5>
-          <p>MATLAB, XML, Git, Unix, Kali Linux, Agile (Scrum)</p>
+          <p>MATLAB, Git, Unix/Linux CLI, Kali Linux, Agile (SCRUM)</p>
           <h5>Design</h5>
           <p>Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
         </div>

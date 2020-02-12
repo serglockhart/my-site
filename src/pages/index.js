@@ -158,8 +158,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Gatsby,
-                Node, Express, Python, Sass/SCSS, HTML/CSS Git
+                <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
+                Node, Express, Python, Sass/SCSS, Bootstrap, HTML/CSS, Git
               </p>
             }
           />
@@ -205,8 +205,8 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Python, AWS
-                (DynamoDB, IoT, Elastic Beanstalk), Sass/SCSS, HTML/CSS
-                Raspberry Pi, Git
+                (DynamoDB, IoT, Elastic Beanstalk), Sass/SCSS, Bootstrap,
+                HTML/CSS, Raspberry Pi, Git
               </p>
             }
           />
@@ -239,8 +239,8 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Node,
-                Express, ZEIT Now, Sass/SCSS, HTML/CSS Flutter, Firebase,
-                Raspberry Pi, Linux, Git
+                Express, ZEIT Now, Sass/SCSS, Bootstrap, HTML/CSS, Flutter
+                (DART), Raspberry Pi, Kali Linux, Git
               </p>
             }
           />
@@ -318,8 +318,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, Heroku,
-                Flutter, Firebase, HTML/CSS
+                <strong>Technologies</strong>: JavaScript, jQuery, Sass/SCSS,
+                Bootstrap, HTML/CSS, Heroku, Flutter (DART), Firebase
               </p>
             }
           />
@@ -363,7 +363,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, HTML/CSS
+                <strong>Technologies</strong>: JavaScript, jQuery, Bootstrap,
+                HTML/CSS
               </p>
             }
           />
@@ -466,7 +467,7 @@ const IndexPage = props => {
             body="Startup company landing page for DeLive Aerial System, LLC to be connected to Django backend for full stack."
             end={
               <p>
-                <strong>Technologies:</strong> React (CRA), Sass, Reactstrap,
+                <strong>Technologies:</strong> React (CRA), Sass, Bootstrap,
                 Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics
               </p>
             }
@@ -555,7 +556,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Bootstrap,
-                Reactstrap, Netlify, Formspree, Google Analytics
+                Netlify, Formspree, Google Analytics
               </p>
             }
             buttons={
