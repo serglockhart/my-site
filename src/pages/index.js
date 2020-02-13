@@ -520,7 +520,7 @@ const IndexPage = props => {
           <Project
             bgColor={3}
             title="Kyra Site"
-            body="Portfolio website of fashion designer Kyra Buenviaje displaying resume, projects and collections."
+            body="Portfolio website for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Tailwind, Netlify,
