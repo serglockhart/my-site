@@ -17,7 +17,7 @@ const Tech = props => {
           <h5>APIs & SDKs</h5>
           <p>
             Node, Express, Google Maps, Mapbox (OpenStreetMap), Mailchimp,
-            Shopify, Stripe, Formspree, EmailJS, Google Analytics
+            Shopify, Formspree, EmailJS, Google Analytics
           </p>
           <h5>Mobile</h5>
           <p>Flutter (DART), React Native</p>
@@ -28,10 +28,10 @@ const Tech = props => {
           <h5>Databases &amp; Deployment</h5>
           <p>
             PostgreSQL, SQL Server, AWS, Firebase, Heroku, Netlify, ZEIT Now,
-            GraphQL
+            GraphQL, Apollo
           </p>
           <h5>Other</h5>
-          <p>MATLAB, Git, Unix/Linux CLI, Kali Linux, Agile (SCRUM)</p>
+          <p>MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), MS Suite</p>
           <h5>Design</h5>
           <p>Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
         </div>

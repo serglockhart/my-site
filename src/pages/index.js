@@ -108,7 +108,7 @@ const IndexPage = props => {
           }
         >
           <Card
-            title="Software Engineer Intern | CBS"
+            title="Media Software Engineer Intern | CBS"
             subtitle="Summer 2019 • New York, NY"
             logoLink="https://cbs.com"
             logo={`../../images/experience/cbs.webp`}
@@ -118,22 +118,22 @@ const IndexPage = props => {
               <ul className="tech">
                 <li>
                   Standardized end-to-end broadcast distribution configurations
-                  for entire East Coast feed
+                  (video containers/codecs) for entire East Coast feed
                 </li>
                 <li>
-                  Completed 27 purchase requests from international TV stations
-                  amounting to $132,930 in profit
+                  Completed 27 international purchase requests using database
+                  queries totaling $132,930 in profit
                 </li>
                 <li>
-                  Assisted with basic maintenance of cloud-based content storage
-                  and manipulation
+                  Assisted in cloud-based content compute, storage and
+                  monitoring for day-to-day operations
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: SQL Server, XML, C++, AWS (S3,
-                Lambda, CloudWatch), AutoCAD
+                <strong>Technologies</strong>: C++, XML, SQL Server, AWS (EC2,
+                S3, Glacier, CloudWatch), AutoCAD, MS Suite
               </p>
             }
           />
@@ -147,19 +147,20 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Currently developing e-commerce web app with Shopify and
-                  Stripe APIs through pair programming
+                  Developed e-commerce web app with Shopify API through pair
+                  programming to be used by startup
                 </li>
                 <li>
-                  Will work with IDEA Center startups to develop full stack web
-                  apps and APIs in agile environment
+                  Will work with IDEA Center startups to develop full-stack web
+                  apps and APIs in Agile environment
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Node, Express, Python, Sass/SCSS, Bootstrap, HTML/CSS, Git
+                Apollo, Node, Express, Polaris, Gatsby, Python, Sass/SCSS,
+                Bootstrap, HTML/CSS, Git
               </p>
             }
           />
@@ -181,7 +182,7 @@ const IndexPage = props => {
                   >
                     Consumer Electronics Show (CES) 2020
                   </a>{" "}
-                  , and secured $15k funding,{" "}
+                  , secured $15k funding,{" "}
                   <a
                     href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
                     rel="noopener noreferrer"
@@ -194,19 +195,19 @@ const IndexPage = props => {
                 </li>
                 <li>
                   Solely developed front-end of web app and will integrate with
-                  backend
+                  Django backend
                 </li>
                 <li>
-                  Will develop and integrate REST API, drone GCS and database in
-                  Agile environment
+                  Will develop and integrate RESTful API, drone GCS and NoSQL
+                  database in Agile environment
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Python, AWS
-                (DynamoDB, IoT, Elastic Beanstalk), Sass/SCSS, Bootstrap,
-                HTML/CSS, Raspberry Pi, Git
+                <strong>Technologies</strong>: JavaScript, React, Python,
+                Django, AWS (DynamoDB, IoT, Elastic Beanstalk), Sass/SCSS,
+                Bootstrap, HTML/CSS, Raspberry Pi, Agile (SCRUM), Git
               </p>
             }
           />
@@ -240,7 +241,7 @@ const IndexPage = props => {
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Node,
                 Express, ZEIT Now, Sass/SCSS, Bootstrap, HTML/CSS, Flutter
-                (DART), Raspberry Pi, Kali Linux, Git
+                (DART), Firebase, Python, Raspberry Pi, Kali Linux, Git
               </p>
             }
           />
@@ -253,10 +254,6 @@ const IndexPage = props => {
             logoAlt={"Gäshawk logo"}
             body={
               <ul className="tech">
-                <li>
-                  Currently developing static landing page leveraging modern
-                  technologies for startup
-                </li>
                 <li>
                   Solely developed touchscreen GUI + LiDAR collision detection
                   resulting in{" "}
@@ -281,12 +278,16 @@ const IndexPage = props => {
                   </a>{" "}
                   program entry
                 </li>
+                <li>
+                  Currently solely developing static landing page leveraging
+                  modern technologies to be used by startup
+                </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Javascript, React, Gatsby,
-                GraphQL, Netlify, styled-components, HTML/CSS, C++, Arduino, Git
+                <strong>Technologies</strong>: C++, Arduino, GraphQL, Netlify,
+                styled-components, Javascript, React, Gatsby, HTML/CSS, Git
               </p>
             }
           />
@@ -318,8 +319,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, Sass/SCSS,
-                Bootstrap, HTML/CSS, Heroku, Flutter (DART), Firebase
+                <strong>Technologies</strong>: Flutter (DART), Firebase, Heroku,
+                JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS
               </p>
             }
           />
