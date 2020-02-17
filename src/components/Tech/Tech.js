@@ -31,7 +31,7 @@ const Tech = props => {
             GraphQL, Apollo
           </p>
           <h5>Other</h5>
-          <p>MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), MS Suite</p>
+          <p>MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM)</p>
           <h5>Design</h5>
           <p>Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
         </div>

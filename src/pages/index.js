@@ -133,7 +133,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: C++, XML, SQL Server, AWS (EC2,
-                S3, Glacier, CloudWatch), AutoCAD, MS Suite
+                S3, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
