@@ -565,8 +565,8 @@ const IndexPage = props => {
           >
             <Browser
               image=""
-              vid={`../../videos/kyraSite.webm`}
-              vidBackup={`../../videos/kyraSite.mp4`}
+              vid={`../../videos/kyraSite2nd.webm`}
+              vidBackup={`../../videos/kyraSite2nd.mp4`}
               vidAlt={"Kyra site"}
             />
           </Project>
