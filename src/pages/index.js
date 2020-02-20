@@ -55,9 +55,9 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Relevant Coursework</strong>: Data Structures, Logic
-                Design, Systems Programming, Fundamentals of Computing, Discrete
-                Mathematics
+                <strong>Relevant Coursework</strong>: Data Structures, Systems
+                Programming, Logic Design, Fundamentals of Computing, Discrete
+                Mathematics, Linear Algebra & Differential Equations
               </p>
             }
           />
@@ -165,7 +165,7 @@ const IndexPage = props => {
             }
           />
           <Card
-            title="Chief Technology Officer | DeLive Aerial Systems"
+            title="Chief Technology Officer | DeLive Drones"
             subtitle="October 2019 - Present • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
@@ -212,7 +212,7 @@ const IndexPage = props => {
             }
           />
           <Card
-            title="Founder, CEO, Lead Developer | Munti LLC"
+            title="Founder, CEO, Lead Developer | Munti"
             subtitle="February 2019 - Present • South Bend, IN"
             logoLink="/"
             logo={`../../images/experience/munti.webp`}
@@ -270,7 +270,7 @@ const IndexPage = props => {
             }
           />
           <Card
-            title="Lead Software Engineer | Gäshawk Incorporated"
+            title="Lead Software Engineer | Gäshawk"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://xn--gshawk-bua.com"
             logo={`../../images/experience/gashawk.webp`}
@@ -600,7 +600,7 @@ const IndexPage = props => {
           <Project
             bgColor={2}
             title="Tembo App"
-            body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI. Will be integrated with user tracking feature and used for alpha testing in local high school."
+            body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
                 <strong>Technologies:</strong> DART (Flutter), Provider,
@@ -618,7 +618,7 @@ const IndexPage = props => {
           <Project
             bgColor={3}
             title="Foreager App"
-            body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
+            body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
                 <strong>Technologies:</strong> DART (Flutter), Firebase
