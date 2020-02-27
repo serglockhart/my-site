@@ -147,12 +147,12 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Developed e-commerce web app with Shopify API through pair
-                  programming to be used by startup
+                  Developed e-commerce web app with Shopify API through Pair
+                  Programming to be used by startup
                 </li>
                 <li>
                   Will work with IDEA Center startups to develop full-stack web
-                  apps and APIs in Agile environment
+                  apps and APIs in Agile Environment
                 </li>
               </ul>
             }
@@ -199,7 +199,7 @@ const IndexPage = props => {
                 </li>
                 <li>
                   Will develop and integrate RESTful API, drone GCS and NoSQL
-                  database in Agile environment
+                  database in Agile Environment
                 </li>
               </ul>
             }
