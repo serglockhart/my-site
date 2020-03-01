@@ -195,7 +195,7 @@ const IndexPage = props => {
                 </li>
                 <li>
                   Solely developed front-end of web app and will integrate with
-                  Express + Flask backend through Parse Server
+                  Node + Flask backend through Parse Server
                 </li>
                 <li>
                   Will develop and integrate RESTful API, drone GCS and NoSQL
@@ -205,9 +205,9 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Python, Flask,
-                AWS (DynamoDB, IoT, Elastic Beanstalk), Parse Server, Sass/SCSS,
-                Bootstrap, HTML/CSS, Raspberry Pi, Agile (SCRUM), Git
+                <strong>Technologies</strong>: JavaScript, React, Node, Python,
+                Flask, MongoDB, AWS (Elastic Beanstalk, IoT), Parse Server,
+                Sass/SCSS, Bootstrap, HTML/CSS, Raspberry Pi, Agile (SCRUM), Git
               </p>
             }
           />
@@ -489,7 +489,7 @@ const IndexPage = props => {
           <Project
             bgColor={1}
             title="DeLive Site"
-            body="Startup company landing page for DeLive Aerial System, LLC to be connected to Express + Flask backend for full stack."
+            body="Startup company landing page for DeLive Aerial System, LLC to be connected to Node + Flask backend for full stack."
             end={
               <p>
                 <strong>Technologies:</strong> React (CRA), SCSS, Bootstrap,
