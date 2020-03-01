@@ -493,7 +493,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React (CRA), SCSS, Bootstrap,
-                Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics
+                Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics, PWA
               </p>
             }
             buttons={
@@ -521,7 +521,8 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Next, Node, Express, SCSS,
-                Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics
+                Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics,
+                PWA
               </p>
             }
             buttons={
@@ -549,7 +550,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Tailwind, Netlify,
-                Formspree, Google Analytics
+                Formspree, Google Analytics, PWA
               </p>
             }
             buttons={
@@ -581,7 +582,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Bootstrap,
-                Netlify, Formspree, Google Analytics
+                Netlify, Formspree, Google Analytics, PWA
               </p>
             }
             buttons={
