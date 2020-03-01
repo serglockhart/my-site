@@ -160,7 +160,7 @@ const IndexPage = props => {
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
                 Apollo, Node, Express, Polaris, Gatsby, Python, Sass/SCSS,
-                Bootstrap, HTML/CSS, Git
+                Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -207,7 +207,8 @@ const IndexPage = props => {
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Node, Python,
                 Flask, MongoDB, AWS (Elastic Beanstalk, IoT), Parse Server,
-                Sass/SCSS, Bootstrap, HTML/CSS, Raspberry Pi, Agile (SCRUM), Git
+                Sass/SCSS, Bootstrap, HTML/CSS, Raspberry Pi, Agile (SCRUM),
+                PWA, Git
               </p>
             }
           />
@@ -265,7 +266,7 @@ const IndexPage = props => {
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, Node,
                 Express, ZEIT Now, Sass/SCSS, Bootstrap, HTML/CSS, Flutter
-                (DART), Firebase, Python, Raspberry Pi, Kali Linux, Git
+                (DART), Firebase, Python, Raspberry Pi, Kali Linux, PWA, Git
               </p>
             }
           />
@@ -311,7 +312,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: C++, Arduino, GraphQL, Netlify,
-                styled-components, Javascript, React, Gatsby, HTML/CSS, Git
+                styled-components, Javascript, React, Gatsby, HTML/CSS, PWA, Git
               </p>
             }
           />
