@@ -46,7 +46,7 @@ const Contact = props => {
               type="email"
               name="_replyto"
               className="form-control"
-              placeholder="example@gmail.com"
+              placeholder="Email"
               minlength="2"
               required="true"
             />
@@ -54,7 +54,7 @@ const Contact = props => {
               type="text"
               name="subject"
               className="form-control"
-              placeholder="Subject..."
+              placeholder="Subject"
               minlength="2"
               required="true"
             />
@@ -62,7 +62,7 @@ const Contact = props => {
               type="text"
               name="body"
               className="form-control"
-              placeholder="Message..."
+              placeholder="Message"
               minlength="2"
               required="true"
             ></textarea>
