@@ -11,14 +11,15 @@ const Tech = props => {
           <p>JavaScript ES6, C/C++, Python, Go/Golang</p>
           <h5>Web</h5>
           <p>
-            React (Next, Gatsby, Material-UI), HTML (DOM), CSS (Sass/SCSS,
-            styled-components, Bootstrap, Tailwind, Bulma), jQuery, AJAX, JSON,
-            XML
+            React (Next, Gatsby, Material-UI), Flask, HTML (DOM), CSS
+            (Sass/SCSS, styled-components, Bootstrap, Tailwind, Bulma), jQuery,
+            AJAX, JSON, XML
           </p>
           <h5>APIs & SDKs</h5>
           <p>
             Node, Express, Google Maps, Mapbox (OpenStreetMap), Mailchimp,
-            Shopify (Polaris), Formspree, EmailJS, Google Analytics
+            Shopify (Polaris), Parse Server, Formspree, EmailJS, Google
+            Analytics
           </p>
           <h5>Mobile</h5>
           <p>Flutter (DART), React Native</p>
