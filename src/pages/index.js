@@ -281,7 +281,7 @@ const IndexPage = props => {
               <ul className="tech">
                 <li>
                   Solely developed server-side rendering (SSR) static landing
-                  web app currently used by startup
+                  web page currently used by startup
                 </li>
                 <li>
                   Solely developed touchscreen GUI + LiDAR collision detection
