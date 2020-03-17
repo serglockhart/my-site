@@ -488,9 +488,37 @@ const IndexPage = props => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
+            bgColor={2}
+            title="Gäshawk Site"
+            body="Startup company server-side rendering (SSR) landing web page for Gäshawk Incorporated."
+            end={
+              <p>
+                <strong>Technologies:</strong> React, Gatsby, SCSS, Bootstrap,
+                Netlify, Google Maps, Formcarry, Google Analytics, PWA
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button
+                  link="https://gashawkrv.com/"
+                  title="View here"
+                  links="https://github.com/gashawk/gashawk-site"
+                  titles="View repo"
+                />
+              </div>
+            }
+          >
+            <Browser
+              image=""
+              vid={`../../videos/gashawkSite.webm`}
+              vidBackup={`../../videos/gashawkSite.mp4`}
+              vidAlt={"Gäshawk site"}
+            />
+          </Project>
+          <Project
             bgColor={1}
             title="DeLive Site"
-            body="Startup company landing page for DeLive Aerial System, LLC to be connected to Node + Flask backend for full stack."
+            body="Startup company landing web page for DeLive Aerial System, LLC to be connected to Node + Flask backend."
             end={
               <p>
                 <strong>Technologies:</strong> React (CRA), SCSS, Bootstrap,
@@ -502,7 +530,7 @@ const IndexPage = props => {
                 <Button
                   link="https://delivedrones.com/"
                   title="View here"
-                  links="https://github.com/delive-as/delive-website"
+                  links="https://github.com/delive-as/delive-site"
                   titles="View repo"
                 />
               </div>
@@ -516,9 +544,9 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="Tembo Site"
-            body="Startup company landing page for Tembo AI, LLC setup for heavier SSR full stack web app workload."
+            body="Startup company landing web page for Tembo AI, LLC set up for heavier SSR full stack web app workload."
             end={
               <p>
                 <strong>Technologies:</strong> React, Next, Node, Express, SCSS,
@@ -545,7 +573,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={2}
             title="Kyra Site"
             body="Portfolio website for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
@@ -600,7 +628,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="Tembo App"
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -618,7 +646,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={2}
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -637,7 +665,7 @@ const IndexPage = props => {
           <Project
             bgColor={1}
             title="Gäshawk Overwatch"
-            body="Touchscreen GUI + LiDAR Overhead Collision Detection system developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator program invitation."
+            body="Touchscreen GUI + LiDAR Overhead Collision Detection System developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
             end={
               <p>
                 <strong>Technologies:</strong> C++, Arduino, Git
@@ -657,7 +685,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="Automated School Logger"
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
@@ -680,7 +708,7 @@ const IndexPage = props => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={2}
             title="Sustainable Energy Charger"
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
