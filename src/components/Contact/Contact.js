@@ -17,7 +17,10 @@ const Contact = props => {
       </Link>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
-        <form action="https://formspree.io/xyykdora" method="POST">
+        <form
+          action="https://getform.io/f/c0fa5731-f460-4790-b014-66330b003eeb"
+          method="POST"
+        >
           <ModalBody>
             <div className="row">
               <div className="col-12 col-md-6">
