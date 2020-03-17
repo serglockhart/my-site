@@ -583,7 +583,7 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Bootstrap,
-                Netlify, Formspree, Google Analytics, PWA
+                Netlify, Getform, Google Analytics, PWA
               </p>
             }
             buttons={
