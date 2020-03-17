@@ -246,8 +246,8 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed full stack SSR web app and messaging mobile
-                  apps to be used in alpha testing
+                  Solely developed full-stack server-side rendering (SSR) web
+                  app and messaging mobile apps to be used in alpha testing
                 </li>
                 <li>
                   Solely developed indoor location triangulation mobile tracker
@@ -273,12 +273,16 @@ const IndexPage = props => {
           <Card
             title="Lead Software Engineer | Gäshawk"
             subtitle="January 2019 - January 2020 • South Bend, IN"
-            logoLink="https://xn--gshawk-bua.com"
+            logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
             logoBackup={`../../images/experience/gashawk.png`}
             logoAlt={"Gäshawk logo"}
             body={
               <ul className="tech">
+                <li>
+                  Solely developed server-side rendering (SSR) static landing
+                  web app currently used by startup
+                </li>
                 <li>
                   Solely developed touchscreen GUI + LiDAR collision detection
                   resulting in{" "}
@@ -302,10 +306,6 @@ const IndexPage = props => {
                     (SBIR)
                   </a>{" "}
                   program entry
-                </li>
-                <li>
-                  Currently solely developing static landing page leveraging
-                  modern technologies to be used by startup
                 </li>
               </ul>
             }

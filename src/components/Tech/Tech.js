@@ -27,8 +27,8 @@ const Tech = props => {
           <h5>APIs & SDKs</h5>
           <p>
             Node, Express, Google Maps, Mapbox (OpenStreetMap), Mailchimp,
-            Shopify (Polaris), Parse Server, Formspree, EmailJS, Google
-            Analytics
+            Stripe, Shopify (Polaris), Parse Server, Getform, Formspree,
+            Formcarry, EmailJS, Google Analytics
           </p>
           <h5>Embedded Systems</h5>
           <p>Arduino, Raspberry Pi, Verilog, Intel Galileo</p>
