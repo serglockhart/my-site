@@ -139,7 +139,7 @@ const IndexPage = props => {
           />
           <Card
             title="Software Engineer Intern | IDEA Center"
-            subtitle="Spring 2020 • South Bend, IN"
+            subtitle="Winter/Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
             logoBackup={`../../images/extracurriculars/ideacenter.png`}
@@ -311,8 +311,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, Arduino, GraphQL, Netlify,
-                styled-components, Javascript, React, Gatsby, HTML/CSS, PWA, Git
+                <strong>Technologies</strong>: C++, Arduino, Javascript, React,
+                Gatsby, GraphQL, Netlify, SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
