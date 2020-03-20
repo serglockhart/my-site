@@ -35,7 +35,7 @@ const Tech = props => {
           <h5>Other</h5>
           <p>MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), PWA</p>
           <h5>Design</h5>
-          <p>Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
+          <p>Adobe Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
         </div>
       </div>
     </div>
