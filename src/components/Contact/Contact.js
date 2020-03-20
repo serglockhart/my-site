@@ -22,27 +22,29 @@ const Contact = props => {
           method="POST"
         >
           <ModalBody>
-            <div className="row">
-              <div className="col-12 col-md-6">
-                <input
-                  type="text"
-                  name="firstName"
-                  id="firstName"
-                  className="form-control"
-                  placeholder="First"
-                  minlength="2"
-                  required="true"
-                />
-              </div>
-              <div className="col-12 col-md-6">
-                <input
-                  type="text"
-                  name="lastName"
-                  className="form-control"
-                  placeholder="Last"
-                  minlength="2"
-                  required="true"
-                />
+            <div className="container-fluid px-0">
+              <div className="row">
+                <div className="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    className="form-control"
+                    placeholder="First"
+                    minlength="2"
+                    required="true"
+                  />
+                </div>
+                <div className="col-12 col-md-6">
+                  <input
+                    type="text"
+                    name="lastName"
+                    className="form-control"
+                    placeholder="Last"
+                    minlength="2"
+                    required="true"
+                  />
+                </div>
               </div>
             </div>
             <input
