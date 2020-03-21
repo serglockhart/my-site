@@ -28,6 +28,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Add websites to Projects section
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Separate main CSS file into individual component CSS
+- [ ] Convert CSS to SASS/SCSS
 - [ ] Change form to formik or react-hook-form
 - [ ] Add Dark Mode feature
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
