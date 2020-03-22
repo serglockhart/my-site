@@ -29,9 +29,9 @@ const Tech = props => {
           <div className="col-12 col-md-6 col-1-format">
             <h5>APIs & SDKs</h5>
             <p>
-              Mailchimp, Stripe, Shopify, Parse Server, Google Maps, Mapbox
-              (OpenStreetMap), Getform, Formspree, Formcarry, EmailJS, Google
-              Analytics
+              Mailchimp, OAuth, Stripe, Shopify, Parse Server, Google Maps,
+              Mapbox (OpenStreetMap), Getform, Formspree, Formcarry, EmailJS,
+              Google Analytics
             </p>
             <h5>Embedded Systems</h5>
             <p>Arduino, Raspberry Pi, Verilog, Intel</p>
