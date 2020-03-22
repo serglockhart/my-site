@@ -490,7 +490,7 @@ const IndexPage = props => {
           <Project
             bgColor={2}
             title="Gäshawk Site"
-            body="Startup company server-side rendering (SSR) landing web page for Gäshawk Incorporated."
+            body="Startup company server-side rendering (SSR) landing page for Gäshawk Incorporated."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, SCSS, Bootstrap,
@@ -518,7 +518,7 @@ const IndexPage = props => {
           <Project
             bgColor={1}
             title="DeLive Site"
-            body="Startup company landing web page for DeLive Aerial System, LLC to be connected to Node + Flask backend."
+            body="Startup company landing page for DeLive Aerial System, LLC to be connected to Node + Flask backend."
             end={
               <p>
                 <strong>Technologies:</strong> React (CRA), SCSS, Bootstrap,
@@ -546,7 +546,7 @@ const IndexPage = props => {
           <Project
             bgColor={3}
             title="Tembo Site"
-            body="Startup company landing web page for Tembo AI, LLC set up for heavier SSR full stack web app workload."
+            body="Startup company landing page for Tembo AI, LLC set up for heavier SSR full stack web app workload."
             end={
               <p>
                 <strong>Technologies:</strong> React, Next, Node, Express, SCSS,
