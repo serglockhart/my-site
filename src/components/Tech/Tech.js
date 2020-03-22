@@ -14,7 +14,7 @@ const Tech = props => {
             <p>
               React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
               Client, Flask, jQuery, HTML, CSS (Sass/SCSS, styled-components,
-              Material-UI, Bootstrap, Tailwind, Bulma)
+              Material-UI, Bootstrap, Tailwind, Bulma), NPM, Yarn
             </p>
             <h5>Databases &amp; Deployment</h5>
             <p>
