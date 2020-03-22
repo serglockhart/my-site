@@ -159,8 +159,8 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo, Node, Express, Polaris, Gatsby, Python, Sass/SCSS,
-                Bootstrap, HTML/CSS, PWA, Git
+                Apollo Client, Node, Express, Polaris, Gatsby, Python,
+                Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
