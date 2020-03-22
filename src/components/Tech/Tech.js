@@ -38,7 +38,10 @@ const Tech = props => {
               MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), PWA, JSON, XML
             </p>
             <h5>Design</h5>
-            <p>AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, Eagle</p>
+            <p>
+              Affinity Designer, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing,
+              Eagle
+            </p>
           </div>
         </div>
       </div>
