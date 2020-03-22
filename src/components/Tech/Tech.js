@@ -13,7 +13,7 @@ const Tech = props => {
             <h5>Web</h5>
             <p>
               React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
-              Client, jQuery, HTML, CSS (Sass/SCSS, styled-components,
+              Client, Flask, jQuery, HTML, CSS (Sass/SCSS, styled-components,
               Material-UI, Bootstrap, Tailwind, Bulma)
             </p>
             <h5>Databases &amp; Deployment</h5>
