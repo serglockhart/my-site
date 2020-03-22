@@ -40,7 +40,7 @@ const Tech = props => {
             </p>
             <h5>Design</h5>
             <p>
-              Affinity Designer, Sketch, AutoCAD, Fusion 360, SOLIDWORKS,
+              Affinity Designer, Sketch, Figma, AutoCAD, Fusion 360, SOLIDWORKS,
               Fritzing, EAGLE
             </p>
           </div>
