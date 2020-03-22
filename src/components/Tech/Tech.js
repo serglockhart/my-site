@@ -14,7 +14,7 @@ const Tech = props => {
             <p>
               React (Next, Gatsby), Redux, Node, Express, jQuery, HTML, CSS
               (Sass/SCSS, styled-components, Material-UI, Bootstrap, Tailwind,
-              Bulma), JSON, XML
+              Bulma)
             </p>
             <h5>Mobile</h5>
             <p>Flutter (DART), React Native</p>
@@ -34,7 +34,9 @@ const Tech = props => {
             <h5>Embedded Systems</h5>
             <p>Arduino, Raspberry Pi, Verilog, Intel Galileo</p>
             <h5>Other</h5>
-            <p>MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), PWA</p>
+            <p>
+              MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), PWA, JSON, XML
+            </p>
             <h5>Design</h5>
             <p>
               Adobe Illustrator, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing,
