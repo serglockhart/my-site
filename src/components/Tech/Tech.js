@@ -12,9 +12,9 @@ const Tech = props => {
             <p>JavaScript ES6, C/C++, Python, Java, Go/Golang</p>
             <h5>Web</h5>
             <p>
-              React (Next, Gatsby), Redux, Node, Express, Flask, HTML, CSS
+              React (Next, Gatsby), Redux, Node, Express, jQuery, HTML, CSS
               (Sass/SCSS, styled-components, Material-UI, Bootstrap, Tailwind,
-              Bulma), jQuery, JSON, XML
+              Bulma), JSON, XML
             </p>
             <h5>Mobile</h5>
             <p>Flutter (DART), React Native</p>
