@@ -158,8 +158,8 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo Client, Node, Express, Polaris, Gatsby, Python,
+                <strong>Technologies</strong>: JavaScript, React, Next, Node,
+                Express, GraphQL, Apollo Client, Polaris, Gatsby, Python,
                 Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
@@ -205,10 +205,10 @@ const IndexPage = props => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Node, Python,
-                Flask, MongoDB, AWS (Elastic Beanstalk, IoT), Parse Server,
-                Sass/SCSS, Bootstrap, HTML/CSS, Raspberry Pi, Agile (SCRUM),
-                PWA, Git
+                <strong>Technologies</strong>: JavaScript, React, Node, Express,
+                Python, Flask, MongoDB, AWS (Elastic Beanstalk, IoT), Parse
+                Server, Sass/SCSS, Bootstrap, HTML/CSS, Raspberry Pi, Agile
+                (SCRUM), PWA, Git
               </p>
             }
           />
