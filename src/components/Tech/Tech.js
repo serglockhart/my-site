@@ -27,14 +27,14 @@ const Tech = props => {
             <p>Flutter (DART), React Native, Expo</p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
+            <h5>Embedded Systems</h5>
+            <p>Arduino, Raspberry Pi, Verilog, Intel</p>
             <h5>APIs & SDKs</h5>
             <p>
               Mailchimp, OAuth, Stripe, Shopify, Parse Server, Google Maps,
               Mapbox (OpenStreetMap), Getform, Formspree, Formcarry, EmailJS,
               Google Analytics
             </p>
-            <h5>Embedded Systems</h5>
-            <p>Arduino, Raspberry Pi, Verilog, Intel</p>
             <h5>Other</h5>
             <p>
               MATLAB, UNIX/Linux, Kali Linux, Agile (SCRUM), Progressive Web App
