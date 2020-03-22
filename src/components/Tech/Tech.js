@@ -12,16 +12,16 @@ const Tech = props => {
             <p>JavaScript ES6, C/C++, Python, Java, Go/Golang</p>
             <h5>Web</h5>
             <p>
-              React (Next, Gatsby), Redux, Node, Express, jQuery, HTML, CSS
-              (Sass/SCSS, styled-components, Material-UI, Bootstrap, Tailwind,
-              Bulma)
+              React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
+              Client, jQuery, HTML, CSS (Sass/SCSS, styled-components,
+              Material-UI, Bootstrap, Tailwind, Bulma)
             </p>
             <h5>Mobile</h5>
             <p>Flutter (DART), React Native</p>
             <h5>Databases &amp; Deployment</h5>
             <p>
               PostgreSQL, SQL Server, AWS, MongoDB, Firebase, Heroku, Netlify,
-              ZEIT Now, GraphQL, Apollo
+              ZEIT Now
             </p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
