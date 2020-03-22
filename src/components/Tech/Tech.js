@@ -12,9 +12,9 @@ const Tech = props => {
             <p>JavaScript ES6, C/C++, Python, Java, Go/Golang</p>
             <h5>Web</h5>
             <p>
-              React (Next, Gatsby), Redux, Flask, HTML (DOM), CSS (Sass/SCSS,
-              styled-components, Material-UI, Bootstrap, Tailwind, Bulma),
-              jQuery, AJAX, JSON, XML
+              React (Next, Gatsby), Redux, Node, Express, Flask, HTML (DOM), CSS
+              (Sass/SCSS, styled-components, Material-UI, Bootstrap, Tailwind,
+              Bulma), jQuery, AJAX, JSON, XML
             </p>
             <h5>Mobile</h5>
             <p>Flutter (DART), React Native</p>
@@ -27,9 +27,9 @@ const Tech = props => {
           <div className="col-12 col-md-6 col-1-format">
             <h5>APIs & SDKs</h5>
             <p>
-              Node, Express, Google Maps, Mapbox (OpenStreetMap), Mailchimp,
-              Stripe, Shopify (Polaris), Parse Server, Getform, Formspree,
-              Formcarry, EmailJS, Google Analytics
+              Google Maps, Mapbox (OpenStreetMap), Mailchimp, Stripe, Shopify
+              (Polaris), Parse Server, Getform, Formspree, Formcarry, EmailJS,
+              Google Analytics
             </p>
             <h5>Embedded Systems</h5>
             <p>Arduino, Raspberry Pi, Verilog, Intel Galileo</p>
