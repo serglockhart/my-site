@@ -20,8 +20,8 @@ const Tech = props => {
             <p>Flutter (DART), React Native</p>
             <h5>Databases &amp; Deployment</h5>
             <p>
-              PostgreSQL, SQL Server, AWS, MongoDB, Firebase, Heroku, Netlify,
-              ZEIT Now
+              PostgreSQL, SQL Server, SQL, AWS, MongoDB, Firebase, Heroku,
+              Netlify, ZEIT Now
             </p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
