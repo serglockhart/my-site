@@ -35,7 +35,8 @@ const Tech = props => {
             <p>Arduino, Raspberry Pi, Verilog, Intel Galileo</p>
             <h5>Other</h5>
             <p>
-              MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), PWA, JSON, XML
+              MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), Progressive
+              Web App (PWA), JSON, XML
             </p>
             <h5>Design</h5>
             <p>
