@@ -32,7 +32,7 @@ const Tech = props => {
               Google Analytics
             </p>
             <h5>Embedded Systems</h5>
-            <p>Arduino, Raspberry Pi, Verilog, Intel Galileo</p>
+            <p>Arduino, Raspberry Pi, Verilog, Intel</p>
             <h5>Other</h5>
             <p>
               MATLAB, Git, UNIX/Linux, Kali Linux, Agile (SCRUM), Progressive
