@@ -31,7 +31,7 @@ const Tech = props => {
             <p>Arduino, Raspberry Pi, Verilog, Intel</p>
             <h5>APIs & SDKs</h5>
             <p>
-              Mailchimp, OAuth, Stripe, Shopify, Parse Server, Google Maps,
+              OAuth, Stripe, Shopify, Mailchimp, Parse Server, Google Maps,
               Mapbox (OpenStreetMap), Getform, Formspree, Formcarry, EmailJS,
               Google Analytics
             </p>
