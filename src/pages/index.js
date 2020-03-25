@@ -312,7 +312,8 @@ const IndexPage = props => {
             end={
               <p>
                 <strong>Technologies</strong>: C++, Arduino, Javascript, React,
-                Gatsby, GraphQL, Netlify, SCSS, Bootstrap, HTML/CSS, PWA, Git
+                Gatsby, GraphQL, Netlify, Sass/SCSS, Bootstrap, HTML/CSS, PWA,
+                Git
               </p>
             }
           />
@@ -493,7 +494,7 @@ const IndexPage = props => {
             body="Startup company server-side rendering (SSR) landing page for Gäshawk Incorporated."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, SCSS, Bootstrap,
+                <strong>Technologies:</strong> React, Gatsby, Sass, Bootstrap,
                 Netlify, Google Maps, Formcarry, Google Analytics, PWA
               </p>
             }
@@ -521,7 +522,7 @@ const IndexPage = props => {
             body="Startup company landing page for DeLive Aerial System, LLC to be connected to Node + Flask backend."
             end={
               <p>
-                <strong>Technologies:</strong> React (CRA), SCSS, Bootstrap,
+                <strong>Technologies:</strong> React (CRA), Sass, Bootstrap,
                 Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics, PWA
               </p>
             }
@@ -549,7 +550,7 @@ const IndexPage = props => {
             body="Startup company landing page for Tembo AI, LLC set up for heavier SSR full stack web app workload."
             end={
               <p>
-                <strong>Technologies:</strong> React, Next, Node, Express, SCSS,
+                <strong>Technologies:</strong> React, Next, Node, Express, Sass,
                 Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics,
                 PWA
               </p>
