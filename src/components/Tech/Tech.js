@@ -38,13 +38,14 @@ const Tech = props => {
             </p>
             <h5>Other</h5>
             <p>
-              MATLAB, UNIX/Linux, Kali Linux, Agile (SCRUM), Progressive Web App
-              (PWA), JSON, XML, YAML
+              MATLAB, UNIX/Linux, Kali Linux, Progressive Web Apps (PWA), JSON,
+              XML, YAML, Markdown, Agile
             </p>
             <h5>Design</h5>
             <p>
               Affinity Designer, Sketch, Figma, Adobe XD, Invision Studio,
-              Zeplin, AutoCAD, Fusion 360, SOLIDWORKS, Fritzing, EAGLE
+              Supernova Studio, Zeplin, AutoCAD, Fusion 360, SOLIDWORKS,
+              Fritzing, EAGLE
             </p>
           </div>
         </div>
