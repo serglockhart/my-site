@@ -25,7 +25,7 @@ const Tech = props => {
             <h5>Testing &amp; DevOps</h5>
             <p>Jest, Enzyme, Git (GitHub, GitLab)</p>
             <h5>Mobile</h5>
-            <p>Flutter (DART), React Native, Expo</p>
+            <p>Flutter (DART), React Native, Expo, Xcode, Android Studio</p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
             <h5>Embedded Systems</h5>
