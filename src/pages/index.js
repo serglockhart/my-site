@@ -280,8 +280,8 @@ const IndexPage = props => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed server-side rendering (SSR) static landing
-                  web page currently used by startup
+                  Solely developed server-side rendering (SSR) progressive web
+                  app (PWA) currently used by startup
                 </li>
                 <li>
                   Solely developed touchscreen GUI + LiDAR collision detection
@@ -491,7 +491,7 @@ const IndexPage = props => {
           <Project
             bgColor={2}
             title="Gäshawk Site"
-            body="Startup company server-side rendering (SSR) landing page for Gäshawk Incorporated."
+            body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Sass, Bootstrap,
@@ -519,7 +519,7 @@ const IndexPage = props => {
           <Project
             bgColor={1}
             title="DeLive Site"
-            body="Startup company landing page for DeLive Aerial System, LLC to be connected to Node + Flask backend."
+            body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Flask backend."
             end={
               <p>
                 <strong>Technologies:</strong> React (CRA), Sass, Bootstrap,
@@ -547,7 +547,7 @@ const IndexPage = props => {
           <Project
             bgColor={3}
             title="Tembo Site"
-            body="Startup company landing page for Tembo AI, LLC set up for heavier SSR full stack web app workload."
+            body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR full stack web app workload."
             end={
               <p>
                 <strong>Technologies:</strong> React, Next, Node, Express, Sass,
@@ -576,7 +576,7 @@ const IndexPage = props => {
           <Project
             bgColor={2}
             title="Kyra Site"
-            body="Portfolio website for fashion designer Kyra Buenviaje displaying resume, projects and collections."
+            body="Portfolio website (PWA) for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Tailwind, Netlify,
@@ -608,7 +608,7 @@ const IndexPage = props => {
                 <h2>./Recursion</h2>
               </a>
             }
-            body="Personal website displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
+            body="Personal website (PWA) displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
                 <strong>Technologies:</strong> React, Gatsby, Bootstrap,
