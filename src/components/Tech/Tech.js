@@ -39,7 +39,7 @@ const Tech = props => {
             <h5>Other</h5>
             <p>
               MATLAB, UNIX/Linux, Kali Linux, Progressive Web Apps (PWA), JSON,
-              XML, YAML, Markdown, Agile
+              XML, YAML, Agile Development
             </p>
             <h5>Design</h5>
             <p>
