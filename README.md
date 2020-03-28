@@ -27,7 +27,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Change social icons
 - [x] Add websites to Projects section
 - [x] Optimize site performance through PWA lighthouse audit
-- [ ] Fix metadata image
+- [x] Fix metadata image
 - [ ] Fix favicon sizes
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Separate main CSS file into individual component CSS
