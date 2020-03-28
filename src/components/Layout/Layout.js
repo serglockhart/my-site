@@ -14,21 +14,27 @@ const Layout = props => {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <title>Jio Buenviaje</title>
         <meta name="author" content="Jio Buenviaje" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Jio Buenviaje" />
-        <meta property="og:url" content="jbuenviaje.com" />
         <meta property="twitter:url" content="jbuenviaje.com" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Jio Buenviaje</title>
-        <meta property="og:title" content="Jio Buenviaje" />
-        <meta property="twitter:title" content="Jio Buenviaje" />
+
+        <meta property="og:title" content="Jio Buenviaje Website" />
         <meta
-          name="description"
-          content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino."
+          property="og:image"
+          content="https://user-images.githubusercontent.com/50670255/76829155-e03f0c00-67f8-11ea-86b9-5cadafab7b63.png"
         />
         <meta
           property="og:description"
+          content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino."
+        />
+        <meta property="og:url" content="jbuenviaje.com" />
+
+        <meta property="twitter:title" content="Jio Buenviaje" />
+        <meta
+          name="description"
           content="Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino."
         />
         <meta
@@ -39,7 +45,6 @@ const Layout = props => {
           name="keywords"
           content="juan,sergio,jio,juansergio,juansergiobuenviaje,jiobuenviaje,notredame,nd,freelance,web,webdev,mobile,iosdevelopment,ios,android,androiddevelopment,website,cs,filipino,southbend,indiana,university,philippines,philippine,student,react,javascript,node,developer,dev,flutter,dart,embedded,arduino,contact,new,york,city,NY,youthhack,cbs"
         />
-        <meta property="og:image" content="../../images/bg.webp" />
         <meta property="twitter:image" content="../../images/bg.webp" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://jbuenviaje.com/" />
