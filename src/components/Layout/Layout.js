@@ -21,7 +21,7 @@ const Layout = props => {
         <meta property="twitter:url" content="jbuenviaje.com" />
         <meta name="theme-color" content="#ffffff" />
 
-        <meta property="og:title" content="Personal Website" />
+        <meta property="og:title" content="Jio Buenviaje" />
         <meta
           property="og:image"
           content="https://user-images.githubusercontent.com/50670255/76829155-e03f0c00-67f8-11ea-86b9-5cadafab7b63.png"
