@@ -28,8 +28,8 @@ Progressive Web Application (PWA) developed in React through Gatsby using styled
 - [x] Add websites to Projects section
 - [x] Optimize site performance through PWA lighthouse audit
 - [x] Fix metadata image
-- [x] Convert CSS to styled-components
-- [ ] Separate main styled-component to intended use of styled-components
+- [x] Convert CSS to Sass
+- [ ] Fix Sass files
 - [ ] Fix favicon sizes
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Convert JavaScript to TypeScript
