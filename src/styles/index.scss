@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
 
+$font-family: "Open Sans", Roboto, sans-serif;
 $white: #ffffff;
 $black: #000000;
 $text-color: #383838;
@@ -20,12 +21,26 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
 $mobile-border-color: rgba(68, 68, 68, 0.25);
 $browser-border-color: rgba(0, 0, 0, 0.175);
 
+%no-text-decor {
+  text-decoration: none;
+}
+
+%link-change {
+  @extend %no-text-decor;
+  color: $white;
+}
+
+%width-block {
+  display: block;
+  width: 100%;
+}
+
 html {
   overflow-x: hidden;
 }
 
 .app {
-  font-family: "Open Sans", Roboto, sans-serif;
+  font-family: $font-family;
   color: $text-color;
 }
 
@@ -49,11 +64,6 @@ a {
   text-decoration: none;
 }
 
-%link-change {
-  color: $white;
-  text-decoration: none;
-}
-
 a:active {
   @extend %link-change;
 }
@@ -71,23 +81,23 @@ a:visited {
 }
 
 a .btn {
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 a .btn:active {
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 a .btn:focus {
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 a .btn:hover {
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 a .btn:visited {
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 li {
@@ -181,20 +191,17 @@ p a:hover {
 }
 
 .space-1 {
-  display: block;
-  width: 100%;
+  @extend %width-block;
   height: 1rem;
 }
 
 .space-2 {
-  display: block;
-  width: 100%;
+  @extend %width-block;
   height: 2rem;
 }
 
 .space-3 {
-  display: block;
-  width: 100%;
+  @extend %width-block;
   height: 3rem;
 }
 
@@ -204,7 +211,7 @@ p a:hover {
   box-shadow: 0 0.2rem 0.4rem $slight-shadow;
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 .btn:hover {
@@ -260,25 +267,25 @@ p a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-}
 
-.flex-container .background-image {
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  -webkit-box-flex: 0;
-  -ms-flex: none;
-  flex: none;
-  height: auto;
-  margin-left: 1rem;
-  max-height: 3rem;
-  width: 3rem;
-}
+  .background-image {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    height: auto;
+    margin-left: 1rem;
+    max-height: 3rem;
+    width: 3rem;
+  }
 
-.flex-container .flex {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  .flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
 }
 
 #hero {
@@ -287,8 +294,7 @@ p a:hover {
 }
 
 .app {
-  display: block;
-  width: 100%;
+  @extend %width-block;
 }
 
 .app #menu {
@@ -300,11 +306,10 @@ p a:hover {
 }
 
 .app .social {
+  @extend %width-block;
   bottom: 0;
-  display: block;
   margin-bottom: 1rem;
   position: absolute;
-  width: 100%;
 }
 
 .app .social a {
@@ -323,8 +328,7 @@ p a:hover {
 }
 
 .app .links {
-  display: block;
-  width: 100%;
+  @extend %width-block;
 }
 
 .app .links a {
@@ -332,7 +336,7 @@ p a:hover {
   color: $gray-color !important;
   display: block;
   margin-bottom: 0.5rem;
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 .app .links a:active {
@@ -382,7 +386,7 @@ footer #scroll-to-top:hover {
 .form-control {
   border: 0.125rem solid $text-shadow;
   border-width: 0.125rem;
-  font-family: "Open Sans", Roboto, sans-serif;
+  font-family: $font-family;
   font-size: 1rem;
   margin-bottom: 1rem;
   padding: 0.75rem;
@@ -405,19 +409,17 @@ textarea.form-control {
 }
 
 .line {
+  @extend %width-block;
   border-top: 0.125rem solid $line-color;
-  display: block;
   height: 0;
   margin: 1rem 0;
-  width: 100%;
 }
 
 hr {
+  @extend %width-block;
   border-top: 0.125rem solid $line-color;
-  display: block;
   height: 0;
   margin: 1rem 0;
-  width: 100%;
 }
 
 #extracurriculars {
@@ -814,17 +816,16 @@ hr {
 }
 
 .content .card.has-img#hero .card-img {
+  @extend %width-block;
   background-position: top;
   background-repeat: none;
   background-size: cover;
-  display: block;
   height: 10rem;
-  width: 100%;
 }
 
 .content a .card {
   color: $black;
-  text-decoration: none;
+  @extend %no-text-decor;
 }
 
 .content a .card:active {

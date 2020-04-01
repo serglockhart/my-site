@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
+a:active, a:focus, a:hover, a:visited, a .btn, a .btn:active, a .btn:focus, a .btn:hover, a .btn:visited, .btn, .app .links a, .content a .card {
+  text-decoration: none;
+}
+
+a:active, a:focus, a:hover, a:visited {
+  color: #ffffff;
+}
+
+.space-1, .space-2, .space-3, .app, .app .social, .app .links, .line, hr, .content .card.has-img#hero .card-img {
+  display: block;
+  width: 100%;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -26,31 +39,6 @@ a {
   color: #ffffff;
   cursor: pointer;
   text-decoration: underline;
-  text-decoration: none;
-}
-
-a:active, a:focus, a:hover, a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-a .btn {
-  text-decoration: none;
-}
-
-a .btn:active {
-  text-decoration: none;
-}
-
-a .btn:focus {
-  text-decoration: none;
-}
-
-a .btn:hover {
-  text-decoration: none;
-}
-
-a .btn:visited {
   text-decoration: none;
 }
 
@@ -145,20 +133,14 @@ p a:hover {
 }
 
 .space-1 {
-  display: block;
-  width: 100%;
   height: 1rem;
 }
 
 .space-2 {
-  display: block;
-  width: 100%;
   height: 2rem;
 }
 
 .space-3 {
-  display: block;
-  width: 100%;
   height: 3rem;
 }
 
@@ -168,7 +150,6 @@ p a:hover {
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  text-decoration: none;
 }
 
 .btn:hover {
@@ -250,11 +231,6 @@ p a:hover {
   padding-top: 2.5rem;
 }
 
-.app {
-  display: block;
-  width: 100%;
-}
-
 .app #menu {
   width: 100%;
 }
@@ -265,10 +241,8 @@ p a:hover {
 
 .app .social {
   bottom: 0;
-  display: block;
   margin-bottom: 1rem;
   position: absolute;
-  width: 100%;
 }
 
 .app .social a {
@@ -286,17 +260,11 @@ p a:hover {
   opacity: 1;
 }
 
-.app .links {
-  display: block;
-  width: 100%;
-}
-
 .app .links a {
   clear: left;
   color: #848484 !important;
   display: block;
   margin-bottom: 0.5rem;
-  text-decoration: none;
 }
 
 .app .links a:active {
@@ -370,18 +338,14 @@ textarea.form-control {
 
 .line {
   border-top: 0.125rem solid rgba(26, 26, 26, 0.1);
-  display: block;
   height: 0;
   margin: 1rem 0;
-  width: 100%;
 }
 
 hr {
   border-top: 0.125rem solid rgba(26, 26, 26, 0.1);
-  display: block;
   height: 0;
   margin: 1rem 0;
-  width: 100%;
 }
 
 #extracurriculars {
@@ -781,14 +745,11 @@ hr {
   background-position: top;
   background-repeat: none;
   background-size: cover;
-  display: block;
   height: 10rem;
-  width: 100%;
 }
 
 .content a .card {
   color: #000000;
-  text-decoration: none;
 }
 
 .content a .card:active {
