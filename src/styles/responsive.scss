@@ -1,3 +1,11 @@
+$white: #ffffff;
+$black: #000000;
+$primary-color: #e18e7f;
+$nav-color: #f5c9ae;
+$project-shadow: rgba(0, 0, 0, 0.25);
+$text-shadow: rgba(0, 0, 0, 0.1);
+$nav-shadow: rgba(255, 255, 255, 0.2);
+
 @media screen and (min-width: 78rem) {
   a {
     font-size: 1rem;
@@ -137,15 +145,15 @@
     width: 100%;
   }
   .nav {
-    -webkit-box-shadow: 0 0.1rem 0.15rem rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0.1rem 0.15rem rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0.1rem 0.15rem $text-shadow;
+    box-shadow: 0 0.1rem 0.15rem $text-shadow;
     position: fixed;
     width: 100%;
     z-index: 10;
   }
   .nav #overview {
-    background: #ffffff;
-    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+    background: $white;
+    border-bottom: 0.0625rem solid $text-shadow;
     display: block;
     padding: 0.5rem 1rem;
     -webkit-transition: all 0.2s ease;
@@ -165,8 +173,8 @@
     z-index: 1001;
   }
   .nav #overview.active {
-    background: #e18e7f;
-    border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
+    background: $primary-color;
+    border-bottom: 0.0625rem solid $nav-shadow;
   }
   .nav #overview.active .logo.alt {
     opacity: 1;
@@ -179,7 +187,7 @@
     z-index: 1;
   }
   .nav #toggle span {
-    background: #000000;
+    background: $black;
     display: block;
     height: 0.125rem;
     margin-bottom: 0.1875rem;
@@ -188,11 +196,11 @@
     width: 1rem;
   }
   .nav #toggle.active span {
-    background: #f5c9ae;
+    background: $nav-color;
   }
   .nav #menu {
-    background: #ffffff;
-    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+    background: $white;
+    border-bottom: 0.0625rem solid $text-shadow;
     height: 0;
     left: 0;
     overflow: hidden;
@@ -205,7 +213,7 @@
     z-index: 1;
   }
   .nav #menu.active {
-    background: #e18e7f;
+    background: $primary-color;
     height: 100vh;
   }
   .nav .social {
@@ -213,7 +221,7 @@
     position: relative;
   }
   .nav .social a img {
-    color: #ffffff;
+    color: $white;
     -webkit-filter: invert(100%);
     filter: invert(100%);
     height: 1.4rem;
@@ -221,21 +229,21 @@
     opacity: 0.75;
   }
   .nav .links a {
-    color: #f5c9ae !important;
+    color: $nav-color !important;
     font-size: 1.5rem;
     margin-bottom: 1.5%;
   }
   .nav .links a:hover {
-    color: #ffffff !important;
+    color: $white !important;
   }
   .nav .links a.active:hover {
-    color: #ffffff !important;
+    color: $white !important;
   }
   .nav .links a.active {
-    color: #f5c9ae !important;
+    color: $nav-color !important;
   }
   .nav .links a:focus {
-    color: #ffffff !important;
+    color: $white !important;
   }
 }
 
@@ -322,12 +330,12 @@
     padding: 0;
   }
   .project .screenshot-wrapper .browser-screenshot {
-    -webkit-box-shadow: 0 -0.1rem 0.5rem rgba(0, 0, 0, 0.25);
-    box-shadow: 0 -0.1rem 0.5rem rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 -0.1rem 0.5rem $project-shadow;
+    box-shadow: 0 -0.1rem 0.5rem $project-shadow;
   }
   .project .screenshot-wrapper .system-screenshot {
-    -webkit-box-shadow: 0 -0.1rem 0.5rem rgba(0, 0, 0, 0.25);
-    box-shadow: 0 -0.1rem 0.5rem rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 -0.1rem 0.5rem $project-shadow;
+    box-shadow: 0 -0.1rem 0.5rem $project-shadow;
   }
 }
 
