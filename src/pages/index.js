@@ -577,8 +577,8 @@ const IndexPage = props => {
             body="Portfolio website (PWA) for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, Tailwind, Netlify,
-                Formspree, Google Analytics, PWA
+                <strong>Technologies:</strong> React, Gatsby, styled-components,
+                Tailwind, Netlify, Formspree, Google Analytics, PWA
               </p>
             }
             buttons={
