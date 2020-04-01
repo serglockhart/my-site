@@ -15,35 +15,32 @@ const Tech = props => {
               Bootstrap, styled-components, Material-UI, Tailwind, Bulma), NPM,
               Yarn
             </p>
+            <h5>Mobile</h5>
+            <p>
+              Swift, React Native, Dart (Flutter), Expo, Xcode, Android Studio
+            </p>
             <h5>Databases &amp; Deployment</h5>
             <p>
-              PostgreSQL, SQL Server, SQL, AWS, Firebase, Heroku, Netlify, ZEIT
-              Now
+              PostgreSQL, Microsoft SQL Server, SQL, MongoDB, AWS, Firebase,
+              Heroku, Netlify, ZEIT Now
             </p>
-            <h5>Testing &amp; DevOps</h5>
-            <p>Jest, Enzyme, Git (GitHub, GitLab)</p>
-            <h5>Mobile</h5>
-            <p>Flutter (DART), React Native, Expo, Xcode, Android Studio</p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
-            <h5>Embedded Systems</h5>
+            <h5>Testing &amp; DevOps</h5>
+            <p>Jest, Enzyme, Git (GitHub, GitLab)</p>
+            <h5>Embedded</h5>
             <p>Arduino, Raspberry Pi, Verilog, Intel</p>
-            <h5>APIs & SDKs</h5>
-            <p>
-              Auth0, Stripe, Shopify, Mailchimp, Parse Server, Google Maps,
-              Mapbox (OpenStreetMap), Getform, Formspree, Formcarry, EmailJS,
-              Google Analytics
-            </p>
             <h5>Other</h5>
             <p>
-              MATLAB, UNIX/Linux, Kali Linux, Progressive Web Apps (PWA), JSON,
-              XML, YAML, Agile Development
+              MATLAB, UNIX/Linux, Progressive Web Apps (PWA), JSON, XML, YAML,
+              DOM, REST APIs, HTTP Protocols, Agile Software
+              Development/Methodologies
             </p>
             <h5>Design</h5>
             <p>
-              Affinity Designer, Sketch, Figma, Adobe XD, InVision Studio,
-              Supernova Studio, Zeplin, AutoCAD, Fusion 360, SOLIDWORKS,
-              Fritzing, EAGLE
+              Sketch, Figma, Adobe XD, Illustrator, Photoshop, Affinity
+              Designer, InVision Studio, Supernova Studio, Zeplin, AutoCAD,
+              Fusion 360, SolidWorks
             </p>
           </div>
         </div>
