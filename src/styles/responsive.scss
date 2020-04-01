@@ -101,20 +101,20 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
       .logo {
         height: 2rem;
         margin-right: 0.75rem;
+        &.alt {
+          opacity: 0;
+          position: absolute;
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          z-index: 1001;
+        }
       }
-      .logo.alt {
-        opacity: 0;
-        position: absolute;
-        -webkit-transition: all 0.2s ease;
-        transition: all 0.2s ease;
-        z-index: 1001;
-      }
-    }
-    #overview.active {
-      background: $primary-color;
-      border-bottom: 0.0625rem solid $nav-shadow;
-      .logo.alt {
-        opacity: 1;
+      &.active {
+        background: $primary-color;
+        border-bottom: 0.0625rem solid $nav-shadow;
+        .logo.alt {
+          opacity: 1;
+        }
       }
     }
 
@@ -133,9 +133,9 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
         transition: background 0.2s ease;
         width: 1rem;
       }
-    }
-    #toggle.active span {
-      background: $nav-color;
+      &.active span {
+        background: $nav-color;
+      }
     }
 
     #menu {
@@ -151,10 +151,10 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
       transition: all 0.2s ease;
       width: 100%;
       z-index: 1;
-    }
-    #menu.active {
-      background: $primary-color;
-      height: 100vh;
+      &.active {
+        background: $primary-color;
+        height: 100vh;
+      }
     }
 
     .social {
@@ -174,19 +174,19 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
       color: $nav-color !important;
       font-size: 1.5rem;
       margin-bottom: 1.5%;
+      &:hover {
+        color: $white !important;
+      }
+      &.active {
+        color: $nav-color !important;
+        &:hover {
+          color: $white !important;
+        }
+      }
+      &:focus {
+        color: $white !important;
+      }
     }
-  }
-  .nav .links a:hover {
-    color: $white !important;
-  }
-  .nav .links a.active:hover {
-    color: $white !important;
-  }
-  .nav .links a.active {
-    color: $nav-color !important;
-  }
-  .nav .links a:focus {
-    color: $white !important;
   }
 }
 
@@ -254,9 +254,9 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
       font-size: 0.875rem;
       margin-bottom: 1rem;
       width: 100%;
-    }
-    p.right {
-      float: none;
+      &.right {
+        float: none;
+      }
     }
   }
 }
