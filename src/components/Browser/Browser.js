@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./Browser.css"
-
 const Browser = props => {
   if (props.image === "") {
     return (

@@ -3,8 +3,6 @@ import React from "react"
 import Content from "../components/Content/index.js"
 import Layout from "../components/Layout/index.js"
 
-import "../styles/index.css"
-
 const ErrorPage = props => {
   return (
     <Layout>

@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./Project.css"
-
 const Project = props => {
   let bgColor
   if (props.bgColor === 1) {

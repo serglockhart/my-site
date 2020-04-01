@@ -1,8 +1,6 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
-import "./Footer.css"
-
 const Footer = props => {
   return (
     <footer>

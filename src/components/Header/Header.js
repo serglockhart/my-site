@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 import Contact from "../Contact/index.js"
 
-import "./Header.css"
-
 const Header = props => {
   const [isToggled, setToggled] = useState(false)
 

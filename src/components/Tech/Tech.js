@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./Tech.css"
-
 const Tech = props => {
   return (
     <div className="card">

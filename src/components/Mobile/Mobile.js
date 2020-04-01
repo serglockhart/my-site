@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./Mobile.css"
-
 const Mobile = props => {
   return (
     <div className="mobile mobile-screenshot">

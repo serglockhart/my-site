@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 import Contact from "../Contact/index.js"
 
-import "./Hero.css"
-
 const Hero = props => {
   return (
     <div className="marg-bot-1">

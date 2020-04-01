@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./System.css"
-
 const System = props => {
   return (
     <div className="system-screenshot">

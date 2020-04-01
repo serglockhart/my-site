@@ -14,8 +14,6 @@ import Mobile from "../components/Mobile/index.js"
 import System from "../components/System/index.js"
 import Action from "../components/Action/index.js"
 
-import "../styles/index.css"
-
 const IndexPage = props => {
   return (
     <Layout>
