@@ -1,23 +1,12 @@
 @media screen and (min-width: 78rem) {
-  a {
-    font-size: 1rem;
-  }
-  li {
-    font-size: 1rem;
-  }
+  a,
+  li,
   p {
     font-size: 1rem;
-  }
-  .content .card.card-post .body {
-    padding: 1.5rem calc(1rem + 5%);
   }
   .app .content {
     margin-left: calc(12rem + 5vw);
     margin-right: calc(12rem + 5vw);
-  }
-  .app .content .content-full-width {
-    margin-left: -5vw;
-    margin-right: -5vw;
   }
 }
 
@@ -41,58 +30,15 @@
   .content .card .subtitle {
     font-size: 0.875rem;
   }
-  .content .card.card-post .timestamp {
-    font-size: 0.875rem;
-  }
-  .content .card.card-post .line {
-    margin: 0.75rem 0;
-  }
 }
 
 @media screen and (min-width: 64rem) {
-  .post h1 {
-    margin-bottom: 1rem;
-    margin-top: calc(1.5rem + 1.25vh);
-  }
-  .post h2 {
-    margin-bottom: 1rem;
-    margin-top: calc(1.5rem + 1.25vh);
-  }
-  .post h3 {
-    margin-bottom: 1rem;
-    margin-top: calc(1.5rem + 1.25vh);
-  }
-  .post h4 {
-    margin-bottom: 1rem;
-    margin-top: calc(1.5rem + 1.25vh);
-  }
-  .post h5 {
-    margin-bottom: 1rem;
-    margin-top: calc(1.5rem + 1.25vh);
-  }
-  .post h6 {
-    margin-bottom: 1rem;
-    margin-top: calc(1.5rem + 1.25vh);
-  }
-  .card-post .body:first-child {
-    padding-top: calc(1.5rem + 2.5vh) !important;
-  }
-  .card-post .body:last-child {
-    padding-bottom: calc(1.5rem + 2.5vh) !important;
-  }
   .project {
     margin-bottom: calc(2rem + 2.5vh);
-  }
-  .content .card.card-post .body {
-    padding: 1.5rem calc(1rem + 2.5%);
   }
   .app .content {
     margin-left: calc(12rem + 1.25vw);
     margin-right: calc(1rem + 5vw);
-  }
-  .app .content .content-full-width {
-    margin-left: -1.25vw;
-    margin-right: -5vw;
   }
 }
 
@@ -101,11 +47,6 @@
     margin-left: 0.5rem;
     max-height: 3rem;
     width: 2.4rem;
-  }
-  .space-mobile {
-    display: block;
-    height: 1rem;
-    width: 100%;
   }
   .project {
     border-radius: 0;
@@ -120,9 +61,6 @@
     border-radius: 0;
     margin-left: -1rem;
     margin-right: -1rem;
-  }
-  .app .content .card .card-img {
-    border-radius: 0;
   }
 }
 
@@ -275,13 +213,13 @@
   .app .nav .links a {
     margin-bottom: 5%;
   }
-  .content > .container-fluid {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
   .app .content {
     margin-left: calc(12rem + 1.25%);
     margin-right: 1rem;
+  }
+  .content > .container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
 
@@ -330,10 +268,6 @@
   .app .content {
     margin-left: calc(12rem + 15vw);
     margin-right: calc(12rem + 15vw);
-  }
-  .app .content .content-full-width {
-    margin-left: -15vw;
-    margin-right: -15vw;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
