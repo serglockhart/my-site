@@ -1,6 +1,6 @@
 # My Website :philippines:
 
-Progressive Web Application (PWA) developed in React through Gatsby using Bootstrap (General Style), Getform (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
+Progressive Web Application (PWA) developed in React through Gatsby using styled-components and Bootstrap (General Style), Getform (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
 
 ![web-screenshot](https://user-images.githubusercontent.com/50670255/76829155-e03f0c00-67f8-11ea-86b9-5cadafab7b63.png)
 
@@ -28,10 +28,10 @@ Progressive Web Application (PWA) developed in React through Gatsby using Bootst
 - [x] Add websites to Projects section
 - [x] Optimize site performance through PWA lighthouse audit
 - [x] Fix metadata image
+- [x] Convert CSS to styled-components
+- [ ] Separate main styled-component to intended use of styled-components
 - [ ] Fix favicon sizes
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
-- [ ] Separate main CSS file into individual component CSS
-- [ ] Convert CSS to styled-components
 - [ ] Convert JavaScript to TypeScript
 - [ ] Change form to formik or react-hook-form
 - [ ] Add Dark Mode feature
