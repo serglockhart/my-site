@@ -1,9 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-import Header from "../Header/index.js"
-import Footer from "../Footer/index.js"
-import { Styles } from "../../styles/Styles"
+import Header from "./Header"
+import Footer from "./Footer"
+import { Styles } from "../theme/Styles"
 
 const Layout = props => {
   return (

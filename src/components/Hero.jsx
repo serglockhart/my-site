@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Contact from "../Contact/index.js"
+import Contact from "./Contact"
 
 const Hero = props => {
   return (

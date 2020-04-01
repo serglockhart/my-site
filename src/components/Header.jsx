@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-import Contact from "../Contact/index.js"
+import Contact from "./Contact"
 
 const Header = props => {
   const [isToggled, setToggled] = useState(false)
