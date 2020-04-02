@@ -29,7 +29,7 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Optimize site performance through PWA lighthouse audit
 - [x] Fix metadata image
 - [x] Convert CSS to Sass
-- [ ] Fix Sass files
+- [x] Finish Sass integration
 - [ ] Fix favicon sizes
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Convert JavaScript to TypeScript
