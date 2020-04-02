@@ -612,8 +612,8 @@ const IndexPage = () => {
             body="Personal website (PWA) displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, Sass, Bootstrap,
-                Netlify, Getform, Google Analytics, PWA
+                <strong>Technologies:</strong> TypeScript, React, Gatsby, Sass,
+                Bootstrap, Netlify, Getform, Google Analytics, PWA
               </p>
             }
             buttons={
