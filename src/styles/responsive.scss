@@ -59,9 +59,9 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
   }
   .project {
     border-radius: 0;
-    margin-bottom: 1.5rem;
     margin-left: -1rem;
     margin-right: -1rem;
+    margin-bottom: 1.5rem;
   }
   .app .content {
     padding-top: 0;
@@ -263,10 +263,7 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
     padding: 0% 5%;
     .screenshot-wrapper {
       padding: 0;
-      .browser-screenshot {
-        -webkit-box-shadow: 0 -0.1rem 0.5rem $project-shadow;
-        box-shadow: 0 -0.1rem 0.5rem $project-shadow;
-      }
+      .browser-screenshot,
       .system-screenshot {
         -webkit-box-shadow: 0 -0.1rem 0.5rem $project-shadow;
         box-shadow: 0 -0.1rem 0.5rem $project-shadow;

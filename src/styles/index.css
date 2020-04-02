@@ -8,9 +8,34 @@ a:active, a:focus, a:hover, a:visited {
   color: #ffffff;
 }
 
-.space-1, .space-2, .space-3, .app, .app .social, .app .links, .line, hr {
+.space-1, .space-2, .space-3, .app, .app .social, .app .links, .line,
+hr {
   display: block;
   width: 100%;
+}
+
+.mobile .line::after,
+.mobile .line::before, .mobile .volume-button::after, .mobile .volume-button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+li a, p a {
+  -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  -webkit-box-shadow: inset 0 -0.25rem 0 #b4e7f8;
+  -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  border-bottom: 0.125rem solid #b4e7f8;
+  box-shadow: inset 0 -0.25rem 0 #b4e7f8;
+  color: #000000 !important;
+  overflow-wrap: break-word;
+  transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+li a:active, p a:active, li a:focus, p a:focus, li a:hover, p a:hover, li a:visited, p a:visited {
+  background-color: #b4e7f8;
 }
 
 html {
@@ -41,42 +66,8 @@ li {
   font-size: 0.875rem;
 }
 
-li a {
-  -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-  -webkit-box-shadow: inset 0 -0.25rem 0 #b4e7f8;
-  -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-  border-bottom: 0.125rem solid #b4e7f8;
-  box-shadow: inset 0 -0.25rem 0 #b4e7f8;
-  color: #000000 !important;
-  overflow-wrap: break-word;
-  transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-  word-break: break-word;
-  word-wrap: break-word;
-}
-
-li a:active, li a:focus, li a:hover, li a:visited {
-  background-color: #b4e7f8;
-}
-
 p {
   font-size: 0.875rem;
-}
-
-p a {
-  -o-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-  -webkit-box-shadow: inset 0 -0.25rem 0 #b4e7f8;
-  -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-  border-bottom: 0.125rem solid #b4e7f8;
-  box-shadow: inset 0 -0.25rem 0 #b4e7f8;
-  color: #000000 !important;
-  overflow-wrap: break-word;
-  transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
-  word-break: break-word;
-  word-wrap: break-word;
-}
-
-p a:active, p a:focus, p a:hover {
-  background-color: #b4e7f8;
 }
 
 .marg-bot-0 {
@@ -124,9 +115,9 @@ p a:active, p a:focus, p a:hover {
 }
 
 .btn {
-  border-radius: 0.2rem;
   -webkit-box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.2rem;
   font-size: 1rem;
   padding: 0.5rem 1rem;
 }
@@ -301,12 +292,7 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
-.line {
-  border-top: 0.125rem solid rgba(26, 26, 26, 0.1);
-  height: 0;
-  margin: 1rem 0;
-}
-
+.line,
 hr {
   border-top: 0.125rem solid rgba(26, 26, 26, 0.1);
   height: 0;
@@ -318,9 +304,9 @@ hr {
 }
 
 .browser {
-  border-radius: 0.2rem;
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
 }
 
 .browser .top {
@@ -356,10 +342,10 @@ hr {
 .browser-screenshot {
   background: #dbdbe0;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.2rem;
+  padding: 0% 1.25% 2.5%;
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 0% 1.25% 2.5%;
+  border-radius: 0.2rem;
 }
 
 .browser-screenshot .top {
@@ -380,10 +366,10 @@ hr {
 .system-screenshot {
   background: #ffffff;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.2rem;
+  padding: 0% 1.25% 2.5%;
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
-  padding: 0% 1.25% 2.5%;
+  border-radius: 0.2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   max-height: 23rem;
@@ -425,9 +411,9 @@ hr {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  border-radius: 0.2rem;
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.2rem;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -503,12 +489,6 @@ hr {
   display: block;
 }
 
-.mobile *::before, .mobile *::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-}
-
 .mobile .side {
   background: #383838;
   border-radius: 3.375rem;
@@ -534,12 +514,9 @@ hr {
 
 .mobile .line::after,
 .mobile .line::before {
-  content: "";
-  position: absolute;
   border: solid rgba(68, 68, 68, 0.25);
   border-width: 0 0.375rem;
   height: 0.3125rem;
-  left: 0;
   width: 100%;
   z-index: 9;
   top: 4.25rem;
@@ -568,23 +545,17 @@ hr {
 }
 
 .mobile .volume-button::after {
-  content: "";
-  position: absolute;
+  top: 3rem;
   background: #383838;
   height: 3.125rem;
-  left: 0;
   width: 0.1875rem;
-  top: 3rem;
 }
 
 .mobile .volume-button::before {
-  content: "";
-  position: absolute;
+  top: 7rem;
   background: #383838;
   height: 3.125rem;
-  left: 0;
   width: 0.1875rem;
-  top: 7rem;
 }
 
 .mobile .power-button {
