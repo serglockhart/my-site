@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 import "../styles/index.scss"
 import "../styles/responsive.scss"
 
-const ErrorPage = props => {
+const ErrorPage = () => {
   return (
     <Layout>
       <Content>

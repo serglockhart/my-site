@@ -17,7 +17,7 @@ import Action from "../components/Action"
 import "../styles/index.scss"
 import "../styles/responsive.scss"
 
-const IndexPage = props => {
+const IndexPage = () => {
   return (
     <Layout>
       {/* App content */}

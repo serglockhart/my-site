@@ -28,6 +28,7 @@ module.exports = {
         icon: `src/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-typescript`,
     `gatsby-plugin-sass`,
     {
       resolve: "gatsby-plugin-html-attributes",

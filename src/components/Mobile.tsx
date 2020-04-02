@@ -1,11 +1,16 @@
 import React from "react"
 
-const Mobile = props => {
+const Mobile = (props: {
+  vid: string
+  vidAlt: string
+  vidBackup: string
+  vidBackupAlt: string
+}) => {
   return (
     <div className="mobile mobile-screenshot">
       <div className="side">
         <div className="screen">
-          <video autoplay="true" loop="true" muted="true" playsinline="true">
+          <video autoPlay loop muted playsinline>
             <source
               src={props.vid}
               alt={props.vidAlt}

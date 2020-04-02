@@ -1,7 +1,7 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
-const Footer = props => {
+const Footer = () => {
   return (
     <footer>
       <div className="container-fluid">

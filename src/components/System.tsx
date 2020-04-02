@@ -1,11 +1,15 @@
 import React from "react"
 
-const System = props => {
+const System = (props: {
+  image: string
+  imageBackup: string
+  imageAlt: string
+}) => {
   return (
     <div className="system-screenshot">
       <div className="top" />
       <picture className="img-fluid">
-        <source srcset={props.image} type="image/webp" />
+        <source srcSet={props.image} type="image/webp" />
         <img
           src={props.imageBackup}
           alt={props.imageAlt}

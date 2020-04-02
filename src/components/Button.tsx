@@ -1,6 +1,11 @@
 import React from "react"
 
-const Button = props => {
+const Button = (props: {
+  link: string
+  links: string
+  title: string
+  titles: string
+}) => {
   if (props.links)
     return (
       <div className="buttons">

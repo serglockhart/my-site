@@ -1,6 +1,15 @@
 import React from "react"
 
-const Card = props => {
+const Card = (props: {
+  title: string
+  subtitle: string
+  logoLink: string
+  logo: string
+  logoBackup: string
+  logoAlt: string
+  body: any
+  end: any
+}) => {
   return (
     <div className="card">
       <div className="flex-container">
@@ -10,7 +19,7 @@ const Card = props => {
         </div>
         <a href={props.logoLink} rel="noopener noreferrer" target="_BLANK">
           <picture className="background-image">
-            <source srcset={props.logo} type="image/webp" />
+            <source srcSet={props.logo} type="image/webp" />
             <img
               src={props.logoBackup}
               alt={props.logoAlt}

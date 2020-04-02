@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Contact from "./Contact"
 
-const Header = props => {
+const Header = () => {
   const [isToggled, setToggled] = useState(false)
 
   const toggleTrueFalse = () => setToggled(!isToggled)

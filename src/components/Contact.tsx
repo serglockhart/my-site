@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
-const Contact = props => {
+const Contact = (props: { children: any }) => {
   const { linkTitle, linkClasses, className } = props
   const [modal, setModal] = useState(false)
   const toggle = () => setModal(!modal)
@@ -29,8 +29,8 @@ const Contact = props => {
                     id="firstName"
                     className="form-control"
                     placeholder="First"
-                    minlength="2"
-                    required="true"
+                    minLength="2"
+                    required
                   />
                 </div>
                 <div className="col-12 col-md-6">
@@ -39,8 +39,8 @@ const Contact = props => {
                     name="lastName"
                     className="form-control"
                     placeholder="Last"
-                    minlength="2"
-                    required="true"
+                    minLength="2"
+                    required
                   />
                 </div>
               </div>
@@ -50,24 +50,24 @@ const Contact = props => {
               name="_replyto"
               className="form-control"
               placeholder="Email"
-              minlength="2"
-              required="true"
+              minLength="2"
+              required
             />
             <input
               type="text"
               name="subject"
               className="form-control"
               placeholder="Subject"
-              minlength="2"
-              required="true"
+              minLength="2"
+              required
             />
             <textarea
               type="text"
               name="body"
               className="form-control"
               placeholder="Message"
-              minlength="2"
-              required="true"
+              minLength="2"
+              required
             ></textarea>
           </ModalBody>
           <ModalFooter>

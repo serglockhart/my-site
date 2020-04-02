@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Contact from "./Contact"
 
-const Action = props => {
+const Action = () => {
   return (
     <div className="browser marg-bot-1">
       <div className="top">

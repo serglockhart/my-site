@@ -1,16 +1,24 @@
 import React from "react"
 
-const Browser = props => {
+const Browser = (props: {
+  image: string
+  imageBackup: string
+  imageAlt: string
+  vid: string
+  vidAlt: string
+  vidBackup: string
+  vidBackupAlt: string
+}) => {
   if (props.image === "") {
     return (
-      <div class="browser-screenshot">
-        <div class="top">
-          <span class="circle"></span>
-          <span class="circle"></span>
-          <span class="circle"></span>
+      <div className="browser-screenshot">
+        <div className="top">
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
         </div>
         <div className="screen">
-          <video autoplay="true" loop="true" muted="true" playsinline="true">
+          <video autoPlay loop muted playsinline>
             <source
               src={props.vid}
               alt={props.vidAlt}
@@ -27,14 +35,14 @@ const Browser = props => {
     )
   } else {
     return (
-      <div class="browser-screenshot">
-        <div class="top">
-          <span class="circle"></span>
-          <span class="circle"></span>
-          <span class="circle"></span>
+      <div className="browser-screenshot">
+        <div className="top">
+          <span className="circle"></span>
+          <span className="circle"></span>
+          <span className="circle"></span>
         </div>
         <picture className="img-fluid">
-          <source srcset={props.image} type="image/webp" />
+          <source srcSet={props.image} type="image/webp" />
           <img
             src={props.imageBackup}
             alt={props.imageAlt}

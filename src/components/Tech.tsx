@@ -1,6 +1,6 @@
 import React from "react"
 
-const Tech = props => {
+const Tech = () => {
   return (
     <div className="card">
       <div className="container-fluid px-0">

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Contact from "./Contact"
 
-const Hero = props => {
+const Hero = () => {
   return (
     <div className="marg-bot-1">
       <div
@@ -14,7 +14,7 @@ const Hero = props => {
         <div className="flex-container no-flex-mobile">
           <div className="profile-picture-wrapper">
             <picture>
-              <source srcset={`../../images/me.webp`} type="image/webp" />
+              <source srcSet={`../../images/me.webp`} type="image/webp" />
               <img
                 src={`../../images/me.png`}
                 alt={"Jio Buenviaje"}
