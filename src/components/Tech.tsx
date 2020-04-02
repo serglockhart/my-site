@@ -7,7 +7,7 @@ const Tech = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <h5>General Purpose</h5>
-            <p>JavaScript ES6, C/C++, Python, Java, Go/Golang</p>
+            <p>JavaScript ES6, TypeScript, C/C++, Python, Java, Go/Golang</p>
             <h5>Web</h5>
             <p>
               React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
