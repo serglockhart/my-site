@@ -2,6 +2,7 @@ $white: #ffffff;
 $black: #000000;
 $primary-color: #e18e7f;
 $nav-color: #f5c9ae;
+
 $project-shadow: rgba(0, 0, 0, 0.25);
 $text-shadow: rgba(0, 0, 0, 0.1);
 $nav-shadow: rgba(255, 255, 255, 0.2);
@@ -12,7 +13,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
   p {
     font-size: 1rem;
   }
-
   .app .content {
     margin-left: calc(12rem + 5vw);
     margin-right: calc(12rem + 5vw);
@@ -36,7 +36,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
   #hero {
     margin-top: -1rem;
   }
-
   .content .card .subtitle {
     font-size: 0.875rem;
   }
@@ -46,7 +45,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
   .project {
     margin-bottom: calc(2rem + 2.5vh);
   }
-
   .app .content {
     margin-left: calc(12rem + 1.25vw);
     margin-right: calc(1rem + 5vw);
@@ -65,7 +63,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
     margin-left: -1rem;
     margin-right: -1rem;
   }
-
   .app .content {
     padding-top: 0;
     .card {
@@ -88,7 +85,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
     position: fixed;
     width: 100%;
     z-index: 10;
-
     #overview {
       background: $white;
       border-bottom: 0.0625rem solid $text-shadow;
@@ -117,7 +113,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
         }
       }
     }
-
     #toggle {
       cursor: pointer;
       position: absolute;
@@ -137,7 +132,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
         background: $nav-color;
       }
     }
-
     #menu {
       background: $white;
       border-bottom: 0.0625rem solid $text-shadow;
@@ -156,7 +150,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
         height: 100vh;
       }
     }
-
     .social {
       margin-top: 1rem;
       position: relative;
@@ -169,7 +162,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
         opacity: 0.75;
       }
     }
-
     .links a {
       color: $nav-color !important;
       font-size: 1.5rem;
@@ -209,7 +201,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
       position: fixed;
       top: 0;
       width: 12rem;
-
       #toggle {
         display: none;
       }
@@ -237,7 +228,6 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
       margin-right: 1rem;
     }
   }
-
   .content > .container-fluid {
     margin: 0 !important;
     padding: 0 !important;
