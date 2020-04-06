@@ -199,7 +199,7 @@ const IndexPage = () => {
                   Node + Flask backend through Parse Server
                 </li>
                 <li>
-                  Developing RESTful API, and will integrate with drone GCS and
+                  Developed RESTful API, and will integrate with drone GCS and
                   NoSQL database in Agile Environment
                 </li>
               </ul>
