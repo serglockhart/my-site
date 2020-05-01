@@ -29,7 +29,7 @@ const Tech = () => {
             <h5>Testing &amp; DevOps</h5>
             <p>Jest, Enzyme, Git (GitHub, GitLab)</p>
             <h5>Embedded</h5>
-            <p>Arduino, Raspberry Pi, Verilog, Intel</p>
+            <p>Arduino, Raspberry Pi, Verilog</p>
             <h5>Other</h5>
             <p>
               MATLAB, UNIX/Linux, Progressive Web Apps (PWA), OAuth, JSON, XML,
