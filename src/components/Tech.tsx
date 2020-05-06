@@ -22,7 +22,7 @@ const Tech = () => {
             <h5>Databases &amp; Deployment</h5>
             <p>
               PostgreSQL, Microsoft SQL Server, SQL, MongoDB, AWS, Firebase,
-              Heroku, Netlify, ZEIT Now
+              Heroku, Netlify, Vercel (ZEIT Now)
             </p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
