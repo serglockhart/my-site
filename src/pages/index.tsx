@@ -351,51 +351,6 @@ const IndexPage = () => {
               </p>
             }
           />
-          <Card
-            title="Technology Track Head | YouthHack"
-            subtitle="March 2017 - July 2018 • Quezon City, Philippines"
-            logoLink="https://youthhack.net"
-            logoBackup={`../../images/experience/yh.svg`}
-            logoAlt={"YH logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Organized national hackathon, international summit attended by
-                  5 countries and 10-week startup incubator program for 9
-                  collegiate student-run startups
-                </li>
-                <li>
-                  Created and taught 4-hr workshops for web dev for collegiate
-                  students and professionals
-                </li>
-                <li>
-                  Partnered with{" "}
-                  <a
-                    href="https://www.inquirer.net"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Philippine Daily Inquirer
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    href="https://www.rappler.com"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Rappler
-                  </a>{" "}
-                  for media coverage and exposure
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, Bootstrap,
-                HTML/CSS
-              </p>
-            }
-          />
         </Section>
         {/* Technologies */}
         <Section
