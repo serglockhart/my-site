@@ -56,9 +56,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Relevant Coursework</strong>: Data Structures, Systems
-                Programming, Logic Design, Fundamentals of Computing, Discrete
-                Mathematics, Linear Algebra & Differential Equations
+                <strong>Relevant Coursework</strong>: Data Structures, Modern
+                Web & App Development, Data Science, Systems Programming, Logic
+                Design, Fundamentals of Computing, Discrete Mathematics
               </p>
             }
           />
