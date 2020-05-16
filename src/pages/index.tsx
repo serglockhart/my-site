@@ -139,7 +139,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Software Engineer Intern | IDEA Center"
+            title="Fullstack Software Engineer Intern | IDEA Center"
             subtitle="Winter/Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
@@ -238,7 +238,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack / Mobile Software Engineer | Tembo AI"
+            title="Fullstack / Mobile Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
@@ -272,7 +272,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Front End / Embedded Software Engineer | Gäshawk"
+            title="Frontend / Embedded Software Engineer | Gäshawk"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
@@ -319,7 +319,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Front End / Mobile Software Engineer | Foreager"
+            title="Frontend / Mobile Software Engineer | Foreager"
             subtitle="January - August 2019 • Townsend, MA"
             logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.webp`}
