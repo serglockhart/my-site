@@ -139,7 +139,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer Intern | IDEA Center"
+            title="Full Stack Software Engineer Intern | IDEA Center"
             subtitle="Winter/Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
@@ -214,7 +214,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Founder, CEO, Lead Developer | Munti"
+            title="Founder, CEO, Lead Developer & Designer | Munti"
             subtitle="February 2019 - Present • South Bend, IN"
             logoLink="/"
             logo={`../../images/experience/munti.webp`}
@@ -238,7 +238,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Lead Software Engineer | Tembo AI"
+            title="Full Stack / Mobile Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
@@ -272,7 +272,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Lead Software Engineer | Gäshawk"
+            title="Front End / Embedded Software Engineer | Gäshawk"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
@@ -319,7 +319,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Lead Software Engineer | Foreager"
+            title="Front End / Mobile Software Engineer | Foreager"
             subtitle="January - August 2019 • Townsend, MA"
             logoLink="https://foreager.com"
             logo={`../../images/experience/foreager.webp`}
