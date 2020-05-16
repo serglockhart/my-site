@@ -214,7 +214,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Founder, CEO, Lead Developer & Designer | Munti"
+            title="Founder, Lead Developer / Designer | Munti"
             subtitle="February 2019 - Present • South Bend, IN"
             logoLink="/"
             logo={`../../images/experience/munti.webp`}
