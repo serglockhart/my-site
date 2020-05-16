@@ -140,7 +140,7 @@ const IndexPage = () => {
           />
           <Card
             title="Fullstack Software Engineer Intern | IDEA Center"
-            subtitle="Winter/Spring 2020 • South Bend, IN"
+            subtitle="Winter / Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
             logoBackup={`../../images/extracurriculars/ideacenter.png`}
