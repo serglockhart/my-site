@@ -152,6 +152,10 @@ const IndexPage = () => {
                   Programming to be used by startup
                 </li>
                 <li>
+                  Will develop user retention metrics dashboards with Segment
+                  and Snapboard to be used by startup
+                </li>
+                <li>
                   Will work with IDEA Center startups to develop full-stack web
                   apps and APIs in Agile Environment
                 </li>
