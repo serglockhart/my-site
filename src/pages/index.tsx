@@ -227,7 +227,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will develop babysitting hiring service hybrid mobile app
+                  Will develop babysitter hiring service hybrid mobile app
                 </li>
                 <li>
                   Will develop RESTful API for automatic text messaging replies
