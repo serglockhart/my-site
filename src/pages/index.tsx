@@ -244,30 +244,6 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Founder, Lead Developer / Designer | Munti"
-            subtitle="February 2019 - Present • South Bend, IN"
-            logoLink="/"
-            logo={`../../images/experience/munti.webp`}
-            logoBackup={`../../images/experience/munti.png`}
-            logoAlt={"Munti logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Secured $2.5k funding to develop full-stack web and mobile
-                  apps for student startup recruitment
-                </li>
-                <li>
-                  Led web, mobile and hardware development teams through
-                  multiple concurrent projects
-                </li>
-                <li>
-                  Built web, mobile apps and embedded systems for early-stage
-                  startups and small businesses
-                </li>
-              </ul>
-            }
-          />
-          <Card
             title="Fullstack / Mobile Software Engineer | Tembo AI"
             subtitle="January 2019 - January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
@@ -379,6 +355,30 @@ const IndexPage = () => {
                 <strong>Technologies</strong>: Flutter (DART), Firebase, Heroku,
                 JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS
               </p>
+            }
+          />
+          <Card
+            title="Founder, Lead Developer / Designer | Munti"
+            subtitle="February 2019 - Present • South Bend, IN"
+            logoLink="/"
+            logo={`../../images/experience/munti.webp`}
+            logoBackup={`../../images/experience/munti.png`}
+            logoAlt={"Munti logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Secured $2.5k funding to develop full-stack web and mobile
+                  apps for student startup recruitment
+                </li>
+                <li>
+                  Led web, mobile and hardware development teams through
+                  multiple concurrent projects
+                </li>
+                <li>
+                  Built web, mobile apps and embedded systems for early-stage
+                  startups and small businesses
+                </li>
+              </ul>
             }
           />
         </Section>
