@@ -218,6 +218,32 @@ const IndexPage = () => {
             }
           />
           <Card
+            title="Mobile / Backend Software Engineer | Gitta"
+            subtitle="April 2020 - Present • South Bend, IN"
+            logoLink="/"
+            logo={`../../images/experience/gitta.webp`}
+            logoBackup={`../../images/experience/gitta.png`}
+            logoAlt={"Gitta logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will develop babysitting hiring service hybrid mobile app
+                </li>
+                <li>
+                  Will develop RESTful API for automatic text messaging replies
+                  using Twilio and NoSQL user database to be used by mobile apps
+                  in Agile Environment
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Flutter (DART), JavaScript, Node,
+                Express, Firebase, Git
+              </p>
+            }
+          />
+          <Card
             title="Founder, Lead Developer / Designer | Munti"
             subtitle="February 2019 - Present • South Bend, IN"
             logoLink="/"
