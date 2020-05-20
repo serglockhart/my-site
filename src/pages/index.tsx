@@ -155,17 +155,13 @@ const IndexPage = () => {
                   Will develop user retention metrics dashboards with Segment
                   and Snapboard to be used by startup
                 </li>
-                <li>
-                  Will work with IDEA Center startups to develop full-stack web
-                  apps and APIs in Agile Environment
-                </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Node,
-                Express, GraphQL, Apollo Client, Polaris, Gatsby, Python,
-                Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
+                <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
+                Apollo Client, Node, Express, Python, Polaris, Sass/SCSS,
+                HTML/CSS, Agile Development, Git
               </p>
             }
           />
@@ -199,21 +195,16 @@ const IndexPage = () => {
                   VC fund
                 </li>
                 <li>
-                  Solely developed front-end of web app and will integrate with
-                  Node + Flask backend through Parse Server
-                </li>
-                <li>
-                  Developed RESTful API, and will integrate with drone GCS and
-                  NoSQL database in Agile Environment
+                  Developed frontend of web app, RESTful API, and will integrate
+                  using SSR in Agile Environment
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Node, Express,
-                Python, Flask, MongoDB, AWS (Elastic Beanstalk, IoT), Parse
-                Server, Sass/SCSS, Bootstrap, HTML/CSS, Raspberry Pi, Agile
-                (SCRUM), PWA, Git
+                <strong>Technologies</strong>: JavaScript, React, Next, Node,
+                Express, Python, Raspberry Pi, AWS (Elastic Beanstalk, IoT),
+                Sass/SCSS, Bootstrap, HTML/CSS, Agile Development, PWA, Git
               </p>
             }
           />
@@ -227,19 +218,19 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will develop babysitter hiring service hybrid mobile app
+                  Will develop babysitter hiring service hybrid mobile app in
+                  Agile Environment
                 </li>
                 <li>
-                  Will develop RESTful API for automatic text messaging replies
-                  using Twilio and NoSQL user database to be used by mobile apps
-                  in Agile Environment
+                  Will develop RESTful API for automatic text messaging using
+                  Twilio and NoSQL user database
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Flutter (DART), JavaScript, Node,
-                Express, Firebase, Git
+                <strong>Technologies</strong>: Flutter (Dart), JavaScript, Node,
+                Express, Firebase, Agile Development, Git
               </p>
             }
           />
@@ -271,9 +262,10 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Node,
-                Express, ZEIT Now, Sass/SCSS, Bootstrap, HTML/CSS, Flutter
-                (DART), Firebase, Python, Raspberry Pi, Kali Linux, PWA, Git
+                <strong>Technologies</strong>: Flutter (Dart), JavaScript,
+                React, Next, Node, Express, Python, Raspberry Pi, Kali Linux,
+                Vercel (ZEIT Now), Firebase, Sass/SCSS, Bootstrap, HTML/CSS,
+                PWA, Git
               </p>
             }
           />
@@ -318,7 +310,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, Arduino, Javascript, React,
+                <strong>Technologies</strong>: C++, Arduino, JavaScript, React,
                 Gatsby, GraphQL, Netlify, Sass/SCSS, Bootstrap, HTML/CSS, PWA,
                 Git
               </p>
@@ -352,7 +344,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Flutter (DART), Firebase, Heroku,
+                <strong>Technologies</strong>: Flutter (Dart), Firebase, Heroku,
                 JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS
               </p>
             }
@@ -371,8 +363,8 @@ const IndexPage = () => {
                   apps for student startup recruitment
                 </li>
                 <li>
-                  Led web, mobile and hardware development teams through
-                  multiple concurrent projects
+                  Led web, mobile and hardware development teams of software
+                  freelance company through multiple concurrent projects
                 </li>
                 <li>
                   Built web, mobile apps and embedded systems for early-stage
@@ -620,7 +612,7 @@ const IndexPage = () => {
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Technologies:</strong> DART (Flutter), Provider,
+                <strong>Technologies:</strong> Flutter (Dart), Provider,
                 Firebase
               </p>
             }
@@ -638,7 +630,7 @@ const IndexPage = () => {
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
-                <strong>Technologies:</strong> DART (Flutter), Firebase
+                <strong>Technologies:</strong> Flutter (Dart), Firebase
               </p>
             }
           >
