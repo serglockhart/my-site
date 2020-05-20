@@ -7,33 +7,30 @@ const Tech = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <h5>General Purpose</h5>
-            <p>JavaScript ES6, TypeScript, C/C++, Python, Java, Go/Golang</p>
+            <p>
+              JavaScript ES6, TypeScript, C/C++, Python, Java, Go/Golang, MATLAB
+            </p>
             <h5>Web</h5>
             <p>
               React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
-              Client, Flask, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS,
-              Bootstrap, styled-components, Material-UI, Tailwind, Bulma), NPM,
-              Yarn
+              Client, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS, Bootstrap,
+              styled-components, Material-UI, Tailwind, Bulma), Jest, Enzyme,
+              npm, Yarn
             </p>
             <h5>Mobile</h5>
-            <p>
-              Swift, React Native, Dart (Flutter), Expo, Xcode, Android Studio
-            </p>
-            <h5>Databases &amp; Deployment</h5>
-            <p>
-              PostgreSQL, Microsoft SQL Server, SQL, MongoDB, AWS, Firebase,
-              Heroku, Netlify, Vercel (ZEIT Now)
-            </p>
+            <p>Swift, Flutter (Dart), React Native, Expo</p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
-            <h5>Testing &amp; DevOps</h5>
-            <p>Jest, Enzyme, Git (GitHub, GitLab)</p>
-            <h5>Embedded</h5>
-            <p>Arduino, Raspberry Pi, Verilog</p>
+            <h5>Databases &amp; Deployment</h5>
+            <p>
+              PostgreSQL, Microsoft SQL Server, SQL, AWS, Firebase, Heroku,
+              Netlify, Vercel (ZEIT Now)
+            </p>
             <h5>Other</h5>
             <p>
-              MATLAB, UNIX/Linux, Progressive Web Apps (PWA), OAuth, JSON, XML,
-              YAML, DOM, REST APIs, HTTPS, DNS, Agile Development/Methodologies
+              Git (GitHub, GitLab), UNIX/Linux, Progressive Web Apps (PWA),
+              JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile Software
+              Development
             </p>
             <h5>Design</h5>
             <p>
