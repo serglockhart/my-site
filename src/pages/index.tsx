@@ -57,8 +57,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Relevant Coursework</strong>: Data Structures, Modern
-                Web & App Development, Data Science, Systems Programming, Logic
-                Design, Fundamentals of Computing, Discrete Mathematics
+                Web & App Development, Systems Programming, Logic Design,
+                Fundamentals of Computing, Discrete Mathematics
               </p>
             }
           />
