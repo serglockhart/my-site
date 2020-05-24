@@ -109,6 +109,37 @@ const IndexPage = () => {
           }
         >
           <Card
+            title="Fullstack Software Engineer Intern | IDEA Center"
+            subtitle="Winter / Spring 2020 • South Bend, IN"
+            logoLink="https://ideacenter.nd.edu"
+            logo={`../../images/extracurriculars/ideacenter.webp`}
+            logoBackup={`../../images/extracurriculars/ideacenter.png`}
+            logoAlt={"IDEA Center logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Developed e-Commerce web app and store templates through Pair
+                  Programming to used by startups
+                </li>
+                <li>
+                  Developed metrics cards and dashboards in Snapboard currently
+                  used for administrative monitoring
+                </li>
+                <li>
+                  Created Design Documents and Software Documentation for all
+                  work done in Agile Environment
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Tech Stack</strong>: JavaScript, React, Next, GraphQL,
+                Apollo, MongoDB, Parse Platform, Node, Express, Shopify API,
+                Sass/SCSS, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
             title="Media Software Engineer Intern | CBS"
             subtitle="Summer 2019 • New York, NY"
             logoLink="https://cbs.com"
@@ -139,36 +170,6 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Fullstack Software Engineer Intern | IDEA Center"
-            subtitle="Winter / Spring 2020 • South Bend, IN"
-            logoLink="https://ideacenter.nd.edu"
-            logo={`../../images/extracurriculars/ideacenter.webp`}
-            logoBackup={`../../images/extracurriculars/ideacenter.png`}
-            logoAlt={"IDEA Center logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Developed e-Commerce web app and store templates through Pair
-                  Programming to used by startups
-                </li>
-                <li>
-                  Developed metrics cards and dashboards in Snapboard currently
-                  used for administrative monitoring
-                </li>
-                <li>
-                  Created Design Documents and Software Documentation for all
-                  work done in Agile Environment
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Tech Stack</strong>: JavaScript, React, Next, GraphQL,
-                Apollo, MongoDB, Node, Express, Shopify API, Parse SDK
-              </p>
-            }
-          />
-          <Card
             title="Chief Technology Officer | DeLive Drones"
             subtitle="October 2019 - Present • South Bend, IN"
             logoLink="https://delivedrones.com"
@@ -177,6 +178,10 @@ const IndexPage = () => {
             logoAlt={"DeLive logo"}
             body={
               <ul className="tech">
+                <li>
+                  Developed Frontend of web app, RESTful API, and will integrate
+                  using SSR in Agile Environment
+                </li>
                 <li>
                   Exhibited in{" "}
                   <a
@@ -197,17 +202,13 @@ const IndexPage = () => {
                   accelerator invitation, and pitch to Indianapolis-based $100M
                   VC fund
                 </li>
-                <li>
-                  Developed frontend of web app, RESTful API, and will integrate
-                  using SSR in Agile Environment
-                </li>
               </ul>
             }
             end={
               <p>
                 <strong>Tech Stack</strong>: JavaScript, React, Next, Node,
-                Express, Python, Raspberry Pi, AWS (Elastic Beanstalk, IoT),
-                Sass/SCSS, Bootstrap, HTML/CSS, Agile Development, PWA, Git
+                Express, Python, Raspberry Pi, AWS IoT, Mailchimp API, DroneKit
+                SDK, Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
