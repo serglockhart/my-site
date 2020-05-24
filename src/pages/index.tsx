@@ -341,7 +341,7 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  Assisted in developing front-end of prototype e-Commerce
+                  Assisted in developing Frontend of prototype e-Commerce
                   website
                 </li>
               </ul>
