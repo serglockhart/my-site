@@ -119,22 +119,22 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Standardized end-to-end broadcast distribution configurations
-                  (video containers/codecs) for entire East Coast feed
+                  (Codecs) for entire East Coast feed
                 </li>
                 <li>
-                  Completed 27 international purchase requests using database
-                  queries totaling $132,930 in profit
+                  Completed 27 international purchase requests using Database
+                  Queries totaling $132,930 in profit
                 </li>
                 <li>
-                  Assisted in cloud-based content compute, storage and
+                  Assisted in Cloud-based content compute, storage and
                   monitoring for day-to-day operations
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, XML, SQL Server, AWS (EC2,
-                S3, Glacier, CloudWatch), AutoCAD
+                <strong>Technologies</strong>: C++, XML, Microsoft SQL Server,
+                AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
