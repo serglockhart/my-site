@@ -222,7 +222,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will develop babysitter hiring service hybrid mobile app in
+                  Will develop babysitter hiring service Hybrid mobile app in
                   Agile Environment
                 </li>
                 <li>
@@ -233,8 +233,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
-                Express, Firebase, Agile Development, Git
+                <strong>Tech Stack</strong>: Flutter (DART), JavaScript, Node,
+                Express, Firebase, Twilio API, Git
               </p>
             }
           />
