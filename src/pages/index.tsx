@@ -164,8 +164,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: C++, XML, Microsoft SQL Server, AWS
-                (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
+                <strong>Tech Stack</strong>: C++, XML, SQL Server, AWS (EC2, S3,
+                Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
@@ -207,8 +207,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: JavaScript, React, Next, Node,
-                Express, Python, Raspberry Pi, AWS IoT, Mailchimp API, DroneKit
-                SDK, Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
+                Express, Python, Raspberry Pi, AWS IoT, Sass/SCSS, Bootstrap,
+                HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -234,7 +234,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
-                Express, Firebase, Twilio API, Git
+                Express, Firebase, Git
               </p>
             }
           />
@@ -268,8 +268,8 @@ const IndexPage = () => {
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, React,
                 Next, Node, Express, Python, Raspberry Pi, Vercel (ZEIT Now),
-                Heroku, Firebase, Kali Linux, Mapbox API, Mailchimp API,
-                Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
+                Heroku, Firebase, Kali Linux, Sass/SCSS, Bootstrap, HTML/CSS,
+                PWA, Git
               </p>
             }
           />
@@ -315,8 +315,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: C++, Arduino, JavaScript, React,
-                Gatsby, GraphQL, Netlify, Google Maps API, Sass/SCSS, Bootstrap,
-                HTML/CSS, PWA, Git
+                Gatsby, GraphQL, Netlify, Sass/SCSS, Bootstrap, HTML/CSS, PWA,
+                Git
               </p>
             }
           />
