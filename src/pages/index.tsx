@@ -233,7 +233,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Flutter (DART), JavaScript, Node,
+                <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
                 Express, Firebase, Twilio API, Git
               </p>
             }
@@ -330,7 +330,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed peer-to-peer golf rental mobile apps
+                  Solely developed peer-to-peer golf rental Hybrid mobile app
                   resulting in semifinals finish (top 30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
@@ -341,7 +341,7 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  Assisted in developing front-end of prototype e-commerce
+                  Assisted in developing front-end of prototype e-Commerce
                   website
                 </li>
               </ul>
@@ -349,7 +349,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), Firebase, Heroku,
-                JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS
+                JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS, Git
               </p>
             }
           />
