@@ -133,8 +133,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, XML, Microsoft SQL Server,
-                AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
+                <strong>Tech Stack</strong>: C++, XML, Microsoft SQL Server, AWS
+                (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
@@ -163,7 +163,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
+                <strong>Tech Stack</strong>: JavaScript, React, Next, GraphQL,
                 Apollo, MongoDB, Node, Express, Shopify API, Parse SDK
               </p>
             }
@@ -205,7 +205,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, Node,
+                <strong>Tech Stack</strong>: JavaScript, React, Next, Node,
                 Express, Python, Raspberry Pi, AWS (Elastic Beanstalk, IoT),
                 Sass/SCSS, Bootstrap, HTML/CSS, Agile Development, PWA, Git
               </p>
@@ -232,7 +232,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Flutter (Dart), JavaScript, Node,
+                <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
                 Express, Firebase, Agile Development, Git
               </p>
             }
@@ -265,10 +265,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Flutter (Dart), JavaScript,
-                React, Next, Node, Express, Python, Raspberry Pi, Kali Linux,
-                Vercel (ZEIT Now), Firebase, Sass/SCSS, Bootstrap, HTML/CSS,
-                PWA, Git
+                <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, React,
+                Next, Node, Express, Python, Raspberry Pi, Kali Linux, Vercel
+                (ZEIT Now), Firebase, Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -313,7 +312,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, Arduino, JavaScript, React,
+                <strong>Tech Stack</strong>: C++, Arduino, JavaScript, React,
                 Gatsby, GraphQL, Netlify, Sass/SCSS, Bootstrap, HTML/CSS, PWA,
                 Git
               </p>
@@ -347,7 +346,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Flutter (Dart), Firebase, Heroku,
+                <strong>Tech Stack</strong>: Flutter (Dart), Firebase, Heroku,
                 JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS
               </p>
             }
@@ -475,7 +474,7 @@ const IndexPage = () => {
             body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, Sass, Bootstrap,
+                <strong>Tech Stack:</strong> React, Gatsby, Sass, Bootstrap,
                 Netlify, Google Maps, Formcarry, Google Analytics, PWA
               </p>
             }
@@ -503,7 +502,7 @@ const IndexPage = () => {
             body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Flask backend."
             end={
               <p>
-                <strong>Technologies:</strong> React (CRA), Sass, Bootstrap,
+                <strong>Tech Stack:</strong> React (CRA), Sass, Bootstrap,
                 Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics, PWA
               </p>
             }
@@ -531,7 +530,7 @@ const IndexPage = () => {
             body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR full stack web app workload."
             end={
               <p>
-                <strong>Technologies:</strong> React, Next, Node, Express, Sass,
+                <strong>Tech Stack:</strong> React, Next, Node, Express, Sass,
                 Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics,
                 PWA
               </p>
@@ -560,7 +559,7 @@ const IndexPage = () => {
             body="Portfolio website (PWA) for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
               <p>
-                <strong>Technologies:</strong> React, Gatsby, styled-components,
+                <strong>Tech Stack:</strong> React, Gatsby, styled-components,
                 Tailwind, Netlify, Formspree, Google Analytics, PWA
               </p>
             }
@@ -592,7 +591,7 @@ const IndexPage = () => {
             body="Personal website (PWA) displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
-                <strong>Technologies:</strong> TypeScript, React, Gatsby, Sass,
+                <strong>Tech Stack:</strong> TypeScript, React, Gatsby, Sass,
                 Bootstrap, Netlify, Getform, Google Analytics, PWA
               </p>
             }
@@ -615,8 +614,7 @@ const IndexPage = () => {
             body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Technologies:</strong> Flutter (Dart), Provider,
-                Firebase
+                <strong>Tech Stack:</strong> Flutter (Dart), Provider, Firebase
               </p>
             }
           >
@@ -633,7 +631,7 @@ const IndexPage = () => {
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
-                <strong>Technologies:</strong> Flutter (Dart), Firebase
+                <strong>Tech Stack:</strong> Flutter (Dart), Firebase
               </p>
             }
           >
@@ -650,7 +648,7 @@ const IndexPage = () => {
             body="Touchscreen GUI + LiDAR Overhead Collision Detection System developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
             end={
               <p>
-                <strong>Technologies:</strong> C++, Arduino, Git
+                <strong>Tech Stack:</strong> C++, Arduino, Git
               </p>
             }
             buttons={
@@ -672,7 +670,7 @@ const IndexPage = () => {
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
               <p>
-                <strong>Technologies:</strong> C++, Arduino, PHP, MySQL,
+                <strong>Tech Stack:</strong> C++, Arduino, PHP, MySQL,
                 CodeIgniter, Eagle, Fritzing
               </p>
             }
@@ -695,7 +693,7 @@ const IndexPage = () => {
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
               <p>
-                <strong>Technologies:</strong> AutoCAD, Switch-Mode Converter,
+                <strong>Tech Stack:</strong> AutoCAD, Switch-Mode Converter,
                 Eagle, Fritzing
               </p>
             }
