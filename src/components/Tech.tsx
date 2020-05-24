@@ -18,13 +18,16 @@ const Tech = () => {
               npm, Yarn
             </p>
             <h5>Mobile</h5>
-            <p>Swift, Flutter (Dart), React Native, Expo</p>
+            <p>
+              Swift, React Native, Flutter (Dart), Provider, Wiredash, Expo,
+              Xcode, Android Studio
+            </p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
             <h5>Databases &amp; Deployment</h5>
             <p>
-              PostgreSQL, Microsoft SQL Server, SQL, AWS, Firebase, Heroku,
-              Netlify, Vercel (ZEIT Now)
+              PostgreSQL, Microsoft SQL Server, SQL, MongoDB, Parse Platform,
+              AWS, Firebase, Heroku, Netlify, Vercel (ZEIT Now)
             </p>
             <h5>Other</h5>
             <p>
