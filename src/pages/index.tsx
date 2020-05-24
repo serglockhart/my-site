@@ -227,7 +227,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Will develop RESTful API for automatic text messaging using
-                  Twilio and NoSQL user database
+                  Twilio and NoSQL User Database
                 </li>
               </ul>
             }
@@ -248,12 +248,12 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed full-stack server-side rendering (SSR) web
-                  app and messaging mobile apps to be used in alpha testing
+                  Solely developed Fullstack SSR web app and messaging Hybrid
+                  mobile app to be used in alpha testing
                 </li>
                 <li>
-                  Solely developed indoor location triangulation mobile tracker
-                  resulting in{" "}
+                  Solely developed indoor location triangulation WiFi mobile
+                  tracker resulting in{" "}
                   <a
                     href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
                     rel="noopener noreferrer"
@@ -267,8 +267,9 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, React,
-                Next, Node, Express, Python, Raspberry Pi, Kali Linux, Vercel
-                (ZEIT Now), Firebase, Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
+                Next, Node, Express, Python, Raspberry Pi, Vercel (ZEIT Now),
+                Heroku, Firebase, Kali Linux, Mapbox API, Mailchimp API,
+                Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
