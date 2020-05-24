@@ -283,12 +283,12 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed server-side rendering (SSR) progressive web
-                  app (PWA) currently used by startup
+                  Solely developed Server-Side Rendering (SSR) Progressive Web
+                  App (PWA) currently used by startup
                 </li>
                 <li>
-                  Solely developed touchscreen GUI + LiDAR collision detection
-                  resulting in{" "}
+                  Solely developed LiDAR collision detection system and
+                  Touchscreen Graphical User Interface (GUI) resulting in{" "}
                   <a
                     href="https://startupsouthbendelkhart.com"
                     rel="noopener noreferrer"
@@ -315,8 +315,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: C++, Arduino, JavaScript, React,
-                Gatsby, GraphQL, Netlify, Sass/SCSS, Bootstrap, HTML/CSS, PWA,
-                Git
+                Gatsby, GraphQL, Netlify, Google Maps API, Sass/SCSS, Bootstrap,
+                HTML/CSS, PWA, Git
               </p>
             }
           />
