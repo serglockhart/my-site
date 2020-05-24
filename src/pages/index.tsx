@@ -363,16 +363,16 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Secured $2.5k funding to develop full-stack web and mobile
-                  apps for student startup recruitment
-                </li>
-                <li>
-                  Led web, mobile and hardware development teams of software
-                  freelance company through multiple concurrent projects
+                  Led web, mobile and hardware development teams of Software
+                  Freelance Company through multiple concurrent projects
                 </li>
                 <li>
                   Built web, mobile apps and embedded systems for early-stage
                   startups and small businesses
+                </li>
+                <li>
+                  Secured $2.5k funding to develop Fullstack web and Native
+                  mobile apps for student startup recruitment
                 </li>
               </ul>
             }
