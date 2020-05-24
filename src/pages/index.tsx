@@ -148,20 +148,23 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed e-commerce web app with Shopify API through Pair
-                  Programming to be used by startup
+                  Developed e-Commerce web app and store templates through Pair
+                  Programming to used by startups
                 </li>
                 <li>
-                  Will develop user retention metrics dashboards with Segment
-                  and Snapboard to be used by startup
+                  Developed metrics cards and dashboards in Snapboard currently
+                  used for administrative monitoring
+                </li>
+                <li>
+                  Created Design Documents and Software Documentation for all
+                  work done in Agile Environment
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo Client, Node, Express, Python, Polaris, Sass/SCSS,
-                HTML/CSS, Agile Development, Git
+                Apollo, MongoDB, Node, Express, Shopify API, Parse SDK
               </p>
             }
           />
