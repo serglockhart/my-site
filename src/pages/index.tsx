@@ -323,7 +323,7 @@ const IndexPage = () => {
           <Card
             title="Frontend / Mobile Software Engineer | Foreager"
             subtitle="January - August 2019 • Townsend, MA"
-            logoLink="https://foreager.com"
+            logoLink="/"
             logo={`../../images/experience/foreager.webp`}
             logoBackup={`../../images/experience/foreager.png`}
             logoAlt={"Foreager logo"}
