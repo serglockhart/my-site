@@ -109,6 +109,30 @@ const IndexPage = () => {
           }
         >
           <Card
+            title="Fullstack Software Engineer Intern | Techstars"
+            subtitle="Summer 2020 • New York, NY"
+            logoLink="https://www.techstars.com/"
+            logo={`../../images/experience/techstars.webp`}
+            logoBackup={`../../images/experience/techstars.png`}
+            logoAlt={"Techstars logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will work with portfolio company Cabinet on features for web
+                  and Hybrid mobile app currently serving 2,000+ executive
+                  assistants at Fortune 500 and Fortune 100 companies
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Tech Stack</strong>: JavaScript, React, Redux, Django,
+                AWS (S3, RDS, Cognito, Elastic Beanstalk, Route53, CloudFront),
+                Material-UI, Ionic5, Capacitor, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
             title="Fullstack Software Engineer Intern | IDEA Center"
             subtitle="Winter / Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
