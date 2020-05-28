@@ -56,9 +56,10 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Relevant Coursework</strong>: Data Structures, Modern
-                Web & App Development, Systems Programming, Logic Design,
-                Fundamentals of Computing, Discrete Mathematics
+                <strong>Relevant Courses</strong>: Data Structures, Modern Web &
+                App Development, Software Development Practices, Programming
+                Paradigms, Systems Programming, Computer Architecture, Logic
+                Design
               </p>
             }
           />
@@ -86,9 +87,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Relevant Coursework</strong>: Data Structures &
-                Algorithms, Object-Oriented Programming, Client-Side Web
-                Development, Embedded Systems & Program Design, STEM Research
+                <strong>Relevant Courses</strong>: Data Structures & Algorithms,
+                Object-Oriented Programming, Client-Side Web Development,
+                Embedded Systems & Program Design, STEM Research
               </p>
             }
           />
