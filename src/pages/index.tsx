@@ -28,7 +28,7 @@ const IndexPage = () => {
         <Section id="education" title="Education">
           <Card
             title="University of Notre Dame"
-            subtitle="2018 - 2022 | 3.51 GPA"
+            subtitle="2018 – 2022 | 3.51 GPA"
             logoLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.webp`}
             logoBackup={`../../images/education/nd.png`}
@@ -63,8 +63,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Philippine Science High School - Main Campus"
-            subtitle="2012 - 2018 | 3.84 GPA"
+            title="Philippine Science High School – Main Campus"
+            subtitle="2012 – 2018 | 3.84 GPA"
             logoLink="http://www.pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.webp`}
             logoBackup={`../../images/education/pshs.png`}
@@ -195,7 +195,7 @@ const IndexPage = () => {
           />
           <Card
             title="Chief Technology Officer | DeLive Drones"
-            subtitle="October 2019 - Present • South Bend, IN"
+            subtitle="October 2019 – Present • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
             logoBackup={`../../images/experience/delive.png`}
@@ -237,8 +237,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Mobile / Backend Software Engineer | Gitta"
-            subtitle="April 2020 - Present • South Bend, IN"
+            title="Software Engineer – Mobile, Backend | Gitta"
+            subtitle="April 2020 – Present • South Bend, IN"
             logoLink="/"
             logo={`../../images/experience/gitta.webp`}
             logoBackup={`../../images/experience/gitta.png`}
@@ -263,8 +263,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Fullstack / Mobile Software Engineer | Tembo AI"
-            subtitle="January 2019 - January 2020 • South Bend, IN"
+            title="Software Engineer – Fullstack, Mobile | Tembo AI"
+            subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={`../../images/experience/tembo.png`}
@@ -298,8 +298,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Frontend / Embedded Software Engineer | Gäshawk"
-            subtitle="January 2019 - January 2020 • South Bend, IN"
+            title="Software Engineer – Frontend, Embedded | Gäshawk"
+            subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
             logoBackup={`../../images/experience/gashawk.png`}
@@ -345,8 +345,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Frontend / Mobile Software Engineer | Foreager"
-            subtitle="January - August 2019 • Townsend, MA"
+            title="Software Engineer – Frontend, Mobile | Foreager"
+            subtitle="January – August 2019 • Townsend, MA"
             logoLink="/"
             logo={`../../images/experience/foreager.webp`}
             logoBackup={`../../images/experience/foreager.png`}
@@ -378,8 +378,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Founder, Lead Developer / Designer, Project Manager | Munti"
-            subtitle="February 2019 - Present • South Bend, IN"
+            title="Founder, Lead Developer & Designer, Project Manager | Munti"
+            subtitle="February 2019 – Present • South Bend, IN"
             logoLink="/"
             logo={`../../images/experience/munti.webp`}
             logoBackup={`../../images/experience/munti.png`}
@@ -418,7 +418,7 @@ const IndexPage = () => {
         <Section id="extracurriculars" title="Extracurriculars">
           <Card
             title="Student Ambassador | IDEA Center"
-            subtitle="August 2019 - Present"
+            subtitle="August 2019 – Present"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
             logoBackup={`../../images/extracurriculars/ideacenter.png`}
@@ -457,7 +457,7 @@ const IndexPage = () => {
           />
           <Card
             title="Teaching Assistant, PHIL 10111 Intro to Philosophy | University of Notre Dame"
-            subtitle="August 2019 - Present"
+            subtitle="August 2019 – Present"
             logoLink="https://godandgoodlife.nd.edu"
             logo={`../../images/education/nd.webp`}
             logoBackup={`../../images/education/nd.png`}
@@ -525,7 +525,7 @@ const IndexPage = () => {
           <Project
             bgColor={1}
             title="DeLive Site"
-            body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Flask backend."
+            body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Express backend through Next for SSR."
             end={
               <p>
                 <strong>Tech Stack:</strong> React (CRA), Sass, Bootstrap,
@@ -553,7 +553,7 @@ const IndexPage = () => {
           <Project
             bgColor={3}
             title="Tembo Site"
-            body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR full stack web app workload."
+            body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR fullstack web app workload."
             end={
               <p>
                 <strong>Tech Stack:</strong> React, Next, Node, Express, Sass,
@@ -637,7 +637,7 @@ const IndexPage = () => {
           <Project
             bgColor={3}
             title="Tembo App"
-            body="Emergency Messaging iOS/Android Apps with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
+            body="Emergency Messaging iOS/Android Hybrid App with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
                 <strong>Tech Stack:</strong> Flutter (Dart), Provider, Firebase
@@ -654,7 +654,7 @@ const IndexPage = () => {
           <Project
             bgColor={2}
             title="Foreager App"
-            body="Peer-to-Peer Golf Equipment Rental iOS/Android Apps developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
+            body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
                 <strong>Tech Stack:</strong> Flutter (Dart), Firebase
@@ -671,7 +671,7 @@ const IndexPage = () => {
           <Project
             bgColor={1}
             title="Gäshawk Overwatch"
-            body="Touchscreen GUI + LiDAR Overhead Collision Detection System developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
+            body="LiDAR Overhead Collision Detection System with Touchscreen Graphical User Interface (GUI) developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
             end={
               <p>
                 <strong>Tech Stack:</strong> C++, Arduino, Git
