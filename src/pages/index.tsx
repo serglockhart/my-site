@@ -119,7 +119,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Will work with portfolio company Cabinet on features for web
-                  and Hybrid mobile app currently serving 2,000+ executive
+                  and Hybrid mobile apps currently serving 2,000+ executive
                   assistants at Fortune 500 and Fortune 100 companies
                 </li>
               </ul>
