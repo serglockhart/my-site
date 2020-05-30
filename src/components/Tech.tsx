@@ -15,12 +15,12 @@ const Tech = () => {
               React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
               Client, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS, Bootstrap,
               styled-components, Material-UI, Tailwind, Bulma), Jest, Enzyme,
-              npm, Yarn
+              npm, Yarn, Webflow
             </p>
             <h5>Mobile</h5>
             <p>
-              Swift, React Native, Flutter (Dart), Provider, Wiredash, Expo,
-              Xcode, Android Studio
+              iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Flutter (Dart),
+              Provider, Wiredash, Expo, Android Studio
             </p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
