@@ -195,7 +195,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Chief Technology Officer | DeLive Drones"
+            title="Software Engineer – Fullstack, Embedded | DeLive Drones"
             subtitle="October 2019 – Present • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
@@ -255,7 +255,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Swift, SwiftUI, Cocoapods, iOS SDK,
-                Xcode, Sketch, Adobe XD, Zeplin, Webflow, Firebase, Git
+                Xcode, Sketch, Adobe XD, Zeplin, Webflow, Firebase, HTML/CSS,
+                Git
               </p>
             }
           />
