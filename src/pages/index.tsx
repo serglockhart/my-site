@@ -238,6 +238,28 @@ const IndexPage = () => {
             }
           />
           <Card
+            title="Software Engineer – Mobile, Fullstack | Debtly"
+            subtitle="May 2020 – Present • South Bend, IN"
+            logoLink="https://www.debtly.app/"
+            logo={`../../images/experience/debtly.webp`}
+            logoBackup={`../../images/experience/debtly.png`}
+            logoAlt={"Debtly logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will solely develop Native iOS fintech mobile app, NoSQL User
+                  Database, and static website
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Tech Stack</strong>: Swift, SwiftUI, Cocoapods, iOS SDK,
+                Xcode, Sketch, Adobe XD, Zeplin, Webflow, Firebase, Git
+              </p>
+            }
+          />
+          <Card
             title="Software Engineer – Mobile, Backend | Gitta"
             subtitle="April 2020 – Present • South Bend, IN"
             logoLink="/"
@@ -264,7 +286,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Fullstack, Mobile | Tembo AI"
+            title="Software Engineer – Mobile, Fullstack | Tembo AI"
             subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
@@ -346,7 +368,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Frontend, Mobile | Foreager"
+            title="Software Engineer – Mobile, Frontend | Foreager"
             subtitle="January – August 2019 • Townsend, MA"
             logoLink="/"
             logo={`../../images/experience/foreager.webp`}
