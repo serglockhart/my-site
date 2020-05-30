@@ -26,8 +26,9 @@ const Hero = () => {
           <div className="flex top">
             <h1 className="name">Hey! I'm Jio Buenviaje</h1>
             <p>
-              I aim to leverage tech to better understand and solve pressing
-              problems of niche groups. I study computer science at{" "}
+              I'm a fullstack web + mobile developer and designer. I aim to
+              leverage tech to help people learn more and live better. I study
+              computer science at{" "}
               <a
                 href="https://cse.nd.edu/undergraduates/computer-science"
                 rel="noopener noreferrer"
