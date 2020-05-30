@@ -195,7 +195,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Fullstack, Embedded | DeLive Drones"
+            title="Chief Technology Officer | DeLive Drones"
             subtitle="October 2019 – Present • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
