@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex top">
             <h1 className="name">Hey! I'm Jio Buenviaje</h1>
             <p>
-              I'm a fullstack web + mobile developer and designer. I aim to
+              I'm a lifelong learner, driven developer, and proud Filipino. I aim to
               leverage tech to help people learn more and live better. I study
               computer science at{" "}
               <a
