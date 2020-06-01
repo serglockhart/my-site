@@ -189,8 +189,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: C++, XML, SQL Server, AWS (EC2, S3,
-                Lambda, Glacier, CloudWatch), AutoCAD
+                <strong>Tech Stack</strong>: C++, XML, SQL, SQL Server, AWS
+                (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
