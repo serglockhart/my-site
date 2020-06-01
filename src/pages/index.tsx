@@ -282,7 +282,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
-                Express, Firebase, Kanban, HTML/CSS, Git
+                Express, Firebase, Adobe XD, Supernova Studio, Wiredash,
+                HTML/CSS, Git
               </p>
             }
           />
