@@ -19,8 +19,8 @@ const Tech = () => {
             </p>
             <h5>Mobile</h5>
             <p>
-              iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Flutter (Dart),
-              Provider, Wiredash, Expo, Android Studio
+              iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Gradle, Flutter
+              (Dart), Provider, Wiredash, Ionic, Capacitor, Expo, Android Studio
             </p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
@@ -33,7 +33,7 @@ const Tech = () => {
             <p>
               Git (GitHub, GitLab), UNIX/Linux, Progressive Web Apps (PWA),
               JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile Software
-              Development
+              Development, Scrum, Kanban
             </p>
             <h5>Design</h5>
             <p>
