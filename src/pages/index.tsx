@@ -66,7 +66,7 @@ const IndexPage = () => {
           <Card
             title="Philippine Science High School – Main Campus"
             subtitle="2012 – 2018 | 3.84 GPA"
-            logoLink="http://www.pshs.edu.ph/curriculum/"
+            logoLink="http://pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.webp`}
             logoBackup={`../../images/education/pshs.png`}
             logoAlt={"PSHS logo"}
@@ -75,7 +75,7 @@ const IndexPage = () => {
                 Graduated Magna Cum Laude (High Honors), with a class rank of
                 28/221 and{" "}
                 <a
-                  href="http://www.sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
+                  href="http://sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
@@ -112,7 +112,7 @@ const IndexPage = () => {
           <Card
             title="Fullstack Software Engineer Intern | Techstars"
             subtitle="Summer 2020 • New York, NY"
-            logoLink="https://www.techstars.com/"
+            logoLink="https://techstars.com/"
             logo={`../../images/experience/techstars.webp`}
             logoBackup={`../../images/experience/techstars.png`}
             logoAlt={"Techstars logo"}
@@ -210,7 +210,7 @@ const IndexPage = () => {
                 <li>
                   Exhibited in{" "}
                   <a
-                    href="https://www.ces.tech"
+                    href="https://ces.tech"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
@@ -240,7 +240,7 @@ const IndexPage = () => {
           <Card
             title="Software Engineer – Mobile, Fullstack | Debtly"
             subtitle="May 2020 – Present • South Bend, IN"
-            logoLink="https://www.debtly.app/"
+            logoLink="https://debtly.app/"
             logo={`../../images/experience/debtly.webp`}
             logoBackup={`../../images/experience/debtly.png`}
             logoAlt={"Debtly logo"}
@@ -588,7 +588,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://www.tembo.ai/"
+                  link="https://tembo.ai/"
                   title="View here"
                   links="https://github.com/tembo-ai/tembo-site"
                   titles="View repo"
@@ -616,7 +616,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://www.kyrabuenviaje.com/"
+                  link="https://kyrabuenviaje.com/"
                   title="View here"
                   links="https://github.com/lockjio/kyra-site"
                   titles="View repo"
@@ -634,7 +634,7 @@ const IndexPage = () => {
           <Project
             bgColor={1}
             title={
-              <a href="https://www.jbuenviaje.com">
+              <a href="https://jbuenviaje.com">
                 <h2>./Recursion</h2>
               </a>
             }
