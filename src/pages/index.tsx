@@ -405,7 +405,7 @@ const IndexPage = () => {
           <Card
             title="Founder, Lead Developer & Designer, Project Manager | Munti"
             subtitle="February 2019 – Present • South Bend, IN"
-            logoLink="/"
+            logoLink="https://munti.io/"
             logo={`../../images/experience/muntiSm.webp`}
             logoBackup={`../../images/experience/muntiSm.png`}
             logoAlt={"Munti logo"}
