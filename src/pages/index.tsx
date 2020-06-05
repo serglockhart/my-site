@@ -520,6 +520,33 @@ const IndexPage = () => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
+            bgColor={3}
+            title="Munti Site"
+            body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> TypeScript, React, Gatsby, Sass,
+                Bootstrap, Netlify, Basin, Google Analytics, PWA
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button
+                  link="https://munti.io/"
+                  title="View here"
+                  links="https://github.com/munti-llc/munti-site"
+                  titles="View repo"
+                />
+              </div>
+            }
+          >
+            <Browser
+              image={`../../images/projects/munti.webp`}
+              imageBackup={`../../images/projects/munti.png`}
+              imageAlt={"Munti site"}
+            />
+          </Project>
+          <Project
             bgColor={2}
             title="Gäshawk Site"
             body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
