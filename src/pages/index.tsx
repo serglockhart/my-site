@@ -119,17 +119,26 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will work with portfolio company Cabinet on features for web
-                  and Hybrid mobile apps currently serving 2,000+ executive
-                  assistants at Fortune 500 and Fortune 100 companies
+                  Will work with portfolio company{" "}
+                  <a
+                    href="https://www.joincabinet.com/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Cabinet
+                  </a>{" "}
+                  on features for web and Hybrid mobile apps currently serving
+                  2,000+ executive assistants at Fortune 500 and Fortune 100
+                  companies
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: JavaScript, React, Redux, Python,
-                Django, AWS (S3, RDS, Cognito, Elastic Beanstalk, Route53,
-                CloudFront), Material-UI, Ionic, Capacitor, HTML/CSS, Git
+                <strong>Tech Stack</strong>: TypeScript, JavaScript, React,
+                Redux, Python, Django, AWS (S3, RDS, Cognito, Elastic Beanstalk,
+                Route53, CloudFront), Postman, Material-UI, Ionic, Capacitor,
+                HTML/CSS, Git
               </p>
             }
           />
@@ -525,8 +534,8 @@ const IndexPage = () => {
             body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> TypeScript, React, Gatsby, Jest, Sass,
-                Bootstrap, Netlify, Basin, Google Analytics, PWA
+                <strong>Tech Stack:</strong> TypeScript, React, Gatsby, Jest,
+                Sass, Bootstrap, Netlify, Basin, Google Analytics, PWA
               </p>
             }
             buttons={
