@@ -272,7 +272,7 @@ const IndexPage = () => {
           <Card
             title="Software Engineer – Mobile, Backend | Gitta"
             subtitle="April 2020 – Present • South Bend, IN"
-            logoLink="/"
+            logoLink="https://www.gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
             logoBackup={`../../images/experience/gitta.png`}
             logoAlt={"Gitta logo"}
