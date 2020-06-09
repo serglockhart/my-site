@@ -15,7 +15,7 @@ const Tech = () => {
               React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
               Client, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS, Bootstrap,
               styled-components, Material-UI, Tailwind, Bulma), Jest, Enzyme,
-              npm, Yarn, Webflow
+              Postman, npm, Yarn, Webflow
             </p>
             <h5>Mobile</h5>
             <p>
