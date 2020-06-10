@@ -534,8 +534,8 @@ const IndexPage = () => {
             body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> TypeScript, React, Gatsby, Jest,
-                Sass, Bootstrap, Netlify, Basin, Google Analytics, PWA
+                <strong>Tech Stack:</strong> React (CRA), Jest, Sass, Bootstrap,
+                Netlify, Basin, Google Analytics, PWA
               </p>
             }
             buttons={
