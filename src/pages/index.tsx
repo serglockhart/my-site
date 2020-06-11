@@ -138,7 +138,7 @@ const IndexPage = () => {
                 <strong>Tech Stack</strong>: TypeScript, JavaScript, React,
                 Redux, Python, Django, AWS (S3, RDS, Cognito, Elastic Beanstalk,
                 Route53, CloudFront), Postman, Material-UI, Ionic, Capacitor,
-                HTML/CSS, Git
+                Adobe XD, Zeplin, HTML/CSS, Git
               </p>
             }
           />
