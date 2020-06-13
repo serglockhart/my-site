@@ -12,10 +12,10 @@ const Tech = () => {
             </p>
             <h5>Web</h5>
             <p>
-              React (Next, Gatsby), Redux, Node, Express, GraphQL, Apollo
-              Client, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS, Bootstrap,
-              styled-components, Material-UI, Tailwind, Bulma), Jest, Enzyme,
-              Postman, npm, Yarn, Webflow
+              React (Next, Gatsby), Redux, Node, Express, Django, Flask,
+              GraphQL, Apollo Client, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS,
+              Bootstrap, styled-components, Material-UI, Tailwind, Bulma), npm,
+              Yarn, Webflow
             </p>
             <h5>Mobile</h5>
             <p>
@@ -27,8 +27,10 @@ const Tech = () => {
             <h5>Databases &amp; Deployment</h5>
             <p>
               PostgreSQL, Microsoft SQL Server, SQL, MongoDB, Parse Platform,
-              AWS, Firebase, Heroku, Netlify, Vercel (ZEIT Now)
+              AWS, Firebase, Heroku, Netlify, Vercel (ZEIT Now), Docker
             </p>
+            <h5>Testing</h5>
+            <p>Jest, Enzyme, Cypress, Postman</p>
             <h5>Other</h5>
             <p>
               Git (GitHub, GitLab), UNIX/Linux, Progressive Web Apps (PWA),
@@ -38,8 +40,8 @@ const Tech = () => {
             <h5>Design</h5>
             <p>
               Sketch, Figma, Adobe XD, Illustrator, Photoshop, Affinity
-              Designer, InVision Studio, Supernova Studio, Zeplin, AutoCAD,
-              Fusion 360, SolidWorks
+              Designer, InVision Studio, Supernova Studio, Zeplin, Canva,
+              AutoCAD, Fusion 360, SolidWorks
             </p>
           </div>
         </div>
