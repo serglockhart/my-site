@@ -22,6 +22,8 @@ const Tech = () => {
               iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Gradle, Flutter
               (Dart), Provider, Wiredash, Ionic, Capacitor, Expo, Android Studio
             </p>
+            <h5>Embedded</h5>
+            <p>Raspberry Pi, Arduino, Verilog</p>
           </div>
           <div className="col-12 col-md-6 col-1-format">
             <h5>Databases &amp; Deployment</h5>
