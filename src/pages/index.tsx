@@ -136,9 +136,9 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: TypeScript, JavaScript, React,
-                Redux, Python, Django, AWS (S3, RDS, Cognito, Elastic Beanstalk,
-                Route53, CloudFront), Postman, Material-UI, Ionic, Capacitor,
-                Adobe XD, Zeplin, HTML/CSS, Git
+                Redux, Python, Django, PostgreSQL, Jest, Postman, AWS (S3, RDS,
+                Cognito, Elastic Beanstalk, Route53, CloudFront), Docker,
+                Material-UI, Ionic, Capacitor, Adobe XD, Zeplin, HTML/CSS, Git
               </p>
             }
           />
@@ -213,8 +213,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed Frontend of web app, RESTful API, and will integrate
-                  using SSR in Agile Environment
+                  Developed Frontend dashboard web app and drone communication
+                  RESTful API in Agile Environment
                 </li>
                 <li>
                   Exhibited in{" "}
@@ -240,9 +240,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: JavaScript, React, Next, Node,
-                Express, Python, Raspberry Pi, AWS IoT, Sass/SCSS, Bootstrap,
-                HTML/CSS, PWA, Git
+                <strong>Tech Stack</strong>: JavaScript, React, Node, Express,
+                Python, Raspberry Pi, AWS IoT, Sass/SCSS, Bootstrap, HTML/CSS,
+                PWA, Git
               </p>
             }
           />
