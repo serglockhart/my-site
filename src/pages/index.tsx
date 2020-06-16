@@ -224,8 +224,8 @@ const IndexPage = () => {
                     target="_BLANK"
                   >
                     Consumer Electronics Show (CES) 2020
-                  </a>{" "}
-                  , secured $20k funding,{" "}
+                  </a>
+                  , secured $25k funding,{" "}
                   <a
                     href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
                     rel="noopener noreferrer"
