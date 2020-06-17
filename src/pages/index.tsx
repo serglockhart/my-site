@@ -160,8 +160,8 @@ const IndexPage = () => {
                   used for administrative monitoring
                 </li>
                 <li>
-                  Created Design Documents and Software Documentation for all
-                  work done in Agile Environment
+                  Created Design Documents and Codebase Guides/Documentation for
+                  all work done in Agile Team
                 </li>
               </ul>
             }
@@ -214,7 +214,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Developed Frontend dashboard web app and drone communication
-                  RESTful API in Agile Environment
+                  RESTful API in Agile Team
                 </li>
                 <li>
                   Exhibited in{" "}
@@ -241,8 +241,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: JavaScript, React, Node, Express,
-                Python, Raspberry Pi, AWS IoT, Sass/SCSS, Bootstrap, HTML/CSS,
-                PWA, Git
+                Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
+                Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -270,7 +270,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Mobile, Backend | Gitta"
+            title="Software Engineer – Mobile, Fullstack | Gitta"
             subtitle="April 2020 – Present • South Bend, IN"
             logoLink="https://www.gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
@@ -279,20 +279,20 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will develop babysitter hiring service Hybrid mobile app in
-                  Agile Environment
+                  Developed babysitter hiring service Hybrid mobile app, SMS
+                  autoresponder and NoSQL User Database in Agile Team
                 </li>
                 <li>
-                  Will develop RESTful API for automatic text messaging using
-                  Twilio and NoSQL User Database
+                  Developing RESTful API and will beta test iOS and Android apps
+                  through TestFlight and Play Console for upcoming release
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
-                Express, Firebase, Adobe XD, Supernova Studio, Wiredash,
-                HTML/CSS, Git
+                Express, Firebase, Twilio API, Twilio Studio, Adobe XD,
+                Supernova Studio, Wiredash, HTML/CSS, Git
               </p>
             }
           />
@@ -326,8 +326,8 @@ const IndexPage = () => {
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, React,
                 Next, Node, Express, Python, Raspberry Pi, Vercel (ZEIT Now),
-                Heroku, Firebase, Kali Linux, Sass/SCSS, Bootstrap, HTML/CSS,
-                PWA, Git
+                Heroku, Firebase, Kali Linux, Mapbox API, Sass/SCSS, Bootstrap,
+                HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -373,8 +373,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: C++, Arduino, JavaScript, React,
-                Gatsby, GraphQL, Netlify, Sass/SCSS, Bootstrap, HTML/CSS, PWA,
-                Git
+                Gatsby, GraphQL, Netlify, Google Maps API, Sass/SCSS, Bootstrap,
+                HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -407,7 +407,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Flutter (Dart), Firebase, Heroku,
-                JavaScript, jQuery, Sass/SCSS, Bootstrap, HTML/CSS, Git
+                JavaScript, jQuery, Mailchimp API, Sass/SCSS, Bootstrap,
+                HTML/CSS, Git
               </p>
             }
           />
