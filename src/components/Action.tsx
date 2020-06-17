@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Contact from "./Contact"
+// import Contact from "./Contact"
 
 const Action = () => {
   return (
@@ -24,7 +24,13 @@ const Action = () => {
           <Link to="#projects" className="btn btn-info">
             View my projects
           </Link>
-          <Contact linkClasses="btn btn-info" linkTitle="Contact me" />
+          <a
+            href="mailto:jio.buenviaje@gmail.com"
+            rel="noopener noreferrer"
+            className="btn btn-info marg-bot-05"
+          >
+            Contact me
+          </a>
         </div>
       </div>
     </div>

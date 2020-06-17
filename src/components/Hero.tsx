@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Contact from "./Contact"
+// import Contact from "./Contact"
 
 const Hero = () => {
   return (
@@ -26,9 +26,9 @@ const Hero = () => {
           <div className="flex top">
             <h1 className="name">Hey! I'm Jio Buenviaje</h1>
             <p>
-              I'm a lifelong learner, driven developer, and proud Filipino. I aim to
-              leverage tech to help people learn more and live better. I study
-              computer science at{" "}
+              I'm a lifelong learner, driven developer, and proud Filipino. I
+              aim to leverage tech to help people learn more and live better. I
+              study computer science at{" "}
               <a
                 href="https://cse.nd.edu/undergraduates/computer-science"
                 rel="noopener noreferrer"
@@ -75,10 +75,13 @@ const Hero = () => {
         <Link to="#projects" className="btn btn-info marg-bot-05">
           View my projects
         </Link>
-        <Contact
-          linkClasses="btn btn-info marg-bot-05"
-          linkTitle="Contact me"
-        />
+        <a
+          href="mailto:jio.buenviaje@gmail.com"
+          rel="noopener noreferrer"
+          className="btn btn-info marg-bot-05"
+        >
+          Contact me
+        </a>
       </div>
     </div>
   )
