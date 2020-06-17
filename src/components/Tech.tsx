@@ -8,7 +8,8 @@ const Tech = () => {
           <div className="col-12 col-md-6">
             <h5>General Purpose</h5>
             <p>
-              JavaScript ES6, TypeScript, C/C++, Python, Java, Go/Golang, MATLAB
+              JavaScript ES6, TypeScript, C/C++, Python, Java, Go/Golang, Dart,
+              MATLAB
             </p>
             <h5>Web</h5>
             <p>
@@ -19,9 +20,9 @@ const Tech = () => {
             </p>
             <h5>Mobile</h5>
             <p>
-              iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Gradle, Flutter
-              (Dart), Provider, Wiredash, Ionic, Capacitor, Expo, Android
-              Studio, TestFlight, Play Console
+              iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Gradle, Flutter,
+              Provider, Wiredash, Ionic, Capacitor, Expo, Android Studio,
+              TestFlight, Play Console
             </p>
             <h5>Embedded</h5>
             <p>Raspberry Pi, Arduino, Verilog</p>
