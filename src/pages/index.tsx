@@ -290,7 +290,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, Node,
+                <strong>Tech Stack</strong>: Dart, Flutter, JavaScript, Node,
                 Express, Firebase, Twilio API, Twilio Studio, Adobe XD,
                 Supernova Studio, Wiredash, HTML/CSS, Git
               </p>
@@ -324,7 +324,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Flutter (Dart), JavaScript, React,
+                <strong>Tech Stack</strong>: Dart, Flutter, JavaScript, React,
                 Next, Node, Express, Python, Raspberry Pi, Vercel (ZEIT Now),
                 Heroku, Firebase, Kali Linux, Mapbox API, Sass/SCSS, Bootstrap,
                 HTML/CSS, PWA, Git
@@ -406,7 +406,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Flutter (Dart), Firebase, Heroku,
+                <strong>Tech Stack</strong>: Dart, Flutter, Firebase, Heroku,
                 JavaScript, jQuery, Mailchimp API, Sass/SCSS, Bootstrap,
                 HTML/CSS, Git
               </p>
@@ -702,7 +702,7 @@ const IndexPage = () => {
             body="Emergency Messaging iOS/Android Hybrid App with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Tech Stack:</strong> Flutter (Dart), Provider, Firebase
+                <strong>Tech Stack:</strong> Dart, Flutter, Provider, Firebase
               </p>
             }
           >
@@ -719,7 +719,7 @@ const IndexPage = () => {
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
-                <strong>Tech Stack:</strong> Flutter (Dart), Firebase
+                <strong>Tech Stack:</strong> Dart, Flutter, Firebase
               </p>
             }
           >
