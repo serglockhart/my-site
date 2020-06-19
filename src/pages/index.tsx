@@ -279,20 +279,20 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed babysitter hiring service Hybrid mobile app, SMS
-                  autoresponder and NoSQL User Database in Agile Team
+                  Developed babysitter hiring service Hybrid mobile app, RESTful
+                  API, SMS autoresponder and NoSQL Database in Agile Team
                 </li>
                 <li>
-                  Developing RESTful API and will beta test iOS and Android apps
-                  through TestFlight and Play Console for upcoming release
+                  Will beta test iOS and Android apps through Apple TestFlight
+                  and Google Play Console for upcoming release
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Tech Stack</strong>: Dart, Flutter, JavaScript, Node,
-                Express, Firebase, Twilio API, Twilio Studio, Adobe XD,
-                Supernova Studio, Wiredash, HTML/CSS, Git
+                Express, Firebase, Twilio API, Twilio Studio, Twilio Functions,
+                Adobe XD, Supernova Studio, Wiredash, HTML/CSS, Git
               </p>
             }
           />
@@ -306,8 +306,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed Fullstack SSR web app and messaging Hybrid
-                  mobile app to be used in alpha testing
+                  Solely developed Fullstack SSR web app and emergency group
+                  messaging Hybrid mobile app to be used in alpha testing
                 </li>
                 <li>
                   Solely developed indoor location triangulation WiFi mobile
