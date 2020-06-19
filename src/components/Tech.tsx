@@ -13,10 +13,10 @@ const Tech = () => {
             </p>
             <h5>Web</h5>
             <p>
-              React (Next, Gatsby), Redux, Node, Express, Django, Flask,
-              GraphQL, Apollo Client, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS,
-              Bootstrap, styled-components, Material-UI, Tailwind, Bulma), npm,
-              Yarn, Webflow
+              React (Next, Gatsby), Redux, AngularJS, Node, Express, Django,
+              Flask, GraphQL, Apollo, Hugo, jQuery, HTML, CSS (Sass/SCSS, LESS,
+              Bootstrap, Material-UI, styled-components, Tailwind, Bulma), npm,
+              Yarn
             </p>
             <h5>Mobile</h5>
             <p>
@@ -44,8 +44,8 @@ const Tech = () => {
             <h5>Design</h5>
             <p>
               Sketch, Figma, Adobe XD, Illustrator, Photoshop, Affinity
-              Designer, InVision Studio, Supernova Studio, Zeplin, Canva,
-              AutoCAD, Fusion 360, SolidWorks
+              Designer, InVision Studio, Supernova Studio, Zeplin, Webflow,
+              Canva, AutoCAD, Fusion 360, SolidWorks
             </p>
           </div>
         </div>
