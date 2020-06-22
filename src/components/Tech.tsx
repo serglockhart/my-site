@@ -21,8 +21,8 @@ const Tech = () => {
             <h5>Mobile</h5>
             <p>
               iOS, Swift, SwiftUI, Cocoapods, Xcode, Android, Gradle, Flutter,
-              Provider, Wiredash, Ionic, Capacitor, Expo, Android Studio, Apple
-              TestFlight, Google Play Console
+              Provider, Wiredash, Ionic, Capacitor, Expo, Android Studio,
+              TestFlight, Play Console
             </p>
             <h5>Embedded</h5>
             <p>Raspberry Pi, Arduino, Verilog</p>
@@ -43,9 +43,9 @@ const Tech = () => {
             </p>
             <h5>Design</h5>
             <p>
-              Sketch, Figma, Adobe XD, Adobe Illustrator, Adobe Photoshop,
-              Affinity Designer, InVision Studio, Supernova Studio, Zeplin,
-              Webflow, Canva, AutoCAD, Fusion 360, SolidWorks
+              Sketch, Figma, Adobe XD, Illustrator, Photoshop, Affinity
+              Designer, InVision Studio, Supernova Studio, Zeplin, Webflow,
+              Canva, AutoCAD, Fusion 360, SolidWorks
             </p>
           </div>
         </div>
