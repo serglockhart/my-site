@@ -34,8 +34,7 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 - [x] Optimize images through Netlify plugin
 - [x] Fix favicon sizes
 - [ ] Lazy load images (gatsby-image, gatsby-background-image)
-- [ ] Change form to formik or react-hook-form
 - [ ] Add Dark Mode feature
-- [ ] Delete unused dependencies (depcheck/npm-check-unused)
+- [x] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
