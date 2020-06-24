@@ -1,9 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 // import Contact from "./Contact"
 
 const Hero = () => {
+  const data = useStaticQuery(graphql`
+    query Hero {
+      me: file(relativePath: { eq: "me.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
   return (
     <div className="marg-bot-1">
       <div
@@ -15,8 +28,8 @@ const Hero = () => {
           <div className="profile-picture-wrapper">
             <picture>
               <source srcSet={`../../images/me.webp`} type="image/webp" />
-              <img
-                src={`../../images/me.png`}
+              <Img
+                fluid={data.me.childImageSharp.fluid}
                 alt={"Jio Buenviaje"}
                 aria-label="Headshot"
                 className="profile-picture"
