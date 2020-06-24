@@ -1,4 +1,5 @@
 import React from "react"
+import Img from "gatsby-image"
 
 const Card = (props: {
   title: string
@@ -19,9 +20,9 @@ const Card = (props: {
         </div>
         <a href={props.logoLink} rel="noopener noreferrer" target="_BLANK">
           <picture className="background-image">
-            <source srcSet={props.logo} type="image/webp" />
-            <img
-              src={props.logoBackup}
+            {/* <source srcSet={props.logo} type="image/webp" /> */}
+            <Img
+              fluid={props.logoBackup}
               alt={props.logoAlt}
               aria-label={props.logoAlt}
               className="background-image"
