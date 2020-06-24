@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/Layout"
 import Content from "../components/Content"
@@ -18,6 +18,157 @@ import "../styles/index.scss"
 import "../styles/responsive.scss"
 
 const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query Home {
+      nd: file(relativePath: { eq: "education/nd.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      pshs: file(relativePath: { eq: "education/pshs.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      techstars: file(relativePath: { eq: "experience/techstars.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      ideacenter: file(
+        relativePath: { eq: "extracurriculars/ideacenter.png" }
+      ) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      cbs: file(relativePath: { eq: "experience/cbs.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      delive: file(relativePath: { eq: "experience/delive.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      debtly: file(relativePath: { eq: "experience/debtly.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      gitta: file(relativePath: { eq: "experience/gitta.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      tembo: file(relativePath: { eq: "experience/tembo.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      gashawk: file(relativePath: { eq: "experience/gashawk.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      foreager: file(relativePath: { eq: "experience/foreager.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      muntiSm: file(relativePath: { eq: "experience/muntiSm.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      munti: file(relativePath: { eq: "projects/munti.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      jio: file(relativePath: { eq: "projects/jio.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      overwatch: file(relativePath: { eq: "projects/overwatch.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      logger: file(relativePath: { eq: "projects/logger.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      charger: file(relativePath: { eq: "projects/charger.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      cosmo: file(relativePath: { eq: "projects/cosmo.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
       {/* App content */}
@@ -31,7 +182,7 @@ const IndexPage = () => {
             subtitle="2018 – 2022 | 3.51 GPA"
             logoLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.webp`}
-            logoBackup={`../../images/education/nd.png`}
+            logoBackup={data.nd.childImageSharp.fluid}
             logoAlt={"ND logo"}
             body={
               <p>
@@ -68,7 +219,7 @@ const IndexPage = () => {
             subtitle="2012 – 2018 | 3.84 GPA"
             logoLink="http://pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.webp`}
-            logoBackup={`../../images/education/pshs.png`}
+            logoBackup={data.pshs.childImageSharp.fluid}
             logoAlt={"PSHS logo"}
             body={
               <p>
@@ -114,7 +265,7 @@ const IndexPage = () => {
             subtitle="Summer 2020 • New York, NY"
             logoLink="https://techstars.com/"
             logo={`../../images/experience/techstars.webp`}
-            logoBackup={`../../images/experience/techstars.png`}
+            logoBackup={data.techstars.childImageSharp.fluid}
             logoAlt={"Techstars logo"}
             body={
               <ul className="tech">
@@ -147,7 +298,7 @@ const IndexPage = () => {
             subtitle="Winter / Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
-            logoBackup={`../../images/extracurriculars/ideacenter.png`}
+            logoBackup={data.ideacenter.childImageSharp.fluid}
             logoAlt={"IDEA Center logo"}
             body={
               <ul className="tech">
@@ -178,7 +329,7 @@ const IndexPage = () => {
             subtitle="Summer 2019 • New York, NY"
             logoLink="https://cbs.com"
             logo={`../../images/experience/cbs.webp`}
-            logoBackup={`../../images/experience/cbs.png`}
+            logoBackup={data.cbs.childImageSharp.fluid}
             logoAlt={"CBS logo"}
             body={
               <ul className="tech">
@@ -208,7 +359,7 @@ const IndexPage = () => {
             subtitle="October 2019 – Present • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
-            logoBackup={`../../images/experience/delive.png`}
+            logoBackup={data.delive.childImageSharp.fluid}
             logoAlt={"DeLive logo"}
             body={
               <ul className="tech">
@@ -251,7 +402,7 @@ const IndexPage = () => {
             subtitle="May 2020 – Present • South Bend, IN"
             logoLink="https://debtly.app/"
             logo={`../../images/experience/debtly.webp`}
-            logoBackup={`../../images/experience/debtly.png`}
+            logoBackup={data.debtly.childImageSharp.fluid}
             logoAlt={"Debtly logo"}
             body={
               <ul className="tech">
@@ -274,7 +425,7 @@ const IndexPage = () => {
             subtitle="April 2020 – Present • South Bend, IN"
             logoLink="https://www.gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
-            logoBackup={`../../images/experience/gitta.png`}
+            logoBackup={data.gitta.childImageSharp.fluid}
             logoAlt={"Gitta logo"}
             body={
               <ul className="tech">
@@ -302,7 +453,7 @@ const IndexPage = () => {
             subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
-            logoBackup={`../../images/experience/tembo.png`}
+            logoBackup={data.tembo.childImageSharp.fluid}
             logoAlt={"Tembo logo"}
             body={
               <ul className="tech">
@@ -337,7 +488,7 @@ const IndexPage = () => {
             subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
-            logoBackup={`../../images/experience/gashawk.png`}
+            logoBackup={data.gashawk.childImageSharp.fluid}
             logoAlt={"Gäshawk logo"}
             body={
               <ul className="tech">
@@ -384,7 +535,7 @@ const IndexPage = () => {
             subtitle="January – August 2019 • Townsend, MA"
             logoLink="/"
             logo={`../../images/experience/foreager.webp`}
-            logoBackup={`../../images/experience/foreager.png`}
+            logoBackup={data.foreager.childImageSharp.fluid}
             logoAlt={"Foreager logo"}
             body={
               <ul className="tech">
@@ -418,7 +569,7 @@ const IndexPage = () => {
             subtitle="February 2019 – Present • South Bend, IN"
             logoLink="https://munti.io/"
             logo={`../../images/experience/muntiSm.webp`}
-            logoBackup={`../../images/experience/muntiSm.png`}
+            logoBackup={data.muntiSm.childImageSharp.fluid}
             logoAlt={"Munti logo"}
             body={
               <ul className="tech">
@@ -457,7 +608,7 @@ const IndexPage = () => {
             subtitle="August 2019 – Present"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
-            logoBackup={`../../images/extracurriculars/ideacenter.png`}
+            logoBackup={data.ideacenter.childImageSharp.fluid}
             logoAlt={"IDEA Center logo"}
             body={
               <p>
@@ -496,7 +647,7 @@ const IndexPage = () => {
             subtitle="August 2019 – Present"
             logoLink="https://godandgoodlife.nd.edu"
             logo={`../../images/education/nd.webp`}
-            logoBackup={`../../images/education/nd.png`}
+            logoBackup={data.nd.childImageSharp.fluid}
             logoAlt={"ND logo"}
             body={
               <p>
@@ -553,7 +704,7 @@ const IndexPage = () => {
           >
             <Browser
               image={`../../images/projects/munti.webp`}
-              imageBackup={`../../images/projects/munti.png`}
+              imageBackup={data.munti.childImageSharp.fluid}
               imageAlt={"Munti site"}
             />
           </Project>
@@ -693,7 +844,7 @@ const IndexPage = () => {
           >
             <Browser
               image={`../../images/projects/jio.webp`}
-              imageBackup={`../../images/projects/jio.png`}
+              imageBackup={data.jio.childImageSharp.fluid}
               imageAlt={"My site"}
             />
           </Project>
@@ -749,7 +900,7 @@ const IndexPage = () => {
           >
             <System
               image={`../../images/projects/overwatch.webp`}
-              imageBackup={`../../images/projects/overwatch.png`}
+              imageBackup={data.overwatch.childImageSharp.fluid}
               imageAlt={"Gäshawk embedded"}
             />
           </Project>
@@ -772,7 +923,7 @@ const IndexPage = () => {
           >
             <System
               image={`../../images/projects/logger.webp`}
-              imageBackup={`../../images/projects/logger.png`}
+              imageBackup={data.logger.childImageSharp.fluid}
               imageAlt={"Logger research"}
             />
           </Project>
@@ -795,7 +946,7 @@ const IndexPage = () => {
           >
             <System
               image={`../../images/projects/charger.webp`}
-              imageBackup={`../../images/projects/charger.png`}
+              imageBackup={data.charger.childImageSharp.fluid}
               imageAlt={"Charger research"}
             />
           </Project>
@@ -812,7 +963,7 @@ const IndexPage = () => {
           >
             <System
               image={`../../images/projects/cosmo.webp`}
-              imageBackup={`../../images/projects/cosmo.png`}
+              imageBackup={data.cosmo.childImageSharp.fluid}
               imageAlt={"Cosmo research"}
             />
           </Project>
