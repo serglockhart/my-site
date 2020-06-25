@@ -1,4 +1,5 @@
 import React from "react"
+import Img from "gatsby-image"
 
 const System = (props: {
   image: string
@@ -10,8 +11,8 @@ const System = (props: {
       <div className="top" />
       <picture className="img-fluid">
         <source srcSet={props.image} type="image/webp" />
-        <img
-          src={props.imageBackup}
+        <Img
+          fluid={props.imageBackup}
           alt={props.imageAlt}
           aria-label={props.imageAlt}
           className="img-fluid"
