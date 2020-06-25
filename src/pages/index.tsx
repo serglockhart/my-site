@@ -682,7 +682,7 @@ const IndexPage = () => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
-            bgColor={3}
+            bgColor={1}
             title="Munti Site"
             body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
             end={
@@ -709,7 +709,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="Gäshawk Site"
             body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
             end={
@@ -737,7 +737,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
+            bgColor={2}
             title="DeLive Site"
             body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Express backend through Next for SSR."
             end={
@@ -765,7 +765,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={1}
             title="Tembo Site"
             body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR fullstack web app workload."
             end={
@@ -794,7 +794,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="Kyra Site"
             body="Portfolio website (PWA) for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
@@ -822,7 +822,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
+            bgColor={2}
             title={
               <a href="https://jbuenviaje.com">
                 <h2>./Recursion</h2>
@@ -846,6 +846,25 @@ const IndexPage = () => {
               image={`../../images/projects/jio.webp`}
               imageBackup={data.jio.childImageSharp.fluid}
               imageAlt={"My site"}
+            />
+          </Project>
+          <Project
+            bgColor={1}
+            title="GittaSitta App"
+            body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Will beta test through TestFlight/Play Console for release."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> Dart, Flutter, Provider,
+                JavaScript, Firebase, Twilio, Adobe XD, Supernova Studio,
+                Wiredash
+              </p>
+            }
+          >
+            <Mobile
+              vid={`../../videos/gitta.webm`}
+              vidAlt={"GittaSitta app webm"}
+              vidBackup={`../../videos/gitta.mp4`}
+              vidBackupAlt={"GittaSitta app mp4"}
             />
           </Project>
           <Project
