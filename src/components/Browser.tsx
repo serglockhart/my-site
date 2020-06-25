@@ -21,11 +21,17 @@ const Browser = (props: {
         <div className="screen">
           <video autoPlay loop muted playsinline>
             <source
+              autoPlay
+              loop
+              muted
               src={props.vid}
               alt={props.vidAlt}
               type='video/webm; codecs="vp8, vorbis"'
             />
             <source
+              autoPlay
+              loop
+              muted
               src={props.vidBackup}
               alt={props.vidBackupAlt}
               type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
