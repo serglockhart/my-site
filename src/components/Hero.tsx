@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-// import Contact from "./Contact"
+import Contact from "./Contact"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -88,13 +88,7 @@ const Hero = () => {
         <Link to="#projects" className="btn btn-info marg-bot-05">
           View my projects
         </Link>
-        <a
-          href="mailto:jio.buenviaje@gmail.com"
-          rel="noopener noreferrer"
-          className="btn btn-info marg-bot-05"
-        >
-          Contact me
-        </a>
+        <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
       </div>
     </div>
   )

@@ -1,18 +1,24 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap"
 
 const Contact = (props: { children: any }) => {
-  const { linkTitle, linkClasses, className } = props
+  const { linkTitle, linkClasses, className, button } = props
   const [modal, setModal] = useState(false)
   const toggle = () => setModal(!modal)
 
   return (
     <>
-      <Link onClick={toggle} className={linkClasses}>
-        {linkTitle}
-        {props.children}
-      </Link>
+      {button ? (
+        <Button onClick={toggle} className={linkClasses}>
+          {linkTitle}
+          {props.children}
+        </Button>
+      ) : (
+        <a onClick={toggle} className={linkClasses}>
+          {linkTitle}
+          {props.children}
+        </a>
+      )}
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>Contact Me</ModalHeader>
         <form
