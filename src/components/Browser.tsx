@@ -19,11 +19,12 @@ const Browser = (props: {
           <span className="circle"></span>
         </div>
         <div className="screen">
-          <video autoPlay loop muted playsinline>
+          <video autoPlay loop muted playsInline>
             <source
               autoPlay
               loop
               muted
+              playsInline
               src={props.vid}
               alt={props.vidAlt}
               type='video/webm; codecs="vp8, vorbis"'
@@ -32,6 +33,7 @@ const Browser = (props: {
               autoPlay
               loop
               muted
+              playsInline
               src={props.vidBackup}
               alt={props.vidBackupAlt}
               type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
