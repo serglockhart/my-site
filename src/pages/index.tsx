@@ -687,8 +687,9 @@ const IndexPage = () => {
             body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> React (CRA), Jest, Sass, Bootstrap,
-                Netlify, Basin, Google Analytics, PWA
+                <strong>Tech Stack:</strong> JavaScript, React (CRA), Jest,
+                Sass, Bootstrap, Netlify, Basin, Google Analytics, HTML/CSS,
+                PWA, Git
               </p>
             }
             buttons={
@@ -714,8 +715,9 @@ const IndexPage = () => {
             body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
             end={
               <p>
-                <strong>Tech Stack:</strong> React, Gatsby, Sass, Bootstrap,
-                Netlify, Google Maps, Formcarry, Google Analytics, PWA
+                <strong>Tech Stack:</strong> JavaScript, React, Gatsby, GraphQL,
+                Sass, Bootstrap, Netlify, Google Maps, Formcarry, Google
+                Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -742,8 +744,9 @@ const IndexPage = () => {
             body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Express backend through Next for SSR."
             end={
               <p>
-                <strong>Tech Stack:</strong> React (CRA), Sass, Bootstrap,
-                Netlify, Google Maps, Mailchimp, EmailJS, Google Analytics, PWA
+                <strong>Tech Stack:</strong> JavaScript, React (CRA), Sass,
+                Bootstrap, Netlify, Google Maps, Mailchimp, EmailJS, Google
+                Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -770,9 +773,9 @@ const IndexPage = () => {
             body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR fullstack web app workload."
             end={
               <p>
-                <strong>Tech Stack:</strong> React, Next, Node, Express, Sass,
-                Bootstrap, Now, Mapbox, Mailchimp, Formspree, Google Analytics,
-                PWA
+                <strong>Tech Stack:</strong> JavaScript, React, Next, Node,
+                Express, Sass, Bootstrap, Now, Mapbox, Mailchimp, Formspree,
+                Google Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -799,8 +802,9 @@ const IndexPage = () => {
             body="Portfolio website (PWA) for fashion designer Kyra Buenviaje displaying resume, projects and collections."
             end={
               <p>
-                <strong>Tech Stack:</strong> React, Gatsby, styled-components,
-                Tailwind, Netlify, Formspree, Google Analytics, PWA
+                <strong>Tech Stack:</strong> JavaScript, React, Gatsby, GraphQL,
+                styled-components, Tailwind, Netlify, Formspree, Google
+                Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -831,8 +835,9 @@ const IndexPage = () => {
             body="Personal website (PWA) displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
             end={
               <p>
-                <strong>Tech Stack:</strong> TypeScript, React, Gatsby, Sass,
-                Bootstrap, Netlify, Getform, Google Analytics, PWA
+                <strong>Tech Stack:</strong> TypeScript, JavaScript, React,
+                Gatsby, GraphQL, Sass, Bootstrap, Netlify, Getform, Google
+                Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
