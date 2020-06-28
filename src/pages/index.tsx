@@ -847,8 +847,8 @@ const IndexPage = () => {
             body="Startup company landing page (PWA) for Gitta LLC and the GittaSitta mobile app."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, Bootstrap, Squarespace,
-                Adobe XD, Zeplin, Google Analytics, HTML/CSS, PWA, Git
+                <strong>Tech Stack:</strong> Squarespace, Adobe XD, Zeplin,
+                Google Analytics, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -870,8 +870,8 @@ const IndexPage = () => {
             body="Startup company landing page (PWA) for Debtly Inc. and the Debtly mobile app."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, Webflow, Sketch, Adobe
-                XD, Zeplin, Google Analytics, HTML/CSS, PWA, Git
+                <strong>Tech Stack:</strong> Webflow, Sketch, Adobe XD, Zeplin,
+                Google Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
