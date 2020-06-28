@@ -126,7 +126,23 @@ const IndexPage = () => {
           }
         }
       }
+      debtlySite: file(relativePath: { eq: "projects/debtly.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       jio: file(relativePath: { eq: "projects/jio.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      drone: file(relativePath: { eq: "projects/drone.png" }) {
         id
         childImageSharp {
           fluid {
@@ -682,7 +698,7 @@ const IndexPage = () => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
-            bgColor={2}
+            bgColor={1}
             title="Munti Site"
             body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
             end={
@@ -710,7 +726,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
+            bgColor={3}
             title="Gäshawk Site"
             body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
             end={
@@ -739,7 +755,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={2}
             title="DeLive Site"
             body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Express backend through Next for SSR."
             end={
@@ -768,7 +784,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={1}
             title="Tembo Site"
             body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR fullstack web app workload."
             end={
@@ -794,29 +810,6 @@ const IndexPage = () => {
               vid={`../../videos/temboSite.webm`}
               vidBackup={`../../videos/temboSite.mp4`}
               vidAlt={"Tembo site"}
-            />
-          </Project>
-          <Project
-            bgColor={1}
-            title="Gitta Site"
-            body="Startup company landing page (PWA) for Gitta LLC and the GittaSitta mobile app."
-            end={
-              <p>
-                <strong>Tech Stack:</strong> JavaScript, Bootstrap, Squarespace,
-                Adobe XD, Zeplin, Google Analytics, HTML/CSS, PWA, Git
-              </p>
-            }
-            buttons={
-              <div className="buttons">
-                <Button link="https://www.gittasitta.com/" title="View here" />
-              </div>
-            }
-          >
-            <Browser
-              image=""
-              vid={`../../videos/gittaSite.webm`}
-              vidBackup={`../../videos/gittaSite.mp4`}
-              vidAlt={"Gitta site"}
             />
           </Project>
           <Project
@@ -850,6 +843,49 @@ const IndexPage = () => {
           </Project>
           <Project
             bgColor={2}
+            title="Gitta Site"
+            body="Startup company landing page (PWA) for Gitta LLC and the GittaSitta mobile app."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> JavaScript, Bootstrap, Squarespace,
+                Adobe XD, Zeplin, Google Analytics, HTML/CSS, PWA, Git
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button link="https://www.gittasitta.com/" title="View here" />
+              </div>
+            }
+          >
+            <Browser
+              image=""
+              vid={`../../videos/gittaSite.webm`}
+              vidBackup={`../../videos/gittaSite.mp4`}
+              vidAlt={"Gitta site"}
+            />
+          </Project>
+          <Project
+            bgColor={1}
+            title="Debtly Site"
+            body="Startup company landing page (PWA) for Debtly Inc. and the Debtly mobile app."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> JavaScript, Webflow, Sketch, Adobe
+                XD, Zeplin, Google Analytics, HTML/CSS, PWA, Git
+              </p>
+            }
+            buttons={
+              <Button link="https://www.debtly.app/" title="View here" />
+            }
+          >
+            <Browser
+              image={`../../images/projects/debtly.webp`}
+              imageBackup={data.debtlySite.childImageSharp.fluid}
+              imageAlt={"Debtly site"}
+            />
+          </Project>
+          <Project
+            bgColor={3}
             title={
               <a href="https://jbuenviaje.com">
                 <h2>./Recursion</h2>
@@ -877,7 +913,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
+            bgColor={2}
             title="GittaSitta App"
             body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Will beta test through TestFlight/Play Console for release."
             end={
@@ -896,7 +932,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={1}
             title="Tembo App"
             body="Emergency Messaging iOS/Android Hybrid App with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -913,7 +949,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -927,6 +963,23 @@ const IndexPage = () => {
               vidAlt={"Foreager app webm"}
               vidBackup={`../../videos/foreager.mp4`}
               vidBackupAlt={"Foreager app mp4"}
+            />
+          </Project>
+          <Project
+            bgColor={2}
+            title="DeLive Drone"
+            body="Semi-Autonomous Drone with Automatic Ticketing and Communication System developed for DeLive Aerial System, LLC. Demo resulted in 15k seed funding from Race to Revenue (R2R) accelerator program."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> Python, Raspberry Pi, Django, Node,
+                Express, AWS IoT, DroneKit SDK, Git
+              </p>
+            }
+          >
+            <System
+              image={`../../images/projects/drone.webp`}
+              imageBackup={data.drone.childImageSharp.fluid}
+              imageAlt={"DeLive embedded"}
             />
           </Project>
           <Project
