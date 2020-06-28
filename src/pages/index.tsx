@@ -682,7 +682,7 @@ const IndexPage = () => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
-            bgColor={1}
+            bgColor={2}
             title="Munti Site"
             body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
             end={
@@ -710,7 +710,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
+            bgColor={1}
             title="Gäshawk Site"
             body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
             end={
@@ -739,7 +739,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
+            bgColor={3}
             title="DeLive Site"
             body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Express backend through Next for SSR."
             end={
@@ -768,7 +768,7 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
+            bgColor={2}
             title="Tembo Site"
             body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR fullstack web app workload."
             end={
@@ -794,6 +794,29 @@ const IndexPage = () => {
               vid={`../../videos/temboSite.webm`}
               vidBackup={`../../videos/temboSite.mp4`}
               vidAlt={"Tembo site"}
+            />
+          </Project>
+          <Project
+            bgColor={1}
+            title="Gitta Site"
+            body="Startup company landing page (PWA) for Gitta LLC and the GittaSitta mobile app."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> JavaScript, Bootstrap, Squarespace,
+                Adobe XD, Zeplin, Google Analytics, HTML/CSS, PWA, Git
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button link="https://www.gittasitta.com/" title="View here" />
+              </div>
+            }
+          >
+            <Browser
+              image=""
+              vid={`../../videos/gittaSite.webm`}
+              vidBackup={`../../videos/gittaSite.mp4`}
+              vidAlt={"Gitta site"}
             />
           </Project>
           <Project
