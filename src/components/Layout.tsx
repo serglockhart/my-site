@@ -47,7 +47,7 @@ const Layout = (props) => {
         />
         <meta
           property="twitter:image"
-          content="https://user-images.githubusercontent.com/50670255/76829155-e03f0c00-67f8-11ea-86b9-5cadafab7b63.png"
+          content="https://user-images.githubusercontent.com/50670255/85933050-7ecf1480-b8a0-11ea-8ec7-d37a9292ff94.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://jbuenviaje.com/" />
