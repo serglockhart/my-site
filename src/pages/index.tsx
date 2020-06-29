@@ -15,6 +15,7 @@ import System from "../components/System"
 import Action from "../components/Action"
 
 import "../styles/index.scss"
+// import "../styles/dark-index.css"
 import "../styles/responsive.scss"
 
 const IndexPage = () => {
