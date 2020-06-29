@@ -879,9 +879,7 @@ const IndexPage = () => {
                 Google Analytics, HTML/CSS, PWA, Git
               </p>
             }
-            buttons={
-              <Button link="https://www.debtly.app/" title="View here" />
-            }
+            buttons={<Button link="https://debtly.app/" title="View here" />}
           >
             <Browser
               image={`../../images/projects/debtly.webp`}
