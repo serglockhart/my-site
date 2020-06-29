@@ -858,7 +858,7 @@ const IndexPage = () => {
             }
             buttons={
               <div className="buttons">
-                <Button link="https://www.gittasitta.com/" title="View here" />
+                <Button link="https://gittasitta.com/" title="View here" />
               </div>
             }
           >
