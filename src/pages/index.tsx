@@ -426,6 +426,10 @@ const IndexPage = () => {
                   Developed static website and will develop Native iOS fintech
                   mobile app and NoSQL User Database in Agile Team
                 </li>
+                <li>
+                  Will beta test iOS app through Apple TestFlight for upcoming
+                  release
+                </li>
               </ul>
             }
             end={
