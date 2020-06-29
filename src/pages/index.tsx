@@ -423,8 +423,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will solely develop Native iOS fintech mobile app, NoSQL User
-                  Database, and static website
+                  Developed static website and will develop Native iOS fintech
+                  mobile app and NoSQL User Database in Agile Team
                 </li>
               </ul>
             }
@@ -447,7 +447,8 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Developed babysitter hiring service Hybrid mobile app, RESTful
-                  API, SMS autoresponder and NoSQL Database in Agile Team
+                  API, SMS autoresponder, NoSQL User and Request Ticketing
+                  Database and static website in Agile Team
                 </li>
                 <li>
                   Will beta test iOS and Android apps through Apple TestFlight
