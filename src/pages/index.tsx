@@ -703,9 +703,8 @@ const IndexPage = () => {
         {/* Projects */}
         <Section id="projects" title="Projects">
           <Project
-            bgColor={1}
             title="Munti Site"
-            body="Design and development freelance company server-side rendering (SSR) landing page (PWA) for Munti LLC."
+            body="Design and development freelance company single-page application (SPA) landing page (PWA) for Munti LLC."
             end={
               <p>
                 <strong>Tech Stack:</strong> JavaScript, React (CRA), Jest,
@@ -731,9 +730,8 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
             title="Gäshawk Site"
-            body="Startup company server-side rendering (SSR) landing page (PWA) for Gäshawk Incorporated."
+            body="Startup company single-page application (SPA) landing page (PWA) for Gäshawk Incorporated."
             end={
               <p>
                 <strong>Tech Stack:</strong> JavaScript, React, Gatsby, GraphQL,
@@ -760,9 +758,8 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
             title="DeLive Site"
-            body="Startup company landing page (PWA) for DeLive Aerial System, LLC to be connected to Node + Express backend through Next for SSR."
+            body="Startup company single-page application (SPA) landing page (PWA) for DeLive Aerial System, LLC."
             end={
               <p>
                 <strong>Tech Stack:</strong> JavaScript, React (CRA), Sass,
@@ -789,9 +786,8 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
             title="Tembo Site"
-            body="Startup company landing page (PWA) for Tembo AI, LLC set up for heavier SSR fullstack web app workload."
+            body="Startup company server-side rendering (SSR) single-page application (SPA) landing page (PWA) for Tembo AI, LLC."
             end={
               <p>
                 <strong>Tech Stack:</strong> JavaScript, React, Next, Node,
@@ -818,9 +814,8 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
             title="Kyra Site"
-            body="Portfolio website (PWA) for fashion designer Kyra Buenviaje displaying resume, projects and collections."
+            body="Portfolio and collections multi-page application (MPA) website (PWA) for fashion designer Kyra Buenviaje."
             end={
               <p>
                 <strong>Tech Stack:</strong> JavaScript, React, Gatsby, GraphQL,
@@ -847,9 +842,8 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
             title="Gitta Site"
-            body="Startup company landing page (PWA) for Gitta LLC and the GittaSitta mobile app."
+            body="Startup company single-page application (SPA) landing page (PWA) for Gitta LLC."
             end={
               <p>
                 <strong>Tech Stack:</strong> Squarespace, Adobe XD, Zeplin,
@@ -870,9 +864,8 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
             title="Debtly Site"
-            body="Startup company landing page (PWA) for Debtly Inc. and the Debtly mobile app."
+            body="Startup company multi-page application (MPA) landing page (PWA) for Debtly Inc."
             end={
               <p>
                 <strong>Tech Stack:</strong> Webflow, Sketch, Adobe XD, Zeplin,
@@ -888,13 +881,13 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
-            title={
+            /* title={
               <a href="https://jbuenviaje.com">
                 <h2>./Recursion</h2>
               </a>
-            }
-            body="Personal website (PWA) displaying resume and projects inspired by a simple, software project-friendly LinkedIn profile."
+            } */
+            title="My Site"
+            body="Personal single-page application (SPA) website (PWA) displaying resume and projects."
             end={
               <p>
                 <strong>Tech Stack:</strong> TypeScript, JavaScript, React,
@@ -916,7 +909,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
             title="GittaSitta App"
             body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Will beta test through TestFlight/Play Console for release."
             end={
@@ -935,7 +927,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
             title="Tembo App"
             body="Emergency Messaging iOS/Android Hybrid App with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
@@ -952,7 +943,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -969,7 +959,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
             title="DeLive Drone"
             body="Semi-Autonomous Drone with Automatic Ticketing and Communication System developed for DeLive Aerial System, LLC. Demo resulted in 15k seed funding from Race to Revenue (R2R) accelerator program."
             end={
@@ -986,7 +975,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
             title="Gäshawk Overwatch"
             body="LiDAR Overhead Collision Detection System with Touchscreen Graphical User Interface (GUI) developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
             end={
@@ -1008,7 +996,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={3}
             title="Automated School Logger"
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
@@ -1031,7 +1018,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={2}
             title="Sustainable Energy Charger"
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
@@ -1054,7 +1040,6 @@ const IndexPage = () => {
             />
           </Project>
           <Project
-            bgColor={1}
             title="Cosmological Constant"
             body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
             buttons={
