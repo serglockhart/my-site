@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
-a:active, a:focus, a:hover, a:visited, a .btn, a .btn:active, a .btn:focus, a .btn:hover, a .btn:visited, .btn, .app .links a, .content a .card {
+a:active, a:focus, a:hover, a:visited, a .btn, a .btn:active, a .btn:focus, a .btn:hover, a .btn:visited, .btn, .app .links a, .project .text .btn, .content a .card {
   text-decoration: none;
 }
 
@@ -416,7 +416,10 @@ hr {
   -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
   border-radius: 0.2rem;
-  color: #ffffff;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
+  color: #383838;
+  background: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,9 +427,21 @@ hr {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   overflow: hidden;
   padding: 0 2.5%;
+}
+
+.project:nth-child(odd) {
+  -webkit-box-shadow: 0 0.1rem 0.4rem #90b8c6;
+  box-shadow: 0 0.1rem 0.4rem #90b8c6;
+  border-radius: 0.2rem;
+}
+
+.project:nth-child(even) {
+  -webkit-box-shadow: 0 0.1rem 0.4rem #d4ba9f;
+  box-shadow: 0 0.1rem 0.4rem #d4ba9f;
+  border-radius: 0.2rem;
 }
 
 .project .screenshot-wrapper {
@@ -455,21 +470,33 @@ hr {
 }
 
 .project .text .btn {
-  background: rgba(255, 255, 255, 0.3);
-  color: #ffffff;
+  -webkit-box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background: #e18e7f;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+  color: #ffffff !important;
 }
 
-.project .text .btn:active, .project .text .btn:focus, .project .text .btn:hover, .project .text .btn:visited {
-  color: #ffffff;
+.project .text .btn:hover {
+  -webkit-box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.project .text .btn:active, .project .text .btn:focus, .project .text .btn:hover {
+  background: #b55f4b;
 }
 
 .project .browser-screenshot,
 .project .system-screenshot {
   border-bottom: 0;
-  border-radius: 0.2rem 0.2rem 0 0;
-  -webkit-box-shadow: 0 -0.1rem 2rem rgba(0, 0, 0, 0.25);
-  box-shadow: 0 -0.1rem 2rem rgba(0, 0, 0, 0.25);
   padding-bottom: 0;
+  -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.2rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 .has-bg {
@@ -581,6 +608,9 @@ hr {
 
 .content .card {
   background: #ffffff;
+  -webkit-box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.2rem;
   border: 0.0625rem solid rgba(0, 0, 0, 0.1);
   border-radius: 0.2rem;
   margin-bottom: 1rem;
