@@ -460,8 +460,8 @@ const IndexPage = () => {
                   Database and static website in Agile Team
                 </li>
                 <li>
-                  Will beta test iOS and Android apps through Apple TestFlight
-                  and Google Play Console for upcoming release
+                  Beta testing iOS and Android apps through Apple TestFlight and
+                  Google Play Console for upcoming release
                 </li>
               </ul>
             }
@@ -915,7 +915,7 @@ const IndexPage = () => {
           </Project>
           <Project
             title="GittaSitta App"
-            body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Will beta test through TestFlight/Play Console for release."
+            body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Currently beta testing through TestFlight/Play Console for release."
             end={
               <p>
                 <strong>Tech Stack:</strong> Dart, Flutter, Provider,
