@@ -287,6 +287,10 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
+                  Developed fullstack web and mobile Material-UI/Capacitor
+                  compatibility test app for upcoming adoption
+                </li>
+                <li>
                   Will work with portfolio company{" "}
                   <a
                     href="https://www.joincabinet.com/"
