@@ -439,9 +439,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Swift, SwiftUI, Cocoapods, iOS SDK,
-                Xcode, Sketch, Adobe XD, Zeplin, Webflow, Firebase, TestFlight,
-                HTML/CSS, Git
+                <strong>Tech Stack</strong>: Swift, SwiftUI, CocoaPods,
+                Firebase, Plaid API, Stripe API, Sketch, Adobe XD, Zeplin,
+                Webflow, TestFlight, HTML/CSS, Git
               </p>
             }
           />
@@ -468,9 +468,9 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: Dart, Flutter, JavaScript, Node,
-                Express, Firebase, Twilio API, Twilio Studio, Twilio Functions,
-                Adobe XD, Supernova Studio, Wiredash, TestFlight, Play Console,
-                HTML/CSS, Git
+                Express, Firebase, Twilio API, Twilio Studio, Adobe XD,
+                Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
+                Git
               </p>
             }
           />
