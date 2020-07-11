@@ -287,8 +287,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed fullstack web and mobile Material-UI/Capacitor
-                  compatibility test app for upcoming adoption
+                  Developed new techstack compatibility test apps (web and
+                  mobile) in Agile Team for upcoming adoption
                 </li>
                 <li>
                   Will work with portfolio company{" "}
@@ -299,9 +299,8 @@ const IndexPage = () => {
                   >
                     Cabinet
                   </a>{" "}
-                  on features for web and Hybrid mobile apps currently serving
-                  2,000+ executive assistants at Fortune 500 and Fortune 100
-                  companies
+                  on features for web and mobile apps currently serving 2,000+
+                  executive assistants at Fortune 500 and Fortune 100 companies
                 </li>
               </ul>
             }
@@ -325,11 +324,11 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Developed e-Commerce web app and store templates through Pair
-                  Programming to used by startups
+                  Programming currently used by startups
                 </li>
                 <li>
-                  Developed metrics cards and dashboards in Snapboard currently
-                  used for administrative monitoring
+                  Developed key metrics cards and dashboards in Snapboard
+                  currently used for administrative startup monitoring
                 </li>
                 <li>
                   Created Design Documents and Codebase Guides/Documentation for
@@ -385,8 +384,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed Frontend dashboard web app and drone communication
-                  RESTful API in Agile Team
+                  Developed dashboard web app and drone contact RESTful API in
+                  Agile Team resulting in $10k funding
                 </li>
                 <li>
                   Exhibited in{" "}
@@ -397,7 +396,7 @@ const IndexPage = () => {
                   >
                     Consumer Electronics Show (CES) 2020
                   </a>
-                  , secured $25k funding,{" "}
+                  , secured $25k total funding,{" "}
                   <a
                     href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
                     rel="noopener noreferrer"
@@ -405,8 +404,8 @@ const IndexPage = () => {
                   >
                     Race to Revenue
                   </a>{" "}
-                  accelerator invitation, and pitch to Indianapolis-based $100M
-                  VC fund
+                  accelerator invite, and pitch to Indianapolis-based $100M VC
+                  fund
                 </li>
               </ul>
             }
@@ -428,8 +427,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed static website and will develop Native iOS fintech
-                  mobile app and NoSQL User Database in Agile Team
+                  Developed static website and will develop iOS fintech mobile
+                  app and NoSQL User Database in Agile Team
                 </li>
                 <li>
                   Will beta test iOS app through Apple TestFlight for upcoming
@@ -455,9 +454,9 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed babysitter hiring service Hybrid mobile app, RESTful
-                  API, SMS autoresponder, NoSQL User and Request Ticketing
-                  Database and static website in Agile Team
+                  Developed babysitter hiring service mobile apps with NoSQL
+                  User and Request Ticketing Database, RESTful API, SMS
+                  autoresponder and static website in Agile Team
                 </li>
                 <li>
                   Beta testing iOS and Android apps through Apple TestFlight and
@@ -484,12 +483,12 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed Fullstack SSR web app and emergency group
-                  messaging Hybrid mobile app to be used in alpha testing
+                  Developed SSR web app and emergency group messaging mobile
+                  apps with NoSQL User Database for upcoming alpha testing
                 </li>
                 <li>
-                  Solely developed indoor location triangulation WiFi mobile
-                  tracker resulting in{" "}
+                  Developed WiFi indoor triangulation mobile location tracker
+                  through Pair Programming resulting in{" "}
                   <a
                     href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
                     rel="noopener noreferrer"
@@ -519,11 +518,11 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed Server-Side Rendering (SSR) Progressive Web
-                  App (PWA) currently used by startup
+                  Developed Server-Side Rendering (SSR) Progressive Web App
+                  (PWA) currently used by startup
                 </li>
                 <li>
-                  Solely developed LiDAR collision detection system and
+                  Developed LiDAR truck overhead collision detection system with
                   Touchscreen Graphical User Interface (GUI) resulting in{" "}
                   <a
                     href="https://startupsouthbendelkhart.com"
@@ -532,7 +531,7 @@ const IndexPage = () => {
                   >
                     Start-Up South Bend Elkhart (SUSBE)
                   </a>{" "}
-                  accelerator invitation
+                  accelerator invite
                 </li>
                 <li>
                   Assisted in{" "}
@@ -566,7 +565,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Solely developed peer-to-peer golf rental Hybrid mobile app
+                  Developed peer-to-peer golf equipment rental mobile apps
                   resulting in semifinals finish (top 30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
@@ -577,16 +576,16 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  Assisted in developing Frontend of prototype e-Commerce
-                  website
+                  Developed peer-to-peer golf equipment rental web store through
+                  Pair Programming used by 150+ users
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Tech Stack</strong>: Dart, Flutter, Firebase, Heroku,
-                JavaScript, jQuery, Mailchimp API, Sass/SCSS, Bootstrap,
-                HTML/CSS, Git
+                JavaScript, jQuery, Sharetribe, Mailchimp API, Sass/SCSS,
+                Bootstrap, HTML/CSS, Git
               </p>
             }
           />
@@ -608,8 +607,8 @@ const IndexPage = () => {
                   startups and small businesses
                 </li>
                 <li>
-                  Secured $2.5k funding to develop Fullstack web and Native
-                  mobile apps for student startup recruitment
+                  Secured $2.5k funding to develop web and mobile apps for
+                  student startup recruitment
                 </li>
               </ul>
             }
