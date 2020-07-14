@@ -576,8 +576,8 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  Assisted in developing peer-to-peer golf equipment rental web
-                  store through Pair Programming used by 150+ users
+                  Contributed to developing peer-to-peer golf equipment rental
+                  web store through Pair Programming used by 150+ users
                 </li>
               </ul>
             }
