@@ -287,11 +287,11 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed new tech stack compatibility test apps (web and
+                  Completed new tech stack compatibility test apps (web and
                   mobile) in Agile Team for upcoming adoption
                 </li>
                 <li>
-                  Will work with portfolio company{" "}
+                  Working with portfolio company{" "}
                   <a
                     href="https://www.joincabinet.com/"
                     rel="noopener noreferrer"
@@ -323,15 +323,15 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed e-Commerce web app and store templates through Pair
-                  Programming currently used by startups
+                  Architected e-Commerce web app and store templates through
+                  Pair Programming currently used by startups
                 </li>
                 <li>
-                  Developed key metrics cards and dashboards in Snapboard
-                  currently used for administrative startup monitoring
+                  Programmed key metrics cards and dashboards in Snapboard
+                  currently used in administrative startup monitoring
                 </li>
                 <li>
-                  Created Design Documents and Codebase Guides/Documentation for
+                  Wrote Design Documents and Codebase Guides/Documentation for
                   all work done in Agile Team
                 </li>
               </ul>
@@ -358,12 +358,12 @@ const IndexPage = () => {
                   (Codecs) for entire East Coast feed
                 </li>
                 <li>
-                  Completed 27 international purchase requests using Database
+                  Finished 27 international purchase requests using Database
                   Queries totaling $132,930 in profit
                 </li>
                 <li>
-                  Assisted in Cloud-based content compute, storage and
-                  monitoring for day-to-day operations
+                  Aided in Cloud-based content compute, storage and monitoring
+                  for day-to-day operations
                 </li>
               </ul>
             }
@@ -384,7 +384,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed dashboard web app and drone contact RESTful API in
+                  Integrated dashboard web app and drone contact RESTful API in
                   Agile Team resulting in $10k funding
                 </li>
                 <li>
@@ -427,7 +427,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed static website and will develop iOS fintech mobile
+                  Redesigned static website and will develop iOS fintech mobile
                   app and NoSQL User Database in Agile Team
                 </li>
                 <li>
@@ -483,11 +483,11 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed SSR web app and emergency group messaging mobile
-                  apps with NoSQL User Database for upcoming alpha testing
+                  Made SSR web app and emergency group messaging mobile apps
+                  with NoSQL User Database for upcoming alpha testing
                 </li>
                 <li>
-                  Developed WiFi indoor triangulation mobile location tracker
+                  Built WiFi indoor triangulation mobile location tracker
                   through Pair Programming resulting in{" "}
                   <a
                     href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
@@ -518,12 +518,12 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed Server-Side Rendering (SSR) Progressive Web App
-                  (PWA) currently used by startup
+                  Created Server-Side Rendering (SSR) Progressive Web App (PWA)
+                  currently used by startup
                 </li>
                 <li>
-                  Developed LiDAR truck overhead collision detection system with
-                  Touchscreen Graphical User Interface (GUI) resulting in{" "}
+                  Constructed LiDAR truck overhead collision detection system
+                  with Touchscreen Graphical User Interface (GUI) resulting in{" "}
                   <a
                     href="https://startupsouthbendelkhart.com"
                     rel="noopener noreferrer"
@@ -565,8 +565,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Developed peer-to-peer golf equipment rental mobile apps
-                  resulting in semifinals finish (top 30/175 teams) in{" "}
+                  Coded peer-to-peer golf equipment rental mobile apps resulting
+                  in semifinals finish (top 30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
                     rel="noopener noreferrer"
@@ -576,8 +576,8 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li>
-                  Developed peer-to-peer golf equipment rental web store through
-                  Pair Programming used by 150+ users
+                  Assisted in developing peer-to-peer golf equipment rental web
+                  store through Pair Programming used by 150+ users
                 </li>
               </ul>
             }
@@ -603,7 +603,7 @@ const IndexPage = () => {
                   Freelance Company through multiple concurrent projects
                 </li>
                 <li>
-                  Built web, mobile apps and embedded systems for early-stage
+                  Produced web, mobile apps and embedded systems for early-stage
                   startups and small businesses
                 </li>
                 <li>
