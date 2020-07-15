@@ -653,8 +653,9 @@ const IndexPage = () => {
             end={
               <ul>
                 <li>
-                  Aided in recruiting students for summer internships, McCloskey
-                  New Venture Competition, and academic programs
+                  Spearheaded improvements in recruiting students for summer
+                  internships, McCloskey New Venture Competition, and academic
+                  programs
                 </li>
                 <li>
                   Connected College of Engineering students to affiliated local
@@ -697,7 +698,7 @@ const IndexPage = () => {
                   university-wide campaign publication)
                 </li>
                 <li>
-                  Aided in course restructuring, lesson planning, grading
+                  Helped in course restructuring, lesson planning, grading
                   assignments, and hosting office hours
                 </li>
               </ul>
