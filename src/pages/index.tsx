@@ -428,7 +428,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Redesigned static website and will develop iOS fintech mobile
+                  Redesigned static website and developing iOS fintech mobile
                   app and NoSQL User Database in Agile Team
                 </li>
                 <li>
