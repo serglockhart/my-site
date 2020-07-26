@@ -119,6 +119,14 @@ const IndexPage = () => {
           }
         }
       }
+      collectio: file(relativePath: { eq: "projects/collectio.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       munti: file(relativePath: { eq: "projects/munti.png" }) {
         id
         childImageSharp {
@@ -708,6 +716,33 @@ const IndexPage = () => {
         </Section>
         {/* Projects */}
         <Section id="projects" title="Projects">
+          <Project
+            title="Collectio Site"
+            body="e-Commerce (PWA) multi-page application (MPA) for Collectio Comics for Modern Web and App Development I."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> JavaScript, React (CRA), Redux
+                (Saga, Thunk), Capacitor, Jest, Enzyme, styled-components, Sass,
+                Firebase, Netlify, Stripe, HTML/CSS, PWA, Git
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button
+                  link="https://comicollect.com/"
+                  title="View here"
+                  links="https://github.com/lockjio/collectio-site"
+                  titles="View repo"
+                />
+              </div>
+            }
+          >
+            <Browser
+              image={`../../images/projects/collectio.webp`}
+              imageBackup={data.collectio.childImageSharp.fluid}
+              imageAlt={"Collectio site"}
+            />
+          </Project>
           <Project
             title="Munti Site"
             body="Design and development freelance company single-page application (SPA) landing page (PWA) for Munti LLC."
