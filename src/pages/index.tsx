@@ -950,13 +950,37 @@ const IndexPage = () => {
             />
           </Project>
           <Project
+            title="Collectio App"
+            body="Comic Book e-Commerce iOS/Android Hybrid App with Authentication, Cart Functionality, Online Inventory Retrieval and Stripe Payment Processing for Collectio Comics for Modern Web and App Development I."
+            end={
+              <p>
+                <strong>Tech Stack:</strong> Capacitor, JavaScript, React (CRA),
+                Redux (Saga, Thunk), Jest, Enzyme, styled-components, Sass,
+                Firebase, Stripe, HTML/CSS, PWA, Git
+              </p>
+            }
+            buttons={
+              <Button
+                link="https://github.com/lockjio/collectio-site"
+                title="View repo"
+              />
+            }
+          >
+            <Mobile
+              vid={`../../videos/collectio.webm`}
+              vidAlt={"Collectio app webm"}
+              vidBackup={`../../videos/collectio.mp4`}
+              vidBackupAlt={"Collectio app mp4"}
+            />
+          </Project>
+          <Project
             title="GittaSitta App"
             body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Currently beta testing through TestFlight/Play Console for release."
             end={
               <p>
                 <strong>Tech Stack:</strong> Dart, Flutter, Provider,
                 JavaScript, Firebase, Twilio, Adobe XD, Supernova Studio,
-                Wiredash
+                Wiredash, Git
               </p>
             }
           >
@@ -972,7 +996,8 @@ const IndexPage = () => {
             body="Emergency Messaging iOS/Android Hybrid App with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Tech Stack:</strong> Dart, Flutter, Provider, Firebase
+                <strong>Tech Stack:</strong> Dart, Flutter, Provider, Firebase,
+                Git
               </p>
             }
           >
@@ -988,7 +1013,7 @@ const IndexPage = () => {
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
-                <strong>Tech Stack:</strong> Dart, Flutter, Firebase
+                <strong>Tech Stack:</strong> Dart, Flutter, Firebase, Git
               </p>
             }
           >
