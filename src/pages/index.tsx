@@ -295,8 +295,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Completed new tech stack compatibility test apps (web and
-                  mobile) in Agile Team for upcoming adoption
+                  Completed new tech stack compatibility apps (web and mobile)
+                  in Agile Team for upcoming adoption
                 </li>
                 <li>
                   Working with portfolio company{" "}
