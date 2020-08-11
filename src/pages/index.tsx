@@ -315,7 +315,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: TypeScript, JavaScript, React,
+                <strong>Technologies</strong>: TypeScript, JavaScript, React,
                 Redux, Python, Django, PostgreSQL, Firebase, Material-UI, Ionic,
                 Capacitor, Zeplin, HTML/CSS, Git
               </p>
@@ -346,7 +346,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: JavaScript, React, Next, GraphQL,
+                <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
                 Apollo, MongoDB, Parse Platform, Node, Express, Shopify API,
                 Sass/SCSS, HTML/CSS, Git
               </p>
@@ -377,14 +377,14 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: C++, XML, SQL, SQL Server, AWS
+                <strong>Technologies</strong>: C++, XML, SQL, SQL Server, AWS
                 (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
           <Card
             title="Chief Technology Officer | DeLive Drones"
-            subtitle="October 2019 – Present • South Bend, IN"
+            subtitle="October 2019 – September 2020 • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
             logoBackup={data.delive.childImageSharp.fluid}
@@ -419,7 +419,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: JavaScript, React, Node, Express,
+                <strong>Technologies</strong>: JavaScript, React, Node, Express,
                 Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
                 Bootstrap, HTML/CSS, PWA, Git
               </p>
@@ -446,7 +446,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Swift, SwiftUI, CocoaPods,
+                <strong>Technologies</strong>: Swift, SwiftUI, CocoaPods,
                 Firebase, Plaid API, Stripe API, Sketch, Adobe XD, Zeplin,
                 Webflow, TestFlight, HTML/CSS, Git
               </p>
@@ -474,7 +474,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Dart, Flutter, JavaScript, Node,
+                <strong>Technologies</strong>: Dart, Flutter, JavaScript, Node,
                 Express, Firebase, Twilio API, Twilio Studio, Adobe XD,
                 Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
                 Git
@@ -509,7 +509,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Dart, Flutter, JavaScript, React,
+                <strong>Technologies</strong>: Dart, Flutter, JavaScript, React,
                 Next, Node, Express, Python, Raspberry Pi, Vercel (ZEIT Now),
                 Heroku, Firebase, Kali Linux, Mapbox API, Sass/SCSS, Bootstrap,
                 HTML/CSS, PWA, Git
@@ -557,7 +557,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: C++, Arduino, JavaScript, React,
+                <strong>Technologies</strong>: C++, Arduino, JavaScript, React,
                 Gatsby, GraphQL, Netlify, Google Maps API, Sass/SCSS, Bootstrap,
                 HTML/CSS, PWA, Git
               </p>
@@ -591,7 +591,7 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Tech Stack</strong>: Dart, Flutter, Firebase, Heroku,
+                <strong>Technologies</strong>: Dart, Flutter, Firebase, Heroku,
                 JavaScript, jQuery, Sharetribe, Mailchimp API, Sass/SCSS,
                 Bootstrap, HTML/CSS, Git
               </p>
@@ -720,7 +720,7 @@ const IndexPage = () => {
             body="e-Commerce (PWA) multi-page application (MPA) for Collectio Comics for Modern Web and App Development I."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, React (CRA), Redux
+                <strong>Technologies:</strong> JavaScript, React (CRA), Redux
                 (Saga, Thunk), Capacitor, Jest, Enzyme, styled-components, Sass,
                 Firebase, Netlify, Stripe, HTML/CSS, PWA, Git
               </p>
@@ -747,7 +747,7 @@ const IndexPage = () => {
             body="Design and development freelance company single-page application (SPA) landing page (PWA) for Munti LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, React (CRA), Jest,
+                <strong>Technologies:</strong> JavaScript, React (CRA), Jest,
                 Sass, Bootstrap, Netlify, Basin, Google Analytics, HTML/CSS,
                 PWA, Git
               </p>
@@ -774,9 +774,9 @@ const IndexPage = () => {
             body="Startup company single-page application (SPA) landing page (PWA) for Gäshawk Incorporated."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, React, Gatsby, GraphQL,
-                Sass, Bootstrap, Netlify, Google Maps, Formcarry, Google
-                Analytics, HTML/CSS, PWA, Git
+                <strong>Technologies:</strong> JavaScript, React, Gatsby,
+                GraphQL, Sass, Bootstrap, Netlify, Google Maps, Formcarry,
+                Google Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -802,7 +802,7 @@ const IndexPage = () => {
             body="Startup company single-page application (SPA) landing page (PWA) for DeLive Aerial System, LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, React (CRA), Sass,
+                <strong>Technologies:</strong> JavaScript, React (CRA), Sass,
                 Bootstrap, Netlify, Google Maps, Mailchimp, EmailJS, Google
                 Analytics, HTML/CSS, PWA, Git
               </p>
@@ -830,7 +830,7 @@ const IndexPage = () => {
             body="Startup company server-side rendering (SSR) single-page application (SPA) landing page (PWA) for Tembo AI, LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, React, Next, Node,
+                <strong>Technologies:</strong> JavaScript, React, Next, Node,
                 Express, Sass, Bootstrap, Now, Mapbox, Mailchimp, Formspree,
                 Google Analytics, HTML/CSS, PWA, Git
               </p>
@@ -858,8 +858,8 @@ const IndexPage = () => {
             body="Portfolio and collections multi-page application (MPA) website (PWA) for fashion designer Kyra Buenviaje."
             end={
               <p>
-                <strong>Tech Stack:</strong> JavaScript, React, Gatsby, GraphQL,
-                styled-components, Tailwind, Netlify, Formspree, Google
+                <strong>Technologies:</strong> JavaScript, React, Gatsby,
+                GraphQL, styled-components, Tailwind, Netlify, Formspree, Google
                 Analytics, HTML/CSS, PWA, Git
               </p>
             }
@@ -886,7 +886,7 @@ const IndexPage = () => {
             body="Startup company single-page application (SPA) landing page (PWA) for Gitta LLC."
             end={
               <p>
-                <strong>Tech Stack:</strong> Squarespace, Adobe XD, Zeplin,
+                <strong>Technologies:</strong> Squarespace, Adobe XD, Zeplin,
                 Google Analytics, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
@@ -908,8 +908,8 @@ const IndexPage = () => {
             body="Startup company multi-page application (MPA) landing page (PWA) for Debtly Inc."
             end={
               <p>
-                <strong>Tech Stack:</strong> Webflow, Sketch, Adobe XD, Zeplin,
-                Google Analytics, HTML/CSS, PWA, Git
+                <strong>Technologies:</strong> Webflow, Sketch, Adobe XD,
+                Zeplin, Google Analytics, HTML/CSS, PWA, Git
               </p>
             }
             buttons={<Button link="https://debtly.app/" title="View here" />}
@@ -930,7 +930,7 @@ const IndexPage = () => {
             body="Personal single-page application (SPA) website (PWA) displaying resume and projects."
             end={
               <p>
-                <strong>Tech Stack:</strong> TypeScript, JavaScript, React,
+                <strong>Technologies:</strong> TypeScript, JavaScript, React,
                 Gatsby, GraphQL, Sass, Bootstrap, Netlify, Getform, Google
                 Analytics, HTML/CSS, PWA, Git
               </p>
@@ -953,9 +953,9 @@ const IndexPage = () => {
             body="Comic Book e-Commerce iOS/Android Hybrid App with Authentication, Cart Functionality, Online Inventory Retrieval and Stripe Payment Processing for Collectio Comics for Modern Web and App Development I."
             end={
               <p>
-                <strong>Tech Stack:</strong> Capacitor, JavaScript, React (CRA),
-                Redux (Saga, Thunk), Jest, Enzyme, styled-components, Sass,
-                Firebase, Stripe, HTML/CSS, PWA, Git
+                <strong>Technologies:</strong> Capacitor, JavaScript, React
+                (CRA), Redux (Saga, Thunk), Jest, Enzyme, styled-components,
+                Sass, Firebase, Stripe, HTML/CSS, PWA, Git
               </p>
             }
             buttons={
@@ -977,7 +977,7 @@ const IndexPage = () => {
             body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Currently beta testing through TestFlight/Play Console for release."
             end={
               <p>
-                <strong>Tech Stack:</strong> Dart, Flutter, Provider,
+                <strong>Technologies:</strong> Dart, Flutter, Provider,
                 JavaScript, Firebase, Twilio, Adobe XD, Supernova Studio,
                 Wiredash, Git
               </p>
@@ -995,8 +995,8 @@ const IndexPage = () => {
             body="Emergency Messaging iOS/Android Hybrid App with Authentication developed for Tembo AI, LLC. Will be integrated with user tracking feature and used for alpha testing in local high school."
             end={
               <p>
-                <strong>Tech Stack:</strong> Dart, Flutter, Provider, Firebase,
-                Git
+                <strong>Technologies:</strong> Dart, Flutter, Provider,
+                Firebase, Git
               </p>
             }
           >
@@ -1012,7 +1012,7 @@ const IndexPage = () => {
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
               <p>
-                <strong>Tech Stack:</strong> Dart, Flutter, Firebase, Git
+                <strong>Technologies:</strong> Dart, Flutter, Firebase, Git
               </p>
             }
           >
@@ -1028,8 +1028,8 @@ const IndexPage = () => {
             body="Semi-Autonomous Drone with Automatic Ticketing and Communication System developed for DeLive Aerial System, LLC. Demo resulted in 15k seed funding from Race to Revenue (R2R) accelerator program."
             end={
               <p>
-                <strong>Tech Stack:</strong> Python, Raspberry Pi, Django, Node,
-                Express, AWS IoT, DroneKit SDK, Git
+                <strong>Technologies:</strong> Python, Raspberry Pi, Django,
+                Node, Express, AWS IoT, DroneKit SDK, Git
               </p>
             }
           >
@@ -1044,7 +1044,7 @@ const IndexPage = () => {
             body="LiDAR Overhead Collision Detection System with Touchscreen Graphical User Interface (GUI) developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
             end={
               <p>
-                <strong>Tech Stack:</strong> C++, Arduino, Git
+                <strong>Technologies:</strong> C++, Arduino, Git
               </p>
             }
             buttons={
@@ -1065,7 +1065,7 @@ const IndexPage = () => {
             body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
             end={
               <p>
-                <strong>Tech Stack:</strong> C++, Arduino, PHP, MySQL,
+                <strong>Technologies:</strong> C++, Arduino, PHP, MySQL,
                 CodeIgniter, Eagle, Fritzing
               </p>
             }
@@ -1087,7 +1087,7 @@ const IndexPage = () => {
             body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
             end={
               <p>
-                <strong>Tech Stack:</strong> AutoCAD, Switch-Mode Converter,
+                <strong>Technologies:</strong> AutoCAD, Switch-Mode Converter,
                 Eagle, Fritzing
               </p>
             }
