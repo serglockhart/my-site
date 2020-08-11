@@ -295,11 +295,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Completed new tech stack compatibility apps (web and mobile)
-                  in Agile Team for upcoming adoption
-                </li>
-                <li>
-                  Working with portfolio company{" "}
+                  Worked with portfolio company{" "}
                   <a
                     href="https://www.joincabinet.com/"
                     rel="noopener noreferrer"
@@ -307,8 +303,14 @@ const IndexPage = () => {
                   >
                     Cabinet
                   </a>{" "}
-                  on features for web and mobile apps currently serving 2,000+
-                  executive assistants at Fortune 500 and Fortune 100 companies
+                  on 3 feature rollouts and 2 optimizations on web and mobile
+                  apps currently serving 2,000+ executive assistants at Fortune
+                  500 and Fortune 100 companies thereby increasing user
+                  engagement and retention by 6.7%
+                </li>
+                <li>
+                  Completed new tech stack compatibility apps (web and mobile)
+                  in Agile Team for upcoming adoption
                 </li>
               </ul>
             }
