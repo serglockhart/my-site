@@ -304,8 +304,7 @@ const IndexPage = () => {
                     Cabinet
                   </a>{" "}
                   on 3 feature rollouts and 2 optimizations on web and mobile
-                  apps currently serving 2,000+ executive assistants at Fortune
-                  500 and Fortune 100 companies thereby increasing user
+                  apps currently serving 2,000+ users thereby increasing user
                   engagement and retention by 6.7%
                 </li>
                 <li>
@@ -317,10 +316,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Tech Stack</strong>: TypeScript, JavaScript, React,
-                Redux, Python, Django, PostgreSQL, Jest, Enzyme, Postman, AWS
-                (S3, RDS, EC2, Elastic Beanstalk, Cognito, Route53, CloudFront),
-                Firebase, Docker, Material-UI, Ionic, Capacitor, Adobe XD,
-                Zeplin, HTML/CSS, Git
+                Redux, Python, Django, PostgreSQL, Firebase, Material-UI, Ionic,
+                Capacitor, Zeplin, HTML/CSS, Git
               </p>
             }
           />
