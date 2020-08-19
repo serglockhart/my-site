@@ -37,6 +37,14 @@ const IndexPage = () => {
           }
         }
       }
+      disney: file(relativePath: { eq: "experience/disney.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       techstars: file(relativePath: { eq: "experience/techstars.png" }) {
         id
         childImageSharp {
