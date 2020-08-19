@@ -294,6 +294,31 @@ const IndexPage = () => {
           }
         >
           <Card
+            title="Content Delivery Software Engineer Intern | Disney Streaming Services"
+            subtitle="Fall 2020 • New York, NY"
+            logoLink="https://disneyplus.com/"
+            logo={`../../images/experience/disney.webp`}
+            logoBackup={data.disney.childImageSharp.fluid}
+            logoAlt={"Disney+ logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Worked with portfolio company{" "}
+                  <a
+                    href="https://www.joincabinet.com/"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Cabinet
+                  </a>{" "}
+                  on 3 feature rollouts and 2 optimizations on web and mobile
+                  apps currently serving 2,000+ users thereby increasing user
+                  engagement and retention by 6.7%
+                </li>
+              </ul>
+            }
+          />
+          <Card
             title="Fullstack Software Engineer Intern | Techstars"
             subtitle="Summer 2020 • New York, NY"
             logoLink="https://techstars.com/"
@@ -305,7 +330,7 @@ const IndexPage = () => {
                 <li>
                   Worked with portfolio company{" "}
                   <a
-                    href="https://www.joincabinet.com/"
+                    href="https://joincabinet.com/"
                     rel="noopener noreferrer"
                     target="_BLANK"
                   >
