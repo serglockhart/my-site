@@ -304,7 +304,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Will optimize content delivery and customer experience for
-                  Disney+ and ESPN+ as part of CDN team
+                  Disney+ and ESPN+ as part of the CDN team
                 </li>
               </ul>
             }
