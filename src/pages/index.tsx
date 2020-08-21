@@ -470,8 +470,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Swift, SwiftUI, CocoaPods,
-                Firebase, Plaid API, Stripe API, Sketch, Adobe XD, Zeplin,
+                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
+                CocoaPods, Firebase, Plaid API, Sketch, Adobe XD, Zeplin,
                 Webflow, TestFlight, HTML/CSS, Git
               </p>
             }
