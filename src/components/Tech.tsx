@@ -20,9 +20,10 @@ const Tech = () => {
             </p>
             <h5>Mobile</h5>
             <p>
-              iOS, Swift, SwiftUI, Package Manager, CocoaPods, Core Data, Realm,
-              TestFlight, Lottie, Xcode, Android, Gradle, Play Console, Android
-              Studio, Flutter, Provider, Wiredash, Ionic, Capacitor, Expo
+              iOS, Swift, SwiftUI, Swift Package Manager, CocoaPods, Core Data,
+              Realm, Alamofire, TestFlight, Lottie, Xcode, Android, Gradle, Play
+              Console, Android Studio, Flutter, Provider, Wiredash, Ionic,
+              Capacitor, Expo
             </p>
             <h5>Embedded</h5>
             <p>Raspberry Pi, Arduino, Verilog</p>
