@@ -414,6 +414,29 @@ const IndexPage = () => {
             }
           />
           <Card
+            title="Software Engineer – Mobile, Fullstack | FloWaste"
+            subtitle="August 2020 – Present • South Bend, IN"
+            logoLink="https://flowaste.com/"
+            logo={`../../images/experience/flowaste.webp`}
+            logoBackup={data.flowaste.childImageSharp.fluid}
+            logoAlt={"FloWaste logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will redesign and add features to iOS ML-powered food scanner
+                  mobile app and web app in Agile Team
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Swift, SwiftUI, Core ML,
+                HealthKit, CocoaPods, JavaScript, React, Python, Flask,
+                Firebase, ML Kit
+              </p>
+            }
+          />
+          <Card
             title="Software Engineer – Mobile, Fullstack | Debtly"
             subtitle="May 2020 – Present • South Bend, IN"
             logoLink="https://debtly.app/"
