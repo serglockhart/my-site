@@ -14,7 +14,7 @@ const Tech = () => {
             <h5>Web</h5>
             <p>
               React (Next, Gatsby), Redux (Saga, Thunk), Angular, Node, Express,
-              Django, Flask, GraphQL, Apollo, Hugo, jQuery, HTML, CSS
+              Flask, Django, GraphQL, Apollo, Hugo, jQuery, HTML, CSS
               (Sass/SCSS, Bootstrap, Material-UI, styled-components, Tailwind,
               Bulma, LESS), npm, Yarn
             </p>
