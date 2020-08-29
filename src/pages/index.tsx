@@ -79,6 +79,14 @@ const IndexPage = () => {
           }
         }
       }
+      flowaste: file(relativePath: { eq: "experience/flowaste.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       debtly: file(relativePath: { eq: "experience/debtly.png" }) {
         id
         childImageSharp {
