@@ -499,7 +499,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Dart, Flutter, JavaScript, Node,
-                Express, Firebase, Twilio API, Twilio Studio, Adobe XD,
+                Express, Firebase, Twilio API, Twilio Studio, Adobe XD, Figma,
                 Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
                 Git
               </p>
