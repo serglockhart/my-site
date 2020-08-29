@@ -319,7 +319,7 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Worked with portfolio company{" "}
+                  Worked in portfolio company{" "}
                   <a
                     href="https://joincabinet.com/"
                     rel="noopener noreferrer"
@@ -327,9 +327,8 @@ const IndexPage = () => {
                   >
                     Cabinet
                   </a>{" "}
-                  on 3 feature rollouts and 2 optimizations on web and mobile
-                  apps currently serving 2,000+ users thereby increasing user
-                  engagement and retention by 6.7%
+                  on 5 feature rollouts on web and mobile apps currently serving
+                  2,000+ users thereby increasing user retention by 6.7%
                 </li>
                 <li>
                   Completed new tech stack compatibility apps (web and mobile)
@@ -407,49 +406,6 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Chief Technology Officer | DeLive Drones"
-            subtitle="October 2019 – September 2020 • South Bend, IN"
-            logoLink="https://delivedrones.com"
-            logo={`../../images/experience/delive.webp`}
-            logoBackup={data.delive.childImageSharp.fluid}
-            logoAlt={"DeLive logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Integrated dashboard web app and drone contact RESTful API in
-                  Agile Team resulting in $10k funding
-                </li>
-                <li>
-                  Exhibited in{" "}
-                  <a
-                    href="https://ces.tech"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Consumer Electronics Show (CES) 2020
-                  </a>
-                  , secured $25k total funding,{" "}
-                  <a
-                    href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Race to Revenue
-                  </a>{" "}
-                  accelerator invite, and pitch to Indianapolis-based $100M VC
-                  fund
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: JavaScript, React, Node, Express,
-                Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
-                Bootstrap, HTML/CSS, PWA, Git
-              </p>
-            }
-          />
-          <Card
             title="Software Engineer – Mobile, Fullstack | Debtly"
             subtitle="May 2020 – Present • South Bend, IN"
             logoLink="https://debtly.app/"
@@ -502,6 +458,49 @@ const IndexPage = () => {
                 Express, Firebase, Twilio API, Twilio Studio, Adobe XD, Figma,
                 Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
                 Git
+              </p>
+            }
+          />
+          <Card
+            title="Chief Technology Officer | DeLive Drones"
+            subtitle="October 2019 – September 2020 • South Bend, IN"
+            logoLink="https://delivedrones.com"
+            logo={`../../images/experience/delive.webp`}
+            logoBackup={data.delive.childImageSharp.fluid}
+            logoAlt={"DeLive logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Integrated dashboard web app and drone contact RESTful API in
+                  Agile Team resulting in $10k funding
+                </li>
+                <li>
+                  Exhibited in{" "}
+                  <a
+                    href="https://ces.tech"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Consumer Electronics Show (CES) 2020
+                  </a>
+                  , secured $25k total funding,{" "}
+                  <a
+                    href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Race to Revenue
+                  </a>{" "}
+                  accelerator invite, and pitch to Indianapolis-based $100M VC
+                  fund
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: JavaScript, React, Node, Express,
+                Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
+                Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
