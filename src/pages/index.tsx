@@ -413,7 +413,7 @@ const IndexPage = () => {
               </p>
             }
           />
-          <Card
+          {/*<Card
             title="Software Engineer – Mobile, Fullstack | FloWaste"
             subtitle="August 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
@@ -435,7 +435,7 @@ const IndexPage = () => {
                 Firebase, ML Kit
               </p>
             }
-          />
+          />*/}
           <Card
             title="Software Engineer – Mobile, Fullstack | Debtly"
             subtitle="May 2020 – Present • South Bend, IN"
