@@ -423,8 +423,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will redesign and add features to iOS ML-powered food scanner
-                  mobile app and web app in Agile Team
+                  Will redesign and add features to ML-powered food scanner iOS
+                  app and web app in Agile Team
                 </li>
               </ul>
             }
@@ -475,8 +475,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Redesigned and developed iOS credit card consolidation mobile
-                  app and static landing page resulting in $6k funding
+                  Redesigned and developed credit card consolidation iOS app and
+                  static website resulting in $6k funding
                 </li>
               </ul>
             }
