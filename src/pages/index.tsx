@@ -414,7 +414,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Mobile, Fullstack | FloWaste"
+            title="Software Engineer – iOS, Fullstack | FloWaste"
             subtitle="August 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
@@ -433,33 +433,6 @@ const IndexPage = () => {
                 <strong>Technologies</strong>: Swift, SwiftUI, Core ML,
                 HealthKit, CocoaPods, JavaScript, React, Python, Flask,
                 Tensorflow, Firebase, ML Kit
-              </p>
-            }
-          />
-          <Card
-            title="Software Engineer – Mobile, Fullstack | Debtly"
-            subtitle="May 2020 – Present • South Bend, IN"
-            logoLink="https://debtly.app/"
-            logo={`../../images/experience/debtly.webp`}
-            logoBackup={data.debtly.childImageSharp.fluid}
-            logoAlt={"Debtly logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Redesigned static website and developing iOS fintech mobile
-                  app and NoSQL User Database in Agile Team
-                </li>
-                <li>
-                  Will beta test iOS app through Apple TestFlight for upcoming
-                  release
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
-                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
-                Zeplin, Webflow, TestFlight, HTML/CSS, Git
               </p>
             }
           />
@@ -489,6 +462,29 @@ const IndexPage = () => {
                 Express, Firebase, Twilio API, Twilio Studio, Adobe XD, Figma,
                 Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
                 Git
+              </p>
+            }
+          />
+          <Card
+            title="Software Engineer – iOS, Fullstack | Debtly"
+            subtitle="May 2020 – September 2020 • South Bend, IN"
+            logoLink="https://debtly.app/"
+            logo={`../../images/experience/debtly.webp`}
+            logoBackup={data.debtly.childImageSharp.fluid}
+            logoAlt={"Debtly logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Redesigned and developed iOS credit card consolidation mobile
+                  app and static landing page resulting in $6k funding
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
+                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
+                Zeplin, Webflow, TestFlight, HTML/CSS, Git
               </p>
             }
           />
