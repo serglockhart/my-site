@@ -494,7 +494,7 @@ const IndexPage = () => {
           />
           <Card
             title="Chief Technology Officer | DeLive Drones"
-            subtitle="October 2019 – September 2020 • South Bend, IN"
+            subtitle="October 2019 – August 2020 • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
             logoBackup={data.delive.childImageSharp.fluid}
