@@ -999,6 +999,24 @@ const IndexPage = () => {
             />
           </Project>
           <Project
+            title="Debtly App"
+            body="Credit Card Consolidation iOS App with Authentication, Photo Upload, Plaid Link Account and FaceID Integration developed for Debtly Inc. Currently beta testing through TestFlight for release."
+            end={
+              <p>
+                <strong>Technologies:</strong> Swift, SwiftUI, Core Data,
+                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
+                Zeplin, TestFlight, Git
+              </p>
+            }
+          >
+            <Mobile
+              vid={`../../videos/debtly.webm`}
+              vidAlt={"Debtly app webm"}
+              vidBackup={`../../videos/debtly.mp4`}
+              vidBackupAlt={"Debtly app mp4"}
+            />
+          </Project>
+          <Project
             title="Collectio App"
             body="Comic Book e-Commerce iOS/Android Hybrid App with Authentication, Cart Functionality, Online Inventory Retrieval and Stripe Payment Processing for Collectio Comics for Modern Web and App Development I."
             end={
@@ -1024,12 +1042,12 @@ const IndexPage = () => {
           </Project>
           <Project
             title="GittaSitta App"
-            body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Currently beta testing through TestFlight/Play Console for release."
+            body="Babysitter Hiring Service iOS/Android Hybrid App with Authentication, Twilio SMS Autoresponder, Contact and Calendar Integration developed for Gitta LLC. Currently beta testing through TestFlight/Play Console for release."
             end={
               <p>
                 <strong>Technologies:</strong> Dart, Flutter, Provider,
                 JavaScript, Firebase, Twilio, Adobe XD, Supernova Studio,
-                Wiredash, Git
+                Wiredash, TestFlight, Play Console, Git
               </p>
             }
           >
