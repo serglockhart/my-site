@@ -821,7 +821,7 @@ const IndexPage = () => {
           </Project>
           <Project
             title="Gäshawk Site"
-            body="Startup company single-page application (SPA) landing page (PWA) for Gäshawk Incorporated."
+            body="Startup company single-page application (SPA) landing page (PWA) for Gäshawk Inc."
             end={
               <p>
                 <strong>Technologies:</strong> JavaScript, React, Gatsby,
