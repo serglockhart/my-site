@@ -821,7 +821,7 @@ const IndexPage = () => {
           </Project>
           <Project
             title="Gäshawk Site"
-            body="Startup company single-page application (SPA) landing page (PWA) for Gäshawk Inc."
+            body="Startup company single-page application (SPA) landing page (PWA) for Gäshawk, Inc."
             end={
               <p>
                 <strong>Technologies:</strong> JavaScript, React, Gatsby,
@@ -1109,7 +1109,7 @@ const IndexPage = () => {
           </Project>
           <Project
             title="Gäshawk Overwatch"
-            body="LiDAR Overhead Collision Detection System with Touchscreen Graphical User Interface (GUI) developed for Gäshawk Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
+            body="LiDAR Overhead Collision Detection System with Touchscreen Graphical User Interface (GUI) developed for Gäshawk, Inc. Demo resulted in Start-Up South Bend Elkhart (SUSBE) accelerator invite."
             end={
               <p>
                 <strong>Technologies:</strong> C++, Arduino, Git
