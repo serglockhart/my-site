@@ -304,7 +304,7 @@ const IndexPage = () => {
           <Card
             title="Content Delivery Software Engineer Intern | Disney Streaming Services"
             subtitle="Fall 2020 • New York, NY"
-            logoLink="https://disneystreaming.com/"
+            logoLink="https://www.disneystreaming.com/"
             logo={`../../images/experience/disney.webp`}
             logoBackup={data.disney.childImageSharp.fluid}
             logoAlt={"Disney+ logo"}
