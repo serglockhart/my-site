@@ -476,7 +476,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Redesigned and developed credit card consolidation iOS app and
-                  static website resulting in $6k funding
+                  static website resulting in $8k funding
                 </li>
               </ul>
             }
