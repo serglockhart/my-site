@@ -451,8 +451,8 @@ const IndexPage = () => {
                   autoresponder and static website in Agile Team
                 </li>
                 <li>
-                  Beta testing iOS and Android apps through Apple TestFlight and
-                  Google Play Console for upcoming release
+                  Fixed 17 bugs and improved user onboarding flow based on
+                  TestFlight beta testing public feedback for upcoming release
                 </li>
               </ul>
             }
