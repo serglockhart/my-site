@@ -437,8 +437,31 @@ const IndexPage = () => {
             }
           />
           <Card
+            title="Software Engineer – iOS, Fullstack | Debtly"
+            subtitle="May 2020 – September 2020 • South Bend, IN"
+            logoLink="https://debtly.app/"
+            logo={`../../images/experience/debtly.webp`}
+            logoBackup={data.debtly.childImageSharp.fluid}
+            logoAlt={"Debtly logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Redesigned and developed credit card consolidation iOS app and
+                  static website resulting in $8k funding
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
+                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
+                Zeplin, Webflow, TestFlight, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
             title="Software Engineer – Mobile, Fullstack | Gitta"
-            subtitle="April 2020 – Present • South Bend, IN"
+            subtitle="April 2020 – September 2020 • South Bend, IN"
             logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
             logoBackup={data.gitta.childImageSharp.fluid}
@@ -462,29 +485,6 @@ const IndexPage = () => {
                 Express, Firebase, Twilio API, Twilio Studio, Adobe XD, Figma,
                 Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
                 Git
-              </p>
-            }
-          />
-          <Card
-            title="Software Engineer – iOS, Fullstack | Debtly"
-            subtitle="May 2020 – September 2020 • South Bend, IN"
-            logoLink="https://debtly.app/"
-            logo={`../../images/experience/debtly.webp`}
-            logoBackup={data.debtly.childImageSharp.fluid}
-            logoAlt={"Debtly logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Redesigned and developed credit card consolidation iOS app and
-                  static website resulting in $8k funding
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
-                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
-                Zeplin, Webflow, TestFlight, HTML/CSS, Git
               </p>
             }
           />
