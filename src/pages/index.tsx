@@ -432,7 +432,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: Swift, SwiftUI, Core ML,
                 HealthKit, CocoaPods, JavaScript, React, Python, Flask,
-                Tensorflow, Firebase, ML Kit
+                Tensorflow, Firebase, ML Kit, Framer
               </p>
             }
           />
