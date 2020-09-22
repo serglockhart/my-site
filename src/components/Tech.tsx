@@ -46,8 +46,8 @@ const Tech = () => {
             <h5>Design</h5>
             <p>
               Sketch, Figma, Adobe XD, Illustrator, Photoshop, Affinity
-              Designer, InVision Studio, Supernova Studio, Zeplin, Webflow,
-              Squarespace, Wix, Canva, AutoCAD, Fusion 360, SolidWorks
+              Designer, InVision Studio, Supernova Studio, Zeplin, Framer,
+              Webflow, Squarespace, Wix, Canva, AutoCAD, Fusion 360, SolidWorks
             </p>
           </div>
         </div>
