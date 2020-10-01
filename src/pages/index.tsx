@@ -953,7 +953,7 @@ const IndexPage = () => {
               vidAlt={"Gitta site"}
             />
           </Project>
-          <Project
+          {/* <Project
             title="Debtly Site"
             body="Startup company multi-page application (MPA) landing page (PWA) for Debtly Inc."
             end={
@@ -969,7 +969,7 @@ const IndexPage = () => {
               imageBackup={data.debtlySite.childImageSharp.fluid}
               imageAlt={"Debtly site"}
             />
-          </Project>
+          </Project> */}
           <Project
             /* title={
               <a href="https://jbuenviaje.com">
