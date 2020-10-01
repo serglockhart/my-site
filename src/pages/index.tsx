@@ -414,7 +414,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – iOS, Fullstack | FloWaste"
+            title="iOS Software Engineer | FloWaste"
             subtitle="August 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
@@ -423,21 +423,21 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will redesign and add features to ML-powered food scanner iOS
-                  app and web app in Agile Team
+                  Will redesign and convert ML food scanner iOS app currently in
+                  UIKit to SwiftUI in Agile Team
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Swift, SwiftUI, Core ML,
-                HealthKit, CocoaPods, JavaScript, React, Python, Flask,
-                Tensorflow, Firebase, ML Kit, Framer
+                <strong>Technologies</strong>: Swift, UIKit, SwiftUI, Core ML,
+                HealthKit, CocoaPods, Python, Flask, Firebase, Figma, Framer,
+                Git
               </p>
             }
           />
           <Card
-            title="Software Engineer – iOS, Fullstack | Debtly"
+            title="iOS Software Engineer | Debtly"
             subtitle="May 2020 – September 2020 • South Bend, IN"
             logoLink="https://debtly.app/"
             logo={`../../images/experience/debtly.webp`}
@@ -446,8 +446,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Redesigned and developed credit card consolidation iOS app and
-                  static website resulting in $8k funding
+                  Designed and built credit card consolidation iOS app with
+                  NoSQL database resulting in $8k funding
                 </li>
               </ul>
             }
@@ -455,7 +455,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
                 CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
-                Zeplin, Webflow, TestFlight, HTML/CSS, Git
+                Zeplin, Webflow, TestFlight, Git
               </p>
             }
           />
