@@ -33,7 +33,7 @@ const Tech = () => {
             <p>
               PostgreSQL, Microsoft SQL Server, SQL, MongoDB, Parse Platform,
               Amazon Web Services (AWS), Firebase, Heroku, Netlify, Vercel (ZEIT
-              Now), Docker
+              Now), Docker, Fastly, Akamai
             </p>
             <h5>Testing</h5>
             <p>Jest, Enzyme, Cypress, Postman</p>
@@ -41,7 +41,7 @@ const Tech = () => {
             <p>
               Git (GitHub, GitLab), UNIX/Linux, Progressive Web Apps (PWA),
               JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile Software
-              Development, Scrum, Kanban, Fastly, Akamai, Grafana
+              Development, Scrum, Kanban, Grafana
             </p>
             <h5>Design</h5>
             <p>
