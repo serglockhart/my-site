@@ -316,6 +316,12 @@ const IndexPage = () => {
                 </li>
               </ul>
             }
+            end={
+              <p>
+                <strong>Technologies</strong>: Java, Go, Python, Docker, AWS
+                (EC2, S3, IAM, CloudWatch, CloudFront), Fastly, Akamai, Grafana
+              </p>
+            }
           />
           <Card
             title="Fullstack Software Engineer Intern | Techstars"
