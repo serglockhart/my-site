@@ -41,7 +41,7 @@ const Tech = () => {
             <p>
               Git (GitHub, GitLab), UNIX/Linux, Progressive Web Apps (PWA),
               JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile Software
-              Development, Scrum, Kanban
+              Development, Scrum, Kanban, Fastly, Akamai, Grafana
             </p>
             <h5>Design</h5>
             <p>
