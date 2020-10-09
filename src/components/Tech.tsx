@@ -31,9 +31,9 @@ const Tech = () => {
           <div className="col-12 col-md-6 col-1-format">
             <h5>Databases &amp; Deployment</h5>
             <p>
-              PostgreSQL, Microsoft SQL Server, SQL, MongoDB, Parse Platform,
-              Amazon Web Services (AWS), Firebase, Heroku, Netlify, Vercel (ZEIT
-              Now), Docker, Fastly, Akamai
+              PostgreSQL, Microsoft SQL Server, SQL, MongoDB, InfluxDB, Parse
+              Platform, Amazon Web Services (AWS), Firebase, Heroku, Netlify,
+              Vercel (ZEIT Now), Docker, Fastly, Akamai
             </p>
             <h5>Testing</h5>
             <p>Jest, Enzyme, Cypress, Postman</p>
