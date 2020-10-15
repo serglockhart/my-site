@@ -319,7 +319,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Go, JavaScript, Node, Python,
-                InfluxDB, Docker, AWS (EC2, S3, IAM, CloudWatch, CloudFront),
+                InfluxDB, Docker, Bash, AWS (EC2, S3, IAM, CloudWatch, CloudFront),
                 Fastly, Akamai, Grafana
               </p>
             }
