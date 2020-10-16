@@ -1,8 +1,0 @@
-{
-  "eslint.packageManager": "yarn",
-  "editor.tabSize": 4,
-  "prettier.tabWidth": 4,
-  "editor.formatOnSave": true,
-  "prettier.singleQuote": false,
-  "prettier.requireConfig": false
-}
