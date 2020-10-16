@@ -319,8 +319,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Go, JavaScript, Node, Python,
-                InfluxDB, Docker, Bash, AWS (EC2, S3, IAM, CloudWatch, CloudFront),
-                Akamai, Fastly, Grafana, Jira
+                InfluxDB, Docker, Bash, AWS (EC2, S3, IAM, CloudWatch,
+                CloudFront), Akamai, Fastly, Grafana, Jira, Git
               </p>
             }
           />
@@ -430,16 +430,16 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will redesign and convert ML food scanner iOS app currently in
-                  UIKit to SwiftUI in Agile Team
+                  Redesigned and will convert ML food scanner iOS app currently
+                  in UIKit to SwiftUI in Agile Team
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: Swift, UIKit, SwiftUI, Core ML,
-                HealthKit, CocoaPods, Python, Flask, Firebase, Figma, Framer,
-                Git
+                HealthKit, CocoaPods, Python, Flask, Firebase, Adobe XD, Zeplin,
+                Framer, Git
               </p>
             }
           />
@@ -489,7 +489,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Dart, Flutter, JavaScript, Node,
-                Express, Firebase, Twilio API, Twilio Studio, Adobe XD, Figma,
+                Express, Firebase, Twilio API, Twilio Studio, Figma, Adobe XD,
                 Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
                 Git
               </p>
@@ -961,28 +961,28 @@ const IndexPage = () => {
             />
           </Project>
           {/* <Project
-            title="Debtly Site"
-            body="Startup company multi-page application (MPA) landing page (PWA) for Debtly Inc."
-            end={
-              <p>
-                <strong>Technologies:</strong> Webflow, Sketch, Adobe XD,
-                Zeplin, Google Analytics, HTML/CSS, PWA, Git
-              </p>
-            }
-            buttons={<Button link="https://debtly.app/" title="View here" />}
-          >
-            <Browser
-              image={`../../images/projects/debtly.webp`}
-              imageBackup={data.debtlySite.childImageSharp.fluid}
-              imageAlt={"Debtly site"}
-            />
-          </Project> */}
+			title="Debtly Site"
+			body="Startup company multi-page application (MPA) landing page (PWA) for Debtly Inc."
+			end={
+			  <p>
+				<strong>Technologies:</strong> Webflow, Sketch, Adobe XD,
+				Zeplin, Google Analytics, HTML/CSS, PWA, Git
+			  </p>
+			}
+			buttons={<Button link="https://debtly.app/" title="View here" />}
+		  >
+			<Browser
+			  image={`../../images/projects/debtly.webp`}
+			  imageBackup={data.debtlySite.childImageSharp.fluid}
+			  imageAlt={"Debtly site"}
+			/>
+		  </Project> */}
           <Project
             /* title={
-              <a href="https://jbuenviaje.com">
-                <h2>./Recursion</h2>
-              </a>
-            } */
+			  <a href="https://jbuenviaje.com">
+				<h2>./Recursion</h2>
+			  </a>
+			} */
             title="My Site"
             body="Personal single-page application (SPA) website (PWA) displaying resume and projects."
             end={
