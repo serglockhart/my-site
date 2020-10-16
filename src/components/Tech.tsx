@@ -20,10 +20,10 @@ const Tech = () => {
             </p>
             <h5>Mobile</h5>
             <p>
-              iOS, Swift, SwiftUI, Swift Package Manager, CocoaPods, Core Data,
-              Realm, Alamofire, TestFlight, Lottie, Xcode, Android, Gradle, Play
-              Console, Android Studio, Flutter, Provider, Wiredash, Ionic,
-              Capacitor, Expo
+              iOS, Swift, UIKit, SwiftUI, Swift Package Manager, CocoaPods, Core
+              Data, Realm, Alamofire, TestFlight, Lottie, Xcode, Android,
+              Gradle, Play Console, Android Studio, Flutter, Provider, Wiredash,
+              Ionic, Capacitor, Expo
             </p>
             <h5>Embedded</h5>
             <p>Raspberry Pi, Arduino, Verilog</p>
@@ -33,15 +33,15 @@ const Tech = () => {
             <p>
               PostgreSQL, Microsoft SQL Server, SQL, MongoDB, InfluxDB, Parse
               Platform, Amazon Web Services (AWS), Firebase, Heroku, Netlify,
-              Vercel (ZEIT Now), Docker, Fastly, Akamai
+              Vercel (ZEIT Now), Docker, Akamai, Fastly
             </p>
             <h5>Testing</h5>
             <p>Jest, Enzyme, Cypress, Postman</p>
             <h5>Other</h5>
             <p>
-              Git (GitHub, GitLab), UNIX/Linux, Bash (Shell), Progressive Web Apps (PWA),
-              JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile Software
-              Development, Scrum, Kanban, Grafana
+              Git (GitHub, GitLab), UNIX/Linux, Bash (Shell), Progressive Web
+              Apps (PWA), JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile
+              Software Development, Scrum, Kanban, Jira, Grafana
             </p>
             <h5>Design</h5>
             <p>
