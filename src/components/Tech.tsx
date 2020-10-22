@@ -40,8 +40,8 @@ const Tech = () => {
             <h5>Other</h5>
             <p>
               Git (GitHub, GitLab), UNIX/Linux, Bash (Shell), Progressive Web
-              Apps (PWA), JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, Agile
-              Software Development, Scrum, Kanban, Jira, Grafana
+              Apps (PWA), JSON, XML, YAML, DOM, REST APIs, HTTPS, DNS, CDN,
+              Agile Software Development, Scrum, Kanban, Jira, Grafana
             </p>
             <h5>Design</h5>
             <p>
