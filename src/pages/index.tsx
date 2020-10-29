@@ -235,7 +235,7 @@ const IndexPage = () => {
                 >
                   Concentration in Mobile Computing
                 </a>
-                ) from the College of Engineering with a Minor in{" "}
+                ) from the College of Engineering with Minors in{" "}
                 <a
                   href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor"
                   rel="noopener noreferrer"
@@ -243,7 +243,15 @@ const IndexPage = () => {
                 >
                   Innovation & Entrepreneurship
                 </a>{" "}
-                from the Mendoza College of Business.
+                (Management) from the Mendoza College of Business and{" "}
+                <a
+                  href="https://artdept.nd.edu/undergraduate-program/design/collaborative-innovation-minor/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  Collaborative Innovation
+                </a>{" "}
+                (Design) from the College of Arts and Letters.
               </p>
             }
             end={
