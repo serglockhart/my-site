@@ -319,8 +319,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Built partner CDNs’ live performance and monthly report web
-                  dashboards in Agile Team used in-house
+                  Built partner CDNs live + monthly performance web dashboards
+                  in Agile Team for Latin America launch
                 </li>
                 <li>
                   Will optimize content delivery and customer experience for
