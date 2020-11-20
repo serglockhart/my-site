@@ -319,6 +319,10 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
+                  Built partner CDNs’ live performance and monthly report web
+                  dashboards in Agile Team used in-house
+                </li>
+                <li>
                   Will optimize content delivery and customer experience for
                   Disney+ and ESPN+ as part of the CDN team
                 </li>
