@@ -69,7 +69,7 @@ const Header = () => {
                 />
               </a>
               <a
-                href="https://instagram.com/lockjio"
+                href="https://instagram.com/seijhyo"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
