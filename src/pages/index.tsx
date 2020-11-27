@@ -337,7 +337,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Fullstack Software Engineer Intern | Techstars"
+            title="Full Stack Software Engineer Intern | Techstars"
             subtitle="Summer 2020 • New York, NY"
             logoLink="https://techstars.com/"
             logo={`../../images/experience/techstars.webp`}
@@ -372,7 +372,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Fullstack Software Engineer Intern | IDEA Center"
+            title="Full Stack Web Engineer Intern | IDEA Center"
             subtitle="Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
@@ -433,7 +433,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="iOS Software Engineer, UI/UX Designer | FloWaste"
+            title="iOS Engineer, UI/UX Designer | FloWaste"
             subtitle="August 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
@@ -456,7 +456,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="iOS Software Engineer, UI/UX Designer | Debtly"
+            title="iOS Engineer, UI/UX Designer | Debtly"
             subtitle="May 2020 – September 2020 • South Bend, IN"
             logoLink="https://debtly.app/"
             logo={`../../images/experience/debtly.webp`}
@@ -479,7 +479,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Mobile, Fullstack | Gitta"
+            title="Software Engineer, UI/UX Designer | Gitta"
             subtitle="April 2020 – September 2020 • South Bend, IN"
             logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
@@ -551,7 +551,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Mobile, Fullstack | Tembo AI"
+            title="Full Stack Developer, Web Designer | Tembo AI"
             subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
@@ -586,7 +586,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Frontend, Embedded | Gäshawk"
+            title="Software Engineer, Web Designer | Gäshawk"
             subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
@@ -633,7 +633,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer – Mobile, Frontend | Foreager"
+            title="Full Stack Developer, UI/UX Designer | Foreager"
             subtitle="January – August 2019 • Townsend, MA"
             logoLink="/"
             logo={`../../images/experience/foreager.webp`}
