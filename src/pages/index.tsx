@@ -320,7 +320,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Built partner CDNs live + monthly performance web dashboards
-                  in Agile Team for Latin America launch
+                  in Agile Team for Latin America (LATAM) launch
                 </li>
                 <li>
                   Will optimize content delivery and customer experience for
@@ -330,9 +330,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Go, JavaScript, Node, Python,
-                SQL, InfluxDB, Docker, Bash, AWS (EC2, S3, IAM, CloudWatch,
-                CloudFront), Akamai, Fastly, Grafana, Jira, Git
+                <strong>Technologies</strong>: Go, JavaScript, Node, Express,
+                Python, SQL, InfluxDB, Docker, Bash, AWS (EC2, S3, IAM,
+                CloudWatch, CloudFront), Akamai, Fastly, Grafana, JIRA, Git
               </p>
             }
           />
@@ -355,7 +355,7 @@ const IndexPage = () => {
                     Cabinet
                   </a>{" "}
                   on 5 feature rollouts on web and mobile apps currently serving
-                  2,000+ users thereby increasing user retention by 6.7%
+                  2,000+ users thereby raising user retention by 6.7%
                 </li>
                 <li>
                   Completed new tech stack compatibility apps (web and mobile)
@@ -427,8 +427,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, XML, SQL, SQL Server, AWS
-                (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
+                <strong>Technologies</strong>: C++, XML, SQL, Microsoft SQL
+                Server, AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
@@ -466,7 +466,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Designed and built credit card consolidation iOS app with
-                  NoSQL database resulting in $8k funding
+                  NoSQL database yielding $8k funding
                 </li>
               </ul>
             }
@@ -502,7 +502,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: Dart, Flutter, JavaScript, Node,
                 Express, Firebase, Twilio API, Twilio Studio, Figma, Adobe XD,
-                Supernova Studio, Wiredash, TestFlight, Play Console, HTML/CSS,
+                Supernova Studio, Wiredash, TestFlight, Squarespace, HTML/CSS,
                 Git
               </p>
             }
@@ -518,7 +518,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Integrated dashboard web app and drone contact RESTful API in
-                  Agile Team resulting in $10k funding
+                  Agile Team yielding $10k funding
                 </li>
                 <li>
                   Exhibited in{" "}
@@ -544,8 +544,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Node, Express,
-                Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
+                <strong>Technologies</strong>: JavaScript, React, Redux, Node,
+                Express, Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
                 Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
@@ -565,7 +565,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Built WiFi indoor triangulation mobile location tracker
-                  through Pair Programming resulting in{" "}
+                  through Pair Programming yielding{" "}
                   <a
                     href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
                     rel="noopener noreferrer"
@@ -600,7 +600,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Constructed LiDAR truck overhead collision detection system
-                  with Touchscreen Graphical User Interface (GUI) resulting in{" "}
+                  with Touchscreen Graphical User Interface (GUI) yielding{" "}
                   <a
                     href="https://startupsouthbendelkhart.com"
                     rel="noopener noreferrer"
@@ -642,8 +642,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Coded peer-to-peer golf equipment rental mobile apps resulting
-                  in semifinals finish (top 30/175 teams) in{" "}
+                  Coded peer-to-peer golf equipment rental mobile apps yielding
+                  semifinals finish (top 30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
                     rel="noopener noreferrer"
