@@ -355,7 +355,7 @@ const IndexPage = () => {
                     Cabinet
                   </a>{" "}
                   on 5 feature rollouts on web and mobile apps currently serving
-                  2,000+ users thereby raising user retention by 6.7%
+                  2,000+ users thereby increasing user retention by 6.7%
                 </li>
                 <li>
                   Completed new tech stack compatibility apps (web and mobile)
