@@ -433,7 +433,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="iOS Engineer, UI/UX Designer | FloWaste"
+            title="iOS Engineer, Front End Engineer, UI/UX Designer | FloWaste"
             subtitle="August 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
