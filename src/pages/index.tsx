@@ -159,6 +159,14 @@ const IndexPage = () => {
           }
         }
       }
+      kyra: file(relativePath: { eq: "projects/kyra.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       jio: file(relativePath: { eq: "projects/jio.png" }) {
         id
         childImageSharp {
@@ -944,10 +952,9 @@ const IndexPage = () => {
             }
           >
             <Browser
-              image=""
-              vid={`../../videos/kyraSite2nd.webm`}
-              vidBackup={`../../videos/kyraSite2nd.mp4`}
-              vidAlt={"Kyra site"}
+              image={`../../images/projects/kyra.webp`}
+              imageBackup={data.kyra.childImageSharp.fluid}
+              imageAlt={"Kyra site"}
             />
           </Project>
           <Project
@@ -972,23 +979,6 @@ const IndexPage = () => {
               vidAlt={"Gitta site"}
             />
           </Project>
-          {/* <Project
-			title="Debtly Site"
-			body="Startup company multi-page application (MPA) landing page (PWA) for Debtly Inc."
-			end={
-			  <p>
-				<strong>Technologies:</strong> Webflow, Sketch, Adobe XD,
-				Zeplin, Google Analytics, HTML/CSS, PWA, Git
-			  </p>
-			}
-			buttons={<Button link="https://debtly.app/" title="View here" />}
-		  >
-			<Browser
-			  image={`../../images/projects/debtly.webp`}
-			  imageBackup={data.debtlySite.childImageSharp.fluid}
-			  imageAlt={"Debtly site"}
-			/>
-		  </Project> */}
           <Project
             /* title={
 			  <a href="https://jbuenviaje.com">
