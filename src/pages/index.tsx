@@ -339,8 +339,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Go, JavaScript, Node, Express,
-                Python, SQL, InfluxDB, Docker, Bash, AWS (EC2, S3, IAM,
-                CloudWatch, CloudFront), Akamai, Fastly, Grafana, JIRA, Git
+                Python, SQL, InfluxDB, Bash, AWS (EC2, S3, CloudFront), Akamai,
+                Fastly, Grafana, JIRA, Git
               </p>
             }
           />
@@ -552,8 +552,8 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Redux, Node,
-                Express, Python, Raspberry Pi, AWS IoT, DroneKit SDK, Sass/SCSS,
+                <strong>Technologies</strong>: JavaScript, React, Python, Flask,
+                AWS (S3, RDS, IoT), Raspberry Pi, DroneKit SDK, Sass/SCSS,
                 Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
