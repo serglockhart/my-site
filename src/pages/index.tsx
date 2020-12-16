@@ -426,7 +426,7 @@ const IndexPage = () => {
           />
           <Card
             title="iOS Engineer, Front End Engineer, UI/UX Designer | FloWaste"
-            subtitle="August 2020 – Present • South Bend, IN"
+            subtitle="September 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
             logoBackup={data.flowaste.childImageSharp.fluid}
@@ -437,18 +437,22 @@ const IndexPage = () => {
                   Redesigned and will convert ML food scanner iOS app currently
                   in UIKit to SwiftUI in Agile Team
                 </li>
+                <li>
+                  Will build food waste management dashboards for Facebook
+                  California campuses and McDonald’s Chicago pilots
+                </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: Swift, UIKit, SwiftUI, Core ML,
-                HealthKit, CocoaPods, Python, Flask, Firebase, Adobe XD, Zeplin,
-                Framer, Git
+                HealthKit, CocoaPods, Alamofire, JavaScript, React, Firebase,
+                Adobe XD, Zeplin, Framer, JIRA, Git
               </p>
             }
           />
           <Card
-            title="Software Engineer, UI/UX Designer | Gitta"
+            title="Mobile Engineer, Back End Engineer, UI/UX Designer | Gitta"
             subtitle="April 2020 – September 2020 • South Bend, IN"
             logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
@@ -463,7 +467,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Fixed 17 bugs and improved user onboarding flow based on
-                  TestFlight beta testing public feedback for upcoming release
+                  TestFlight public beta testing feedback for upcoming release
                 </li>
               </ul>
             }
@@ -636,7 +640,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Founder, Lead Developer & Designer, Project Manager | Munti"
+            title="Founder, Product Manager, Lead Developer & Designer | Munti"
             subtitle="February 2019 – Present • South Bend, IN"
             logoLink="https://munti.io/"
             logo={`../../images/experience/muntiSm.webp`}
@@ -645,8 +649,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Led web, mobile and hardware development teams of Software
-                  Freelance Company through multiple concurrent projects
+                  Led development and design teams of Software Freelance Company
+                  through multiple concurrent projects
                 </li>
                 <li>
                   Produced web, mobile apps and embedded systems for early-stage
