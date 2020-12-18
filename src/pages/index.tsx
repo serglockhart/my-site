@@ -212,7 +212,7 @@ const IndexPage = () => {
         <Section id="education" title="Education">
           <Card
             title="University of Notre Dame"
-            subtitle="2018 – 2022 | 3.25 GPA"
+            subtitle="2018 – 2022 | 3.30 GPA"
             logoLink="https://cse.nd.edu/undergraduates/computer-science"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
