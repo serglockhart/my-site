@@ -389,8 +389,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo, Node, Express, MongoDB, Parse Platform, Shopify API,
-                Sass/SCSS, HTML/CSS, Git
+                Apollo, Node, Express, MongoDB, Heroku, Parse Platform, Shopify
+                API, Sass/SCSS, HTML/CSS, Git
               </p>
             }
           />
@@ -446,8 +446,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Swift, UIKit, SwiftUI, Core ML,
-                HealthKit, CocoaPods, Alamofire, JavaScript, React, Firebase,
-                Adobe XD, Zeplin, Framer, JIRA, Git
+                HealthKit, CocoaPods, Alamofire, JavaScript, React, Gatsby,
+                Netlify, Firebase, Adobe XD, Zeplin, Framer, JIRA, Git
               </p>
             }
           />
