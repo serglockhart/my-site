@@ -1113,8 +1113,8 @@ const IndexPage = () => {
             body="Semi-Autonomous Drone with Automatic Ticketing and Communication System developed for DeLive Aerial System, LLC. Demo resulted in 15k seed funding from Race to Revenue (R2R) accelerator program."
             end={
               <p>
-                <strong>Technologies:</strong> Python, Raspberry Pi, Django,
-                Node, Express, AWS IoT, DroneKit SDK, Git
+                <strong>Technologies:</strong> Python, Raspberry Pi, Flask, AWS
+                (S3, RDS, IoT), DroneKit SDK, Git
               </p>
             }
           >
