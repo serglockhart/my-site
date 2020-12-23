@@ -151,6 +151,14 @@ const IndexPage = () => {
           }
         }
       }
+      urmaongSm: file(relativePath: { eq: "projects/urmaong.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       kyra: file(relativePath: { eq: "projects/kyra.png" }) {
         id
         childImageSharp {
@@ -956,6 +964,28 @@ const IndexPage = () => {
               image={`../../images/projects/kyra.webp`}
               imageBackup={data.kyra.childImageSharp.fluid}
               imageAlt={"Kyra site"}
+            />
+          </Project>
+          <Project
+            title="URMA ONG Site"
+            body="e-Commerce multi-page application (MPA) for the URMA ONG brand of Bluegreans Apparel Inc."
+            end={
+              <p>
+                <strong>Technologies:</strong> JavaScript, jQuery, Liquid, PHP,
+                Sass/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
+                Photoshop, Shopify, JIRA, Git
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button link="https://urmaong.com/" title="View here" />
+              </div>
+            }
+          >
+            <Browser
+              image={`../../images/projects/urmaong.webp`}
+              imageBackup={data.urmaongSm.childImageSharp.fluid}
+              imageAlt={"URMA ONG site"}
             />
           </Project>
           <Project
