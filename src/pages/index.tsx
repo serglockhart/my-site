@@ -119,6 +119,14 @@ const IndexPage = () => {
           }
         }
       }
+      urmaong: file(relativePath: { eq: "experience/urmaong.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       muntiSm: file(relativePath: { eq: "experience/muntiSm.png" }) {
         id
         childImageSharp {
@@ -636,6 +644,34 @@ const IndexPage = () => {
                 <strong>Technologies</strong>: Dart, Flutter, Firebase, Heroku,
                 JavaScript, jQuery, Sharetribe, Mailchimp API, Sass/SCSS,
                 Bootstrap, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
+            title="Full Stack Web Developer, Interaction Designer | URMA ONG"
+            subtitle="November 2020 – Present • New York, NY"
+            logoLink="https://urmaong.com/"
+            logo={`../../images/experience/urmaong.webp`}
+            logoBackup={data.urmaong.childImageSharp.fluid}
+            logoAlt={"URMA ONG logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Redesigned, developed, and currently maintaining e-commerce
+                  store, inventory, and shipping
+                </li>
+                <li>
+                  Will scale store conversion rate and reach by proposing,
+                  split-testing, and optimizing new online store features and
+                  designs
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: JavaScript, jQuery, Liquid, PHP,
+                Sass/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
+                Photoshop, Shopify, JIRA, Git
               </p>
             }
           />
