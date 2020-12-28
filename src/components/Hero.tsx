@@ -43,7 +43,7 @@ const Hero = () => {
               aim to leverage tech to help people learn more and live better. I
               study computer science at{" "}
               <a
-                href="https://cse.nd.edu/undergraduates/computer-science"
+                href="https://cse.nd.edu/undergraduate/computer-science-course-map/"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
