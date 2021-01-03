@@ -478,12 +478,13 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Developed babysitter hiring service mobile apps with NoSQL
-                  User and Request Ticketing Database, RESTful API, SMS
-                  autoresponder and static website in Agile Team
+                  User and Request Ticketing Database, RESTful API, and SMS
+                  autoresponder yielding $20k funding
                 </li>
                 <li>
                   Fixed 17 bugs and improved user onboarding flow based on
-                  TestFlight public beta testing feedback for upcoming release
+                  TestFlight public beta testing feedback in Agile Team for
+                  upcoming release
                 </li>
               </ul>
             }
