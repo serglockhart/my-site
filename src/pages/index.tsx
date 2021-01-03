@@ -468,7 +468,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Mobile Engineer, Back End Engineer, UI/UX Designer | Gitta"
+            title="Mobile Engineer, Back End Engineer, UI/UX Designer | GittaSitta"
             subtitle="April 2020 – September 2020 • South Bend, IN"
             logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
