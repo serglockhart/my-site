@@ -408,7 +408,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Programmed key metrics cards and dashboards in Snapboard
-                  currently used in administrative startup monitoring
+                  presently used in administrative startup monitoring
                 </li>
                 <li>
                   Wrote Design Documents and Codebase Guides/Documentation for
