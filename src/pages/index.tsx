@@ -346,7 +346,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Created, updated, and maintained global DNS records and SSL
-                  certificates for Disney+ and ESPN+ web applications
+                  certificates for Disney+ and ESPN+
                 </li>
               </ul>
             }
