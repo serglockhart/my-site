@@ -669,8 +669,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Coded peer-to-peer golf equipment rental mobile apps yielding
-                  semifinals finish (top 30/175 teams) in{" "}
+                  Coded peer-to-peer golf equipment rental mobile app demo
+                  yielding semifinals finish (top 30/175 teams) in{" "}
                   <a
                     href="https://mccloskey.ideacenter.nd.edu"
                     rel="noopener noreferrer"
