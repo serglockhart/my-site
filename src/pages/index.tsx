@@ -251,7 +251,7 @@ const IndexPage = () => {
                 >
                   Concentration in Mobile Computing
                 </a>
-                ) from the College of Engineering with Minors in{" "}
+                ) from the College of Engineering with Double Minor in{" "}
                 <a
                   href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor"
                   rel="noopener noreferrer"
@@ -331,16 +331,22 @@ const IndexPage = () => {
             logoLink="https://www.disneystreaming.com/"
             logo={`../../images/experience/disney.webp`}
             logoBackup={data.disney.childImageSharp.fluid}
-            logoAlt={"Disney+ logo"}
+            logoAlt={"Disney Streaming Services logo"}
             body={
               <ul className="tech">
                 <li>
-                  Built partner CDNs live + monthly performance web dashboards
-                  in Agile Team for Latin America (LATAM) launch
+                  Researched, designed, and proposed automated monthly regional
+                  analysis dashboards in Agile Team, then built and shipped them
+                  to production receiving positive reception at use from
+                  internal teams
                 </li>
                 <li>
-                  Will optimize content delivery and customer experience for
-                  Disney+ and ESPN+ as part of the CDN team
+                  Added new features and region to partner CDNs real-time
+                  performance dashboards for LATAM launch
+                </li>
+                <li>
+                  Created, updated, and maintained global DNS records and SSL
+                  certificates for Disney+ and ESPN+ web applications
                 </li>
               </ul>
             }
