@@ -345,8 +345,8 @@ const IndexPage = () => {
                   performance dashboards for LATAM launch
                 </li>
                 <li>
-                  Created, updated, and maintained global DNS records and SSL
-                  certificates for Disney+ and ESPN+
+                  Created, updated, and maintained global CDN configurations,
+                  DNS records, and SSL certificates for Disney+ and ESPN+
                 </li>
               </ul>
             }
