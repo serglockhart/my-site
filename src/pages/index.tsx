@@ -346,8 +346,7 @@ const IndexPage = () => {
                 </li>
                 <li>
                   Created and tested automation scripts for CDN configurations,
-                  DNS records, and SSL certificates for Disney+ and ESPN+ to
-                  boost productivity of internal teams
+                  DNS records, and SSL certificates for Disney+ and ESPN+
                 </li>
               </ul>
             }
