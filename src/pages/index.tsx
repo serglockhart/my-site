@@ -273,9 +273,9 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Relevant Courses</strong>: Data Structures, Modern Web &
-                App Development, Software Development Practices, Programming
-                Paradigms, Systems Programming, Computer Architecture, Logic
-                Design
+                App Development, Software Development Practices, CS
+                Undergraduate Research, Programming Paradigms, Systems
+                Programming, Operating Systems
               </p>
             }
           />
