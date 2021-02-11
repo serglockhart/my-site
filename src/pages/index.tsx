@@ -628,7 +628,7 @@ const IndexPage = () => {
               </p>
             }
           />
-          <Card
+          {/*<Card
             title="Full Stack Developer, UI/UX Designer | Foreager"
             subtitle="January – August 2019 • Townsend, MA"
             logoLink="/"
@@ -661,7 +661,7 @@ const IndexPage = () => {
                 Bootstrap, HTML/CSS, Git
               </p>
             }
-          />
+          />*/}
           <Card
             title="Full Stack Web Developer, Interaction Designer | URMA ONG"
             subtitle="November 2020 – Present • New York, NY"
@@ -1099,7 +1099,7 @@ const IndexPage = () => {
               vidBackupAlt={"Tembo app mp4"}
             />
           </Project>
-          <Project
+          {/*<Project
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -1114,7 +1114,7 @@ const IndexPage = () => {
               vidBackup={`../../videos/foreager.mp4`}
               vidBackupAlt={"Foreager app mp4"}
             />
-          </Project>
+          </Project>*/}
           <Project
             title="DeLive Drone"
             body="Semi-Autonomous Drone with Automatic Ticketing and Communication System developed for DeLive Aerial System, LLC. Demo resulted in 15k seed funding from Race to Revenue (R2R) accelerator program."
