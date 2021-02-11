@@ -87,14 +87,6 @@ const IndexPage = () => {
           }
         }
       }
-      debtly: file(relativePath: { eq: "experience/debtly.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
       gitta: file(relativePath: { eq: "experience/gitta.png" }) {
         id
         childImageSharp {
@@ -508,29 +500,6 @@ const IndexPage = () => {
                 Express, Firebase, Twilio API, Twilio Studio, Figma, Adobe XD,
                 Supernova Studio, Wiredash, TestFlight, Squarespace, HTML/CSS,
                 Git
-              </p>
-            }
-          />
-          <Card
-            title="iOS Engineer, UI/UX Designer | Debtly"
-            subtitle="May 2020 – September 2020 • South Bend, IN"
-            logoLink="https://debtly.app/"
-            logo={`../../images/experience/debtly.webp`}
-            logoBackup={data.debtly.childImageSharp.fluid}
-            logoAlt={"Debtly logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Designed and built credit card consolidation iOS app demo with
-                  NoSQL database yielding $8k funding
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
-                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
-                Zeplin, Webflow, TestFlight, Git
               </p>
             }
           />
@@ -1069,24 +1038,6 @@ const IndexPage = () => {
               image={`../../images/projects/jio.webp`}
               imageBackup={data.jio.childImageSharp.fluid}
               imageAlt={"My site"}
-            />
-          </Project>
-          <Project
-            title="Debtly App"
-            body="Credit Card Consolidation iOS App with Authentication, Photo Upload, Plaid Link Account and FaceID Integration developed for Debtly Inc. Currently beta testing through TestFlight for release."
-            end={
-              <p>
-                <strong>Technologies:</strong> Swift, SwiftUI, Core Data,
-                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
-                Zeplin, TestFlight, Git
-              </p>
-            }
-          >
-            <Mobile
-              vid={`../../videos/debtly.webm`}
-              vidAlt={"Debtly app webm"}
-              vidBackup={`../../videos/debtly.mp4`}
-              vidBackupAlt={"Debtly app mp4"}
             />
           </Project>
           <Project
