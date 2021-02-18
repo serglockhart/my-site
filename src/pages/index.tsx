@@ -411,8 +411,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo, Node, Express, MongoDB, Heroku, Parse Platform, Shopify
-                API, Sass/SCSS, HTML/CSS, Git
+                Apollo, Node, Express, MongoDB, Heroku, Parse Platform, Sketch,
+                Shopify API, Sass/SCSS, HTML/CSS, Git
               </p>
             }
           />
