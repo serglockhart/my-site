@@ -37,6 +37,30 @@ const IndexPage = () => {
           }
         }
       }
+      amazon: file(relativePath: { eq: "experience/amazon.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      twitch: file(relativePath: { eq: "experience/twitch.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      waltdisney: file(relativePath: { eq: "experience/waltdisney.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       disney: file(relativePath: { eq: "experience/disney.png" }) {
         id
         childImageSharp {
@@ -56,6 +80,14 @@ const IndexPage = () => {
       ideacenter: file(
         relativePath: { eq: "extracurriculars/ideacenter.png" }
       ) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      viacomcbs: file(relativePath: { eq: "experience/viacomcbs.png" }) {
         id
         childImageSharp {
           fluid {
@@ -266,8 +298,7 @@ const IndexPage = () => {
               <p>
                 <strong>Relevant Courses</strong>: Data Structures, Modern Web &
                 App Development, Software Development Practices, Fundamentals Of
-                Design, Programming Paradigms, Systems Programming, Operating
-                Systems
+                Design, Systems Programming, Operating Systems
               </p>
             }
           />
@@ -318,12 +349,35 @@ const IndexPage = () => {
           }
         >
           <Card
-            title="Content Delivery Software Engineer Intern | Disney Streaming Services"
+            title="Full Stack Software Engineer Intern | Amazon | Twitch"
+            subtitle="Summer 2021 • San Francisco, CA"
+            logoLink="https://amazon.com/"
+            logo={`../../images/experience/amazon.webp`}
+            logoBackup={data.amazon.childImageSharp.fluid}
+            logoAlt={"Amazon logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will develop internal tooling microservices as part of the
+                  Viewer Experience – Notifications team
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Go, TypeScript, JavaScript,
+                React, Redux, GraphQL, AWS (ECS, DynamoDB, CloudFormation),
+                JIRA, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
+            title="Full Stack Software Engineer Intern | The Walt Disney Company | Disney Streaming Services"
             subtitle="Fall 2020 • New York, NY"
-            logoLink="https://www.disneystreaming.com/"
-            logo={`../../images/experience/disney.webp`}
-            logoBackup={data.disney.childImageSharp.fluid}
-            logoAlt={"Disney Streaming Services logo"}
+            logoLink="https://disney.com/"
+            logo={`../../images/experience/waltdisney.webp`}
+            logoBackup={data.waltdisney.childImageSharp.fluid}
+            logoAlt={"Walt Disney logo"}
             body={
               <ul className="tech">
                 <li>
@@ -336,17 +390,13 @@ const IndexPage = () => {
                   Added new features and region to partner CDNs real-time
                   performance dashboards for LATAM launch
                 </li>
-                <li>
-                  Created and tested automation scripts for CDN configurations,
-                  DNS records, and SSL certificates for Disney+ and ESPN+
-                </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Go, JavaScript, Node, Express,
-                Python, SQL, InfluxDB, Bash, AWS (EC2, S3, CloudFront), Akamai,
-                Fastly, Grafana, JIRA, Git
+                <strong>Technologies</strong>: JavaScript, Node, Express,
+                Python, SQL, InfluxDB, Bash, AWS (EC2, S3, CloudFront), Postman,
+                Grafana, Akamai, Fastly, Conviva API, JIRA, Git
               </p>
             }
           />
@@ -380,8 +430,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: TypeScript, JavaScript, React,
-                Redux, Python, Django, PostgreSQL, Firebase, Material-UI, Ionic,
-                Capacitor, Zeplin, HTML/CSS, Git
+                Redux, Python, Django, PostgreSQL, Firebase, Material-UI,
+                Capacitor, Jest, Enzyme, Zeplin, HTML/CSS, Git
               </p>
             }
           />
@@ -402,27 +452,23 @@ const IndexPage = () => {
                   Programmed key metrics cards and dashboards in Snapboard
                   presently used in administrative startup monitoring
                 </li>
-                <li>
-                  Wrote Design Documents and Codebase Guides/Documentation for
-                  all work done in Agile Team
-                </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo, Node, Express, MongoDB, Heroku, Parse Platform, Sketch,
-                Shopify API, Sass/SCSS, HTML/CSS, Git
+                Apollo, Node, Express, MongoDB, Heroku, Jest, Parse Platform,
+                Sketch, Shopify API, Sass/SCSS, HTML/CSS, Git
               </p>
             }
           />
           <Card
-            title="Media Software Engineer Intern | CBS"
+            title="Media Software Engineer Intern | ViacomCBS | CBS Interactive"
             subtitle="Summer 2019 • New York, NY"
-            logoLink="https://cbs.com"
-            logo={`../../images/experience/cbs.webp`}
-            logoBackup={data.cbs.childImageSharp.fluid}
-            logoAlt={"CBS logo"}
+            logoLink="https://viacomcbs.com/"
+            logo={`../../images/experience/viacomcbs.webp`}
+            logoBackup={data.viacomcbs.childImageSharp.fluid}
+            logoAlt={"ViacomCBS logo"}
             body={
               <ul className="tech">
                 <li>
@@ -432,10 +478,6 @@ const IndexPage = () => {
                 <li>
                   Finished 27 international purchase requests using Database
                   Queries totaling $132,930 in profit
-                </li>
-                <li>
-                  Aided in Cloud-based content compute, storage and monitoring
-                  for day-to-day operations
                 </li>
               </ul>
             }
@@ -447,7 +489,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="iOS Engineer, Front End Engineer, UI/UX Designer | FloWaste"
+            title="Full Stack Web Engineer, UI/UX Designer | FloWaste"
             subtitle="September 2020 – Present • South Bend, IN"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
@@ -456,25 +498,25 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Redesigned and will convert ML food scanner iOS app currently
-                  in UIKit to SwiftUI in Agile Team
+                  Built food waste and admin management dashboards currently
+                  used in two restaurant chain pilots
                 </li>
                 <li>
-                  Will build food waste management dashboards for Facebook
-                  California campuses and McDonald’s Chicago pilots
+                  Created Design Documents and Codebase Guides/Documentation for
+                  all work done in Agile Team
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Swift, UIKit, SwiftUI, Core ML,
-                HealthKit, CocoaPods, Alamofire, JavaScript, React, Gatsby,
-                Netlify, Firebase, Adobe XD, Zeplin, Framer, JIRA, Git
+                <strong>Technologies</strong>: JavaScript, React, Redux, Node,
+                Express, GraphQL, Apollo, Firebase, LESS, Ant Design, Figma,
+                Adobe XD, Framer, Zeplin, JIRA, HTML/CSS, Git
               </p>
             }
           />
           <Card
-            title="Mobile Engineer, Back End Engineer, UI/UX Designer | GittaSitta"
+            title="Mobile Engineer, UI/UX Designer | GittaSitta"
             subtitle="April 2020 – September 2020 • South Bend, IN"
             logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
@@ -540,9 +582,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Python, Flask,
-                AWS (S3, RDS, IoT), Raspberry Pi, DroneKit SDK, Sass/SCSS,
-                Bootstrap, HTML/CSS, PWA, Git
+                <strong>Technologies</strong>: JavaScript, React, Redux, Python,
+                Flask, AWS (S3, RDS, IoT), Raspberry Pi, DroneKit SDK,
+                Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -606,18 +648,6 @@ const IndexPage = () => {
                   </a>{" "}
                   accelerator invite
                 </li>
-                <li>
-                  Assisted in{" "}
-                  <a
-                    href="https://seedfund.nsf.gov/about"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    National Seed Fund (NSF) Small Business Innovation Research
-                    (SBIR)
-                  </a>{" "}
-                  program entry
-                </li>
               </ul>
             }
             end={
@@ -628,40 +658,6 @@ const IndexPage = () => {
               </p>
             }
           />
-          {/*<Card
-            title="Full Stack Developer, UI/UX Designer | Foreager"
-            subtitle="January – August 2019 • Townsend, MA"
-            logoLink="/"
-            logo={`../../images/experience/foreager.webp`}
-            logoBackup={data.foreager.childImageSharp.fluid}
-            logoAlt={"Foreager logo"}
-            body={
-              <ul className="tech">
-                <li>
-                  Coded peer-to-peer golf equipment rental mobile app demo
-                  yielding semifinals finish (top 30/175 teams) in{" "}
-                  <a
-                    href="https://mccloskey.ideacenter.nd.edu"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    McCloskey New Venture Competition 2019
-                  </a>
-                </li>
-                <li>
-                  Contributed to developing peer-to-peer golf equipment rental
-                  web store through Pair Programming used by 150+ users
-                </li>
-              </ul>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: Dart, Flutter, Firebase, Heroku,
-                JavaScript, jQuery, Sharetribe, Mailchimp API, Sass/SCSS,
-                Bootstrap, HTML/CSS, Git
-              </p>
-            }
-          />*/}
           <Card
             title="Full Stack Web Developer, Interaction Designer | URMA ONG"
             subtitle="November 2020 – Present • New York, NY"
@@ -706,10 +702,6 @@ const IndexPage = () => {
                 <li>
                   Produced web, mobile apps and embedded systems for early-stage
                   startups and small businesses
-                </li>
-                <li>
-                  Secured $2.5k funding to develop web and mobile apps for
-                  student startup recruitment
                 </li>
               </ul>
             }
@@ -761,10 +753,6 @@ const IndexPage = () => {
                 <li>
                   Connected College of Engineering students to affiliated local
                   startups and business plan teams
-                </li>
-                <li>
-                  Researched on marketing and recruitment strategies for College
-                  of Engineering students
                 </li>
               </ul>
             }
