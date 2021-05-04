@@ -510,8 +510,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Redux, Node,
-                Express, GraphQL, Apollo, Firebase, LESS, Ant Design, Figma,
-                Adobe XD, Framer, Zeplin, JIRA, HTML/CSS, Git
+                Express, GraphQL, Apollo, GCP (Run, BigQuery), Firebase, LESS,
+                Ant Design, Figma, Adobe XD, Framer, Zeplin, JIRA, HTML/CSS, Git
               </p>
             }
           />
