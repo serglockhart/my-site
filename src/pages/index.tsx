@@ -500,8 +500,8 @@ const IndexPage = () => {
                 <li>
                   Built and designed food waste and admin management dashboards
                   helping visualize actionable ML insights and securing a second
-                  active pilot as they remain in use in two restaurant chains
-                  and internal monitoring
+                  pilot as it is currently used in two restaurant chains and
+                  internally
                 </li>
                 <li>
                   Created Design Documents and Codebase Guides/Documentation for
