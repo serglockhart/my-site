@@ -69,7 +69,7 @@ const Header = () => {
                 />
               </a>
               <a
-                href="https://instagram.com/seijhyo"
+                href="https://instagram.com/saejhi"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
@@ -80,7 +80,7 @@ const Header = () => {
                 />
               </a>
               <a
-                href="https://github.com/lockjio"
+                href="https://github.com/saejhi"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
@@ -91,7 +91,7 @@ const Header = () => {
                 />
               </a>
               <a
-                href="https://linkedin.com/in/lockjio"
+                href="https://linkedin.com/in/saejhi"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >

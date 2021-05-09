@@ -813,7 +813,7 @@ const IndexPage = () => {
                 <Button
                   link="https://comicollect.com/"
                   title="View here"
-                  links="https://github.com/lockjio/collectio-site"
+                  links="https://github.com/saejhi/collectio-site"
                   titles="View repo"
                 />
               </div>
@@ -951,7 +951,7 @@ const IndexPage = () => {
                 <Button
                   link="https://kyrabuenviaje.com/"
                   title="View here"
-                  links="https://github.com/lockjio/kyra-site"
+                  links="https://github.com/saejhi/kyra-site"
                   titles="View repo"
                 />
               </div>
@@ -1019,7 +1019,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/lockjio/my-site"
+                link="https://github.com/saejhi/my-site"
                 title="View repo"
               />
             }
@@ -1042,7 +1042,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/lockjio/collectio-site"
+                link="https://github.com/saejhi/collectio-site"
                 title="View repo"
               />
             }
