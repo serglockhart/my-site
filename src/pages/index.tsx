@@ -490,7 +490,7 @@ const IndexPage = () => {
           />
           <Card
             title="Full Stack Web Engineer, UI/UX Designer | FloWaste"
-            subtitle="September 2020 – Present • South Bend, IN"
+            subtitle="February 2021 – Present • Chicago, IL"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
             logoBackup={data.flowaste.childImageSharp.fluid}
@@ -498,8 +498,10 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Built food waste and admin management dashboards currently
-                  used in two restaurant chain pilots
+                  Built and designed food waste and admin management dashboards
+                  helping visualize actionable ML insights and securing a second
+                  active pilot as they remain in use in two restaurant chains
+                  and internal monitoring
                 </li>
                 <li>
                   Created Design Documents and Codebase Guides/Documentation for
