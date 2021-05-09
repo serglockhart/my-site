@@ -813,7 +813,7 @@ const IndexPage = () => {
                 <Button
                   link="https://comicollect.com/"
                   title="View here"
-                  links="https://github.com/saejhi/collectio-site"
+                  links="https://github.com/saejhi/collectio-app"
                   titles="View repo"
                 />
               </div>
@@ -1042,7 +1042,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/saejhi/collectio-site"
+                link="https://github.com/saejhi/collectio-app"
                 title="View repo"
               />
             }
