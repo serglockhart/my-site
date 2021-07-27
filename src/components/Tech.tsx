@@ -18,7 +18,7 @@ const Tech = () => {
             </p>
             <h5>Mobile</h5>
             <p>
-              Swift, SwiftUI, CocoaPods, Alamofire, TestFlight, Dart, Flutter,
+              Swift, SwiftUI, CocoaPods, Alamofire, TestFlight, Flutter,
               Capacitor, Lottie
             </p>
             <h5>Styling</h5>
