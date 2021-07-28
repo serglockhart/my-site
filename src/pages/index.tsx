@@ -367,7 +367,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: Go, TypeScript, JavaScript,
                 React, Redux, GraphQL, AWS (ECS, DynamoDB, CloudFormation),
-                Jest, Enzyme, JIRA, HTML/CSS, Git
+                Jest, Enzyme, Jenkins, JIRA, HTML/CSS, Git
               </p>
             }
           />
