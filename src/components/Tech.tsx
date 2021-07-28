@@ -32,7 +32,7 @@ const Tech = () => {
             <p>
               PostgreSQL, SQL, Firebase, Amazon Web Services (AWS), Google Cloud
               Platform (GCP), MongoDB, Mongoose, InfluxDB, Heroku, Netlify,
-              Vercel
+              Vercel, Jenkins
             </p>
             <h5>Testing</h5>
             <p>Jest, Enzyme, Postman</p>
