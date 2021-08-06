@@ -358,16 +358,22 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will develop internal tooling microservices as part of the
-                  Viewer Experience – Notifications team
+                  Scoped out, developed, and tested feature to create and send
+                  marketing in localized languages for the internal campaign
+                  management system updating microservices as part of the
+                  Notifications team
+                </li>
+                <li>
+                  Finished UI improvement tickets for the internal marketing
+                  campaign management system
                 </li>
               </ul>
             }
             end={
               <p>
                 <strong>Technologies</strong>: Go, TypeScript, JavaScript,
-                React, Redux, GraphQL, AWS (ECS, DynamoDB, CloudFormation),
-                Jest, Enzyme, Jenkins, JIRA, HTML/CSS, Git
+                React, Hooks, AWS (ECS, DynamoDB), Jest, Enzyme, Jenkins, JIRA,
+                Git
               </p>
             }
           />
