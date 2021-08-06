@@ -39,7 +39,8 @@ const Tech = () => {
             <h5>Other</h5>
             <p>
               Git, Linux, Bash (Shell), Progressive Web Apps (PWA), JSON, XML,
-              REST APIs, Agile Software Development, Scrum, Kanban, Jira
+              REST APIs, Microservices, Agile Software Development, Scrum,
+              Kanban, Jira
             </p>
             <h5>Design</h5>
             <p>
