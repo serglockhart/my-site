@@ -298,9 +298,8 @@ const IndexPage = () => {
               <p>
                 <strong>Relevant Courses</strong>: Data Structures,
                 Design/Analysis of Algorithms, Modern Web & App Development,
-                Software Development Practices, Fundamentals Of Design,
-                Operating Systems, Probability & Statistics, Undergraduate
-                Research
+                Software Development Practices, Operating Systems, Fundamentals
+                Of Design, Probability & Statistics, Undergraduate Research
               </p>
             }
           />
