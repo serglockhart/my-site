@@ -296,9 +296,11 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Relevant Courses</strong>: Data Structures, Modern Web &
-                App Development, Software Development Practices, Fundamentals Of
-                Design, Systems Programming, Operating Systems
+                <strong>Relevant Courses</strong>: Data Structures,
+                Design/Analysis of Algorithms, Modern Web & App Development,
+                Software Development Practices, Fundamentals Of Design,
+                Operating Systems, Probability & Statistics, Undergraduate
+                Research
               </p>
             }
           />
@@ -496,7 +498,7 @@ const IndexPage = () => {
           />
           <Card
             title="Full Stack Web Engineer, UI/UX Designer | FloWaste"
-            subtitle="February 2021 – Present • Chicago, IL"
+            subtitle="February 2021 – May 2021 • Chicago, IL"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
             logoBackup={data.flowaste.childImageSharp.fluid}
