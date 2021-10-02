@@ -37,6 +37,14 @@ const IndexPage = () => {
           }
         }
       }
+      warnermedia: file(relativePath: { eq: "experience/warnermedia.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       amazon: file(relativePath: { eq: "experience/amazon.png" }) {
         id
         childImageSharp {
@@ -77,9 +85,7 @@ const IndexPage = () => {
           }
         }
       }
-      ideacenter: file(
-        relativePath: { eq: "extracurriculars/ideacenter.png" }
-      ) {
+      ideacenter: file(relativePath: { eq: "experience/ideacenter.png" }) {
         id
         childImageSharp {
           fluid {
@@ -159,7 +165,7 @@ const IndexPage = () => {
           }
         }
       }
-      muntiSm: file(relativePath: { eq: "experience/muntiSm.png" }) {
+      munti: file(relativePath: { eq: "experience/munti.png" }) {
         id
         childImageSharp {
           fluid {
@@ -175,7 +181,7 @@ const IndexPage = () => {
           }
         }
       }
-      munti: file(relativePath: { eq: "projects/munti.png" }) {
+      muntiSm: file(relativePath: { eq: "projects/munti.png" }) {
         id
         childImageSharp {
           fluid {
@@ -350,6 +356,29 @@ const IndexPage = () => {
           }
         >
           <Card
+            title="Full Stack Software Engineer Intern | WarnerMedia | HBO Max"
+            subtitle="Fall 2021 • Seattle, WA"
+            logoLink="https://warnermedia.com/"
+            logo={`../../images/experience/warnermedia.webp`}
+            logoBackup={data.warnermedia.childImageSharp.fluid}
+            logoAlt={"WarnerMedia logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Will work on platform conversion monorepo npm library as part
+                  of Caps Shared Components team for HBO Max
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: C++, React Native, Rush,
+                TypeScript, JavaScript, React, Redux, Node, Express, Bootstrap,
+                JIRA, Git
+              </p>
+            }
+          />
+          <Card
             title="Full Stack Software Engineer Intern | Amazon | Twitch"
             subtitle="Summer 2021 • San Francisco, CA"
             logoLink="https://amazon.com/"
@@ -379,7 +408,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Software Engineer Intern | The Walt Disney Company | Disney Streaming Services"
+            title="Full Stack Software Engineer Intern | The Walt Disney Company | Disney Streaming"
             subtitle="Fall 2020 • New York, NY"
             logoLink="https://disney.com/"
             logo={`../../images/experience/waltdisney.webp`}
@@ -699,8 +728,8 @@ const IndexPage = () => {
             title="Founder, Project Manager, Lead Developer & Designer | Munti"
             subtitle="February 2019 – Present • South Bend, IN"
             logoLink="https://munti.io/"
-            logo={`../../images/experience/muntiSm.webp`}
-            logoBackup={data.muntiSm.childImageSharp.fluid}
+            logo={`../../images/experience/munti.webp`}
+            logoBackup={data.munti.childImageSharp.fluid}
             logoAlt={"Munti logo"}
             body={
               <ul className="tech">
@@ -855,7 +884,7 @@ const IndexPage = () => {
           >
             <Browser
               image={`../../images/projects/munti.webp`}
-              imageBackup={data.munti.childImageSharp.fluid}
+              imageBackup={data.muntiSm.childImageSharp.fluid}
               imageAlt={"Munti site"}
             />
           </Project>
