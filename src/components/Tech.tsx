@@ -14,12 +14,12 @@ const Tech = () => {
             <h5>Web</h5>
             <p>
               React, Redux, Thunk, Gatsby, Next, Node, Express, Django, Flask,
-              GraphQL, Apollo, Grafana, EJS, Liquid, jQuery, HTML/CSS
+              Rush Stack, EJS, Liquid, jQuery, HTML/CSS
             </p>
             <h5>Mobile</h5>
             <p>
-              Swift, SwiftUI, CocoaPods, Alamofire, TestFlight, Flutter,
-              Capacitor, Lottie
+              Swift, SwiftUI, React Native, Flutter, Capacitor, CocoaPods,
+              Alamofire, TestFlight, Lottie
             </p>
             <h5>Styling</h5>
             <p>
@@ -30,22 +30,21 @@ const Tech = () => {
           <div className="col-12 col-md-6 col-1-format">
             <h5>Databases &amp; Deployment</h5>
             <p>
-              PostgreSQL, SQL, Firebase, Amazon Web Services (AWS), Google Cloud
-              Platform (GCP), MongoDB, Mongoose, InfluxDB, Heroku, Netlify,
-              Vercel, Jenkins
+              PostgreSQL, SQL, GraphQL, GQL, Apollo, NoSQL, Firebase, AWS, GCP,
+              MongoDB, Mongoose, InfluxDB, Heroku, Netlify, Vercel, Jenkins
             </p>
             <h5>Testing</h5>
             <p>Jest, Enzyme, Postman</p>
             <h5>Other</h5>
             <p>
               Git, Linux, Bash (Shell), Progressive Web Apps (PWA), JSON, XML,
-              REST APIs, Microservices, Agile Software Development, Scrum,
-              Kanban, Jira
+              REST APIs, Grafana, Microservices, Agile Software Development,
+              Scrum, Kanban, Jira
             </p>
             <h5>Design</h5>
             <p>
-              Adobe Illustrator, Adobe Photoshop, Adobe InDesign, Adobe XD,
-              Sketch, Figma, Zeplin, Supernova Studio, Webflow, Squarespace
+              Illustrator, Photoshop, InDesign, XD, Sketch, Figma, Zeplin,
+              Supernova Studio, Webflow, Squarespace
             </p>
           </div>
         </div>
