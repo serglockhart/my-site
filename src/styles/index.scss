@@ -255,12 +255,12 @@ p {
     -webkit-box-flex: 0;
     -ms-flex: none;
     display: inline-block;
-    margin-right: 1.25rem;
     flex: none;
     height: auto;
-    margin-left: 1rem;
     max-height: 3.25rem;
     width: 3.25rem;
+    @include shadow(0.3rem, $slight-shadow);
+    border-radius: 0.2rem;
   }
   .flex {
     -webkit-box-flex: 1;
