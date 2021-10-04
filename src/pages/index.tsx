@@ -366,7 +366,7 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Will work on platform conversion monorepo npm library as part
-                  of Caps Shared Components team for HBO Max
+                  of Caps Shared Components team
                 </li>
               </ul>
             }
@@ -389,8 +389,8 @@ const IndexPage = () => {
               <ul className="tech">
                 <li>
                   Scoped out, developed, and tested feature to create and send
-                  marketing in localized languages for the internal campaign
-                  management system updating microservices as part of the
+                  marketing in localized languages for internal campaign
+                  management system updating microservices as part of
                   Notifications team
                 </li>
                 <li>
@@ -402,8 +402,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Go, TypeScript, JavaScript,
-                React, Hooks, AWS (ECS, DynamoDB), Jest, Enzyme, Jenkins, JIRA,
-                Git
+                React, AWS (S3, ECS, DynamoDB), Jest, Enzyme, Jenkins, JIRA, Git
               </p>
             }
           />
@@ -417,27 +416,27 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Researched, designed, and proposed automated monthly regional
-                  analysis dashboards in Agile Team, then built and shipped them
-                  to production receiving positive reception at use from
-                  internal teams
+                  Researched, designed, and proposed regional data dashboards
+                  automated monthly, then built and shipped them to production
+                  receiving positive reception as part of Content Delivery &
+                  Origin team
                 </li>
                 <li>
-                  Added new features and region to partner CDNs real-time
-                  performance dashboards for LATAM launch
+                  Added features and LATAM region to partner CDNs real-time
+                  performance dashboards for launch
                 </li>
               </ul>
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, Node, Express,
-                Python, SQL, InfluxDB, Bash, AWS (EC2, S3, CloudFront), Postman,
-                Grafana, Akamai, Fastly, Conviva API, JIRA, Git
+                <strong>Technologies</strong>: Python, SQL, InfluxDB, Bash,
+                JavaScript, Node, Express, AWS (EC2, S3, Cloudfront), Grafana,
+                Postman, Fastly, Conviva API, JIRA, Git
               </p>
             }
           />
           <Card
-            title="Full Stack Software Engineer Intern | Techstars"
+            title="UI Engineer Intern | Techstars"
             subtitle="Summer 2020 • New York, NY"
             logoLink="https://techstars.com/"
             logo={`../../images/experience/techstars.webp`}
@@ -465,14 +464,14 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: TypeScript, JavaScript, React,
-                Redux, Python, Django, PostgreSQL, Firebase, Material-UI,
-                Capacitor, Jest, Enzyme, Zeplin, HTML/CSS, Git
+                <strong>Technologies</strong>: Django, PostgreSQL, Capacitor,
+                TypeScript, JavaScript, React, Redux, Python, Firebase,
+                Material-UI, Jest, Enzyme, Zeplin, HTML/CSS, Git
               </p>
             }
           />
           <Card
-            title="Full Stack Web Engineer Intern | IDEA Center"
+            title="Web Engineer Intern | IDEA Center"
             subtitle="Spring 2020 • South Bend, IN"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
@@ -492,9 +491,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, React, Next, GraphQL,
-                Apollo, Node, Express, MongoDB, Heroku, Jest, Parse Platform,
-                Sketch, Shopify API, Sass/SCSS, HTML/CSS, Git
+                <strong>Technologies</strong>: Next, Gatsby, Flask, MongoDB,
+                GraphQL, Apollo, JavaScript, React, Python, Netlify, Vercel,
+                Shopify API, SASS/SCSS, HTML/CSS, Git
               </p>
             }
           />
@@ -525,7 +524,7 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Web Engineer, UI/UX Designer | FloWaste"
+            title="Web Engineer, UI/UX Designer | FloWaste"
             subtitle="February 2021 – May 2021 • Chicago, IL"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
@@ -549,7 +548,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Redux, Node,
                 Express, GraphQL, Apollo, GCP (Run, BigQuery), Firebase, LESS,
-                Ant Design, Figma, Adobe XD, Framer, Zeplin, JIRA, HTML/CSS, Git
+                AntD, XD, Framer, JIRA, HTML/CSS, Git
               </p>
             }
           />
@@ -576,10 +575,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: Dart, Flutter, JavaScript, Node,
-                Express, Firebase, Twilio API, Twilio Studio, Figma, Adobe XD,
-                Supernova Studio, Wiredash, TestFlight, Squarespace, HTML/CSS,
-                Git
+                <strong>Technologies</strong>: Dart, Flutter, Firebase,
+                TestFlight, JavaScript, Node, Express, Heroku, Figma, Sketch,
+                Supernova, Wiredash, Twilio API, HTML/CSS, Git
               </p>
             }
           />
@@ -622,7 +620,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: JavaScript, React, Redux, Python,
                 Flask, AWS (S3, RDS, IoT), Raspberry Pi, DroneKit SDK,
-                Sass/SCSS, Bootstrap, HTML/CSS, PWA, Git
+                SASS/SCSS, Bootstrap, HTML/CSS, PWA, Git
               </p>
             }
           />
@@ -656,7 +654,7 @@ const IndexPage = () => {
               <p>
                 <strong>Technologies</strong>: Dart, Flutter, JavaScript, React,
                 Next, Node, Express, Python, Raspberry Pi, Vercel (ZEIT Now),
-                Heroku, Firebase, Kali Linux, Mapbox API, Sass/SCSS, Bootstrap,
+                Heroku, Firebase, Kali Linux, Mapbox API, SASS/SCSS, Bootstrap,
                 HTML/CSS, PWA, Git
               </p>
             }
@@ -691,13 +689,13 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: C++, Arduino, JavaScript, React,
-                Gatsby, GraphQL, Netlify, Google Maps API, Sass/SCSS, Bootstrap,
+                Gatsby, GraphQL, Netlify, Google Maps API, SASS/SCSS, Bootstrap,
                 HTML/CSS, PWA, Git
               </p>
             }
           />
           <Card
-            title="Full Stack Web Developer, Interaction Designer | URMA ONG"
+            title="Web Developer, Interaction Designer | URMA ONG"
             subtitle="November 2020 – Present • New York, NY"
             logoLink="https://urmaong.com/"
             logo={`../../images/experience/urmaong.webp`}
@@ -719,7 +717,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, jQuery, Liquid, PHP,
-                Sass/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
+                SASS/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
                 Photoshop, Shopify, JIRA, Git
               </p>
             }
@@ -1005,7 +1003,7 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies:</strong> JavaScript, jQuery, Liquid, PHP,
-                Sass/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
+                SASS/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
                 Photoshop, Shopify, JIRA, Git
               </p>
             }
