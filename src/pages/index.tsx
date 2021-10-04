@@ -365,8 +365,8 @@ const IndexPage = () => {
             body={
               <ul className="tech">
                 <li>
-                  Will work on platform conversion monorepo npm library as part
-                  of Caps Shared Components team
+                  Will work on platform conversion npm libraries monorepo as
+                  part of Caps Shared Components team
                 </li>
               </ul>
             }
