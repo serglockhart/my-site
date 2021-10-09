@@ -14,7 +14,7 @@ const Tech = () => {
             <h5>Web</h5>
             <p>
               React, Redux, Thunk, Gatsby, Next, Node, Express, Django, Flask,
-              Rush Stack, EJS, Liquid, jQuery, HTML/CSS
+              Lerna, Rush, Grafana, EJS, Liquid, jQuery, HTML/CSS
             </p>
             <h5>Mobile</h5>
             <p>
@@ -38,8 +38,8 @@ const Tech = () => {
             <h5>Other</h5>
             <p>
               Git, Linux, Bash (Shell), Progressive Web Apps (PWA), JSON, XML,
-              REST APIs, Grafana, Microservices, Monorepo, Agile Software
-              Development, Scrum, Kanban, Jira
+              REST APIs, Microservices, Monorepo, Agile Software Development,
+              Scrum, Kanban, Jira
             </p>
             <h5>Design</h5>
             <p>
