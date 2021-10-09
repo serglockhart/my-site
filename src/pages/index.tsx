@@ -823,8 +823,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: JavaScript, Expo, React Native,
-                AngularJS, SQL, Django, D3, Dagre, Chai, Mocha, Bootstrap,
-                HTML/CSS, Git
+                AngularJS, SQLite, Django, D3, Dagre, Bower, Karma, Docker,
+                Heroku, Chai, Mocha, Bootstrap, HTML/CSS, Git
               </p>
             }
           />
