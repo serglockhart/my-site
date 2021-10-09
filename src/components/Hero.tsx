@@ -37,7 +37,7 @@ const Hero = () => {
             </picture>
           </div>
           <div className="flex top">
-            <h1 className="name">Hello from Jio 👋</h1>
+            <h1 className="name">Hello 👋 I'm Jio Buenviaje</h1>
             <p>
               I'm a lifelong learner, driven developer, and proud Filipino. I
               aim to leverage tech to help people learn more and live better. I
