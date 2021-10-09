@@ -765,33 +765,37 @@ const IndexPage = () => {
             logoBackup={data.nd.childImageSharp.fluid}
             logoAlt={"ND logo"}
             body={
-              <p>
-                Favoring a practice-oriented approach to research,{" "}
-                <a
-                  href="https://www3.nd.edu/~skumar5/research.html"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Dr. Shreya Kumar's Research
-                </a>{" "}
-                revolves around the following: (1) Communication, (2)
-                Undergraduate education, (3) Diversity in computing, (4) Human
-                Computer Interaction and senior citizens, and (5) Exploratory
-                testing.
-              </p>
+              <>
+                <p>
+                  Favoring a practice-oriented approach to research,{" "}
+                  <a
+                    href="https://www3.nd.edu/~skumar5/research.html"
+                    rel="noopener noreferrer"
+                    target="_BLANK"
+                  >
+                    Dr. Shreya Kumar's Research
+                  </a>{" "}
+                  revolves around: (1) Communication, (2) Undergraduate
+                  education, (3) Diversity in computing, (4) Human Computer
+                  Interaction and senior citizens, and (5) Exploratory testing.
+                </p>
+                <ul>
+                  <li>
+                    Will manage a team through the development of added features
+                    to an existing full stack web application
+                  </li>
+                  <li>
+                    Will develop full stack and mobile applications for research
+                    done under Dr. Kumar's laboratory
+                  </li>
+                </ul>
+              </>
             }
             end={
-              <ul>
-                <li>
-                  Will manage a team through the development of added features
-                  to an existing full stack web application written in
-                  AngularJS, SQL, and Django
-                </li>
-                <li>
-                  Will develop full stack and mobile applications for research
-                  done under Dr. Kumar's laboratory
-                </li>
-              </ul>
+              <p>
+                <strong>Technologies</strong>: JavaScript, AngularJS, SQL,
+                Django, D3, Dagre, Chai, Mocha, Bootstrap, HTML/CSS, Git
+              </p>
             }
           />
           <Card
