@@ -363,12 +363,14 @@ const IndexPage = () => {
             logoBackup={data.warnermedia.childImageSharp.fluid}
             logoAlt={"WarnerMedia logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Will work on platform conversion npm libraries monorepo as
-                  part of Caps Shared Components team
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Will work on platform conversion npm libraries monorepo as
+                    part of Caps Shared Components team
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -386,18 +388,20 @@ const IndexPage = () => {
             logoBackup={data.amazon.childImageSharp.fluid}
             logoAlt={"Amazon logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Scoped out, developed, and tested feature to create and send
-                  marketing in localized languages for internal campaign
-                  management system updating microservices as part of
-                  Notifications team
-                </li>
-                <li>
-                  Finished UI improvement tickets for the internal marketing
-                  campaign management system
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Scoped out, developed, and tested feature to create and send
+                    marketing in localized languages for internal campaign
+                    management system updating microservices as part of
+                    Notifications team
+                  </li>
+                  <li>
+                    Finished UI improvement tickets for the internal marketing
+                    campaign management system
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -414,18 +418,20 @@ const IndexPage = () => {
             logoBackup={data.waltdisney.childImageSharp.fluid}
             logoAlt={"Walt Disney logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Researched, designed, and proposed regional data dashboards
-                  automated monthly, then built and shipped them to production
-                  receiving positive reception as part of Content Delivery &
-                  Origin team
-                </li>
-                <li>
-                  Added features and LATAM region to partner CDNs real-time
-                  performance dashboards for launch
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Researched, designed, and proposed regional data dashboards
+                    automated monthly, then built and shipped them to production
+                    receiving positive reception as part of Content Delivery &
+                    Origin team
+                  </li>
+                  <li>
+                    Added features and LATAM region to partner CDNs real-time
+                    performance dashboards for launch
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -443,24 +449,27 @@ const IndexPage = () => {
             logoBackup={data.techstars.childImageSharp.fluid}
             logoAlt={"Techstars logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Worked in portfolio company{" "}
-                  <a
-                    href="https://joincabinet.com/"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Cabinet
-                  </a>{" "}
-                  on 5 feature rollouts on web and mobile apps currently serving
-                  2,000+ users thereby increasing user retention by 6.7%
-                </li>
-                <li>
-                  Completed new tech stack compatibility apps (web and mobile)
-                  in Agile Team for upcoming adoption
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Worked in portfolio company{" "}
+                    <a
+                      href="https://joincabinet.com/"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      Cabinet
+                    </a>{" "}
+                    on 5 feature rollouts on web and mobile apps currently
+                    serving 2,000+ users thereby increasing user retention by
+                    6.7%
+                  </li>
+                  <li>
+                    Completed new tech stack compatibility apps (web and mobile)
+                    in Agile Team for upcoming adoption
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -478,16 +487,18 @@ const IndexPage = () => {
             logoBackup={data.ideacenter.childImageSharp.fluid}
             logoAlt={"IDEA Center logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Architected e-Commerce web app and store templates through
-                  Pair Programming currently used by startups
-                </li>
-                <li>
-                  Programmed key metrics cards and dashboards in Snapboard
-                  presently used in administrative startup monitoring
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Architected e-Commerce web app and store templates through
+                    Pair Programming currently used by startups
+                  </li>
+                  <li>
+                    Programmed key metrics cards and dashboards in Snapboard
+                    presently used in administrative startup monitoring
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -505,16 +516,18 @@ const IndexPage = () => {
             logoBackup={data.viacomcbs.childImageSharp.fluid}
             logoAlt={"ViacomCBS logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Standardized end-to-end broadcast distribution configurations
-                  (Codecs) for entire East Coast feed
-                </li>
-                <li>
-                  Finished 27 international purchase requests using Database
-                  Queries totaling $132,930 in profit
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Standardized end-to-end broadcast distribution
+                    configurations (Codecs) for entire East Coast feed
+                  </li>
+                  <li>
+                    Finished 27 international purchase requests using Database
+                    Queries totaling $132,930 in profit
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -531,18 +544,20 @@ const IndexPage = () => {
             logoBackup={data.flowaste.childImageSharp.fluid}
             logoAlt={"FloWaste logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Built and designed food waste and admin management dashboards
-                  helping visualize actionable ML insights and securing a second
-                  pilot as it is currently used in two restaurant chains and
-                  internally
-                </li>
-                <li>
-                  Created Design Documents and Codebase Guides/Documentation for
-                  all work done in Agile Team
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Built and designed food waste and admin management
+                    dashboards helping visualize actionable ML insights and
+                    securing a second pilot as it is currently used in two
+                    restaurant chains and internally
+                  </li>
+                  <li>
+                    Created Design Documents and Codebase Guides/Documentation
+                    for all work done in Agile Team
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -560,18 +575,20 @@ const IndexPage = () => {
             logoBackup={data.gitta.childImageSharp.fluid}
             logoAlt={"Gitta logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Developed babysitter hiring service mobile apps with NoSQL
-                  User and Request Ticketing Database, RESTful API, and SMS
-                  autoresponder yielding $20k funding
-                </li>
-                <li>
-                  Fixed 17 bugs and improved user onboarding flow based on
-                  TestFlight public beta testing feedback in Agile Team for
-                  upcoming release
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Developed babysitter hiring service mobile apps with NoSQL
+                    User and Request Ticketing Database, RESTful API, and SMS
+                    autoresponder yielding $20k funding
+                  </li>
+                  <li>
+                    Fixed 17 bugs and improved user onboarding flow based on
+                    TestFlight public beta testing feedback in Agile Team for
+                    upcoming release
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -589,32 +606,34 @@ const IndexPage = () => {
             logoBackup={data.delive.childImageSharp.fluid}
             logoAlt={"DeLive logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Integrated dashboard web app and drone contact RESTful API in
-                  Agile Team yielding $10k funding
-                </li>
-                <li>
-                  Exhibited in{" "}
-                  <a
-                    href="https://ces.tech"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Consumer Electronics Show (CES) 2020
-                  </a>
-                  , secured $25k total funding,{" "}
-                  <a
-                    href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Race to Revenue
-                  </a>{" "}
-                  accelerator invite, and pitch to Indianapolis-based $100M VC
-                  fund
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Integrated dashboard web app and drone contact RESTful API
+                    in Agile Team yielding $10k funding
+                  </li>
+                  <li>
+                    Exhibited in{" "}
+                    <a
+                      href="https://ces.tech"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      Consumer Electronics Show (CES) 2020
+                    </a>
+                    , secured $25k total funding,{" "}
+                    <a
+                      href="https://ideacenter.nd.edu/news-events/news/this-summers-race-to-revenue-program-funds-five-student-run-startups"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      Race to Revenue
+                    </a>{" "}
+                    accelerator invite, and pitch to Indianapolis-based $100M VC
+                    fund
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -632,23 +651,25 @@ const IndexPage = () => {
             logoBackup={data.tembo.childImageSharp.fluid}
             logoAlt={"Tembo logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Made SSR web app and emergency group messaging mobile apps
-                  with NoSQL User Database for upcoming alpha testing
-                </li>
-                <li>
-                  Built WiFi indoor triangulation mobile location tracker
-                  through Pair Programming yielding{" "}
-                  <a
-                    href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    $11.5k funding
-                  </a>
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Made SSR web app and emergency group messaging mobile apps
+                    with NoSQL User Database for upcoming alpha testing
+                  </li>
+                  <li>
+                    Built WiFi indoor triangulation mobile location tracker
+                    through Pair Programming yielding{" "}
+                    <a
+                      href="https://southbendelkhart.org/news/tembo-ai-receives-minority-owned-startup-award"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      $11.5k funding
+                    </a>
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -667,24 +688,26 @@ const IndexPage = () => {
             logoBackup={data.gashawk.childImageSharp.fluid}
             logoAlt={"Gäshawk logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Created Server-Side Rendering (SSR) Progressive Web App (PWA)
-                  currently used by startup
-                </li>
-                <li>
-                  Constructed LiDAR truck overhead collision detection system
-                  with Touchscreen Graphical User Interface (GUI) yielding{" "}
-                  <a
-                    href="https://startupsouthbendelkhart.com"
-                    rel="noopener noreferrer"
-                    target="_BLANK"
-                  >
-                    Start-Up South Bend Elkhart (SUSBE)
-                  </a>{" "}
-                  accelerator invite
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Created Server-Side Rendering (SSR) Progressive Web App
+                    (PWA) currently used by startup
+                  </li>
+                  <li>
+                    Constructed LiDAR truck overhead collision detection system
+                    with Touchscreen Graphical User Interface (GUI) yielding{" "}
+                    <a
+                      href="https://startupsouthbendelkhart.com"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      Start-Up South Bend Elkhart (SUSBE)
+                    </a>{" "}
+                    accelerator invite
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -702,17 +725,19 @@ const IndexPage = () => {
             logoBackup={data.urmaong.childImageSharp.fluid}
             logoAlt={"URMA ONG logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Redesigned, developed, and currently maintaining e-commerce
-                  store, inventory, and shipping
-                </li>
-                <li>
-                  Will scale store conversion rate and reach by proposing,
-                  split-testing, and optimizing new online store features and
-                  designs
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Redesigned, developed, and currently maintaining e-commerce
+                    store, inventory, and shipping
+                  </li>
+                  <li>
+                    Will scale store conversion rate and reach by proposing,
+                    split-testing, and optimizing new online store features and
+                    designs
+                  </li>
+                </ul>
+              </p>
             }
             end={
               <p>
@@ -730,16 +755,18 @@ const IndexPage = () => {
             logoBackup={data.munti.childImageSharp.fluid}
             logoAlt={"Munti logo"}
             body={
-              <ul className="tech">
-                <li>
-                  Led development and design teams of Software Freelance Company
-                  through multiple concurrent projects
-                </li>
-                <li>
-                  Produced web, mobile apps and embedded systems for early-stage
-                  startups and small businesses
-                </li>
-              </ul>
+              <p>
+                <ul className="tech">
+                  <li>
+                    Led development and design teams of Software Freelance
+                    Company through multiple concurrent projects
+                  </li>
+                  <li>
+                    Produced web, mobile apps and embedded systems for
+                    early-stage startups and small businesses
+                  </li>
+                </ul>
+              </p>
             }
           />
         </Section>
@@ -779,16 +806,18 @@ const IndexPage = () => {
                   education, (3) Diversity in computing, (4) Human Computer
                   Interaction and senior citizens, and (5) Exploratory testing.
                 </p>
-                <ul>
-                  <li>
-                    Will manage a team through the development of added features
-                    to an existing full stack web application
-                  </li>
-                  <li>
-                    Will develop full stack and mobile applications for research
-                    done under Dr. Kumar's laboratory
-                  </li>
-                </ul>
+                <p>
+                  <ul>
+                    <li>
+                      Will manage a team through the development of added
+                      features to an existing full stack web application
+                    </li>
+                    <li>
+                      Will develop full stack and mobile applications for
+                      research done under Dr. Kumar's laboratory
+                    </li>
+                  </ul>
+                </p>
               </>
             }
             end={
