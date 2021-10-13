@@ -70,7 +70,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
-                simply enjoying life.
+                dancing through life.
               </a>
             </p>
           </div>
