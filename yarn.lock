@@ -2903,6 +2903,11 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
+atropos@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/atropos/-/atropos-1.0.1.tgz#6c241f0963fd72f669be80c01fd4f8b15f13927d"
+  integrity sha512-MJwmKQ6OOM5Sbf8aEt2LasIXxKwuknQtaAplrlVcUlmGH63V+dAdQVGOPbgYJlhX74LgSifa0kbLvc6jyPLegg==
+
 auto-bind@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/auto-bind/-/auto-bind-4.0.0.tgz#e3589fc6c2da8f7ca43ba9f84fa52a744fc997fb"
