@@ -19,16 +19,23 @@ const Hero = () => {
     }
   `)
   return (
-    <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
+    <Atropos
+      rotateTouch="scroll-y"
+      rotateXMax={24}
+      rotateYMax={24}
+      shadowScale={5}
+      shadowOffset={5}
+      shadow={true}
+    >
       <div className="marg-bot-1">
         <div
           className="card has-bg"
-          data-atropos-offset="-4"
+          data-atropos-offset="-6"
           style={{ backgroundImage: `url(${"../../images/home-backing.svg"})` }}
           id="hero"
         >
           <div className="flex-container no-flex-mobile">
-            <div className="profile-picture-wrapper" data-atropos-offset="10">
+            <div className="profile-picture-wrapper" data-atropos-offset="8">
               <picture>
                 <source srcSet={`../../images/me.webp`} type="image/webp" />
                 <Img
