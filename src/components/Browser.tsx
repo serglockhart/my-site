@@ -14,7 +14,7 @@ const Browser = (props: {
   if (props.image === "") {
     return (
       <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
-        <div className="browser-screenshot" data-atropos-offset="8">
+        <div className="browser-screenshot" data-atropos-offset="3">
           <div className="top">
             <span className="circle"></span>
             <span className="circle"></span>
@@ -48,7 +48,7 @@ const Browser = (props: {
   } else {
     return (
       <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
-        <div className="browser-screenshot" data-atropos-offset="8">
+        <div className="browser-screenshot" data-atropos-offset="3">
           <div className="top">
             <span className="circle"></span>
             <span className="circle"></span>

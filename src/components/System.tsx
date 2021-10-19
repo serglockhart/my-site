@@ -9,7 +9,7 @@ const System = (props: {
 }) => {
   return (
     <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
-      <div className="system-screenshot" data-atropos-offset="8">
+      <div className="system-screenshot" data-atropos-offset="3">
         <div className="top" />
         <picture className="img-fluid">
           <source srcSet={props.image} type="image/webp" />
