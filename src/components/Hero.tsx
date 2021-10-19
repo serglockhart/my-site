@@ -19,8 +19,8 @@ const Hero = () => {
     }
   `)
   return (
-    <div className="marg-bot-1">
-      <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
+    <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
+      <div className="marg-bot-1">
         <div
           className="card has-bg"
           data-atropos-offset="-4"
@@ -81,22 +81,22 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </Atropos>
-      <div className="buttons marg-bot-05">
-        <a
-          href={`../../files/resumeBuenviaje.pdf`}
-          rel="noopener noreferrer"
-          target="_BLANK"
-          className="btn btn-info marg-bot-05"
-        >
-          View my resume
-        </a>
-        <Link to="#projects" className="btn btn-info marg-bot-05">
-          View my projects
-        </Link>
-        <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
+        <div className="buttons marg-bot-05">
+          <a
+            href={`../../files/resumeBuenviaje.pdf`}
+            rel="noopener noreferrer"
+            target="_BLANK"
+            className="btn btn-info marg-bot-05"
+          >
+            View my resume
+          </a>
+          <Link to="#projects" className="btn btn-info marg-bot-05">
+            View my projects
+          </Link>
+          <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
+        </div>
       </div>
-    </div>
+    </Atropos>
   )
 }
 
