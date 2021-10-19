@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import { Atropos } from "atropos/react/atropos-react.esm"
 
 import Contact from "./Contact"
 
@@ -19,63 +20,68 @@ const Hero = () => {
   `)
   return (
     <div className="marg-bot-1">
-      <div
-        className="card has-bg"
-        style={{ backgroundImage: `url(${"../../images/home-backing.svg"})` }}
-        id="hero"
-      >
-        <div className="flex-container no-flex-mobile">
-          <div className="profile-picture-wrapper">
-            <picture>
-              <source srcSet={`../../images/me.webp`} type="image/webp" />
-              <Img
-                fluid={data.me.childImageSharp.fluid}
-                alt={"Jio Buenviaje"}
-                aria-label="Headshot"
-                className="profile-picture"
-              />
-            </picture>
-          </div>
-          <div className="flex top">
-            <h1 className="name">Hello 👋 I'm Jio Buenviaje</h1>
-            <p>
-              I'm a lifelong learner, driven developer, and proud Filipino. I
-              aim to leverage tech to help people learn more and live better. I
-              study computer science at{" "}
-              <a
-                href="https://cse.nd.edu/undergraduate/computer-science-course-map/"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                University of Notre Dame,
-              </a>{" "}
-              and spend my free time{" "}
-              <a
-                href="https://linkedin.com/in/saejhi"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                working at startups,
-              </a>{" "}
-              <a
-                href="https://github.com/saejhi"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                learning new things,
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://instagram.com/saejhi"
-                rel="noopener noreferrer"
-                target="_BLANK"
-              >
-                dancing through life.
-              </a>
-            </p>
+      <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
+        <div
+          className="card has-bg"
+          data-atropos-offset="-4"
+          style={{ backgroundImage: `url(${"../../images/home-backing.svg"})` }}
+          id="hero"
+        >
+          <div className="flex-container no-flex-mobile">
+            <div className="profile-picture-wrapper" data-atropos-offset="10">
+              <picture>
+                <source srcSet={`../../images/me.webp`} type="image/webp" />
+                <Img
+                  fluid={data.me.childImageSharp.fluid}
+                  alt={"Jio Buenviaje"}
+                  aria-label="Headshot"
+                  className="profile-picture"
+                />
+              </picture>
+            </div>
+            <div className="flex top">
+              <h1 className="name" data-atropos-offset="4">
+                Hello 👋 I'm Jio Buenviaje
+              </h1>
+              <p data-atropos-offset="4">
+                I'm a lifelong learner, driven developer, and proud Filipino. I
+                aim to leverage tech to help people learn more and live better.
+                I study computer science at{" "}
+                <a
+                  href="https://cse.nd.edu/undergraduate/computer-science-course-map/"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  University of Notre Dame,
+                </a>{" "}
+                and spend my free time{" "}
+                <a
+                  href="https://linkedin.com/in/saejhi"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  working at startups,
+                </a>{" "}
+                <a
+                  href="https://github.com/saejhi"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  learning new things,
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://instagram.com/saejhi"
+                  rel="noopener noreferrer"
+                  target="_BLANK"
+                >
+                  dancing through life.
+                </a>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </Atropos>
       <div className="buttons marg-bot-05">
         <a
           href={`../../files/resumeBuenviaje.pdf`}
