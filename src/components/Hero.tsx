@@ -2,6 +2,8 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { Atropos } from "atropos/react/atropos-react.esm"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import { Icon } from "@iconify/react"
 
 import Contact from "./Contact"
 
@@ -19,15 +21,15 @@ const Hero = () => {
     }
   `)
   return (
-    <Atropos
-      rotateTouch="scroll-y"
-      rotateXMax={24}
-      rotateYMax={24}
-      shadowScale={5}
-      shadowOffset={5}
-      shadow={true}
-    >
-      <div className="marg-bot-1">
+    <div className="marg-bot-1">
+      <Atropos
+        rotateTouch="scroll-y"
+        rotateXMax={24}
+        rotateYMax={24}
+        shadowScale={5}
+        shadowOffset={5}
+        shadow={true}
+      >
         <div
           className="card has-bg"
           data-atropos-offset="-6"
@@ -36,6 +38,32 @@ const Hero = () => {
         >
           <div className="flex-container no-flex-mobile">
             <div className="profile-picture-wrapper" data-atropos-offset="8">
+              <ThemeToggler data-atropos-offset="10">
+                {({ theme, toggleTheme }) => (
+                  <div className="dark-button">
+                    <input
+                      type="checkbox"
+                      id="toggle-mode"
+                      className="checkbox"
+                      onChange={(e) =>
+                        toggleTheme(e.target.checked ? "dark" : "light")
+                      }
+                      checked={theme === "dark"}
+                    />
+                    <label for="toggle-mode" className="toggle">
+                      <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    </label>
+                  </div>
+                )}
+              </ThemeToggler>
               <picture>
                 <source srcSet={`../../images/me.webp`} type="image/webp" />
                 <Img
@@ -88,22 +116,22 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="buttons marg-bot-05">
-          <a
-            href={`../../files/resumeBuenviaje.pdf`}
-            rel="noopener noreferrer"
-            target="_BLANK"
-            className="btn btn-info marg-bot-05"
-          >
-            View my resume
-          </a>
-          <Link to="#projects" className="btn btn-info marg-bot-05">
-            View my projects
-          </Link>
-          <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
-        </div>
+      </Atropos>
+      <div className="buttons marg-bot-05">
+        <a
+          href={`../../files/resumeBuenviaje.pdf`}
+          rel="noopener noreferrer"
+          target="_BLANK"
+          className="btn btn-info marg-bot-05"
+        >
+          View my resume
+        </a>
+        <Link to="#projects" className="btn btn-info marg-bot-05">
+          View my projects
+        </Link>
+        <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
       </div>
-    </Atropos>
+    </div>
   )
 }
 
