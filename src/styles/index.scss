@@ -459,10 +459,10 @@ hr {
   -ms-flex-align: end;
   align-items: flex-end;
   &:nth-child(odd) {
-    @include shadow(0.25rem, $tertiary-color);
+    @include shadow(0.2rem, $tertiary-color);
   }
   &:nth-child(even) {
-    @include shadow(0.25rem, $secondary-color);
+    @include shadow(0.2rem, $secondary-color);
   }
   @include shadow(0.1rem, $slight-shadow);
   border: 0.0625rem solid $text-shadow;
@@ -624,10 +624,10 @@ hr {
     background: $white;
     @include shadow(0.1rem, $slight-shadow);
     &:nth-child(odd) {
-      @include shadow(0.25rem, $tertiary-color);
+      @include shadow(0.2rem, $tertiary-color);
     }
     &:nth-child(even) {
-      @include shadow(0.25rem, $secondary-color);
+      @include shadow(0.2rem, $secondary-color);
     }
     border: 0.0625rem solid $text-shadow;
     border-radius: 0.2rem;
