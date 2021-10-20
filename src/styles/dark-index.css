@@ -486,14 +486,14 @@ body.dark .project {
 }
 
 body.dark .project:nth-child(2n + 1) {
-  -webkit-box-shadow: #4b7e91 0px 0.1rem 0.4rem;
-          box-shadow: #4b7e91 0px 0.1rem 0.4rem;
+  -webkit-box-shadow: #4b7e91 0px 0.2rem 0.4rem;
+          box-shadow: #4b7e91 0px 0.2rem 0.4rem;
   border-radius: 0.2rem;
 }
 
 body.dark .project:nth-child(2n) {
-  -webkit-box-shadow: #82603a 0px 0.1rem 0.4rem;
-          box-shadow: #82603a 0px 0.1rem 0.4rem;
+  -webkit-box-shadow: #82603a 0px 0.2rem 0.4rem;
+          box-shadow: #82603a 0px 0.2rem 0.4rem;
   border-radius: 0.2rem;
 }
 
@@ -687,6 +687,18 @@ body.dark .content .card ul {
 
 body.dark .content .card.has-bg {
   border: 0px !important;
+}
+
+body.dark .content .card:nth-child(2n + 1) {
+  -webkit-box-shadow: #4b7e91 0px 0.2rem 0.4rem;
+          box-shadow: #4b7e91 0px 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+}
+
+body.dark .content .card:nth-child(2n) {
+  -webkit-box-shadow: #82603a 0px 0.2rem 0.4rem;
+          box-shadow: #82603a 0px 0.2rem 0.4rem;
+  border-radius: 0.2rem;
 }
 
 body.dark .content a .card,

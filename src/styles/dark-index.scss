@@ -385,11 +385,11 @@ body.dark {
     padding: 0px 2.5%;
   }
   .project:nth-child(2n + 1) {
-    box-shadow: rgb(75, 126, 145) 0px 0.1rem 0.4rem;
+    box-shadow: rgb(75, 126, 145) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;
   }
   .project:nth-child(2n) {
-    box-shadow: rgb(130, 96, 58) 0px 0.1rem 0.4rem;
+    box-shadow: rgb(130, 96, 58) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;
   }
   .project .screenshot-wrapper {
@@ -544,6 +544,14 @@ body.dark {
   }
   .content .card.has-bg {
     border: 0px !important;
+  }
+  .content .card:nth-child(2n + 1) {
+    box-shadow: rgb(75, 126, 145) 0px 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+  }
+  .content .card:nth-child(2n) {
+    box-shadow: rgb(130, 96, 58) 0px 0.2rem 0.4rem;
+    border-radius: 0.2rem;
   }
   .content a .card,
   .content a .card:active,

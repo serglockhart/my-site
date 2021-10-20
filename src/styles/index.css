@@ -453,14 +453,14 @@ hr {
 }
 
 .project:nth-child(odd) {
-  -webkit-box-shadow: 0 0.1rem 0.4rem #90b8c6;
-  box-shadow: 0 0.1rem 0.4rem #90b8c6;
+  -webkit-box-shadow: 0 0.25rem 0.4rem #90b8c6;
+  box-shadow: 0 0.25rem 0.4rem #90b8c6;
   border-radius: 0.2rem;
 }
 
 .project:nth-child(even) {
-  -webkit-box-shadow: 0 0.1rem 0.4rem #d4ba9f;
-  box-shadow: 0 0.1rem 0.4rem #d4ba9f;
+  -webkit-box-shadow: 0 0.25rem 0.4rem #d4ba9f;
+  box-shadow: 0 0.25rem 0.4rem #d4ba9f;
   border-radius: 0.2rem;
 }
 
@@ -638,14 +638,14 @@ hr {
 }
 
 .content .card:nth-child(odd) {
-  -webkit-box-shadow: 0 0.1rem 0.4rem #90b8c6;
-  box-shadow: 0 0.1rem 0.4rem #90b8c6;
+  -webkit-box-shadow: 0 0.25rem 0.4rem #90b8c6;
+  box-shadow: 0 0.25rem 0.4rem #90b8c6;
   border-radius: 0.2rem;
 }
 
 .content .card:nth-child(even) {
-  -webkit-box-shadow: 0 0.1rem 0.4rem #d4ba9f;
-  box-shadow: 0 0.1rem 0.4rem #d4ba9f;
+  -webkit-box-shadow: 0 0.25rem 0.4rem #d4ba9f;
+  box-shadow: 0 0.25rem 0.4rem #d4ba9f;
   border-radius: 0.2rem;
 }
 
