@@ -26,7 +26,7 @@ const Card = (props: {
             target="_BLANK"
             data-atropos-offset="8"
           >
-            <picture className="background-image">
+            <picture className="background-image hover">
               <source srcSet={props.logo} type="image/webp" />
               <Img
                 fluid={props.logoBackup}

@@ -73,7 +73,7 @@ const Hero = () => {
             </div>
             <div className="flex top">
               <h1 className="name" data-atropos-offset="4">
-                Hello 👋 I'm Jio Buenviaje
+                Hey 👋 I'm Jio Buenviaje
               </h1>
               <p data-atropos-offset="4">
                 I'm a lifelong learner, driven developer, and proud Filipino. I

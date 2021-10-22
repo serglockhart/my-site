@@ -806,4 +806,83 @@ hr {
   box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
   background: #b55f4b;
 }
+
+.bouncer, .project:nth-child(even) .screenshot-wrapper {
+  -webkit-animation: bouncer 2s infinite alternate;
+          animation: bouncer 2s infinite alternate;
+}
+
+@-webkit-keyframes bouncer {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@keyframes bouncer {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+.floater, .project:nth-child(odd) .screenshot-wrapper {
+  animation: floater 2s infinite alternate-reverse;
+}
+
+@-webkit-keyframes floater {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes floater {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+.hover {
+  animation: hover 2s infinite alternate-reverse;
+}
+
+@-webkit-keyframes hover {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+@keyframes hover {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
 /*# sourceMappingURL=index.css.map */

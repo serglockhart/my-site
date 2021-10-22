@@ -475,9 +475,15 @@ hr {
   align-items: flex-end;
   &:nth-child(odd) {
     @include shadow(0.2rem, $tertiary-color);
+    .screenshot-wrapper {
+      @extend .floater;
+    }
   }
   &:nth-child(even) {
     @include shadow(0.2rem, $secondary-color);
+    .screenshot-wrapper {
+      @extend .bouncer;
+    }
   }
   @include shadow(0.1rem, $slight-shadow);
   border: 0.0625rem solid $text-shadow;
@@ -772,5 +778,43 @@ hr {
       border: 0.0625rem solid $text-shadow;
       color: $white !important;
     }
+  }
+}
+
+.bouncer {
+  animation: bouncer 2s infinite alternate;
+}
+@keyframes bouncer {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.floater {
+  animation: floater 2s infinite alternate-reverse;
+}
+@keyframes floater {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.hover {
+  animation: hover 2s infinite alternate-reverse;
+}
+@keyframes hover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
   }
 }
