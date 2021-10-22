@@ -6,7 +6,7 @@
 }
 
 .checkbox:checked + .toggle {
-  background-color: #ffcb05;
+  background-color: #ffc800;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
