@@ -786,11 +786,10 @@ hr {
 }
 @keyframes bouncer {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(-15px);
+    transform: translateY(25px);
   }
   100% {
-    transform: translateY(10px);
+    transform: translateY(0px);
   }
 }
 
@@ -799,11 +798,10 @@ hr {
 }
 @keyframes floater {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(10px);
+    transform: translateY(0px);
   }
   100% {
-    transform: translateY(-15px);
+    transform: translateY(25px);
   }
 }
 
