@@ -449,6 +449,7 @@ hr {
   @include shadow(0.1rem, $text-shadow);
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 1rem;
   max-height: 23rem;
 }
 
