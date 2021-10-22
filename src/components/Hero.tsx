@@ -3,9 +3,6 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { Atropos } from "atropos/react/atropos-react.esm"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
-import { Icon } from "@iconify/react"
-
-import Contact from "./Contact"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -117,19 +114,32 @@ const Hero = () => {
           </div>
         </div>
       </Atropos>
-      <div className="buttons marg-bot-05">
-        <a
-          href={`../../files/resumeBuenviaje.pdf`}
-          rel="noopener noreferrer"
-          target="_BLANK"
-          className="btn btn-info marg-bot-05"
-        >
-          View my resume
-        </a>
-        <Link to="#projects" className="btn btn-info marg-bot-05">
-          View my projects
-        </Link>
-        <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
+      <div className="buttons hero marg-bot-05">
+        <p className="btn_perspective">
+          <a
+            href={`../../files/resumeBuenviaje.pdf`}
+            rel="noopener noreferrer"
+            target="_BLANK"
+          >
+            <button className="btn btn-info btn-3d btn-3db">
+              View my resume
+            </button>
+          </a>
+        </p>
+        <p className="btn_perspective">
+          <Link to="#projects" className="btn btn-info btn-3d btn-3db">
+            View my projects
+          </Link>
+        </p>
+        <p className="btn_perspective">
+          <a
+            href="mailto:jio.buenviaje@gmail.com"
+            rel="noopener noreferrer"
+            target="_BLANK"
+          >
+            <button className="btn btn-info btn-3d btn-3db">Contact me</button>
+          </a>
+        </p>
       </div>
     </div>
   )

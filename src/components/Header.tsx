@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-import Contact from "./Contact"
-
 const Header = () => {
   const [isToggled, setToggled] = useState(false)
 
@@ -101,13 +99,17 @@ const Header = () => {
                   aria-label="LinkedIn"
                 />
               </a>
-              <Contact>
+              <a
+                href="mailto:jio.buenviaje@gmail.com"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
                 <img
                   src={`../../images/logos/contact.png`}
                   alt={"Jio Contact"}
                   aria-label="Contact"
                 />
-              </Contact>
+              </a>
             </div>
           </div>
         </div>

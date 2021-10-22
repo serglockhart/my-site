@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import { Atropos } from "atropos/react/atropos-react.esm"
 
-import Contact from "./Contact"
-
 const Action = () => {
   return (
     <Atropos rotateTouch="scroll-y" rotateXMax={24} rotateYMax={24}>
@@ -23,10 +21,22 @@ const Action = () => {
             I'll respond as quickly as I can.
           </p>
           <div className="buttons" data-atropos-offset="8">
-            <Link to="#projects" className="btn btn-info">
-              View my projects
-            </Link>
-            <Contact linkClasses="btn btn-info" linkTitle="Contact me" button />
+            <p className="btn_perspective">
+              <Link to="#projects" className="btn btn-info btn-3d btn-3db">
+                View my projects
+              </Link>
+            </p>
+            <p className="btn_perspective">
+              <a
+                href="mailto:jio.buenviaje@gmail.com"
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
+                <button className="btn btn-info btn-3d btn-3db">
+                  Contact me
+                </button>
+              </a>
+            </p>
           </div>
         </div>
       </div>

@@ -14,9 +14,9 @@ import Mobile from "../components/Mobile"
 import System from "../components/System"
 import Action from "../components/Action"
 
-import "../styles/index.scss"
 import "../styles/dark-index.scss"
 import "../styles/dark-toggle.scss"
+import "../styles/index.scss"
 import "../styles/responsive.scss"
 
 const IndexPage = () => {
@@ -346,14 +346,17 @@ const IndexPage = () => {
           id="experience"
           title="Experience"
           button={
-            <a
-              href={`../../files/resumeBuenviaje.pdf`}
-              className="btn btn-info"
-              rel="noopener noreferrer"
-              target="_BLANK"
-            >
-              View my resume →
-            </a>
+            <p className="btn_perspective">
+              <a
+                href={`../../files/resumeBuenviaje.pdf`}
+                rel="noopener noreferrer"
+                target="_BLANK"
+              >
+                <button className="btn btn-info btn-3d btn-3db">
+                  View my resume →
+                </button>
+              </a>
+            </p>
           }
         >
           <Card
@@ -776,9 +779,11 @@ const IndexPage = () => {
           id="technologies"
           title="Technologies"
           button={
-            <Link to="#projects" className="btn btn-info">
-              View my projects →
-            </Link>
+            <p className="btn_perspective">
+              <Link to="#projects" className="btn btn-info btn-3d btn-3db">
+                View my projects →
+              </Link>
+            </p>
           }
         >
           <Tech />
