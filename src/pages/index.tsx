@@ -272,41 +272,15 @@ const IndexPage = () => {
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
             logoAlt={"ND logo"}
-            body={
-              <p>
-                Pursuing a BS in Computer Science (
-                <a
-                  href="https://cse.nd.edu/undergraduates/cse-concentrations/mobile-computing"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Concentration in Mobile Computing
-                </a>
-                ) from the College of Engineering with Double Minor in{" "}
-                <a
-                  href="https://mendoza.nd.edu/undergraduate/innovation-entrepreneurship-minor"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Innovation & Entrepreneurship
-                </a>{" "}
-                (Management) from the Mendoza College of Business and{" "}
-                <a
-                  href="https://artdept.nd.edu/undergraduate-program/design/collaborative-innovation-minor/"
-                  rel="noopener noreferrer"
-                  target="_BLANK"
-                >
-                  Collaborative Innovation
-                </a>{" "}
-                (Design) from the College of Arts and Letters.
-              </p>
-            }
+            body={<p>Currently pursuing a BS in Computer Science.</p>}
             end={
               <p>
                 <strong>Relevant Courses</strong>: Data Structures,
                 Design/Analysis of Algorithms, Modern Web & App Development,
-                Software Development Practices, Operating Systems, Fundamentals
-                Of Design, Probability & Statistics, Undergraduate Research
+                Software Development Practices, Computer Graphics, Operating
+                Systems, Introduction to Design Thinking, Fundamentals Of
+                Design, Theory of Computing, Probability & Statistics,
+                Undergraduate Research
               </p>
             }
           />
