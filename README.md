@@ -38,7 +38,7 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 - [ ] Increase accessibility (tabbing through -> focus:outline, color contrast AA)
 - [ ] Refactor .jsx files to incorporate JSON files for data (more DRY)
 - [ ] Refactor .jsx files to be more DRY (map, spread, destructuring)
-- [ ] Add Dark Mode feature (gatsby-plugin-dark-mode)
+- [x] Add Dark Mode feature (gatsby-plugin-dark-mode)
 - [x] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
