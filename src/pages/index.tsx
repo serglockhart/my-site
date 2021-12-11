@@ -359,7 +359,8 @@ const IndexPage = () => {
             end={
               <p>
                 <strong>Technologies</strong>: Rush, TypeScript, JavaScript,
-                React, Redux, Azure Pipelines, Bootstrap, Postman, Jest, JIRA
+                React, Redux, Azure Pipelines, Bootstrap, Postman, Jest, JIRA,
+                Git
               </p>
             }
           />
@@ -794,12 +795,19 @@ const IndexPage = () => {
                 <p>
                   <ul>
                     <li>
-                      Will manage a team through the development of added
-                      features to an existing full stack web application
+                      Converted AngularJS frontend client of ethics quiz taking
+                      app to React, migrated SQLite database to PostgreSQL,
+                      integrated existing Django backend, and hosted frontend to
+                      Netlify and backend to AWS and Heroku
                     </li>
                     <li>
-                      Will develop full stack and mobile applications for
-                      research done under Dr. Kumar's laboratory
+                      Managed a team through a migration of an existing full
+                      stack web application with authentication, CMS, and data
+                      visualization
+                    </li>
+                    <li>
+                      Researched and evaluated through multiple rounds of papers
+                      and contributed to existing Literature Review
                     </li>
                   </ul>
                 </p>
@@ -807,9 +815,9 @@ const IndexPage = () => {
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, Expo, React Native,
-                AngularJS, SQLite, Django, D3, Dagre, Bower, Karma, Docker,
-                Heroku, Chai, Mocha, Bootstrap, HTML/CSS, Git
+                <strong>Technologies</strong>: JavaScript, React, AngularJS,
+                Django, PostgreSQL, SQLite, D3, AWS (IAM, S3), Netlify, Heroku,
+                Bootstrap, HTML/CSS, JIRA, Git
               </p>
             }
           />
