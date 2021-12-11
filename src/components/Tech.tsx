@@ -31,10 +31,11 @@ const Tech = () => {
             <h5>Databases &amp; Deployment</h5>
             <p>
               PostgreSQL, SQL, GraphQL, GQL, Apollo, NoSQL, Firebase, AWS, GCP,
-              MongoDB, Mongoose, InfluxDB, Heroku, Netlify, Vercel, Jenkins
+              Azure, MongoDB, Mongoose, InfluxDB, Heroku, Netlify, Vercel,
+              Jenkins
             </p>
             <h5>Testing</h5>
-            <p>Jest, Enzyme, Postman</p>
+            <p>Jest, Enzyme, Postman, Insomnia</p>
             <h5>Other</h5>
             <p>
               Git, Linux, Bash (Shell), Progressive Web Apps (PWA), JSON, XML,
@@ -43,8 +44,8 @@ const Tech = () => {
             </p>
             <h5>Design</h5>
             <p>
-              Illustrator, Photoshop, InDesign, XD, Sketch, Figma, Zeplin,
-              Supernova Studio, Webflow, Squarespace
+              Blender, Illustrator, Photoshop, InDesign, XD, Sketch, Figma,
+              Zeplin, Supernova Studio, Webflow, Squarespace
             </p>
           </div>
         </div>
