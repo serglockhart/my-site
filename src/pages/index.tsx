@@ -344,17 +344,22 @@ const IndexPage = () => {
               <p>
                 <ul className="tech">
                   <li>
-                    Will work on platform conversion npm libraries monorepo as
-                    part of Caps Shared Components team
+                    Investigated, proposed, and implemented request performance
+                    metrics capturing for client apps, then tested and deployed
+                    to an internal telemetry library as part of Caps Shared
+                    Components team
+                  </li>
+                  <li>
+                    Created a dashboard to demo the feature and to visualize key
+                    metrics and data relationships
                   </li>
                 </ul>
               </p>
             }
             end={
               <p>
-                <strong>Technologies</strong>: C++, React Native, Rush,
-                TypeScript, JavaScript, React, Redux, Node, Express, Bootstrap,
-                JIRA, Git
+                <strong>Technologies</strong>: Rush, TypeScript, JavaScript,
+                React, Redux, Azure Pipelines, Bootstrap, Postman, Jest, JIRA
               </p>
             }
           />
