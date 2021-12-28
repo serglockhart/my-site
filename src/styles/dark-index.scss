@@ -321,6 +321,11 @@ body.dark {
     margin-left: 1rem;
     max-height: 3.25rem;
     width: 3.25rem;
+    -webkit-filter: drop-shadow(1px 1px 0 $white) drop-shadow(-1px 1px 0 $white)
+      drop-shadow(1px -1px 0 $white) drop-shadow(-1px -1px 0 $white);
+
+    filter: drop-shadow(1px 1px 0 $white) drop-shadow(-1px 1px 0 $white)
+      drop-shadow(1px -1px 0 $white) drop-shadow(-1px -1px 0 $white);
   }
   .flex-container .flex {
     flex: 1 1 0%;
@@ -448,15 +453,24 @@ body.dark {
     overflow: hidden;
     padding: 0px 2.5%;
   }
-  .project:nth-child(2n + 1) {
+  .project {
+    box-shadow: rgb(130, 96, 58) 0px 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+  }
+  /*.project:nth-child(2n + 1) {
     box-shadow: rgb(75, 126, 145) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;
   }
   .project:nth-child(2n) {
     box-shadow: rgb(130, 96, 58) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;
-  }
+  }*/
   .project .screenshot-wrapper {
+    -webkit-filter: drop-shadow(1px 1px 0 $white) drop-shadow(-1px 1px 0 $white)
+      drop-shadow(1px -1px 0 $white) drop-shadow(-1px -1px 0 $white);
+
+    filter: drop-shadow(1px 1px 0 $white) drop-shadow(-1px 1px 0 $white)
+      drop-shadow(1px -1px 0 $white) drop-shadow(-1px -1px 0 $white);
     padding: 5% 0px 0px 1rem;
     flex: 1 1 0%;
   }
@@ -604,14 +618,18 @@ body.dark {
   .content .card.has-bg {
     border: 0px !important;
   }
-  .content .card:nth-child(2n + 1) {
+  .content .card {
+    box-shadow: rgb(130, 96, 58) 0px 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+  }
+  /*.content .card:nth-child(2n + 1) {
     box-shadow: rgb(75, 126, 145) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;
   }
   .content .card:nth-child(2n) {
     box-shadow: rgb(130, 96, 58) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;
-  }
+  }*/
   .content a .card,
   .content a .card:active,
   .content a .card:focus,

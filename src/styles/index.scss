@@ -1,5 +1,6 @@
 $white: #ffffff;
 $black: #000000;
+$highlight: #f8f0e3;
 $text-color: #383838;
 $gray-color: #848484;
 $browser-color: #dbdbe0;
@@ -273,8 +274,17 @@ p {
     height: auto;
     max-height: 3.25rem;
     width: 3.25rem;
-    @include shadow(0.3rem, $slight-shadow);
     border-radius: 0.2rem;
+    opacity: 0.95;
+    -webkit-filter: drop-shadow(1px 1px 0 $highlight)
+      drop-shadow(-1px 1px 0 $highlight) drop-shadow(1px -1px 0 $highlight)
+      drop-shadow(-1px -1px 0 $highlight);
+
+    filter: drop-shadow(1px 1px 0 $highlight) drop-shadow(-1px 1px 0 $highlight)
+      drop-shadow(1px -1px 0 $highlight) drop-shadow(-1px -1px 0 $highlight);
+  }
+  .background-image:hover {
+    opacity: 1;
   }
   .flex {
     -webkit-box-flex: 1;
@@ -481,7 +491,7 @@ hr {
     }
   }
   &:nth-child(even) {
-    @include shadow(0.2rem, $secondary-color);
+    @include shadow(0.2rem, $tertiary-color);
     .screenshot-wrapper {
       @extend .bouncer;
     }
@@ -502,6 +512,12 @@ hr {
   overflow: hidden;
   padding: 0 2.5%;
   .screenshot-wrapper {
+    -webkit-filter: drop-shadow(1px 1px 0 $highlight)
+      drop-shadow(-1px 1px 0 $highlight) drop-shadow(1px -1px 0 $highlight)
+      drop-shadow(-1px -1px 0 $highlight);
+
+    filter: drop-shadow(1px 1px 0 $highlight) drop-shadow(-1px 1px 0 $highlight)
+      drop-shadow(1px -1px 0 $highlight) drop-shadow(-1px -1px 0 $highlight);
     padding: 5% 0 0 1rem;
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -642,12 +658,13 @@ hr {
   .card {
     background: $white;
     @include shadow(0.1rem, $slight-shadow);
-    &:nth-child(odd) {
+    @include shadow(0.2rem, $tertiary-color);
+    /* &:nth-child(odd) {
       @include shadow(0.2rem, $tertiary-color);
     }
     &:nth-child(even) {
       @include shadow(0.2rem, $secondary-color);
-    }
+    } */
     border: 0.0625rem solid $text-shadow;
     border-radius: 0.2rem;
     margin-bottom: 1rem;

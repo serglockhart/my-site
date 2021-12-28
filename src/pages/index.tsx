@@ -22,6 +22,7 @@ import "../styles/responsive.scss"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query Home {
+      # Education
       nd: file(relativePath: { eq: "education/nd.png" }) {
         id
         childImageSharp {
@@ -38,14 +39,7 @@ const IndexPage = () => {
           }
         }
       }
-      warnermedia: file(relativePath: { eq: "experience/warnermedia.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
+      # Experience
       amazon: file(relativePath: { eq: "experience/amazon.png" }) {
         id
         childImageSharp {
@@ -54,7 +48,7 @@ const IndexPage = () => {
           }
         }
       }
-      twitch: file(relativePath: { eq: "experience/twitch.png" }) {
+      apple: file(relativePath: { eq: "experience/apple.png" }) {
         id
         childImageSharp {
           fluid {
@@ -62,39 +56,7 @@ const IndexPage = () => {
           }
         }
       }
-      waltdisney: file(relativePath: { eq: "experience/waltdisney.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      disney: file(relativePath: { eq: "experience/disney.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      techstars: file(relativePath: { eq: "experience/techstars.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      ideacenter: file(relativePath: { eq: "experience/ideacenter.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      viacomcbs: file(relativePath: { eq: "experience/viacomcbs.png" }) {
+      cabinet: file(relativePath: { eq: "experience/cabinet.png" }) {
         id
         childImageSharp {
           fluid {
@@ -118,31 +80,23 @@ const IndexPage = () => {
           }
         }
       }
+      dss: file(relativePath: { eq: "experience/dss.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      disney: file(relativePath: { eq: "experience/disney.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       flowaste: file(relativePath: { eq: "experience/flowaste.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      gitta: file(relativePath: { eq: "experience/gitta.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      tembo: file(relativePath: { eq: "experience/tembo.png" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      gashawk: file(relativePath: { eq: "experience/gashawk.png" }) {
         id
         childImageSharp {
           fluid {
@@ -158,7 +112,39 @@ const IndexPage = () => {
           }
         }
       }
-      urmaong: file(relativePath: { eq: "experience/urmaong.png" }) {
+      gashawk: file(relativePath: { eq: "experience/gashawk.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      gitta: file(relativePath: { eq: "experience/gitta.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      hbo: file(relativePath: { eq: "experience/hbo.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      hbomax: file(relativePath: { eq: "experience/hbomax.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      ideacenter: file(relativePath: { eq: "experience/ideacenter.png" }) {
         id
         childImageSharp {
           fluid {
@@ -174,7 +160,7 @@ const IndexPage = () => {
           }
         }
       }
-      collectio: file(relativePath: { eq: "projects/collectio.png" }) {
+      techstars: file(relativePath: { eq: "experience/techstars.png" }) {
         id
         childImageSharp {
           fluid {
@@ -182,7 +168,7 @@ const IndexPage = () => {
           }
         }
       }
-      muntiSm: file(relativePath: { eq: "projects/munti.png" }) {
+      tembo: file(relativePath: { eq: "experience/tembo.png" }) {
         id
         childImageSharp {
           fluid {
@@ -190,7 +176,7 @@ const IndexPage = () => {
           }
         }
       }
-      urmaongSm: file(relativePath: { eq: "projects/urmaong.png" }) {
+      twitch: file(relativePath: { eq: "experience/twitch.png" }) {
         id
         childImageSharp {
           fluid {
@@ -198,7 +184,7 @@ const IndexPage = () => {
           }
         }
       }
-      kyra: file(relativePath: { eq: "projects/kyra.png" }) {
+      urma: file(relativePath: { eq: "experience/urma.png" }) {
         id
         childImageSharp {
           fluid {
@@ -206,7 +192,7 @@ const IndexPage = () => {
           }
         }
       }
-      jio: file(relativePath: { eq: "projects/jio.png" }) {
+      urmaong: file(relativePath: { eq: "experience/urmaong.png" }) {
         id
         childImageSharp {
           fluid {
@@ -214,7 +200,7 @@ const IndexPage = () => {
           }
         }
       }
-      drone: file(relativePath: { eq: "projects/drone.png" }) {
+      viacomcbs: file(relativePath: { eq: "experience/viacomcbs.png" }) {
         id
         childImageSharp {
           fluid {
@@ -222,7 +208,7 @@ const IndexPage = () => {
           }
         }
       }
-      overwatch: file(relativePath: { eq: "projects/overwatch.png" }) {
+      waltdisney: file(relativePath: { eq: "experience/waltdisney.png" }) {
         id
         childImageSharp {
           fluid {
@@ -230,7 +216,7 @@ const IndexPage = () => {
           }
         }
       }
-      logger: file(relativePath: { eq: "projects/logger.png" }) {
+      warnermedia: file(relativePath: { eq: "experience/warnermedia.png" }) {
         id
         childImageSharp {
           fluid {
@@ -246,7 +232,71 @@ const IndexPage = () => {
           }
         }
       }
+      collectio: file(relativePath: { eq: "projects/collectio.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       cosmo: file(relativePath: { eq: "projects/cosmo.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      drone: file(relativePath: { eq: "projects/drone.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      jio: file(relativePath: { eq: "projects/jio.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      kyra: file(relativePath: { eq: "projects/kyra.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      logger: file(relativePath: { eq: "projects/logger.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      muntiSm: file(relativePath: { eq: "projects/munti.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      overwatch: file(relativePath: { eq: "projects/overwatch.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      urmaongSm: file(relativePath: { eq: "projects/urmaong.png" }) {
         id
         childImageSharp {
           fluid {
@@ -267,7 +317,7 @@ const IndexPage = () => {
         <Section id="education" title="Education">
           <Card
             title="University of Notre Dame"
-            subtitle="2018 – 2022 | 3.30 GPA"
+            subtitle="2018 – 2022 | 3.35 GPA"
             logoLink="https://cse.nd.edu/undergraduate/computer-science-course-map/"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
@@ -334,12 +384,30 @@ const IndexPage = () => {
           }
         >
           <Card
-            title="Full Stack Software Engineer Intern | WarnerMedia | HBO Max"
+            title="Evolve Rotational Software Engineer | Apple"
+            subtitle="July 2022 • New York, NY"
+            logoLink="https://apple.com/"
+            logo={`../../images/experience/apple.webp`}
+            logoBackup={data.apple.childImageSharp.fluid}
+            logoAlt={"Apple logo"}
+            body={
+              <p>
+                <ul className="tech">
+                  <li>
+                    Will contribute and rotate through multiple teams as part of
+                    the Apple Services organization
+                  </li>
+                </ul>
+              </p>
+            }
+          />
+          <Card
+            title="Full Stack Software Engineer Intern | HBO"
             subtitle="Fall 2021 • Seattle, WA"
-            logoLink="https://warnermedia.com/"
-            logo={`../../images/experience/warnermedia.webp`}
-            logoBackup={data.warnermedia.childImageSharp.fluid}
-            logoAlt={"WarnerMedia logo"}
+            logoLink="https://hbo.com/"
+            logo={`../../images/experience/hbo.webp`}
+            logoBackup={data.hbo.childImageSharp.fluid}
+            logoAlt={"HBO logo"}
             body={
               <p>
                 <ul className="tech">
@@ -365,12 +433,12 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Software Engineer Intern | Amazon | Twitch"
+            title="Full Stack Software Engineer Intern | Twitch"
             subtitle="Summer 2021 • San Francisco, CA"
-            logoLink="https://amazon.com/"
-            logo={`../../images/experience/amazon.webp`}
-            logoBackup={data.amazon.childImageSharp.fluid}
-            logoAlt={"Amazon logo"}
+            logoLink="https://twitch.tv/"
+            logo={`../../images/experience/twitch.webp`}
+            logoBackup={data.twitch.childImageSharp.fluid}
+            logoAlt={"Twitch logo"}
             body={
               <p>
                 <ul className="tech">
@@ -395,12 +463,12 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Software Engineer Intern | The Walt Disney Company | Disney Streaming"
+            title="Full Stack Software Engineer Intern | Disney"
             subtitle="Fall 2020 • New York, NY"
             logoLink="https://disney.com/"
-            logo={`../../images/experience/waltdisney.webp`}
-            logoBackup={data.waltdisney.childImageSharp.fluid}
-            logoAlt={"Walt Disney logo"}
+            logo={`../../images/experience/disney.webp`}
+            logoBackup={data.disney.childImageSharp.fluid}
+            logoAlt={"Disney logo"}
             body={
               <p>
                 <ul className="tech">
@@ -426,12 +494,12 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="UI Engineer Intern | Techstars"
+            title="UI Engineer Intern | Cabinet"
             subtitle="Summer 2020 • New York, NY"
-            logoLink="https://techstars.com/"
-            logo={`../../images/experience/techstars.webp`}
-            logoBackup={data.techstars.childImageSharp.fluid}
-            logoAlt={"Techstars logo"}
+            logoLink="https://joincabinet.com/"
+            logo={`../../images/experience/cabinet.webp`}
+            logoBackup={data.cabinet.childImageSharp.fluid}
+            logoAlt={"Cabinet logo"}
             body={
               <p>
                 <ul className="tech">
@@ -493,12 +561,12 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Media Software Engineer Intern | ViacomCBS | CBS Interactive"
+            title="Media Software Engineer Intern | CBS"
             subtitle="Summer 2019 • New York, NY"
-            logoLink="https://viacomcbs.com/"
-            logo={`../../images/experience/viacomcbs.webp`}
-            logoBackup={data.viacomcbs.childImageSharp.fluid}
-            logoAlt={"ViacomCBS logo"}
+            logoLink="https://cbs.com/"
+            logo={`../../images/experience/cbs.webp`}
+            logoBackup={data.cbs.childImageSharp.fluid}
+            logoAlt={"CBS logo"}
             body={
               <p>
                 <ul className="tech">
@@ -705,8 +773,8 @@ const IndexPage = () => {
             title="Web Developer, Interaction Designer | URMA ONG"
             subtitle="November 2020 – Present • New York, NY"
             logoLink="https://urmaong.com/"
-            logo={`../../images/experience/urmaong.webp`}
-            logoBackup={data.urmaong.childImageSharp.fluid}
+            logo={`../../images/experience/urma.webp`}
+            logoBackup={data.urma.childImageSharp.fluid}
             logoAlt={"URMA ONG logo"}
             body={
               <p>
