@@ -494,6 +494,34 @@ const IndexPage = () => {
             }
           />
           <Card
+            title="Media Software Engineer Intern | CBS"
+            subtitle="Summer 2019 • New York, NY"
+            logoLink="https://cbs.com/"
+            logo={`../../images/experience/cbs.webp`}
+            logoBackup={data.cbs.childImageSharp.fluid}
+            logoAlt={"CBS logo"}
+            body={
+              <p>
+                <ul className="tech">
+                  <li>
+                    Standardized end-to-end broadcast distribution
+                    configurations (Codecs) for entire East Coast feed
+                  </li>
+                  <li>
+                    Finished 27 international purchase requests using Database
+                    Queries totaling $132,930 in profit
+                  </li>
+                </ul>
+              </p>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: C++, XML, SQL, Microsoft SQL
+                Server, AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
+              </p>
+            }
+          />
+          <Card
             title="UI Engineer Intern | Cabinet"
             subtitle="Summer 2020 • New York, NY"
             logoLink="https://joincabinet.com/"
@@ -549,34 +577,6 @@ const IndexPage = () => {
                 <strong>Technologies</strong>: Next, Gatsby, Flask, MongoDB,
                 GraphQL, Apollo, JavaScript, React, Python, Netlify, Vercel,
                 Shopify API, SASS/SCSS, HTML/CSS, Git
-              </p>
-            }
-          />
-          <Card
-            title="Media Software Engineer Intern | CBS"
-            subtitle="Summer 2019 • New York, NY"
-            logoLink="https://cbs.com/"
-            logo={`../../images/experience/cbs.webp`}
-            logoBackup={data.cbs.childImageSharp.fluid}
-            logoAlt={"CBS logo"}
-            body={
-              <p>
-                <ul className="tech">
-                  <li>
-                    Standardized end-to-end broadcast distribution
-                    configurations (Codecs) for entire East Coast feed
-                  </li>
-                  <li>
-                    Finished 27 international purchase requests using Database
-                    Queries totaling $132,930 in profit
-                  </li>
-                </ul>
-              </p>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: C++, XML, SQL, Microsoft SQL
-                Server, AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
