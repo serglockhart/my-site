@@ -590,7 +590,7 @@ const IndexPage = () => {
           />
           <Card
             title="Web Engineer, UI/UX Designer | FloWaste"
-            subtitle="February 2021 – May 2021 • Chicago, IL"
+            subtitle="Spring 2021 • Chicago, IL"
             logoLink="https://flowaste.com/"
             logo={`../../images/experience/flowaste.webp`}
             logoBackup={data.flowaste.childImageSharp.fluid}
@@ -621,7 +621,7 @@ const IndexPage = () => {
           />
           <Card
             title="Mobile Engineer, UI/UX Designer | GittaSitta"
-            subtitle="April 2020 – September 2020 • South Bend, IN"
+            subtitle="Summer 2020 • South Bend, IN"
             logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
             logoBackup={data.gitta.childImageSharp.fluid}
@@ -652,7 +652,7 @@ const IndexPage = () => {
           />
           <Card
             title="Chief Technology Officer | DeLive Drones"
-            subtitle="October 2019 – August 2020 • South Bend, IN"
+            subtitle="Fall 2019 • South Bend, IN"
             logoLink="https://delivedrones.com"
             logo={`../../images/experience/delive.webp`}
             logoBackup={data.delive.childImageSharp.fluid}
@@ -697,7 +697,7 @@ const IndexPage = () => {
           />
           <Card
             title="Full Stack Developer, Web Designer | Tembo AI"
-            subtitle="January 2019 – January 2020 • South Bend, IN"
+            subtitle="Spring 2019 • South Bend, IN"
             logoLink="https://tembo.ai"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={data.tembo.childImageSharp.fluid}
@@ -734,7 +734,7 @@ const IndexPage = () => {
           />
           <Card
             title="Software Engineer, Web Designer | Gäshawk"
-            subtitle="January 2019 – January 2020 • South Bend, IN"
+            subtitle="Spring 2019 • South Bend, IN"
             logoLink="https://gashawkrv.com/"
             logo={`../../images/experience/gashawk.webp`}
             logoBackup={data.gashawk.childImageSharp.fluid}
