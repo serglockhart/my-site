@@ -56,15 +56,15 @@ $nav-shadow: rgba(255, 255, 255, 0.2);
   .flex-container .background-image {
     max-height: 2.4rem;
     width: 2.4rem;
-    -webkit-filter: drop-shadow(0.75px 0.75px 0 $highlight)
-      drop-shadow(-0.75px 0.75px 0 $highlight)
-      drop-shadow(0.75px -0.75px 0 $highlight)
-      drop-shadow(-0.75px -0.75px 0 $highlight);
+    -webkit-filter: drop-shadow(0.9px 0.9px 0 $highlight)
+      drop-shadow(-0.9px 0.9px 0 $highlight)
+      drop-shadow(0.9px -0.9px 0 $highlight)
+      drop-shadow(-0.9px -0.9px 0 $highlight);
 
-    filter: drop-shadow(0.75px 0.75px 0 $highlight)
-      drop-shadow(-0.75px 0.75px 0 $highlight)
-      drop-shadow(0.75px -0.75px 0 $highlight)
-      drop-shadow(-0.75px -0.75px 0 $highlight);
+    filter: drop-shadow(0.9px 0.9px 0 $highlight)
+      drop-shadow(-0.9px 0.9px 0 $highlight)
+      drop-shadow(0.9px -0.9px 0 $highlight)
+      drop-shadow(-0.9px -0.9px 0 $highlight);
   }
   .flex-container {
     margin-left: 0.5rem;
