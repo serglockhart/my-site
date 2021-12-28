@@ -342,8 +342,8 @@ body.dark .flex-container .background-image {
   margin-left: 1rem;
   max-height: 3.25rem;
   width: 3.25rem;
-  -webkit-filter: drop-shadow(1px 1px 0 #ffffff) drop-shadow(-1px 1px 0 #ffffff) drop-shadow(1px -1px 0 #ffffff) drop-shadow(-1px -1px 0 #ffffff);
-  filter: drop-shadow(1px 1px 0 #ffffff) drop-shadow(-1px 1px 0 #ffffff) drop-shadow(1px -1px 0 #ffffff) drop-shadow(-1px -1px 0 #ffffff);
+  -webkit-filter: drop-shadow(1px 1px 0 #f1f1f1) drop-shadow(-1px 1px 0 #f1f1f1) drop-shadow(1px -1px 0 #f1f1f1) drop-shadow(-1px -1px 0 #f1f1f1);
+  filter: drop-shadow(1px 1px 0 #f1f1f1) drop-shadow(-1px 1px 0 #f1f1f1) drop-shadow(1px -1px 0 #f1f1f1) drop-shadow(-1px -1px 0 #f1f1f1);
 }
 
 body.dark .flex-container .flex {
