@@ -35,6 +35,7 @@ body.dark {
   font-family: "Open Sans", Roboto, sans-serif;
   background-color: #1f1f1f;
   background-image: none !important;
+  overflow-x: hidden;
   /*.project:nth-child(2n + 1) {
     box-shadow: rgb(75, 126, 145) 0px 0.2rem 0.4rem;
     border-radius: 0.2rem;

@@ -42,6 +42,7 @@ html {
 
 body {
   font-family: "Open Sans", Roboto, sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
