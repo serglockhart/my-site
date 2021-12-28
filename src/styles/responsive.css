@@ -44,8 +44,10 @@
 
 @media screen and (max-width: 35.75rem) {
   .flex-container .background-image {
-    max-height: 2.4rem;
+    margin-left: 0.5rem;
+    max-height: 3rem;
     width: 2.4rem;
+    margin-right: 0.5rem;
     -webkit-filter: drop-shadow(0.9px 0.9px 0 #f8f0e3) drop-shadow(-0.9px 0.9px 0 #f8f0e3) drop-shadow(0.9px -0.9px 0 #f8f0e3) drop-shadow(-0.9px -0.9px 0 #f8f0e3);
     filter: drop-shadow(0.9px 0.9px 0 #f8f0e3) drop-shadow(-0.9px 0.9px 0 #f8f0e3) drop-shadow(0.9px -0.9px 0 #f8f0e3) drop-shadow(-0.9px -0.9px 0 #f8f0e3);
   }
