@@ -504,17 +504,9 @@ const IndexPage = () => {
               <p>
                 <ul className="tech">
                   <li>
-                    Worked in portfolio company{" "}
-                    <a
-                      href="https://joincabinet.com/"
-                      rel="noopener noreferrer"
-                      target="_BLANK"
-                    >
-                      Cabinet
-                    </a>{" "}
-                    on 5 feature rollouts on web and mobile apps currently
-                    serving 2,000+ users thereby increasing user retention by
-                    6.7%
+                    Worked on 5 feature rollouts on web and mobile apps
+                    currently serving 2,000+ users thereby increasing user
+                    retention by 6.7%
                   </li>
                   <li>
                     Completed new tech stack compatibility apps (web and mobile)
