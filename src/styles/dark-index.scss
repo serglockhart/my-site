@@ -685,13 +685,15 @@ body.dark {
       max-height: 3rem;
       width: 2.4rem;
       margin-right: 0.5rem;
-      -webkit-filter: drop-shadow(0.5px 0.5px 0 $white)
-        drop-shadow(-0.5px 0.5px 0 $white) drop-shadow(0.5px -0.5px 0 $white)
-        drop-shadow(-0.5px -0.5px 0 $white);
+      -webkit-filter: drop-shadow(0.75px 0.75px 0 $white)
+        drop-shadow(-0.75px 0.75px 0 $white)
+        drop-shadow(0.75px -0.75px 0 $white)
+        drop-shadow(-0.75px -0.75px 0 $white);
 
-      filter: drop-shadow(0.5px 0.5px 0 $white)
-        drop-shadow(-0.5px 0.5px 0 $white) drop-shadow(0.5px -0.5px 0 $white)
-        drop-shadow(-0.5px -0.5px 0 $white);
+      filter: drop-shadow(0.75px 0.75px 0 $white)
+        drop-shadow(-0.75px 0.75px 0 $white)
+        drop-shadow(0.75px -0.75px 0 $white)
+        drop-shadow(-0.75px -0.75px 0 $white);
     }
     .project {
       border-radius: 0px;
