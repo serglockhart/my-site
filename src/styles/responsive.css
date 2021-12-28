@@ -46,6 +46,8 @@
   .flex-container .background-image {
     max-height: 2.4rem;
     width: 2.4rem;
+    -webkit-filter: drop-shadow(0.5px 0.5px 0 #f8f0e3) drop-shadow(-0.5px 0.5px 0 #f8f0e3) drop-shadow(0.5px -0.5px 0 #f8f0e3) drop-shadow(-0.5px -0.5px 0 #f8f0e3);
+    filter: drop-shadow(0.5px 0.5px 0 #f8f0e3) drop-shadow(-0.5px 0.5px 0 #f8f0e3) drop-shadow(0.5px -0.5px 0 #f8f0e3) drop-shadow(-0.5px -0.5px 0 #f8f0e3);
   }
   .flex-container {
     margin-left: 0.5rem;
