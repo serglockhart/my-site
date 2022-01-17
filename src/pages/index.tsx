@@ -592,9 +592,9 @@ const IndexPage = () => {
                 <ul className="tech">
                   <li>
                     Built and designed food waste and admin management
-                    dashboards helping visualize actionable ML insights and
-                    securing a second pilot as it is currently used in two
-                    restaurant chains and internally
+                    dashboards currently used in 3 live paid pilots in 100+
+                    locations helping visualize actionable ML insights and
+                    secure a $1.1M pre-seed round
                   </li>
                   <li>
                     Created Design Documents and Codebase Guides/Documentation
