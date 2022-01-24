@@ -690,7 +690,7 @@ const IndexPage = () => {
           <Card
             title="Full Stack Developer, Web Designer | Tembo AI"
             subtitle="Spring 2019 • South Bend, IN"
-            logoLink="https://tembo.ai"
+            logoLink="https://tembo-site.vercel.app/"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={data.tembo.childImageSharp.fluid}
             logoAlt={"Tembo logo"}
@@ -919,7 +919,7 @@ const IndexPage = () => {
           />
           <Card
             title="Teaching Assistant, PHIL 10111 Intro to Philosophy | University of Notre Dame"
-            subtitle="August 2019 – Present"
+            subtitle="August 2019 – May 2020"
             logoLink="https://godandgoodlife.nd.edu"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
@@ -1079,7 +1079,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://tembo.ai/"
+                  link="https://tembo-site.vercel.app/"
                   title="View here"
                   links="https://github.com/tembo-ai/tembo-site"
                   titles="View repo"
