@@ -13,7 +13,7 @@ const Tech = () => {
             </p>
             <h5>Web</h5>
             <p>
-              React, Redux, Thunk, Gatsby, Next, Node, Express, Django, Flask,
+              React, Redux, MobX, Gatsby, Next, Node, Express, Django, Flask,
               Lerna, Rush, Grafana, EJS, Liquid, jQuery, HTML/CSS
             </p>
             <h5>Mobile</h5>
@@ -35,7 +35,7 @@ const Tech = () => {
               Jenkins
             </p>
             <h5>Testing</h5>
-            <p>Jest, Enzyme, Postman, Insomnia</p>
+            <p>Jest, Enzyme, Postman, Insomnia, Flipper, Reactotron</p>
             <h5>Other</h5>
             <p>
               Git, Linux, Bash (Shell), Progressive Web Apps (PWA), JSON, XML,
@@ -44,8 +44,8 @@ const Tech = () => {
             </p>
             <h5>Design</h5>
             <p>
-              Blender, Illustrator, Photoshop, InDesign, XD, Sketch, Figma,
-              Zeplin, Supernova Studio, Webflow, Squarespace
+              Blender, Maya, Illustrator, Photoshop, InDesign, XD, Sketch,
+              Figma, Zeplin, Supernova Studio, Webflow, Squarespace
             </p>
           </div>
         </div>
