@@ -3,7 +3,7 @@
   "private": true,
   "description": "Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.",
   "version": "0.1.0",
-  "author": "@saejhi",
+  "author": "@hiyajio",
   "dependencies": {
     "@fontsource/open-sans": "^4.5.1",
     "@popperjs/core": "^2.10.2",

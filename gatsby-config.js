@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Jio Buenviaje`,
     description: `Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.`,
-    author: `@saejhi`,
+    author: `@hiyajio`,
     siteUrl: `https://jbuenviaje.com/`,
   },
   plugins: [

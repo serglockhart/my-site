@@ -88,14 +88,14 @@ const Hero = () => {
                 </a>{" "}
                 and spend my free time{" "}
                 <a
-                  href="https://linkedin.com/in/saejhi"
+                  href="https://linkedin.com/in/hiyajio"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   working at startups,
                 </a>{" "}
                 <a
-                  href="https://github.com/saejhi"
+                  href="https://github.com/hiyajio"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
@@ -103,7 +103,7 @@ const Hero = () => {
                 </a>{" "}
                 and{" "}
                 <a
-                  href="https://instagram.com/saejhi"
+                  href="https://instagram.com/hiyajio"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >

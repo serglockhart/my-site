@@ -971,7 +971,7 @@ const IndexPage = () => {
                 <Button
                   link="https://comicollect.com/"
                   title="View here"
-                  links="https://github.com/saejhi/collectio-app"
+                  links="https://github.com/hiyajio/collectio-app"
                   titles="View repo"
                 />
               </div>
@@ -1109,7 +1109,7 @@ const IndexPage = () => {
                 <Button
                   link="https://kyrabuenviaje.com/"
                   title="View here"
-                  links="https://github.com/saejhi/kyra-site"
+                  links="https://github.com/hiyajio/kyra-site"
                   titles="View repo"
                 />
               </div>
@@ -1177,7 +1177,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/saejhi/my-site"
+                link="https://github.com/hiyajio/my-site"
                 title="View repo"
               />
             }
@@ -1200,7 +1200,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/saejhi/collectio-app"
+                link="https://github.com/hiyajio/collectio-app"
                 title="View repo"
               />
             }
