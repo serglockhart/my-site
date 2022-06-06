@@ -317,12 +317,12 @@ const IndexPage = () => {
         <Section id="education" title="Education">
           <Card
             title="University of Notre Dame"
-            subtitle="2018 – 2022 | 3.35 GPA"
+            subtitle="2018 – 2022 | 3.39 GPA"
             logoLink="https://cse.nd.edu/undergraduate/computer-science-course-map/"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
             logoAlt={"ND logo"}
-            body={<p>Currently pursuing a BS in Computer Science.</p>}
+            body={<p>Graduated with a BS in Computer Science.</p>}
             end={
               <p>
                 <strong>Relevant Courses</strong>: Data Structures,
@@ -763,7 +763,7 @@ const IndexPage = () => {
           />
           <Card
             title="Web Developer, Interaction Designer | URMA ONG"
-            subtitle="November 2020 – Present • New York, NY"
+            subtitle="November 2020 – August 2021 • New York, NY"
             logoLink="https://urmaong.com/"
             logo={`../../images/experience/urma.webp`}
             logoBackup={data.urma.childImageSharp.fluid}
@@ -793,7 +793,7 @@ const IndexPage = () => {
           />
           <Card
             title="Founder, Project Manager, Lead Developer & Designer | Munti"
-            subtitle="February 2019 – Present • South Bend, IN"
+            subtitle="February 2019 – May 2022 • South Bend, IN"
             logoLink="https://munti.io/"
             logo={`../../images/experience/munti.webp`}
             logoBackup={data.munti.childImageSharp.fluid}
@@ -832,7 +832,7 @@ const IndexPage = () => {
         <Section id="extracurriculars" title="Extracurriculars">
           <Card
             title="Undergraduate Research, Dr. Shreya Kumar | University of Notre Dame"
-            subtitle="August 2021 – Present"
+            subtitle="August 2021 – May 2022"
             logoLink="https://www3.nd.edu/~skumar5/"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
@@ -883,7 +883,7 @@ const IndexPage = () => {
           />
           <Card
             title="Student Ambassador | IDEA Center"
-            subtitle="August 2019 – Present"
+            subtitle="August 2019 – May 2022"
             logoLink="https://ideacenter.nd.edu"
             logo={`../../images/extracurriculars/ideacenter.webp`}
             logoBackup={data.ideacenter.childImageSharp.fluid}
