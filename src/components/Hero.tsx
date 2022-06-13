@@ -78,15 +78,15 @@ const Hero = () => {
               <p data-atropos-offset="4">
                 I'm a lifelong learner, driven developer, and proud Filipino. I
                 aim to leverage tech to help people learn more and live better.
-                I study computer science at{" "}
+                I studied Computer Science at{" "}
                 <a
                   href="https://cse.nd.edu/undergraduate/computer-science-course-map/"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
-                  University of Notre Dame,
-                </a>{" "}
-                and spend my free time{" "}
+                  University of Notre Dame
+                </a>
+                , and spend my free time{" "}
                 <a
                   href="https://linkedin.com/in/hiyajio"
                   rel="noopener noreferrer"
