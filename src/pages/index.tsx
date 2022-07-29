@@ -400,6 +400,11 @@ const IndexPage = () => {
                 </ul>
               </p>
             }
+            end={
+              <p>
+                <strong>Technologies</strong>: Swift, SwiftUI, Git
+              </p>
+            }
           />
           <Card
             title="Full Stack Software Engineer Intern | HBO"
