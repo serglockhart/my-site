@@ -67,7 +67,7 @@ const Header = () => {
                 />
               </a>
               <a
-                href="https://instagram.com/hiyajio"
+                href="https://instagram.com/serglockhart"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >

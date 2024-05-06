@@ -394,15 +394,33 @@ const IndexPage = () => {
               <p>
                 <ul className="tech">
                   <li>
-                    Will contribute and rotate through multiple teams as part of
-                    the Apple Services organization
+                    Redesigned{" "}
+                    <a
+                      href="https://shazam.com"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      Shazam
+                    </a>{" "}
+                    home page and made reusable server-side rendered UI web
+                    components
+                  </li>
+                  <li>
+                    Updated and converted other Shazam web pages to React from
+                    previous framework
+                  </li>
+                  <li>
+                    Designed and developed reusable components and UI views for
+                    internal native iOS UI framework
                   </li>
                 </ul>
               </p>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Swift, SwiftUI, Git
+                <strong>Technologies</strong>: Swift, SwiftUI, MusicKit,
+                TypeScript, JS, React, Next, Context, Storybook, Handlebars,
+                JIRA
               </p>
             }
           />

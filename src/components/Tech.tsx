@@ -13,13 +13,14 @@ const Tech = () => {
             </p>
             <h5>Web</h5>
             <p>
-              React, Redux, MobX, Gatsby, Next, Node, Express, Django, Flask,
-              Lerna, Rush, Grafana, EJS, Liquid, jQuery, HTML/CSS
+              React, Redux, Context, MobX, Gatsby, Next, Node, Express,
+              Storybook, Django, Flask, Lerna, Rush, Grafana, EJS, Liquid,
+              jQuery, HTML/CSS
             </p>
             <h5>Mobile</h5>
             <p>
-              Swift, SwiftUI, React Native, Flutter, Capacitor, CocoaPods,
-              Alamofire, TestFlight, Lottie
+              Swift, SwiftUI, UIKit, MusicKit, React Native, Flutter, Capacitor,
+              CocoaPods, Alamofire, TestFlight, Lottie
             </p>
             <h5>Styling</h5>
             <p>
