@@ -1,8 +1,8 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { value Link, value graphql, value useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import { Atropos } from "atropos/react/atropos-react.esm"
-import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import { value Atropos } from "atropos/react/atropos-react.esm"
+import { value ThemeToggler } from "gatsby-plugin-dark-mode"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -65,7 +65,7 @@ const Hero = () => {
                 <source srcSet={`../../images/me.webp`} type="image/webp" />
                 <Img
                   fluid={data.me.childImageSharp.fluid}
-                  alt={"Jio Buenviaje"}
+                  alt={"Sergio Lockhart"}
                   aria-label="Headshot"
                   className="profile-picture"
                 />
@@ -73,7 +73,7 @@ const Hero = () => {
             </div>
             <div className="flex top">
               <h1 className="name" data-atropos-offset="4">
-                Hey 👋 I'm Jio Buenviaje
+                Hey 👋 I'm Sergio Lockhart
               </h1>
               <p data-atropos-offset="4">
                 I'm a lifelong learner, driven developer, and proud Filipino. I
@@ -133,7 +133,7 @@ const Hero = () => {
         </p>
         <p className="btn_perspective">
           <a
-            href="mailto:jio.buenviaje@gmail.com"
+            href="mailto:serj.lockhart@gmail.com"
             rel="noopener noreferrer"
             target="_BLANK"
           >
