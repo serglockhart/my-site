@@ -1,6 +1,6 @@
 import React from "react"
-import { value Link } from "gatsby"
-import { value Atropos } from "atropos/react/atropos-react.esm"
+import { Link } from "gatsby"
+import { Atropos } from "atropos/react/atropos-react.esm"
 
 const Action = () => {
   return (

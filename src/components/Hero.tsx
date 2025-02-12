@@ -1,8 +1,8 @@
 import React from "react"
-import { value Link, value graphql, value useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import { value Atropos } from "atropos/react/atropos-react.esm"
-import { value ThemeToggler } from "gatsby-plugin-dark-mode"
+import { Atropos } from "atropos/react/atropos-react.esm"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
