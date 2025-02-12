@@ -1,6 +1,6 @@
 import React from "react"
-import { value Link } from "gatsby"
-import { value Atropos } from "atropos/react/atropos-react.esm"
+import { Link } from "gatsby"
+import { Atropos } from "atropos/react/atropos-react.esm"
 
 const Action = () => {
   return (
@@ -28,7 +28,7 @@ const Action = () => {
             </p>
             <p className="btn_perspective">
               <a
-                href="mailto:serj.lockhart@gmail.com"
+                href="mailto:jio.buenviaje@gmail.com"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >

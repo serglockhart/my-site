@@ -20,7 +20,7 @@ export default function HTML(props) {
         <noscript>
           This website requires JavaScript. If you need to contact me, please
           send me an email at:{" "}
-          <a href="mailto:serj.lockhart@gmail.com">serj.lockhart@gmail.com</a>
+          <a href="mailto:jio.buenviaje@gmail.com">jio.buenviaje@gmail.com</a>
         </noscript>
         <div
           key={`body`}
