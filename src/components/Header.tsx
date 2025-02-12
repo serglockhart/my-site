@@ -100,7 +100,7 @@ const Header = () => {
                 />
               </a>
               <a
-                href="mailto:jio.buenviaje@gmail.com"
+                href="mailto:serj.lockhart@gmail.com"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >

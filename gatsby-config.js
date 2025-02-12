@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Jio Buenviaje`,
-    description: `Personal website of Juan Sergio Buenviaje: lifelong learner, driver developer, and proud Filipino.`,
-    author: `@hiyajio`,
-    siteUrl: `https://jbuenviaje.com/`,
+    title: `Sergio Lockhart`,
+    description: `Personal website of Sergio Lockhart: lifelong learner, driver developer, and proud Filipino.`,
+    author: `@serglockhart`,
+    siteUrl: `https://slockhart.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
