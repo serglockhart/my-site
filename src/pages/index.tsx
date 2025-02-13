@@ -96,7 +96,7 @@ const IndexPage = () => {
           }
         }
       }
-      flowaste: file(relativePath: { eq: "experience/flowaste.png" }) {
+      flovision: file(relativePath: { eq: "experience/flovision.png" }) {
         id
         childImageSharp {
           fluid {
@@ -318,7 +318,7 @@ const IndexPage = () => {
           <Card
             title="University of Notre Dame"
             subtitle="2018 – 2022 | 3.39 GPA"
-            logoLink="https://cse.nd.edu/undergraduate/computer-science-course-map/"
+            logoLink="https://cse.nd.edu/undergraduate/computer-science-curriculum/"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
             logoAlt={"ND logo"}
@@ -346,7 +346,7 @@ const IndexPage = () => {
                 Graduated Magna Cum Laude (High Honors), with a class rank of
                 28/221 and{" "}
                 <a
-                  href="http://sei.dost.gov.ph/index.php/programs-and-projects/scholarships/undergraduate-scholarships#s-amp-t-undergraduate-scholarships"
+                  href="https://region6.dost.gov.ph/dost-sei-undergraduate-scholarship-merit-scholarship/"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
@@ -372,7 +372,7 @@ const IndexPage = () => {
           button={
             <p className="btn_perspective">
               <a
-                href={`../../files/resumeBuenviaje.pdf`}
+                href={`../../files/resumeLockhart.pdf`}
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
@@ -384,7 +384,7 @@ const IndexPage = () => {
           }
         >
           <Card
-            title="Evolve Rotational Software Engineer | Apple"
+            title="Software Engineer - ICT3 | Apple"
             subtitle="July 2022 • New York, NY"
             logoLink="https://apple.com/"
             logo={`../../images/experience/apple.webp`}
@@ -604,12 +604,12 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Web Engineer, UI/UX Designer | FloWaste"
+            title="Web Engineer, UI/UX Designer | FloVision Solutions"
             subtitle="Spring 2021 • Chicago, IL"
-            logoLink="https://flowaste.com/"
-            logo={`../../images/experience/flowaste.webp`}
-            logoBackup={data.flowaste.childImageSharp.fluid}
-            logoAlt={"FloWaste logo"}
+            logoLink="https://flovisionsolutions.com/"
+            logo={`../../images/experience/flovision.webp`}
+            logoBackup={data.flovision.childImageSharp.fluid}
+            logoAlt={"FloVision logo"}
             body={
               <p>
                 <ul className="tech">
@@ -637,7 +637,6 @@ const IndexPage = () => {
           <Card
             title="Mobile Engineer, UI/UX Designer | GittaSitta"
             subtitle="Summer 2020 • South Bend, IN"
-            logoLink="https://gittasitta.com/"
             logo={`../../images/experience/gitta.webp`}
             logoBackup={data.gitta.childImageSharp.fluid}
             logoAlt={"Gitta logo"}
@@ -668,7 +667,7 @@ const IndexPage = () => {
           <Card
             title="Chief Technology Officer | DeLive Drones"
             subtitle="Fall 2019 • South Bend, IN"
-            logoLink="https://delivedrones.com"
+            logoLink="https://delivedrones.netlify.app"
             logo={`../../images/experience/delive.webp`}
             logoBackup={data.delive.childImageSharp.fluid}
             logoAlt={"DeLive logo"}
@@ -713,7 +712,7 @@ const IndexPage = () => {
           <Card
             title="Full Stack Developer, Web Designer | Tembo AI"
             subtitle="Spring 2019 • South Bend, IN"
-            logoLink="https://tembo-site.vercel.app/"
+            logoLink="https://tembos.vercel.app/"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={data.tembo.childImageSharp.fluid}
             logoAlt={"Tembo logo"}
@@ -750,7 +749,7 @@ const IndexPage = () => {
           <Card
             title="Software Engineer, Web Designer | Gäshawk"
             subtitle="Spring 2019 • South Bend, IN"
-            logoLink="https://gashawkrv.com/"
+            logoLink="https://gashawkrv.netlify.app/"
             logo={`../../images/experience/gashawk.webp`}
             logoBackup={data.gashawk.childImageSharp.fluid}
             logoAlt={"Gäshawk logo"}
@@ -787,7 +786,6 @@ const IndexPage = () => {
           <Card
             title="Web Developer, Interaction Designer | URMA ONG"
             subtitle="November 2020 – August 2021 • New York, NY"
-            logoLink="https://urmaong.com/"
             logo={`../../images/experience/urma.webp`}
             logoBackup={data.urma.childImageSharp.fluid}
             logoAlt={"URMA ONG logo"}
@@ -817,7 +815,7 @@ const IndexPage = () => {
           <Card
             title="Founder, Project Manager, Lead Developer & Designer | Munti"
             subtitle="February 2019 – May 2022 • South Bend, IN"
-            logoLink="https://munti.io/"
+            logoLink="https://munti.netlify.app/"
             logo={`../../images/experience/munti.webp`}
             logoBackup={data.munti.childImageSharp.fluid}
             logoAlt={"Munti logo"}
@@ -992,9 +990,9 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://comicollect.com/"
+                  link="https://comicollect.netlify.app/"
                   title="View here"
-                  links="https://github.com/hiyajio/collectio-app"
+                  links="https://github.com/serglockhart/collectio-app"
                   titles="View repo"
                 />
               </div>
@@ -1019,7 +1017,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://munti.io/"
+                  link="https://munti.netlify.app/"
                   title="View here"
                   links="https://github.com/munti-llc/munti-site"
                   titles="View repo"
@@ -1046,7 +1044,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://gashawkrv.com/"
+                  link="https://gashawkrv.netlify.app/"
                   title="View here"
                   links="https://github.com/gashawk/gashawk-site"
                   titles="View repo"
@@ -1074,7 +1072,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://delivedrones.com/"
+                  link="https://delivedrones.netlify.app/"
                   title="View here"
                   links="https://github.com/delive-as/delive-site"
                   titles="View repo"
@@ -1102,7 +1100,7 @@ const IndexPage = () => {
             buttons={
               <div className="buttons">
                 <Button
-                  link="https://tembo-site.vercel.app/"
+                  link="https://tembos.vercel.app/"
                   title="View here"
                   links="https://github.com/tembo-ai/tembo-site"
                   titles="View repo"
@@ -1132,7 +1130,7 @@ const IndexPage = () => {
                 <Button
                   link="https://kyrabuenviaje.com/"
                   title="View here"
-                  links="https://github.com/hiyajio/kyra-site"
+                  links="https://github.com/serglockhart/kyra-site"
                   titles="View repo"
                 />
               </div>
@@ -1154,11 +1152,6 @@ const IndexPage = () => {
                 Photoshop, Shopify, JIRA, Git
               </p>
             }
-            buttons={
-              <div className="buttons">
-                <Button link="https://urmaong.com/" title="View here" />
-              </div>
-            }
           >
             <Browser
               image={`../../images/projects/urmaong.webp`}
@@ -1174,11 +1167,6 @@ const IndexPage = () => {
                 <strong>Technologies:</strong> Squarespace, Adobe XD, Zeplin,
                 Google Analytics, Bootstrap, HTML/CSS, PWA, Git
               </p>
-            }
-            buttons={
-              <div className="buttons">
-                <Button link="https://gittasitta.com/" title="View here" />
-              </div>
             }
           >
             <Browser
@@ -1200,7 +1188,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/hiyajio/my-site"
+                link="https://github.com/serglockhart/my-site"
                 title="View repo"
               />
             }
@@ -1223,7 +1211,7 @@ const IndexPage = () => {
             }
             buttons={
               <Button
-                link="https://github.com/hiyajio/collectio-app"
+                link="https://github.com/serglockhart/collectio-app"
                 title="View repo"
               />
             }

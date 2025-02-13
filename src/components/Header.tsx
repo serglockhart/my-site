@@ -20,13 +20,13 @@ const Header = () => {
                 src={`../../images/logo-02.svg`}
                 className={"img-fluid logo alt hidden-on-desktop"}
                 alt={"logo"}
-                aria-label="JB White"
+                aria-label="SL White"
               />
               <img
                 src={`../../images/logo-01.svg`}
                 className={"img-fluid logo"}
                 alt={"logo"}
-                aria-label="JB Black"
+                aria-label="SL Black"
               />
             </Link>
             <div
@@ -56,13 +56,13 @@ const Header = () => {
             </div>
             <div className="social">
               <a
-                href={`../../files/resumeBuenviaje.pdf`}
+                href={`../../files/resumeLockhart.pdf`}
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
                 <img
                   src={`../../images/logos/resume.png`}
-                  alt={"Jio Resume"}
+                  alt={"Serg Resume"}
                   aria-label="Resume"
                 />
               </a>
@@ -73,29 +73,29 @@ const Header = () => {
               >
                 <img
                   src={`../../images/logos/instagram.png`}
-                  alt={"Jio Instagram"}
+                  alt={"Serg Instagram"}
                   aria-label="Instagram"
                 />
               </a>
               <a
-                href="https://github.com/hiyajio"
+                href="https://github.com/serglockhart"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
                 <img
                   src={`../../images/logos/github.png`}
-                  alt={"Jio GitHub"}
+                  alt={"Serg GitHub"}
                   aria-label="GitHub"
                 />
               </a>
               <a
-                href="https://linkedin.com/in/hiyajio"
+                href="https://linkedin.com/in/serglockhart"
                 rel="noopener noreferrer"
                 target="_BLANK"
               >
                 <img
                   src={`../../images/logos/linkedin.png`}
-                  alt={"Jio LinkedIn"}
+                  alt={"Serg LinkedIn"}
                   aria-label="LinkedIn"
                 />
               </a>
@@ -106,7 +106,7 @@ const Header = () => {
               >
                 <img
                   src={`../../images/logos/contact.png`}
-                  alt={"Jio Contact"}
+                  alt={"Serg Contact"}
                   aria-label="Contact"
                 />
               </a>

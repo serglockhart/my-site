@@ -88,14 +88,14 @@ const Hero = () => {
                 </a>
                 , and spend my free time{" "}
                 <a
-                  href="https://linkedin.com/in/hiyajio"
+                  href="https://linkedin.com/in/serglockhart"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
                   exploring new ideas,
                 </a>{" "}
                 <a
-                  href="https://github.com/hiyajio"
+                  href="https://github.com/serglockhart"
                   rel="noopener noreferrer"
                   target="_BLANK"
                 >
@@ -117,7 +117,7 @@ const Hero = () => {
       <div className="buttons hero marg-bot-05">
         <p className="btn_perspective">
           <a
-            href={`../../files/resumeBuenviaje.pdf`}
+            href={`../../files/resumeLockhart.pdf`}
             rel="noopener noreferrer"
             target="_BLANK"
           >
