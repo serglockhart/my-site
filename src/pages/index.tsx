@@ -264,6 +264,14 @@ const IndexPage = () => {
           }
         }
       }
+      sergio: file(relativePath: { eq: "projects/sergio.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       kyra: file(relativePath: { eq: "projects/kyra.png" }) {
         id
         childImageSharp {
@@ -385,7 +393,7 @@ const IndexPage = () => {
         >
           <Card
             title="Software Engineer - ICT3 | Apple"
-            subtitle="July 2022 • New York, NY"
+            subtitle="July 2022 - November 2024 • New York, NY"
             logoLink="https://apple.com/"
             logo={`../../images/experience/apple.webp`}
             logoBackup={data.apple.childImageSharp.fluid}
@@ -1002,6 +1010,27 @@ const IndexPage = () => {
               image={`../../images/projects/collectio.webp`}
               imageBackup={data.collectio.childImageSharp.fluid}
               imageAlt={"Collectio site"}
+            />
+          </Project>
+          <Project
+            title="Sergio Site"
+            body="Performer single-page application (SPA) website displaying reels, headshots, and interactive image gallery."
+            end={
+              <p>
+                <strong>Technologies:</strong> JavaScript, React, Next,
+                Tailwind, Vercel, Getform, Google Analytics, HTML/CSS, Git
+              </p>
+            }
+            buttons={
+              <div className="buttons">
+                <Button link="https://sergiolockhart.com/" title="View here" />
+              </div>
+            }
+          >
+            <Browser
+              image={`../../images/projects/sergio.webp`}
+              imageBackup={data.sergio.childImageSharp.fluid}
+              imageAlt={"Sergio site"}
             />
           </Project>
           <Project
