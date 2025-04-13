@@ -342,8 +342,8 @@ body.dark .flex-container .background-image {
   margin-left: 1rem;
   max-height: 3.25rem;
   width: 3.25rem;
-  -webkit-filter: drop-shadow(1px 1px 0 #ffffff) drop-shadow(-1px 1px 0 #ffffff) drop-shadow(1px -1px 0 #ffffff) drop-shadow(-1px -1px 0 #ffffff);
-  filter: drop-shadow(1px 1px 0 #ffffff) drop-shadow(-1px 1px 0 #ffffff) drop-shadow(1px -1px 0 #ffffff) drop-shadow(-1px -1px 0 #ffffff);
+  -webkit-filter: drop-shadow(1px 1px 0 #f8f0e3) drop-shadow(-1px 1px 0 #f8f0e3) drop-shadow(1px -1px 0 #f8f0e3) drop-shadow(-1px -1px 0 #f8f0e3);
+  filter: drop-shadow(1px 1px 0 #f8f0e3) drop-shadow(-1px 1px 0 #f8f0e3) drop-shadow(1px -1px 0 #f8f0e3) drop-shadow(-1px -1px 0 #f8f0e3);
 }
 
 body.dark .flex-container .flex {
@@ -974,10 +974,9 @@ body.dark .content a .card:visited {
   body.dark .project .screenshot-wrapper {
     padding: 0px;
   }
-  body.dark .project .screenshot-wrapper .browser-screenshot,
-  body.dark .project .screenshot-wrapper .system-screenshot {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px -0.1rem 0.5rem;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px -0.1rem 0.5rem;
+  body.dark .flex-container .background-image {
+    -webkit-filter: drop-shadow(1px 1px 0 #f8f0e3) drop-shadow(-1px 1px 0 #f8f0e3) drop-shadow(1px -1px 0 #f8f0e3) drop-shadow(-1px -1px 0 #f8f0e3);
+    filter: drop-shadow(1px 1px 0 #f8f0e3) drop-shadow(-1px 1px 0 #f8f0e3) drop-shadow(1px -1px 0 #f8f0e3) drop-shadow(-1px -1px 0 #f8f0e3);
   }
 }
 

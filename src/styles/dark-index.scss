@@ -9,6 +9,7 @@ $secondary-color: #d4ba9f;
 $tertiary-color: #90b8c6;
 $button-hover-color: #b55f4b;
 $link-color: #b4e7f8;
+$highlight: #f8f0e3;
 
 $line-color: rgba(26, 26, 26, 0.1);
 $form-hover-color: rgba(0, 0, 0, 0.2);
@@ -322,11 +323,12 @@ body.dark {
     margin-left: 1rem;
     max-height: 3.25rem;
     width: 3.25rem;
-    -webkit-filter: drop-shadow(1px 1px 0 $white) drop-shadow(-1px 1px 0 $white)
-      drop-shadow(1px -1px 0 $white) drop-shadow(-1px -1px 0 $white);
+    -webkit-filter: drop-shadow(1px 1px 0 $highlight)
+      drop-shadow(-1px 1px 0 $highlight) drop-shadow(1px -1px 0 $highlight)
+      drop-shadow(-1px -1px 0 $highlight);
 
-    filter: drop-shadow(1px 1px 0 $white) drop-shadow(-1px 1px 0 $white)
-      drop-shadow(1px -1px 0 $white) drop-shadow(-1px -1px 0 $white);
+    filter: drop-shadow(1px 1px 0 $highlight) drop-shadow(-1px 1px 0 $highlight)
+      drop-shadow(1px -1px 0 $highlight) drop-shadow(-1px -1px 0 $highlight);
   }
   .flex-container .flex {
     flex: 1 1 0%;
@@ -882,10 +884,19 @@ body.dark {
     .project .screenshot-wrapper {
       padding: 0px;
     }
-    .project .screenshot-wrapper .browser-screenshot,
-    .project .screenshot-wrapper .system-screenshot {
-      box-shadow: rgba(0, 0, 0, 0.25) 0px -0.1rem 0.5rem;
+    .flex-container .background-image {
+      -webkit-filter: drop-shadow(1px 1px 0 $highlight)
+        drop-shadow(-1px 1px 0 $highlight) drop-shadow(1px -1px 0 $highlight)
+        drop-shadow(-1px -1px 0 $highlight);
+
+      filter: drop-shadow(1px 1px 0 $highlight)
+        drop-shadow(-1px 1px 0 $highlight) drop-shadow(1px -1px 0 $highlight)
+        drop-shadow(-1px -1px 0 $highlight);
     }
+    // .project .screenshot-wrapper .browser-screenshot,
+    // .project .screenshot-wrapper .system-screenshot {
+    //   box-shadow: rgba(0, 0, 0, 0.25) 0px -0.1rem 0.5rem;
+    // }
   }
   @media screen and (min-width: 93.5rem) {
     .app .content {
