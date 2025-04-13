@@ -128,6 +128,14 @@ const IndexPage = () => {
           }
         }
       }
+      debtly: file(relativePath: { eq: "experience/debtly.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       hbo: file(relativePath: { eq: "experience/hbo.png" }) {
         id
         childImageSharp {
@@ -288,6 +296,22 @@ const IndexPage = () => {
           }
         }
       }
+      maet: file(relativePath: { eq: "experience/maet.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      maetSm: file(relativePath: { eq: "projects/maet.png" }) {
+        id
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       muntiSm: file(relativePath: { eq: "projects/munti.png" }) {
         id
         childImageSharp {
@@ -325,7 +349,7 @@ const IndexPage = () => {
         <Section id="education" title="Education">
           <Card
             title="University of Notre Dame"
-            subtitle="2018 – 2022 | 3.39 GPA"
+            subtitle="August 2018 – May 2022 | 3.39 GPA"
             logoLink="https://cse.nd.edu/undergraduate/computer-science-curriculum/"
             logo={`../../images/education/nd.webp`}
             logoBackup={data.nd.childImageSharp.fluid}
@@ -344,7 +368,7 @@ const IndexPage = () => {
           />
           <Card
             title="Philippine Science High School – Main Campus"
-            subtitle="2012 – 2018 | 3.84 GPA"
+            subtitle="June 2012 – May 2018 | 3.84 GPA"
             logoLink="http://pshs.edu.ph/curriculum/"
             logo={`../../images/education/pshs.webp`}
             logoBackup={data.pshs.childImageSharp.fluid}
@@ -392,8 +416,8 @@ const IndexPage = () => {
           }
         >
           <Card
-            title="Software Engineer - ICT3 | Apple"
-            subtitle="July 2022 - November 2024 • New York, NY"
+            title="Software Engineer – ICT3 | Apple"
+            subtitle="July 2022 – November 2024 • New York, NY"
             logoLink="https://apple.com/"
             logo={`../../images/experience/apple.webp`}
             logoBackup={data.apple.childImageSharp.fluid}
@@ -433,8 +457,54 @@ const IndexPage = () => {
             }
           />
           <Card
+            title="Founding Mobile Engineer, UI/UX Designer | Maet"
+            subtitle="January 2022 – June 2022 • South Bend, IN"
+            logoLink="https://maet.io/"
+            logo={`../../images/experience/debtly.webp`}
+            logoBackup={data.maet.childImageSharp.fluid}
+            logoAlt={"Maet logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Designed and built a gamified community sports team
+                  marketplace hybrid mobile app demo for controlled TestFlight
+                  alpha testing in Indiana college
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Expo, React Native, React,
+                TypeScript, Storybook, Redux (Thunk), React-Hook-Form, Yup,
+                Firebase, Figma, Zeplin, TestFlight, Git
+              </p>
+            }
+          />
+          <Card
+            title="Founder, Project Manager, Lead Developer & Designer | Munti"
+            subtitle="September 2018 – May 2022 • South Bend, IN"
+            logoLink="https://munti.netlify.app/"
+            logo={`../../images/experience/munti.webp`}
+            logoBackup={data.munti.childImageSharp.fluid}
+            logoAlt={"Munti logo"}
+            body={
+              <p>
+                <ul className="tech">
+                  <li>
+                    Led development and design teams of Software Freelance
+                    Company through multiple concurrent projects
+                  </li>
+                  <li>
+                    Produced web, mobile apps and embedded systems for
+                    early-stage startups and small businesses
+                  </li>
+                </ul>
+              </p>
+            }
+          />
+          <Card
             title="Full Stack Software Engineer Intern | HBO"
-            subtitle="Fall 2021 • Seattle, WA"
+            subtitle="September 2021 – December 2021 • Seattle, WA"
             logoLink="https://hbo.com/"
             logo={`../../images/experience/hbo.webp`}
             logoBackup={data.hbo.childImageSharp.fluid}
@@ -465,7 +535,7 @@ const IndexPage = () => {
           />
           <Card
             title="Full Stack Software Engineer Intern | Twitch"
-            subtitle="Summer 2021 • San Francisco, CA"
+            subtitle="May 2021 – August 2021 • San Francisco, CA"
             logoLink="https://twitch.tv/"
             logo={`../../images/experience/twitch.webp`}
             logoBackup={data.twitch.childImageSharp.fluid}
@@ -494,126 +564,37 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Software Engineer Intern | Disney"
-            subtitle="Fall 2020 • New York, NY"
-            logoLink="https://disney.com/"
-            logo={`../../images/experience/disney.webp`}
-            logoBackup={data.disney.childImageSharp.fluid}
-            logoAlt={"Disney logo"}
+            title="Founding Shopify Web Developer, Interaction Designer | URMA ONG"
+            subtitle="November 2020 – August 2021 • New York, NY"
+            logo={`../../images/experience/urma.webp`}
+            logoBackup={data.urma.childImageSharp.fluid}
+            logoAlt={"URMA ONG logo"}
             body={
               <p>
                 <ul className="tech">
                   <li>
-                    Researched, designed, and proposed regional data dashboards
-                    automated monthly, then built and shipped them to production
-                    receiving positive reception as part of Content Delivery &
-                    Origin team
+                    Redesigned, developed, and currently maintaining e-commerce
+                    store, inventory, and shipping
                   </li>
                   <li>
-                    Added features and LATAM region to partner CDNs real-time
-                    performance dashboards for launch
+                    Will scale store conversion rate and reach by proposing,
+                    split-testing, and optimizing new online store features and
+                    designs
                   </li>
                 </ul>
               </p>
             }
             end={
               <p>
-                <strong>Technologies</strong>: Python, SQL, InfluxDB, Bash,
-                JavaScript, Node, Express, AWS (EC2, S3, Cloudfront), Grafana,
-                Postman, Fastly, Conviva API, JIRA, Git
+                <strong>Technologies</strong>: JavaScript, jQuery, Liquid, PHP,
+                SASS/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
+                Photoshop, Shopify, JIRA, Git
               </p>
             }
           />
           <Card
-            title="Media Software Engineer Intern | CBS"
-            subtitle="Summer 2019 • New York, NY"
-            logoLink="https://cbs.com/"
-            logo={`../../images/experience/cbs.webp`}
-            logoBackup={data.cbs.childImageSharp.fluid}
-            logoAlt={"CBS logo"}
-            body={
-              <p>
-                <ul className="tech">
-                  <li>
-                    Standardized end-to-end broadcast distribution
-                    configurations (Codecs) for entire East Coast feed
-                  </li>
-                  <li>
-                    Finished 27 international purchase requests using Database
-                    Queries totaling $132,930 in profit
-                  </li>
-                </ul>
-              </p>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: C++, XML, SQL, Microsoft SQL
-                Server, AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
-              </p>
-            }
-          />
-          <Card
-            title="UI Engineer Intern | Cabinet"
-            subtitle="Summer 2020 • New York, NY"
-            logoLink="https://joincabinet.com/"
-            logo={`../../images/experience/cabinet.webp`}
-            logoBackup={data.cabinet.childImageSharp.fluid}
-            logoAlt={"Cabinet logo"}
-            body={
-              <p>
-                <ul className="tech">
-                  <li>
-                    Worked on 5 feature rollouts on web and mobile apps
-                    currently serving 2,000+ users thereby increasing user
-                    retention by 6.7%
-                  </li>
-                  <li>
-                    Completed new tech stack compatibility apps (web and mobile)
-                    in Agile Team for upcoming adoption
-                  </li>
-                </ul>
-              </p>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: Django, PostgreSQL, Capacitor,
-                TypeScript, JavaScript, React, Redux, Python, Firebase,
-                Material-UI, Jest, Enzyme, Zeplin, HTML/CSS, Git
-              </p>
-            }
-          />
-          <Card
-            title="Web Engineer Intern | IDEA Center"
-            subtitle="Spring 2020 • South Bend, IN"
-            logoLink="https://ideacenter.nd.edu"
-            logo={`../../images/extracurriculars/ideacenter.webp`}
-            logoBackup={data.ideacenter.childImageSharp.fluid}
-            logoAlt={"IDEA Center logo"}
-            body={
-              <p>
-                <ul className="tech">
-                  <li>
-                    Architected e-Commerce web app and store templates through
-                    Pair Programming currently used by startups
-                  </li>
-                  <li>
-                    Programmed key metrics cards and dashboards in Snapboard
-                    presently used in administrative startup monitoring
-                  </li>
-                </ul>
-              </p>
-            }
-            end={
-              <p>
-                <strong>Technologies</strong>: Next, Gatsby, Flask, MongoDB,
-                GraphQL, Apollo, JavaScript, React, Python, Netlify, Vercel,
-                Shopify API, SASS/SCSS, HTML/CSS, Git
-              </p>
-            }
-          />
-          <Card
-            title="Web Engineer, UI/UX Designer | FloVision Solutions"
-            subtitle="Spring 2021 • Chicago, IL"
+            title="Lead Web Engineer, UI/UX Designer | FloVision Solutions"
+            subtitle="February 2021 – May 2021 • Chicago, IL"
             logoLink="https://flovisionsolutions.com/"
             logo={`../../images/experience/flovision.webp`}
             logoBackup={data.flovision.childImageSharp.fluid}
@@ -643,8 +624,39 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Mobile Engineer, UI/UX Designer | GittaSitta"
-            subtitle="Summer 2020 • South Bend, IN"
+            title="Full Stack Software Engineer Intern | Disney"
+            subtitle="September 2020 – January 2021 • New York, NY"
+            logoLink="https://disney.com/"
+            logo={`../../images/experience/disney.webp`}
+            logoBackup={data.disney.childImageSharp.fluid}
+            logoAlt={"Disney logo"}
+            body={
+              <p>
+                <ul className="tech">
+                  <li>
+                    Researched, designed, and proposed regional data dashboards
+                    automated monthly, then built and shipped them to production
+                    receiving positive reception as part of Content Delivery &
+                    Origin team
+                  </li>
+                  <li>
+                    Added features and LATAM region to partner CDNs real-time
+                    performance dashboards for launch
+                  </li>
+                </ul>
+              </p>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Python, SQL, InfluxDB, Bash,
+                JavaScript, Node, Express, AWS (EC2, S3, Cloudfront), Grafana,
+                Postman, Fastly, Conviva API, JIRA, Git
+              </p>
+            }
+          />
+          <Card
+            title="Lead Mobile Engineer, UI/UX Designer | GittaSitta"
+            subtitle="April 2020 – September 2020 • South Bend, IN"
             logo={`../../images/experience/gitta.webp`}
             logoBackup={data.gitta.childImageSharp.fluid}
             logoAlt={"Gitta logo"}
@@ -673,8 +685,60 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Chief Technology Officer | DeLive Drones"
-            subtitle="Fall 2019 • South Bend, IN"
+            title="Founding iOS Engineer, UI/UX Designer | Debtly"
+            subtitle="May 2020 – September 2020 • South Bend, IN"
+            logo={`../../images/experience/debtly.webp`}
+            logoBackup={data.debtly.childImageSharp.fluid}
+            logoAlt={"Debtly logo"}
+            body={
+              <ul className="tech">
+                <li>
+                  Designed and built credit card consolidation iOS app demo
+                  yielding $8k funding
+                </li>
+              </ul>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Swift, SwiftUI, Core Data,
+                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
+                Zeplin, Webflow, TestFlight, Git
+              </p>
+            }
+          />
+          <Card
+            title="UI/UX Engineer Intern | Cabinet"
+            subtitle="June 2020 – August 2020 • New York, NY"
+            logoLink="https://joincabinet.com/"
+            logo={`../../images/experience/cabinet.webp`}
+            logoBackup={data.cabinet.childImageSharp.fluid}
+            logoAlt={"Cabinet logo"}
+            body={
+              <p>
+                <ul className="tech">
+                  <li>
+                    Worked on 5 feature rollouts on web and mobile apps
+                    currently serving 2,000+ users thereby increasing user
+                    retention by 6.7%
+                  </li>
+                  <li>
+                    Completed new tech stack compatibility apps (web and mobile)
+                    in Agile Team for upcoming adoption
+                  </li>
+                </ul>
+              </p>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Django, PostgreSQL, Capacitor,
+                TypeScript, JavaScript, React, Redux, Python, Firebase,
+                Material-UI, Jest, Enzyme, Zeplin, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
+            title="Chief Technology Officer, Lead Designer | DeLive Drones"
+            subtitle="October 2019 – August 2020 • South Bend, IN"
             logoLink="https://delivedrones.netlify.app"
             logo={`../../images/experience/delive.webp`}
             logoBackup={data.delive.childImageSharp.fluid}
@@ -687,7 +751,7 @@ const IndexPage = () => {
                     in Agile Team yielding $10k funding
                   </li>
                   <li>
-                    Exhibited in{" "}
+                    Exhibited at{" "}
                     <a
                       href="https://ces.tech"
                       rel="noopener noreferrer"
@@ -718,8 +782,37 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Full Stack Developer, Web Designer | Tembo AI"
-            subtitle="Spring 2019 • South Bend, IN"
+            title="Web Engineer | IDEA Center"
+            subtitle="January 2020 – May 2020 • South Bend, IN"
+            logoLink="https://ideacenter.nd.edu"
+            logo={`../../images/extracurriculars/ideacenter.webp`}
+            logoBackup={data.ideacenter.childImageSharp.fluid}
+            logoAlt={"IDEA Center logo"}
+            body={
+              <p>
+                <ul className="tech">
+                  <li>
+                    Architected e-Commerce web app and store templates through
+                    Pair Programming currently used by startups
+                  </li>
+                  <li>
+                    Programmed key metrics cards and dashboards in Snapboard
+                    presently used in administrative startup monitoring
+                  </li>
+                </ul>
+              </p>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: Next, Gatsby, Flask, MongoDB,
+                GraphQL, Apollo, JavaScript, React, Python, Netlify, Vercel,
+                Shopify API, SASS/SCSS, HTML/CSS, Git
+              </p>
+            }
+          />
+          <Card
+            title="Founding Full Stack Engineer, Web Designer | Tembo AI"
+            subtitle="January 2019 – January 2020 • South Bend, IN"
             logoLink="https://tembos.vercel.app/"
             logo={`../../images/experience/tembo.webp`}
             logoBackup={data.tembo.childImageSharp.fluid}
@@ -755,8 +848,8 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Software Engineer, Web Designer | Gäshawk"
-            subtitle="Spring 2019 • South Bend, IN"
+            title="Founding Software Engineer, Web Designer | Gäshawk"
+            subtitle="January 2019 – November 2019 • South Bend, IN"
             logoLink="https://gashawkrv.netlify.app/"
             logo={`../../images/experience/gashawk.webp`}
             logoBackup={data.gashawk.childImageSharp.fluid}
@@ -792,53 +885,61 @@ const IndexPage = () => {
             }
           />
           <Card
-            title="Web Developer, Interaction Designer | URMA ONG"
-            subtitle="November 2020 – August 2021 • New York, NY"
-            logo={`../../images/experience/urma.webp`}
-            logoBackup={data.urma.childImageSharp.fluid}
-            logoAlt={"URMA ONG logo"}
+            title="Media Software Engineer Intern | CBS"
+            subtitle="June 2019 – August 2019 • New York, NY"
+            logoLink="https://cbs.com/"
+            logo={`../../images/experience/cbs.webp`}
+            logoBackup={data.cbs.childImageSharp.fluid}
+            logoAlt={"CBS logo"}
             body={
               <p>
                 <ul className="tech">
                   <li>
-                    Redesigned, developed, and currently maintaining e-commerce
-                    store, inventory, and shipping
+                    Standardized end-to-end broadcast distribution
+                    configurations (Codecs) for entire East Coast feed
                   </li>
                   <li>
-                    Will scale store conversion rate and reach by proposing,
-                    split-testing, and optimizing new online store features and
-                    designs
+                    Finished 27 international purchase requests using Database
+                    Queries totaling $132,930 in profit
                   </li>
                 </ul>
               </p>
             }
             end={
               <p>
-                <strong>Technologies</strong>: JavaScript, jQuery, Liquid, PHP,
-                SASS/SCSS, Bootstrap, HTML/CSS, Figma, Adobe Illustrator, Adobe
-                Photoshop, Shopify, JIRA, Git
+                <strong>Technologies</strong>: C++, XML, SQL, Microsoft SQL
+                Server, AWS (EC2, S3, Lambda, Glacier, CloudWatch), AutoCAD
               </p>
             }
           />
           <Card
-            title="Founder, Project Manager, Lead Developer & Designer | Munti"
-            subtitle="February 2019 – May 2022 • South Bend, IN"
-            logoLink="https://munti.netlify.app/"
-            logo={`../../images/experience/munti.webp`}
-            logoBackup={data.munti.childImageSharp.fluid}
-            logoAlt={"Munti logo"}
+            title="Founding Software Engineer | Foreager"
+            subtitle="October 2019 – August 2019 • South Bend, IN"
+            logo={`../../images/experience/foreager.png`}
+            logoBackup={data.foreager.childImageSharp.fluid}
+            logoAlt={"Foreager logo"}
             body={
               <p>
                 <ul className="tech">
                   <li>
-                    Led development and design teams of Software Freelance
-                    Company through multiple concurrent projects
-                  </li>
-                  <li>
-                    Produced web, mobile apps and embedded systems for
-                    early-stage startups and small businesses
+                    Solely developed and demoed MVP (Peer-to-Peer Golf Equipment
+                    Rental iOS/Android Apps) resulting in Semifinals finish (top
+                    30/175 teams) in{" "}
+                    <a
+                      href="https://mccloskey.ideacenter.nd.edu/"
+                      rel="noopener noreferrer"
+                      target="_BLANK"
+                    >
+                      McCloskey New Venture Competition 2019
+                    </a>
                   </li>
                 </ul>
+              </p>
+            }
+            end={
+              <p>
+                <strong>Technologies</strong>: DART, Flutter (Provider),
+                Firebase, HTML, CSS, jQuery
               </p>
             }
           />
@@ -1229,6 +1330,25 @@ const IndexPage = () => {
             />
           </Project>
           <Project
+            title="Maet App"
+            body="A Gamified Marketplace for Amateur Team Sports with Authentication, Photo Upload, Team Creation & Invites, Event/Game Creation and Set Up developed for Maet Inc. Currently alpha testing through TestFlight for release with local college club sports in Indiana."
+            end={
+              <p>
+                <strong>Technologies:</strong> Expo, React Native, React,
+                TypeScript, Storybook, Redux (Thunk), React-Hook-Form, Yup,
+                Firebase, Figma, Zeplin, TestFlight, Git
+              </p>
+            }
+          >
+            <Mobile
+              isVideo={true}
+              vid={`../../videos/maet.webm`}
+              vidAlt={"Maet app webm"}
+              vidBackup={`../../videos/maet.mp4`}
+              vidBackupAlt={"Maet app mp4"}
+            />
+          </Project>
+          <Project
             title="Collectio App"
             body="Comic Book e-Commerce iOS/Android Hybrid App with Authentication, Cart Functionality, Online Inventory Retrieval and Stripe Payment Processing for Collectio Comics for Modern Web and App Development I."
             end={
@@ -1246,10 +1366,30 @@ const IndexPage = () => {
             }
           >
             <Mobile
+              isVideo={true}
               vid={`../../videos/collectio.webm`}
               vidAlt={"Collectio app webm"}
               vidBackup={`../../videos/collectio.mp4`}
               vidBackupAlt={"Collectio app mp4"}
+            />
+          </Project>
+          <Project
+            title="Debtly App"
+            body="Credit Card Consolidation iOS App with Authentication, Photo Upload, Plaid Link Account and FaceID Integration developed for Debtly Inc. Currently beta testing through TestFlight for release."
+            end={
+              <p>
+                <strong>Technologies:</strong> Swift, SwiftUI, Core Data,
+                CocoaPods, Alamofire, Firebase, Plaid API, Sketch, Adobe XD,
+                Zeplin, TestFlight, Git
+              </p>
+            }
+          >
+            <Mobile
+              isVideo={true}
+              vid={`../../videos/debtly.webm`}
+              vidAlt={"Debtly app webm"}
+              vidBackup={`../../videos/debtly.mp4`}
+              vidBackupAlt={"Debtly app mp4"}
             />
           </Project>
           <Project
@@ -1264,6 +1404,7 @@ const IndexPage = () => {
             }
           >
             <Mobile
+              isVideo={true}
               vid={`../../videos/gitta.webm`}
               vidAlt={"GittaSitta app webm"}
               vidBackup={`../../videos/gitta.mp4`}
@@ -1281,13 +1422,14 @@ const IndexPage = () => {
             }
           >
             <Mobile
+              isVideo={true}
               vid={`../../videos/tembo.webm`}
               vidAlt={"Tembo app webm"}
               vidBackup={`../../videos/tembo.mp4`}
               vidBackupAlt={"Tembo app mp4"}
             />
           </Project>
-          {/*<Project
+          <Project
             title="Foreager App"
             body="Peer-to-Peer Golf Equipment Rental iOS/Android Hybrid App developed for Foreager, LLC. Demo resulted in Semifinals finish (top 30/175 teams) in McCloskey New Venture Competition 2019."
             end={
@@ -1297,12 +1439,13 @@ const IndexPage = () => {
             }
           >
             <Mobile
+              isVideo={true}
               vid={`../../videos/foreager.webm`}
               vidAlt={"Foreager app webm"}
               vidBackup={`../../videos/foreager.mp4`}
               vidBackupAlt={"Foreager app mp4"}
             />
-          </Project>*/}
+          </Project>
           <Project
             title="DeLive Drone"
             body="Semi-Autonomous Drone with Automatic Ticketing and Communication System developed for DeLive Aerial System, LLC. Demo resulted in 15k seed funding from Race to Revenue (R2R) accelerator program."
