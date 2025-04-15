@@ -914,7 +914,7 @@ const IndexPage = () => {
           />
           <Card
             title="Founding Software Engineer | Foreager"
-            subtitle="October 2019 – August 2019 • South Bend, IN"
+            subtitle="October 2018 – August 2019 • South Bend, IN"
             logo={`../../images/experience/foreager.png`}
             logoBackup={data.foreager.childImageSharp.fluid}
             logoAlt={"Foreager logo"}
