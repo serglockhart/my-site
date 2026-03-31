@@ -1483,66 +1483,6 @@ const IndexPage = () => {
               imageAlt={"Gäshawk embedded"}
             />
           </Project>
-          <Project
-            title="Automated School Logger"
-            body="RFID attendance and location logger with online school database for Research 2 & 3. Garnered 3rd Grand Award in 2017 Youth Math Science and Technology (YMSAT) Week."
-            end={
-              <p>
-                <strong>Technologies:</strong> C++, Arduino, PHP, MySQL,
-                CodeIgniter, Eagle, Fritzing
-              </p>
-            }
-            buttons={
-              <Button
-                link={`../../files/researchLogger.pdf`}
-                title="View research"
-              />
-            }
-          >
-            <System
-              image={`../../images/projects/logger.webp`}
-              imageBackup={data.logger.childImageSharp.fluid}
-              imageAlt={"Logger research"}
-            />
-          </Project>
-          <Project
-            title="Sustainable Energy Charger"
-            body="Mobile phone solar panel and hand-crank charger for Research 1. Garnered 4th Grand Award in Engineering in 2017 Taiwan International Science Fair (TISF)."
-            end={
-              <p>
-                <strong>Technologies:</strong> AutoCAD, Switch-Mode Converter,
-                Eagle, Fritzing
-              </p>
-            }
-            buttons={
-              <Button
-                link={`../../files/researchCharger.pdf`}
-                title="View research"
-              />
-            }
-          >
-            <System
-              image={`../../images/projects/charger.webp`}
-              imageBackup={data.charger.childImageSharp.fluid}
-              imageAlt={"Charger research"}
-            />
-          </Project>
-          <Project
-            title="Cosmological Constant"
-            body="Research done for Theoretical Physics department of University of the Philippines in summer 2017 internship. Garnered Honorable Mention Award."
-            buttons={
-              <Button
-                link={`../../files/researchNeutron.pdf`}
-                title="View research"
-              />
-            }
-          >
-            <System
-              image={`../../images/projects/cosmo.webp`}
-              imageBackup={data.cosmo.childImageSharp.fluid}
-              imageAlt={"Cosmo research"}
-            />
-          </Project>
         </Section>
         <div className="space-mobile" />
         <Action />
